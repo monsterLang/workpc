@@ -1,0 +1,14 @@
+file_name,p_usecase,p_flag,p_audio_device,p_acdb_id,set_p_snddev_parameters,c_usecase,c_source,c_audio_device,c_acdb_id,snd_device_id_2,acdb_id,app_id
+keyword,start_output_stream: enter: stream,adev_open_output_stream: enter:,adev_open_output_stream: enter:,send_app_type_cfg_for_device PLAYBACK,kvpairs: routing=,start_input_stream: enter: stream,adev_open_input_stream: enter: sample_rate,adev_open_input_stream: enter: sample_rate,send_app_type_cfg_for_device CAPTURE,platform_split_snd_device: snd_device,"send_audio_cal, acdb_id",ACDB-LOADER: ACDB -> send_audio_cal
+usecase_result\log_camera_05-00.txt,1: low-latency-playback,"0x6
+0x4
+0x8",0x2,124,2  AUDIO_DEVICE_OUT_SPEAKER,20: audio-record,1  AUDIO_SOURCE_MIC,0x80000004  AUDIO_DEVICE_IN_BUILTIN_MIC,34,"2  SND_DEVICE_OUT_SPEAKER  speaker
+185  SND_DEVICE_IN_CAPTURE_VI_FEEDBACK  vi-feedback
+102  SND_DEVICE_IN_HANDSET_MIC  handset-mic
+76  SND_DEVICE_OUT_SPEAKER_PROTECTED  speaker-protected
+111  SND_DEVICE_IN_HANDSET_DMIC  dmic-endfire
+183  SND_DEVICE_IN_HANDSET_DMIC_STEREO  handset-stereo-dmic-ef","102  SPKR_PHONE_SPKR_TX_FB_PROT
+4  HANDSET_MIC
+124  SPKR_PHONE_SPKR_STEREO_RX_FB_PROT
+34  HANDSET_MIC_STEREO","0x11132  69938
+0x11131  69937"

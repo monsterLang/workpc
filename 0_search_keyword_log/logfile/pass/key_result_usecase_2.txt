@@ -1,0 +1,88 @@
+01-08 19:51:21.511   642  2504 D audio_hw_primary: start_output_stream: enter: stream(0xf418e800)usecase(1: low-latency-playback) devices(0x2) is_haptic_usecase(0)
+01-08 19:51:21.515   642  2504 D audio_route: Apply path: speaker-protected
+01-08 19:51:21.545   642  2504 D audio_route: Apply path: vi-feedback
+01-08 19:51:21.546   642  2504 D audio_route: Apply path: spkr-vi-record
+01-08 19:51:21.580   642  2504 D audio_route: Apply path: low-latency-playback
+01-08 19:51:21.696   642  2504 D audio_hw_primary: start_output_stream: exit
+01-08 19:51:21.697   642  1317 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0xc) devices(0x80000004)        stream_handle(0xf67d7a00) io_handle(70) source(1) format 1
+01-08 19:51:22.161   642  3753 D audio_hw_primary: start_input_stream: enter: stream(0xf67d7a00)usecase(20: audio-record)
+01-08 19:51:22.162   642  3753 D audio_route: Apply path: handset-stereo-dmic-ef
+01-08 19:51:22.171   642  3753 D audio_route: Apply path: audio-record
+01-08 19:51:22.209   642  3753 D audio_hw_primary: start_input_stream: exit
+01-08 19:51:25.455   642  2504 D audio_hw_primary: start_output_stream: enter: stream(0xf418e800)usecase(1: low-latency-playback) devices(0x2) is_haptic_usecase(0)
+01-08 19:51:25.460   642  2504 D audio_route: Apply path: speaker-protected
+01-08 19:51:25.489   642  2504 D audio_route: Apply path: vi-feedback
+01-08 19:51:25.491   642  2504 D audio_route: Apply path: spkr-vi-record
+01-08 19:51:25.514   642  2504 D audio_route: Apply path: low-latency-playback
+01-08 19:51:25.604   642  2504 D audio_hw_primary: start_output_stream: exit
+01-08 19:51:30.821   642  2504 D audio_hw_primary: start_output_stream: enter: stream(0xf418e800)usecase(1: low-latency-playback) devices(0x2) is_haptic_usecase(0)
+01-08 19:51:30.825   642  2504 D audio_route: Apply path: speaker-protected
+01-08 19:51:30.845   642  2504 D audio_route: Apply path: vi-feedback
+01-08 19:51:30.847   642  2504 D audio_route: Apply path: spkr-vi-record
+01-08 19:51:30.875   642  2504 D audio_route: Apply path: low-latency-playback
+01-08 19:51:30.974   642  2504 D audio_hw_primary: start_output_stream: exit
+01-08 19:51:42.778   642  2504 D audio_hw_primary: start_output_stream: enter: stream(0xf418e800)usecase(1: low-latency-playback) devices(0x2) is_haptic_usecase(0)
+01-08 19:51:42.780   642  2504 D audio_route: Apply path: speaker-protected
+01-08 19:51:42.799   642  2504 D audio_route: Apply path: vi-feedback
+01-08 19:51:42.800   642  2504 D audio_route: Apply path: spkr-vi-record
+01-08 19:51:42.833   642  2504 D audio_route: Apply path: low-latency-playback
+01-08 19:51:42.951   642  2504 D audio_hw_primary: start_output_stream: exit
+01-08 19:51:42.951   642  3906 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0xc) devices(0x80000004)        stream_handle(0xf67d7c80) io_handle(78) source(1) format 1
+01-08 19:51:43.438   642  4060 D audio_hw_primary: start_input_stream: enter: stream(0xf67d7c80)usecase(20: audio-record)
+01-08 19:51:43.439   642  4060 D audio_route: Apply path: handset-stereo-dmic-ef
+01-08 19:51:43.448   642  4060 D audio_route: Apply path: audio-record
+01-08 19:51:43.482   642  4060 D audio_hw_primary: start_input_stream: exit
+01-08 19:52:40.031   642  2504 D audio_hw_primary: start_output_stream: enter: stream(0xf418e800)usecase(1: low-latency-playback) devices(0x2) is_haptic_usecase(0)
+01-08 19:52:40.034   642  2504 D audio_route: Apply path: speaker-protected
+01-08 19:52:40.061   642  2504 D audio_route: Apply path: vi-feedback
+01-08 19:52:40.062   642  2504 D audio_route: Apply path: spkr-vi-record
+01-08 19:52:40.086   642  2504 D audio_route: Apply path: low-latency-playback
+01-08 19:52:40.193   642  2504 D audio_hw_primary: start_output_stream: exit
+01-08 19:52:56.018   642  2504 D audio_hw_primary: start_output_stream: enter: stream(0xf418e800)usecase(1: low-latency-playback) devices(0x2) is_haptic_usecase(0)
+01-08 19:52:56.022   642  2504 D audio_route: Apply path: speaker-protected
+01-08 19:52:56.046   642  2504 D audio_route: Apply path: vi-feedback
+01-08 19:52:56.048   642  2504 D audio_route: Apply path: spkr-vi-record
+01-08 19:52:56.078   642  2504 D audio_route: Apply path: low-latency-playback
+01-08 19:52:56.196   642  2504 D audio_hw_primary: start_output_stream: exit
+01-08 19:53:05.771   642  3906 D audio_hw_primary: adev_open_output_stream: enter: format(0x4000002) sample_rate(48000) channel_mask(0x3) devices(0x2) flags(0x31)        stream_handle(0xf3b6f800) address()
+01-08 19:53:05.771   642  3906 D audio_hw_primary: adev_open_output_stream: Stream (0xf3b6f800) picks up usecase (compress-offload-playback)
+01-08 19:53:05.978   642  4222 D audio_hw_primary: start_output_stream: enter: stream(0xf3b6f800)usecase(3: compress-offload-playback) devices(0x2) is_haptic_usecase(0)
+01-08 19:53:05.985   642  4222 D audio_route: Apply path: speaker-protected
+01-08 19:53:06.006   642  4222 D audio_route: Apply path: vi-feedback
+01-08 19:53:06.007   642  4222 D audio_route: Apply path: spkr-vi-record
+01-08 19:53:06.040   642  4222 D audio_route: Apply path: compress-offload-playback
+01-08 19:53:06.191   642  4222 D audio_hw_primary: start_output_stream: exit
+01-08 19:53:22.482   642  2504 D audio_hw_primary: start_output_stream: enter: stream(0xf418e800)usecase(1: low-latency-playback) devices(0x2) is_haptic_usecase(0)
+01-08 19:53:22.484   642  2504 D audio_route: Apply path: speaker-protected
+01-08 19:53:22.502   642  2504 D audio_route: Apply path: vi-feedback
+01-08 19:53:22.503   642  2504 D audio_route: Apply path: spkr-vi-record
+01-08 19:53:22.532   642  2504 D audio_route: Apply path: low-latency-playback
+01-08 19:53:22.642   642  2504 D audio_hw_primary: start_output_stream: exit
+01-08 19:59:32.458   642  2504 D audio_hw_primary: start_output_stream: enter: stream(0xf418e800)usecase(1: low-latency-playback) devices(0x2) is_haptic_usecase(0)
+01-08 19:59:32.462   642  2504 D audio_route: Apply path: speaker-protected
+01-08 19:59:32.486   642  2504 D audio_route: Apply path: vi-feedback
+01-08 19:59:32.487   642  2504 D audio_route: Apply path: spkr-vi-record
+01-08 19:59:32.518   642  2504 D audio_route: Apply path: low-latency-playback
+01-08 19:59:32.637   642  2504 D audio_hw_primary: start_output_stream: exit
+01-08 19:59:32.637   642   727 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0xc) devices(0x80000004)        stream_handle(0xf67d7a00) io_handle(86) source(1) format 1
+01-08 19:59:32.933   642  4546 D audio_hw_primary: start_input_stream: enter: stream(0xf67d7a00)usecase(20: audio-record)
+01-08 19:59:32.934   642  4546 D audio_route: Apply path: handset-stereo-dmic-ef
+01-08 19:59:32.944   642  4546 D audio_route: Apply path: audio-record
+01-08 19:59:32.975   642  4546 D audio_hw_primary: start_input_stream: exit
+01-08 20:01:09.705   642  2504 D audio_hw_primary: start_output_stream: enter: stream(0xf418e800)usecase(1: low-latency-playback) devices(0x2) is_haptic_usecase(0)
+01-08 20:01:09.709   642  2504 D audio_route: Apply path: speaker-protected
+01-08 20:01:09.729   642  2504 D audio_route: Apply path: vi-feedback
+01-08 20:01:09.730   642  2504 D audio_route: Apply path: spkr-vi-record
+01-08 20:01:09.749   642  2504 D audio_route: Apply path: low-latency-playback
+01-08 20:01:09.861   642  2504 D audio_hw_primary: start_output_stream: exit
+01-08 20:02:22.594   642  2504 D audio_hw_primary: start_output_stream: enter: stream(0xf418e800)usecase(1: low-latency-playback) devices(0x2) is_haptic_usecase(0)
+01-08 20:02:22.599   642  2504 D audio_route: Apply path: speaker-protected
+01-08 20:02:22.620   642  2504 D audio_route: Apply path: vi-feedback
+01-08 20:02:22.622   642  2504 D audio_route: Apply path: spkr-vi-record
+01-08 20:02:22.653   642  2504 D audio_route: Apply path: low-latency-playback
+01-08 20:02:22.771   642  2504 D audio_hw_primary: start_output_stream: exit
+01-08 20:02:22.771   642   727 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0xc) devices(0x80000004)        stream_handle(0xf67d7a00) io_handle(94) source(1) format 1
+01-08 20:02:23.024   642  4792 D audio_hw_primary: start_input_stream: enter: stream(0xf67d7a00)usecase(20: audio-record)
+01-08 20:02:23.025   642  4792 D audio_route: Apply path: handset-stereo-dmic-ef
+01-08 20:02:23.035   642  4792 D audio_route: Apply path: audio-record
+01-08 20:02:23.064   642  4792 D audio_hw_primary: start_input_stream: exit

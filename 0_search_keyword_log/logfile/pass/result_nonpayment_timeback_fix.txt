@@ -1,0 +1,1382 @@
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node qseecom_region, compatible id shared-dma-pool
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node adsp_region, compatible id shared-dma-pool
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node venus_fw_region, compatible id shared-dma-pool
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node video_region, compatible id shared-dma-pool
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node secure_region, compatible id shared-dma-pool
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node wlan_msa_guard@85600000, compatible id removed-dma-pool
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node wlan_msa_mem@85700000, compatible id removed-dma-pool
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node removed_regions@85800000, compatible id removed-dma-pool
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node smem-mem@86000000, compatible id removed-dma-pool
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node removed_regions@86200000, compatible id removed-dma-pool
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node modem_fw_region@8ac00000, compatible id removed-dma-pool
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node adsp_fw_region@92a00000, compatible id removed-dma-pool
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node pil_mba_region@94800000, compatible id removed-dma-pool
+01-14 09:45:42.308     0     0 I OF      : reserved mem: initialized node cdsp_fw_region@94a00000, compatible id removed-dma-pool
+01-14 09:45:42.308     0     0 I random  : get_random_bytes called from start_kernel+0x94/0x50c with crng_init=0
+01-14 09:45:42.308     0     0 I mem auto-init: stack:off, heap alloc:off, heap free:off
+01-14 09:45:42.308     0     0 I Memory  : 2423212K/2896896K available (15870K kernel code, 3366K rwdata, 6308K rodata, 6144K init, 11910K bss, 141908K reserved, 331776K cma-reserved)
+01-14 09:45:42.309     0     0 I         : Security Framework initialized
+01-14 09:45:42.309     0     0 I SELinux : Initializing.
+01-14 09:45:42.321     0     0 I         : ASID allocator initialised with 32768 entries
+01-14 09:45:42.513     0     0 I pinctrl core: initialized pinctrl subsystem
+01-14 09:45:42.537     0     0 I msm_watchdog 17817000.qcom,wdt: MSM Watchdog Initialized
+01-14 09:45:42.544     0     0 I qcom_smd_rpm_probe: RPM-SMD running version 0
+01-14 09:45:42.608     0     0 W reg-fixed-voltage: probe of soc:p5v_usb failed with error -22
+01-14 09:45:42.612     0     0 I qcom,qpnp-misc 800f000.qcom,spmi: qcom,pm660@0:qcom,misc@900: probe successful
+01-14 09:45:42.612     0     0 I         : SCSI subsystem initialized
+01-14 09:45:42.615     0     0 E i2c-msm-v2 c176000.i2c: error probe() failed with err:-517
+01-14 09:45:42.616     0     0 E i2c-msm-v2 c177000.i2c: error probe() failed with err:-517
+01-14 09:45:42.616     0     0 E i2c-msm-v2 c178000.i2c: error probe() failed with err:-517
+01-14 09:45:42.616     0     0 E i2c-msm-v2 c1b6000.i2c: error probe() failed with err:-517
+01-14 09:45:42.616     0     0 E i2c-msm-v2 c1b7000.i2c: error probe() failed with err:-517
+01-14 09:45:42.616     0     0 E i2c-msm-v2 c1b8000.i2c: error probe() failed with err:-517
+01-14 09:45:42.629     0     0 I         : Advanced Linux Sound Architecture Driver Initialized.
+01-14 09:45:42.630     0     0 I Bluetooth: HCI device and connection manager initialized
+01-14 09:45:42.630     0     0 I Bluetooth: HCI socket layer initialized
+01-14 09:45:42.630     0     0 I Bluetooth: L2CAP socket layer initialized
+01-14 09:45:42.630     0     0 I Bluetooth: SCO socket layer initialized
+01-14 09:45:42.630     0     0 I NetLabel: Initializing
+01-14 09:45:42.630     0     0 F pcie    : pcie_init.
+01-14 09:45:42.642     0     0 W rpm_vreg_device_probe: pm660_l6_pin_ctrl: regulator type=0 does not support device tree property: qcom,init-pin-ctrl-mode
+01-14 09:45:42.644     0     0 W rpm_vreg_device_probe: pm660_l9_pin_ctrl: regulator type=0 does not support device tree property: qcom,init-pin-ctrl-mode
+01-14 09:45:42.649     0     0 W rpm_vreg_device_probe: pm660_l19_pin_ctrl: regulator type=0 does not support device tree property: qcom,init-pin-ctrl-mode
+01-14 09:45:42.661     0     0 I cpr3_regulator_init_ctrl: gfx: Default CPR mode = open-loop
+01-14 09:45:42.668     0     0 E i2c-msm-v2 c176000.i2c: error probe() failed with err:-517
+01-14 09:45:42.669     0     0 E i2c-msm-v2 c177000.i2c: error probe() failed with err:-517
+01-14 09:45:42.669     0     0 E i2c-msm-v2 c178000.i2c: error probe() failed with err:-517
+01-14 09:45:42.669     0     0 E i2c-msm-v2 c1b6000.i2c: error probe() failed with err:-517
+01-14 09:45:42.670     0     0 E i2c-msm-v2 c1b7000.i2c: error probe() failed with err:-517
+01-14 09:45:42.670     0     0 E i2c-msm-v2 c1b8000.i2c: error probe() failed with err:-517
+01-14 09:45:42.747     0     0 I cpr3_regulator_init_ctrl: apc0: Default CPR mode = full HW closed-loop
+01-14 09:45:42.750     0     0 I cpr3_regulator_init_ctrl: apc1: Default CPR mode = full HW closed-loop
+01-14 09:45:42.777     0     0 I clk_cpu_osm_driver_probe: OSM driver initialize
+01-14 09:45:42.804     0     0 I mdss_pll_probe: MDSS pll label = MDSS DSI 0 PLL
+01-14 09:45:42.804     0     0 I mdss_pll_probe: mdss_pll_probe: label=MDSS DSI 0 PLL PLL SSC enabled
+01-14 09:45:42.804     0     0 I mdss_pll_probe: MDSS pll label = MDSS DSI 1 PLL
+01-14 09:45:42.804     0     0 I mdss_pll_probe: mdss_pll_probe: label=MDSS DSI 1 PLL PLL SSC enabled
+01-14 09:45:42.805     0     0 I mdss_pll_probe: MDSS pll label = MDSS DP PLL
+01-14 09:45:42.805     0     0 E         : msm_bus_fabric_init_driver
+01-14 09:45:42.809     0     0 E msm_bus_dev_init_qos: Skipping QOS init for 1
+01-14 09:45:42.809     0     0 E msm_bus_dev_init_qos: Skipping QOS init for 727
+01-14 09:45:42.809     0     0 E msm_bus_dev_init_qos: Skipping QOS init for 728
+01-14 09:45:42.809     0     0 I msm_bus_device 1620000.ad-hoc-bus: Bus scaling driver probe successful
+01-14 09:45:42.810     0     0 I         : Trying to unpack rootfs image as initramfs...
+01-14 09:45:42.823     0     0 I         : Freeing initrd memory: 808K
+01-14 09:45:42.827   499   499 I auditd  : type=2000 audit(0.0:1): state=initialized audit_enabled=0 res=1
+01-14 09:45:42.827   499   499 W auditd  : type=2000 audit(0.0:1): state=initialized audit_enabled=0 res=1
+01-14 09:45:42.829     0     0 I audit   : initializing netlink subsys (disabled)
+01-14 09:45:42.829     0     0 I         : Initialise system trusted keyrings
+01-14 09:45:42.831     0     0 I         : fuse init (API version 7.26)
+01-14 09:45:42.831     0     0 I pfk_ext4 [pfk_ext4_init]: PFK EXT4 inited successfully
+01-14 09:45:42.831     0     0 I pfk_f2fs [pfk_f2fs_init]: PFK F2FS inited successfully
+01-14 09:45:42.831     0     0 I pfk [pfk_init]: Driver initialized successfully
+01-14 09:45:42.838     0     0 E mdss_mdp_probe+0x2c8/0x18fc->msm_dss_ioremap_byname: 'vbif_nrt_phys' msm_mdss_get_res_byname failed
+01-14 09:45:42.840     0     0 I mdss_mdp_probe: mdss version = 0x30020000, bootloader display is on, num 1, intf_sel=0x00000100
+01-14 09:45:42.842     0     0 I mdss_smmu_probe: iommu v2 domain[0] mapping and clk register successful!
+01-14 09:45:42.842     0     0 I mdss_smmu_probe: iommu v2 domain[2] mapping and clk register successful!
+01-14 09:45:42.843     0     0 I mdss_dsi_ctrl_probe: DSI Ctrl name = MDSS DSI CTRL->0
+01-14 09:45:42.843     0     0 I mdss_dsi_panel_init: Panel Name = hx8394f_720p_video_mode_dsi_panel
+01-14 09:45:42.844     0     0 I mdss_dsi_ctrl_probe: Dsi Ctrl->0 initialized, DSI rev:0x20010000, PHY rev:0x2
+01-14 09:45:42.844     0     0 I mdss_dsi_ctrl_probe: DSI Ctrl name = MDSS DSI CTRL->1
+01-14 09:45:42.844     0     0 E mdss_dsi_pinctrl_init: failed to get pinctrl
+01-14 09:45:42.844     0     0 W mdss_dsi_ctrl_probe: failed to get pin resources
+01-14 09:45:42.844     0     0 E mdss_dsi_ctrl_probe: panel configuration failed
+01-14 09:45:42.844     0     0 W mdss_dsi_ctrl: probe of c996000.qcom,mdss_dsi_ctrl1 failed with error -22
+01-14 09:45:42.844     0     0 I mdss_dsi_status_init: DSI status check interval:5000
+01-14 09:45:42.845     0     0 E mdss_dp_probe: Error usbpd setup!
+01-14 09:45:42.846     0     0 I mdss_fb_probe: fb0: split_mode:0 left:0 right:0
+01-14 09:45:42.846     0     0 I mdss_fb_probe: fb1: split_mode:0 left:0 right:0
+01-14 09:45:42.846     0     0 I         : extdisp_init start.
+01-14 09:45:42.849     0     0 I icnss   : Platform driver probed successfully
+01-14 09:45:42.858     0     0 I spcom   : spcom_init: spcom driver version 2.1 23-April-2018.
+01-14 09:45:42.862     0     0 I msm_serial: driver initialized
+01-14 09:45:42.867     0     0 I random  : fast init done
+01-14 09:45:42.867     0     0 I random  : crng init done
+01-14 09:45:42.895     0     0 I QSEECOM : qseecom_probe: qseecom.qsee_version = 0x1001000
+01-14 09:45:42.895     0     0 I QSEECOM : qseecom_probe: no-clock-support=0x1
+01-14 09:45:42.895     0     0 W QSEECOM : qseecom_probe: qseecom.qsee_reentrancy_support = 2
+01-14 09:45:42.895     0     0 W QSEECOM : qseecom_probe: qseecom.whitelist_support = 1
+01-14 09:45:42.896     0     0 I         : /home/youkai/1_project/new_sda660q_full/android/kernel/msm-4.14/drivers/misc/payment-io.c dev_init done.
+01-14 09:45:42.896     0     0 I         : /home/youkai/1_project/new_sda660q_full/android/kernel/msm-4.14/drivers/misc/payment-tst.c dev_init done.
+01-14 09:45:42.896     0     0 I         : /home/youkai/1_project/new_sda660q_full/android/kernel/msm-4.14/drivers/misc/uart_switch.c uart_switch_init start.
+01-14 09:45:42.897     0     0 I         : /home/youkai/1_project/new_sda660q_full/android/kernel/msm-4.14/drivers/misc/uart_switch.c uart_switch_probe success!
+01-14 09:45:42.898     0     0 I         : /home/youkai/1_project/new_sda660q_full/android/kernel/msm-4.14/drivers/misc/stand_cmd.c dev_init done.
+01-14 09:45:42.898     0     0 I         : /home/youkai/1_project/new_sda660q_full/android/kernel/msm-4.14/drivers/misc/stand_cmd_tst.c dev_init done.
+01-14 09:45:42.898     0     0 D nq-nci 6-0028: nqx_probe: enter
+01-14 09:45:42.898     0     0 D nq-nci 6-0028: nqx_probe, inside nfc-nci flags = 0
+01-14 09:45:42.900     0     0 I QCE50   : qce_sps_init:  QTI MSM CE-BAM at 0x0000000001dc4000 irq 118
+01-14 09:45:42.915     0     0 I QCE50   : qce_sps_init:  QTI MSM CE-BAM at 0x0000000001dc4000 irq 118
+01-14 09:45:42.934     0     0 I libphy  : Fixed MDIO Bus: probed
+01-14 09:45:42.934     0     0 I CLD80211: Initializing
+01-14 09:45:42.939     0     0 I msm_sharedmem: msm_sharedmem_probe: Device created for client 'rmtfs'
+01-14 09:45:42.942     0     0 E nq-nci 6-0028: nqx_probe: probing NFCC NQxxx exited successfully
+01-14 09:45:42.952     0     0 W         : *** touch_driver_probe ***
+01-14 09:45:43.203     0     0 I         : sis_ts_init ver. 3.01.03
+01-14 09:45:43.203     0     0 I ILITEK  : (ilitek_plat_dev_init, 718): ILITEK TP driver init for QCOM
+01-14 09:45:43.203     0     0 I ILITEK  : (ilitek_tddi_dev_init, 995): TP Interface: I2C
+01-14 09:45:43.203     0     0 W [FTS_TS]fts_ts_init: Enter
+01-14 09:45:43.203     0     0 W [FTS_TS]fts_ts_init: Exit(1930)
+01-14 09:45:43.203     0     0 I ILITEK  : (ilitek_plat_dev_init, 862): ILITEK TP driver init for QCOM
+01-14 09:45:43.203     0     0 I ILITEK  : (ili_dev_init, 1157): TP Interface: I2C
+01-14 09:45:43.206     0     0 I         : IR NEC protocol handler initialized
+01-14 09:45:43.206     0     0 I         : IR RC5(x/sz) protocol handler initialized
+01-14 09:45:43.206     0     0 I         : IR RC6 protocol handler initialized
+01-14 09:45:43.206     0     0 I         : IR JVC protocol handler initialized
+01-14 09:45:43.206     0     0 I         : IR Sony protocol handler initialized
+01-14 09:45:43.206     0     0 I         : IR SANYO protocol handler initialized
+01-14 09:45:43.206     0     0 I         : IR Sharp protocol handler initialized
+01-14 09:45:43.206     0     0 I         : IR MCE Keyboard/mouse protocol handler initialized
+01-14 09:45:43.206     0     0 I         : IR XMP protocol handler initialized
+01-14 09:45:43.210     0     0 I sde_rotator c900000.qcom,mdss_rotator: <SDEROT_INFO> SDE v4l2 rotator probe success
+01-14 09:45:43.234     0     0 I msm_actuator_init_module: 2219 Enter
+01-14 09:45:43.234     0     0 E msm_actuator_platform_probe: 2121 msm_actuator_platform_probe: No/Error Actuator GPIOs
+01-14 09:45:43.234     0     0 E         : msm_eeprom_platform_probe failed 1787
+01-14 09:45:43.240     0     0 I MSM-CPP cpp_init_hardware: 1135 CPP HW Version: 0x60010002
+01-14 09:45:43.240     0     0 E MSM-CPP cpp_init_hardware: 1153 stream_cnt:0
+01-14 09:45:43.242     0     0 E vfe_hw_probe: fail get dual_sync
+01-14 09:45:43.244     0     0 E __msm_jpeg_init: 1595] Jpeg Device id 0
+01-14 09:45:43.254     0     0 I smb1351_parallel_charger_probe: smb1351 parallel successfully probed.
+01-14 09:45:43.266     0     0 I         : QPNP SMB2 probed successfully usb:present=1 type=0 batt:present = 1 health = 1 charge = 1
+01-14 09:45:43.276     0     0 I device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+01-14 09:45:43.356     0     0 I sdhci_msm_pm_qos_cpu_init (): voted for group #0 (mask=0xf) latency=-1
+01-14 09:45:43.356     0     0 I sdhci_msm_pm_qos_cpu_init (): voted for group #1 (mask=0xf0) latency=-1
+01-14 09:45:43.363     0     0 W sdhci_msm c084000.sdhci: sdhci_msm_probe: ICE device is not enabled
+01-14 09:45:43.407     0     0 I qpnp_tri_led_probe: tri led probe start
+01-14 09:45:43.409     0     0 I ashmem  : initialized
+01-14 09:45:43.411     0     0 E seemp   : seemp_logk_init: SCM call failed with ret val = -5 0 0
+01-14 09:45:43.426     0     0 I         : Initializing XFRM netlink socket
+01-14 09:45:43.429     0     0 E mdss_dp_probe: Error usbpd setup!
+01-14 09:45:43.449     0     0 I FG      : fg_gen3_probe: battery SOC:50 voltage: 4267811uV temp: 240
+01-14 09:45:43.456     0     0 I mdss_dp_device_register: dp initialized
+01-14 09:45:43.456     0     0 I mdss_dp_probe: init successful
+01-14 09:45:43.463     0     0 I mdss_fb_probe: fb2: split_mode:0 left:0 right:0
+01-14 09:45:43.464     0     0 I core_ctl: Init CPU0 state
+01-14 09:45:43.464     0     0 I core_ctl: Init CPU1 state
+01-14 09:45:43.464     0     0 I core_ctl: Init CPU2 state
+01-14 09:45:43.464     0     0 I core_ctl: Init CPU3 state
+01-14 09:45:43.464     0     0 I core_ctl: Init CPU4 state
+01-14 09:45:43.464     0     0 I core_ctl: Init CPU5 state
+01-14 09:45:43.464     0     0 I core_ctl: Init CPU6 state
+01-14 09:45:43.464     0     0 I core_ctl: Init CPU7 state
+01-14 09:45:43.485     0     0 I spss_utils [spss_init]: spss-utils driver Ver 3.0 18-Feb-2018.
+01-14 09:45:43.489     0     0 W         : Error: swapper/0: fastrpc_cb_probe: failed to create debugfs global file
+01-14 09:45:43.490     0     0 W         : Error: swapper/0: fastrpc_cb_probe: failed to create debugfs global file
+01-14 09:45:43.490     0     0 W         : Error: swapper/0: fastrpc_cb_probe: failed to create debugfs global file
+01-14 09:45:43.491     0     0 W         : Error: swapper/0: fastrpc_cb_probe: failed to create debugfs global file
+01-14 09:45:43.492     0     0 W         : Error: swapper/0: fastrpc_cb_probe: failed to create debugfs global file
+01-14 09:45:43.492     0     0 W         : Error: swapper/0: fastrpc_cb_probe: failed to create debugfs global file
+01-14 09:45:43.493     0     0 W         : Error: swapper/0: fastrpc_cb_probe: failed to create debugfs global file
+01-14 09:45:43.494     0     0 W         : Error: swapper/0: fastrpc_cb_probe: failed to create debugfs global file
+01-14 09:45:43.494     0     0 W         : Error: swapper/0: fastrpc_cb_probe: failed to create debugfs global file
+01-14 09:45:43.495     0     0 W         : Error: swapper/0: fastrpc_cb_probe: failed to create debugfs global file
+01-14 09:45:43.495     0     0 W         : Error: swapper/0: fastrpc_cb_probe: failed to create debugfs global file
+01-14 09:45:43.496     0     0 W         : Error: swapper/0: fastrpc_cb_probe: failed to create debugfs global file
+01-14 09:45:43.497     0     0 I         : pos_hub_probe
+01-14 09:45:43.497     0     0 I         : pos_hub_probe success
+01-14 09:45:43.498     0     0 W         : OEM Debug, usb_gigabit ethernet init begin
+01-14 09:45:43.499     0     0 I usb_oem_probe: enter
+01-14 09:45:43.499     0     0 I         : usbPortPathInit 545 read path succeed: typec-u2-path 1-1
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[0].portU2Path=1-1
+01-14 09:45:43.499     0     0 I         : usbPortPathInit 545 read path succeed: typec-u3-path 2-1
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[0].portU3Path=2-1
+01-14 09:45:43.499     0     0 E         : usbPortPathInit 542 read path failed: typea-u2-path
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[1].portU2Path=
+01-14 09:45:43.499     0     0 E         : usbPortPathInit 542 read path failed: typea-u3-path
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[1].portU3Path=
+01-14 09:45:43.499     0     0 E         : usbPortPathInit 542 read path failed: typea-ex3-u2-path
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[2].portU2Path=
+01-14 09:45:43.499     0     0 E         : usbPortPathInit 542 read path failed: typea-ex3-u3-path
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[2].portU3Path=
+01-14 09:45:43.499     0     0 E         : usbPortPathInit 542 read path failed: typea-ex4-u2-path
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[3].portU2Path=
+01-14 09:45:43.499     0     0 E         : usbPortPathInit 542 read path failed: typea-ex4-u3-path
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[3].portU3Path=
+01-14 09:45:43.499     0     0 E         : usbPortPathInit 542 read path failed: typea-ex5-u2-path
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[4].portU2Path=
+01-14 09:45:43.499     0     0 E         : usbPortPathInit 542 read path failed: typea-ex5-u3-path
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[4].portU3Path=
+01-14 09:45:43.499     0     0 E         : usbPortPathInit 542 read path failed: micro-usb1-path
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[5].portU2Path=
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[5].portU3Path=
+01-14 09:45:43.499     0     0 E         : usbPortPathInit 542 read path failed: micro-usb2-path
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[6].portU2Path=
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[6].portU3Path=
+01-14 09:45:43.499     0     0 E         : usbPortPathInit 542 read path failed: micro-usb3-path
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[7].portU2Path=
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[7].portU3Path=
+01-14 09:45:43.499     0     0 E         : usbPortPathInit 542 read path failed: micro-usb4-path
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[8].portU2Path=
+01-14 09:45:43.499     0     0 I usb_oem_probe: usbPortsSpeedCfg[8].portU3Path=
+01-14 09:45:43.499     0     0 I usb_oem_probe: succeed exit!
+01-14 09:45:43.597     0     0 I init    : init first stage started!
+01-14 09:45:43.598     0     0 I init    : [libfs_mgr]dt_fstab: Skip disabled entry for partition vendor
+01-14 09:45:43.598     0     0 I init    : [libfs_mgr]ReadFstabFromDt(): failed to read fstab from dt
+01-14 09:45:43.598     0     0 I init    : [libfs_mgr]dt_fstab: Skip disabled entry for partition vendor
+01-14 09:45:43.598     0     0 I init    : Using Android DT directory /proc/device-tree/firmware/android/
+01-14 09:45:43.620     0     0 I init    : [libfs_mgr]Created logical partition system_a on device /dev/block/dm-0
+01-14 09:45:43.620     0     0 I init    : [libfs_mgr]Skipping zero-length logical partition: system_b
+01-14 09:45:43.621     0     0 I init    : [libfs_mgr]Created logical partition product_a on device /dev/block/dm-1
+01-14 09:45:43.621     0     0 I init    : [libfs_mgr]Skipping zero-length logical partition: product_b
+01-14 09:45:43.621     0     0 I init    : [libfs_mgr]Created logical partition vendor_a on device /dev/block/dm-2
+01-14 09:45:43.719     0     0 W init    : 21 output lines suppressed due to ratelimiting
+01-14 09:45:43.872     0     0 I init    : Loading SELinux policy
+01-14 09:45:43.928     0     0 D SELinux : Completing initialization.
+01-14 09:45:44.014     0     0 I init    : init second stage started!
+01-14 09:45:44.032     0     0 I init    : Using Android DT directory /proc/device-tree/firmware/android/
+01-14 09:45:44.035     0     0 I init    : Running restorecon...
+01-14 09:45:44.052     0     0 E selinux : avc:  denied  { set } for  scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0
+01-14 09:45:44.052     0     0 E init    : Do not have permissions to set 'ro.product.vendor.otadevice' to 'ota.sdm660_64' in property file '/vendor/build.prop': SELinux permission check failed
+01-14 09:45:44.052     0     0 E selinux : avc:  denied  { set } for  scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0
+01-14 09:45:44.052     0     0 E init    : Do not have permissions to set 'ro.product.vendor.otamodel' to 'ota.sdm660_64' in property file '/vendor/build.prop': SELinux permission check failed
+01-14 09:45:44.052     0     0 E selinux : avc:  denied  { set } for  scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0
+01-14 09:45:44.052     0     0 E init    : Do not have permissions to set 'ro.product.vendor.otaname' to 'ota.sdm660_64' in property file '/vendor/build.prop': SELinux permission check failed
+01-14 09:45:44.725     0     0 I oem-init: /vendor/bin/oem_init start with 1 parameters
+01-14 09:45:44.725     0     0 I oem-init: sysfs:path sys/devices/soc0/project_id data 48 size 4
+01-14 09:45:44.725     0     0 I oem-init: Project id: 48
+01-14 09:45:44.725     0     0 I oem-init: model id: M50
+01-14 09:45:44.726     0     0 I oem-init: product name: M50
+01-14 09:45:44.726     0     0 I oem-init: oemmodel id: m50_nonpayment_wifi
+01-14 09:45:44.726     0     0 I oem-init: common features: BT-WIFI-PwrLED-UartMux-TypeC
+01-14 09:45:44.726     0     0 I oem-init: sku features: nqnfc-vib-ZBcr-GSen-LPSen-cuLED-Batt-MoSpk-DRP-Key3-amic-SD
+01-14 09:45:44.728     0     0 I oem-init: sku accessorylist: PosHub
+01-14 09:45:44.728     0     0 I oem-init: sku lcd_density: 240
+01-14 09:45:46.317     0     0 I init    : wait for '/dev/block/platform/soc/c0c4000.sdhci' took 0ms
+01-14 09:45:46.589   564   564 D QSEECOMD: : Init dlopen(librpmb.so, RTLD_NOW) succeeds
+01-14 09:45:46.589   564   564 D QSEECOMD: : Init::Init dlsym(g_FSHandle rpmb_init_service) succeeds
+01-14 09:45:46.589   564   564 E DrmLibRpmb: rpmb_init succeeded! with ret = 0
+01-14 09:45:46.589   564   564 D QSEECOMD: : Init rpmb_init_service ret = 0
+01-14 09:45:46.589   564   564 D QSEECOMD: : RPMB system services: init (Listener ID = 8192)
+01-14 09:45:46.590   564   564 D QSEECOMD: : Init dlopen(libssd.so, RTLD_NOW) succeeds
+01-14 09:45:46.590   564   564 D QSEECOMD: : Init::Init dlsym(g_FSHandle ssd_init_service) succeeds
+01-14 09:45:46.590   564   564 E SSD     : ssd_init_service succeeded!
+01-14 09:45:46.590   564   564 D QSEECOMD: : Init ssd_init_service ret = 0
+01-14 09:45:46.590   564   564 D QSEECOMD: : SSD system services: init (Listener ID = 12288)
+01-14 09:45:46.608   564   564 D QSEECOMD: : Init dlopen(libsecureui.so, RTLD_NOW) succeeds
+01-14 09:45:46.608   564   564 D QSEECOMD: : Init::Init dlsym(g_FSHandle secure_ui_init) succeeds
+01-14 09:45:46.608   564   564 D QSEECOMD: : Init secure_ui_init ret = 0
+01-14 09:45:46.609   564   564 D QSEECOMD: : secure UI services: init (Listener ID = 16384)
+01-14 09:45:46.609   564   564 D QSEECOMD: : Init dlopen(librpmb.so, RTLD_NOW) succeeds
+01-14 09:45:46.609   564   564 D QSEECOMD: : Init::Init dlsym(g_FSHandle rpmb_start) succeeds
+01-14 09:45:46.613   564   564 D QSEECOMD: : Init rpmb_start ret = 0
+01-14 09:45:46.613   564   564 D QSEECOMD: : Init dlopen(libssd.so, RTLD_NOW) succeeds
+01-14 09:45:46.613   564   564 D QSEECOMD: : Init::Init dlsym(g_FSHandle ssd_start) succeeds
+01-14 09:45:46.614   564   564 D QSEECOMD: : Init ssd_start ret = 0
+01-14 09:45:46.614   564   564 D QSEECOMD: : Init dlopen(libsecureui.so, RTLD_NOW) succeeds
+01-14 09:45:46.614   564   564 D QSEECOMD: : Init::Init dlsym(g_FSHandle secure_ui_start) succeeds
+01-14 09:45:46.614   564   564 D QSEECOMD: : Init secure_ui_start ret = 0
+01-14 09:45:46.617   564   564 D QSEECOMD: : Init dlopen(libdrmtime.so, RTLD_NOW) succeeds
+01-14 09:45:46.617   564   564 D QSEECOMD: : Init::Init dlsym(g_FSHandle atime_start) succeeds
+01-14 09:45:46.617   564   564 D QSEECOMD: : Init atime_start ret = 0
+01-14 09:45:46.618   564   564 D QSEECOMD: : Init dlopen(libdrmfs.so, RTLD_NOW) succeeds
+01-14 09:45:46.618   564   564 D QSEECOMD: : Init::Init dlsym(g_FSHandle fs_start) succeeds
+01-14 09:45:46.618   564   564 D QSEECOMD: : Init fs_start ret = 0
+01-14 09:45:46.619   564   564 D QSEECOMD: : Init dlopen(libdrmfs.so, RTLD_NOW) succeeds
+01-14 09:45:46.619   564   564 D QSEECOMD: : Init::Init dlsym(g_FSHandle gpfs_start) succeeds
+01-14 09:45:46.621   564   564 D QSEECOMD: : Init gpfs_start ret = 0
+01-14 09:45:46.622   564   564 D QSEECOMD: : Init dlopen(libqisl.so, RTLD_NOW) succeeds
+01-14 09:45:46.622   564   564 D QSEECOMD: : Init::Init dlsym(g_FSHandle qisl_start) succeeds
+01-14 09:45:46.623   564   564 D QSEECOMD: : Init qisl_start ret = 0
+01-14 09:45:46.624   564   564 E QSEECOMD: : Init dlopen(libspl.so, RLTD_NOW) is failed.... dlopen failed: library "libspl.so" not found
+01-14 09:45:46.626   564   564 D QSEECOMD: : Init dlopen(libGPreqcancel.so, RTLD_NOW) succeeds
+01-14 09:45:46.626   564   564 D QSEECOMD: : Init::Init dlsym(g_FSHandle gp_reqcancel_start) succeeds
+01-14 09:45:46.627   564   564 D QSEECOMD: : Init gp_reqcancel_start ret = 0
+01-14 09:45:46.627   564   564 E QSEECOMD: : Init dlopen(libops.so, RLTD_NOW) is failed.... dlopen failed: library "libops.so" not found
+01-14 09:45:46.638     0     0 I apr_tal_rpmsg qcom,glink: adsp.apr_audio_svc.-1.-1: apr_tal_rpmsg_probe: Channel[apr_audio_svc] state[Up]
+01-14 09:45:46.650     0     0 I adsprpc : fastrpc_rpmsg_probe: opened rpmsg channel for adsp
+01-14 09:45:46.709     0     0 I         : init.qti.qseeco (565) used greatest stack depth: 11520 bytes left
+01-14 09:45:46.709     0     0 I init    : wait for '/dev/block/bootdevice/by-name/eloconf' took 0ms
+01-14 09:45:46.874   510   510 I vold    : fscrypt_initialize_systemwide_keys
+01-14 09:45:46.945   602   602 E fsverity_init: Failed to load /product/etc/security/fsverity/*.der
+01-14 09:45:46.974   604   604 E fsverity_init: Failed to restrict .fs-verity keyring
+01-14 09:45:47.073     0     0 W         : init (pid 1) is setting deprecated v1 encryption policy; recommend upgrading to v2.
+01-14 09:45:47.099   510   510 D vold    : fscrypt_init_user0
+01-14 09:45:47.350     0     0 I logd.daemon: reinit
+01-14 09:45:47.362   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 0
+01-14 09:45:47.362   618   618 D QC-time-services: Daemon:ats_rtc_init: Time read from RTC -- year = 70, month = 0,day = 14
+01-14 09:45:47.363   618   618 D QC-time-services: Daemon ats_rtc_init: seconds = 1176346
+01-14 09:45:47.363   618   618 D QC-time-services: Daemon:genoff_init_config: ATS_RTC initialized with rc: 0
+01-14 09:45:47.363   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 1
+01-14 09:45:47.364   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 2
+01-14 09:45:47.364   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 3
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 4
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 5
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 6
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 7
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 8
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 9
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 10
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 11
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 12
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 13
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 14
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 15
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.365   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 16
+01-14 09:45:47.366   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 17
+01-14 09:45:47.366   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.366   618   618 D QC-time-services: Daemon:genoff_pre_init::Base = 18
+01-14 09:45:47.366   618   618 D QC-time-services: Daemon:genoff_post_init:Error in accessing storage
+01-14 09:45:47.366   618   618 D QC-time-services: Daemon:genoff_init_config: Other bases initilized, exiting genoff_init
+01-14 09:45:47.366   618   618 D QC-time-services: Daemon:genoff_boot_tod_init: Updating system time to sec=1623321802, usec=734000
+01-14 09:45:47.516     0     0 I adsprpc : fastrpc_rpmsg_probe: opened rpmsg channel for cdsp
+06-10 06:43:22.899   626   626 I netdClient: Skipping libnetd_client init since *we* are netd
+06-10 06:43:23.519   627   627 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+06-10 06:43:23.578   679   679 I QTI PowerHAL: Initing
+06-10 06:43:23.583   689   689 I OEMPowerUtil: initialize().
+06-10 06:43:23.603   676   676 I health@2.0/: health@2.0/default: Hal init done
+06-10 06:43:23.612   618   618 D QC-time-services: Daemon:genoff_modem_qmi_init: Initializing QMI 
+06-10 06:43:23.623   682   682 D qdhdmi_cec: cec_init_context: CEC enabled
+06-10 06:43:23.633   618   732 D QC-time-services: Daemon: Time-services: All initializations done
+06-10 06:43:23.639   720   720 I vendor.rmt_storage: Shared memory initialised successfully.
+06-10 06:43:23.639   718   718 I qpart-server: init all signals
+06-10 06:43:23.641   721   721 I tftp_server: Initializing tftp_server RING buffer
+06-10 06:43:23.641     0     0 E rmt_storage: INFO:main: Done with init now waiting for messages!
+06-10 06:43:23.681     0     0 W oem_init: 37 output lines suppressed due to ratelimiting
+06-10 06:43:23.706     0     0 I servloc : init_service_locator: Service locator initialized
+06-10 06:43:23.719     0     0 I ADSPRPC : audio_pdr_adsprpc is uninitialzed
+06-10 06:43:23.722     0     0 I ADSPRPC : sensors_pdr_adsprpc is uninitialzed
+06-10 06:43:23.725     0     0 E msm-audio-ion soc: qcom,msm-audio-apr:qcom,msm-audio-ion: msm_audio_ion_probe: qcom,smmu-sid-mask missing in DT node, using default
+06-10 06:43:23.736   747   768 I         : OEM debug sns_reg_storage_init: sns_reg_filename = /mnt/vendor/persist/sensors/sns.reg
+06-10 06:43:23.774   747   768 I         : OEM debug sns_reg_storage_init: update_gsensor_nv from OTP succeed
+06-10 06:43:23.801   628   628 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+06-10 06:43:23.837     0     0 I sdm660-asoc-snd soc: qcom,msm-audio-apr:qcom,q6core-audio:sound: msm_internal_init: default codec configured
+06-10 06:43:23.867   675   675 I SDM     : ScalarConfig::Init: DE sharpness value is 50
+06-10 06:43:23.894   675   675 I SDM     : CPUHint::Init: Invalid CPU Hint Pre-enable Window -1
+06-10 06:43:23.894   675   675 I SDM     : HWDevice::Init: access(/dev/graphics/fb0) successful
+06-10 06:43:23.915   675   675 W SDM     : DisplayBase::Init: InitColorModes failed for display = 0
+06-10 06:43:23.916   675   675 I SDM     : HWCDisplay::Init: Display created with id: 0
+06-10 06:43:23.956   665   665 I sound_trigger_platform: platform_stdev_init: Enter
+06-10 06:43:24.114   669   669 I mm-camera: < INFO> 421: init: memleak lib init.
+06-10 06:43:24.114   669   669 I mm-camera: < INFO> 440: init: memleak tracer not attached
+06-10 06:43:24.116   669   669 I mm-camera: <SENSOR>< INFO> 589: sensor_init_probe: opening: /dev/v4l-subdev11
+06-10 06:43:24.116   669   669 I mm-camera: <SENSOR>< INFO> 598: sensor_init_probe: failed: to probe eeprom bin sensors (non-fatal)
+06-10 06:43:24.131     0     0 E msm_sensor_fill_eeprom_subdevid_by_name: 469 Eeprom userspace probe for ov8856_gt24p64b
+06-10 06:43:24.160     0     0 I msm_cci_init: 1440: hw_version = 0x10060000
+06-10 06:43:24.163     0     0 E         : ov8856 probe succeeded
+06-10 06:43:24.198   665   797 D audio_hw_extn: snd_mon_feature_init: Called with feature Enabled
+06-10 06:43:24.201   665   797 D audio_hw_extn: snd_mon_feature_init:: ---- Feature SND_MONITOR is Enabled ----
+06-10 06:43:24.201   665   797 W audio_hw_extn: :: compr_cap_feature_init: ---- Feature COMPRESS_CAPTURE is disabled ----
+06-10 06:43:24.201   665   797 D audio_hw_extn: dsm_feedback_feature_init: Called with feature NOT Enabled
+06-10 06:43:24.201   665   797 W audio_hw_extn: :: dsm_feedback_feature_init: ---- Feature DSM_FEEDBACK is disabled ----
+06-10 06:43:24.208   665   797 D audio_hw_extn: ssrec_feature_init:: ---- Feature SSREC is Enabled ----
+06-10 06:43:24.208   665   797 D audio_hw_extn: src_trkn_feature_init:: ---- Feature SOURCE_TRACKING is Enabled ----
+06-10 06:43:24.208   665   797 D audio_hw_extn: hdmi_edid_feature_init: HDMI_EDID feature Enabled
+06-10 06:43:24.212   665   797 D audio_hw_extn: hdmi_edid_feature_init:: ---- Feature HDMI_EDID is Enabled ----
+06-10 06:43:24.212   665   797 D audio_hw_extn: :: keep_alive_feature_init: ---- Feature KEEP_ALIVE is  NOT ENABLED ----
+06-10 06:43:24.212   665   797 D audio_hw_extn: :: hifi_audio_feature_init: ---- Feature HIFI_AUDIO is ENABLED ----
+06-10 06:43:24.212   665   797 D audio_hw_extn: :: ras_feature_init: ---- Feature RAS_FEATURE is ENABLED ----
+06-10 06:43:24.213   665   797 D audio_hw_extn: :: kpi_optimize_feature_init: ---- Feature KPI_OPTIMIZE is ENABLED ----
+06-10 06:43:24.213   665   797 D audio_hw_extn: usb_offload_feature_init: Called with feature Enabled
+06-10 06:43:24.213   665   797 D audio_hw_extn: usb_offload_burst_mode_feature_init: Called with feature NOT Enabled
+06-10 06:43:24.213   665   797 D audio_hw_extn: usb_offload_sidetone_volume_feature_init: Called with feature NOT Enabled
+06-10 06:43:24.213   665   797 D audio_hw_extn: a2dp_offload_feature_init: Called with feature Enabled
+06-10 06:43:24.218   665   797 D audio_hw_extn: a2dp_offload_feature_init:: ---- Feature A2DP_OFFLOAD is Enabled ----
+06-10 06:43:24.218   665   797 D audio_hw_extn: :: vbat_feature_init: ---- Feature VBAT is ENABLED ----
+06-10 06:43:24.218   665   797 D audio_hw_extn: :: display_port_feature_init: ---- Feature DISPLAY_PORT is ENABLED ----
+06-10 06:43:24.218   665   797 D audio_hw_extn: :: fluence_feature_init: ---- Feature FLUENCE is ENABLED ----
+06-10 06:43:24.218   665   797 D audio_hw_extn: :: custom_stereo_feature_init: ---- Feature CUSTOM_STEREO is ENABLED ----
+06-10 06:43:24.218   665   797 D audio_hw_extn: :: anc_headset_feature_init: ---- Feature ANC_HEADSET is ENABLED----
+06-10 06:43:24.218   665   797 D audio_hw_extn: spkr_prot_feature_init: Called with feature Enabled, vendor_enhanced_info 0x3
+06-10 06:43:24.221   665   797 D audio_hw_extn: spkr_prot_feature_init:: ---- Feature SPKR_PROT is Enabled ----
+06-10 06:43:24.221   665   797 D audio_hw_extn: fm_feature_init: ---- Feature FM_POWER_OPT is ENABLED----
+06-10 06:43:24.221   665   797 D audio_hw_extn: external_qdsp_feature_init: Called with feature NOT Enabled
+06-10 06:43:24.221   665   797 W audio_hw_extn: :: external_qdsp_feature_init: ---- Feature EXTERNAL_QDSP is disabled ----
+06-10 06:43:24.221   665   797 D audio_hw_extn: external_speaker_feature_init: Called with feature NOT Enabled
+06-10 06:43:24.221   665   797 W audio_hw_extn: :: external_speaker_feature_init: ---- Feature EXTERNAL_SPKR is disabled ----
+06-10 06:43:24.221   665   797 D audio_hw_extn: external_speaker_tfa_feature_init: Called with feature NOT Enabled
+06-10 06:43:24.221   665   797 W audio_hw_extn: :: external_speaker_tfa_feature_init: ---- Feature EXTERNAL_SPKR_TFA is disabled ----
+06-10 06:43:24.221   665   797 D audio_hw_extn: hwdep_cal_feature_init: Called with feature NOT Enabled
+06-10 06:43:24.221   665   797 W audio_hw_extn: :: hwdep_cal_feature_init: ---- Feature HWDEP_CAL is disabled ----
+06-10 06:43:24.221   665   797 D audio_hw_extn: hfp_feature_init: Called with feature Enabled
+06-10 06:43:24.227   665   797 D audio_hw_extn: hfp_feature_init:: ---- Feature HFP is Enabled ----
+06-10 06:43:24.227   665   797 D audio_hw_extn: ext_hw_plugin_feature_init: Called with feature NOT Enabled
+06-10 06:43:24.227   665   797 W audio_hw_extn: :: ext_hw_plugin_feature_init: ---- Feature EXT_HW_PLUGIN is disabled ----
+06-10 06:43:24.227   665   797 D audio_hw_extn: record_play_concurency_feature_init: ---- Feature RECORD_PLAY_CONCURRENCY is NOT ENABLED----
+06-10 06:43:24.227   665   797 D audio_hw_extn: hdmi_passthrough_feature_init: Called with feature Enabled
+06-10 06:43:24.232   665   797 E audio_hw_extn: hdmi_passthrough_feature_init: dlsym failed
+06-10 06:43:24.232   665   797 W audio_hw_extn: :: hdmi_passthrough_feature_init: ---- Feature HDMI_PASSTHROUGH is disabled ----
+06-10 06:43:24.232   665   797 D audio_hw_extn: concurrent_capture_feature_init: ---- Feature CONCURRENT_CAPTURE is NOT ENABLED----
+06-10 06:43:24.232   665   797 D audio_hw_extn: compress_in_feature_init: ---- Feature COMPRESS_IN is NOT ENABLED----
+06-10 06:43:24.232   665   797 W audio_hw_extn: :: battery_listener_feature_init: ---- Feature BATTERY_LISTENER is disabled ----
+06-10 06:43:24.232   665   797 D audio_hw_extn: maxx_audio_feature_init: Called with feature NOT Enabled
+06-10 06:43:24.232   665   797 W audio_hw_extn: :: maxx_audio_feature_init: ---- Feature MAXX_AUDIO is disabled ----
+06-10 06:43:24.232   665   797 D audio_hw_extn: audiozoom_feature_init: Called with feature NOT Enabled
+06-10 06:43:24.232   665   797 W audio_hw_extn: :: audiozoom_feature_init: ---- Feature AUDIOZOOM is disabled ----
+06-10 06:43:24.232   665   797 D voice_extn: :: dynamic_ecns_feature_init: ---- Feature DYNAMIC_ECNS is NOT ENABLED ----
+06-10 06:43:24.242   665   797 E audio_hw_extn: audio_extn_perf_lock_init: Perf lock handles Success 
+06-10 06:43:24.296     0     0 E         : se475x probe succeeded
+06-10 06:43:24.382     0     0 E MSM-SENSOR-INIT msm_sensor_init_subdev_do_ioctl: 150 msm_sensor_init_subdev_do_ioctl:150 VIDIOC_MSM_SENSOR_INIT_CFG failed (non-fatal)
+06-10 06:43:24.382   669   669 I mm-camera: <SENSOR>< INFO> 246: sensor_probe: [ov8856]CFG_SINIT_PROBE failed
+06-10 06:43:24.382   669   669 I mm-camera: <SENSOR>< INFO> 399: sensor_init_xml_probe: failed: to probe ov8856
+06-10 06:43:24.389     0     0 E MSM-SENSOR-INIT msm_sensor_init_subdev_do_ioctl: 150 msm_sensor_init_subdev_do_ioctl:150 VIDIOC_MSM_SENSOR_INIT_CFG failed (non-fatal)
+06-10 06:43:24.389   669   669 I mm-camera: <SENSOR>< INFO> 246: sensor_probe: [s5k5e9yx04]CFG_SINIT_PROBE failed
+06-10 06:43:24.389   669   669 I mm-camera: <SENSOR>< INFO> 399: sensor_init_xml_probe: failed: to probe s5k5e9yx04
+06-10 06:43:24.390     0     0 I msm_csid_init: CSID_VERSION = 0x30050000
+06-10 06:43:24.394     0     0 I msm_csid_init: CSID_VERSION = 0x30050000
+06-10 06:43:24.401     0     0 I [init][200035133][10:43:24.401863] wlan: [480:I:tdls] ucfg_tdls_init: 40: tdls module dispatcher init
+06-10 06:43:24.401     0     0 I [init][200035278][10:43:24.401870] wlan: [480:I:tdls] ucfg_tdls_init: 72: tdls module dispatcher init done
+06-10 06:43:24.401     0     0 I [init][200035472][10:43:24.401880] wlan: [480:I:POLICY_MGR] policy_mgr_init: 214: Callbacks registered with obj mgr
+06-10 06:43:24.404     0     0 I         : wlan_hdd_state wlan major(498) initialized
+06-10 06:43:24.404     0     0 I init    : Command 'insmod /vendor/lib/modules/qca_cld3_wlan.ko band_cfg=${persist.vendor.wifi.band.conf} dfs_cfg=${persist.vendor.wifi.dfs.conf} ps_cfg=${vendor.setting.wifi.ps_ena}' action=boot (/vendor/etc/init/hw/init.target.rc:109) took 593ms and succeeded
+06-10 06:43:24.407     0     0 I init    : processing action (boot) from (/system/etc/init/bootstat.rc:63)
+06-10 06:43:24.407     0     0 I init    : processing action (boot) from (/system/etc/init/dumpstate.rc:1)
+06-10 06:43:24.407     0     0 I init    : processing action (boot) from (/system/etc/init/elabel.rc:1)
+06-10 06:43:24.415     0     0 I init    : processing action (boot) from (/system/etc/init/gsid.rc:14)
+06-10 06:43:24.416     0     0 I init    : starting service 'exec 16 (/system/bin/gsid run-startup-tasks)'...
+06-10 06:43:24.418     0     0 I init    : processing action (boot) from (/system/etc/init/init.castles.rc:29)
+06-10 06:43:24.418     0     0 E init    : property 'persist.serialno' doesn't exist while expanding '${persist.serialno}'
+06-10 06:43:24.418     0     0 I init    : Command 'setprop ro.serialno ${persist.serialno}' action=boot (/system/etc/init/init.castles.rc:30) took 0ms and failed: cannot expand '${persist.serialno}'
+06-10 06:43:24.418     0     0 E init    : property 'persist.serialno' doesn't exist while expanding '${persist.serialno}'
+06-10 06:43:24.434     0     0 I msm_cci_init: 1440: hw_version = 0x10060000
+06-10 06:43:24.510   896   896 E /vendor/bin/adsprpcd: vendor/qcom/proprietary/commonsys-intf/adsprpc/src/adspmsgd.c:93:adspmsgd_init failed with error -1
+06-10 06:43:24.510   896   896 V /vendor/bin/adsprpcd: vendor/qcom/proprietary/commonsys-intf/adsprpc/src/fastrpc_perf.c:213: fastrpc_perf_init: enabled RPC traces (kernel 0, dsp 0) with frequency 1000
+06-10 06:43:24.525   898   898 E Diag_Lib: qpLogDiagInit <== result : 1
+06-10 06:43:24.538   890   890 I Dpps    : WaitForComposer():129 Waiting for composer service init
+06-10 06:43:24.543   895   895 I ThermalEngine: devices_manager_init: Init
+06-10 06:43:24.546   901   901 I CLD80211: /system/vendor/bin/cnss_diag: initialized exit socket pair
+06-10 06:43:24.557   901   901 I CNSS    : initialize_cnsslog_timer: create cnss log timer 
+06-10 06:43:24.565   895   895 I ThermalEngine: tmd_init_cluster_devs: No clusters found
+06-10 06:43:24.567   895   895 E ThermalEngine: tmd_init_npu_device: Invalid NPU level:-1.
+06-10 06:43:24.567   895   895 E ThermalEngine: devices_init: Init NPU TMD failed -12
+06-10 06:43:24.569   895   895 I ThermalEngine: vdd_rstr_init: Could not read /sys/module/msm_thermal/vdd_restriction/enabled
+06-10 06:43:24.572   895   895 E ThermalEngine: Unable to init battery charging mitigation to 0
+06-10 06:43:24.573   895   895 I ThermalEngine: sensors_manager_init: Init
+06-10 06:43:24.608   895   895 E ThermalEngine: pid_init_data: ERROR Uknown device
+06-10 06:43:24.612   895   895 E ThermalEngine: virtual_sensors_init: Error getting virtual sensors set
+06-10 06:43:24.613   895   895 E ThermalEngine: pid_algo_init: Sensor clnt create fail pop_mem
+06-10 06:43:24.613   895   895 E ThermalEngine: pid_algo_init: Sensor clnt create fail cpu3
+06-10 06:43:24.613   895   895 E ThermalEngine: pid_algo_init: Sensor clnt create fail cpu2
+06-10 06:43:24.613   895   895 E ThermalEngine: pid_algo_init: Sensor clnt create fail cpu1
+06-10 06:43:24.613   895   895 E ThermalEngine: pid_algo_init: Sensor clnt create fail cpu0
+06-10 06:43:24.613   895   895 I ThermalEngine: pid_algo_init: No PID's to be configured.
+06-10 06:43:24.613   895   895 I ThermalEngine: ss_algo_init: No SS's configured.
+06-10 06:43:24.656   897   897 V /vendor/bin/adsprpcd: vendor/qcom/proprietary/commonsys-intf/adsprpc/src/fastrpc_perf.c:213: fastrpc_perf_init: enabled RPC traces (kernel 0, dsp 0) with frequency 1000
+06-10 06:43:24.667   903   903 E Diag_Lib: qpLogDiagInit <== result : 1; log_write_mutex is Initialized
+06-10 06:43:24.718   999   999 I CLD80211: /system/vendor/bin/cnss-daemon: initialized exit socket pair
+06-10 06:43:24.718   999   999 I cnss-daemon: interop issues ap init successfully
+06-10 06:43:24.718   999   999 I cnss-daemon:  cnss hang event handler init successfully
+06-10 06:43:24.722   999   999 E cnss-daemon: Failed to init genl between daemon and platform, continue
+06-10 06:43:24.796  1012  1012 I /system/bin/tombstoned: tombstoned successfully initialized
+06-10 06:43:24.897   628   628 I sysui_multi_action: [757,804,799,boot_zygote_init,801,7203,802,1]
+06-10 06:43:24.897   627   627 I sysui_multi_action: [757,804,799,boot_zygote_init,801,7193,802,1]
+06-10 06:43:24.952   628   628 D Zygote32Timing: PostZygoteInitGC took to complete: 28ms
+06-10 06:43:24.954   628   628 D Zygote32Timing: ZygoteInit took to complete: 29ms
+06-10 06:43:25.050   626   626 I netd    : Initializing ClatdController: 0.7ms
+06-10 06:43:25.054   626   626 I netd    : Initializing traffic control: 4.4ms
+06-10 06:43:25.062   626   626 I netd    : Initializing RouteController: 1.6ms
+06-10 06:43:25.064   669   669 E mm-camera: <SENSOR><ERROR> ov8856_gt24p64b_format_afdata: 223: AF : macro 400 infinity 280 (now starting DAC set to infinity)
+06-10 06:43:25.064   669   669 E mm-camera: <SENSOR><ERROR> 129: eeprom_af_add_margin: AF_infinity_dac:262, macro_dac:478
+06-10 06:43:25.064   669   669 E mm-camera: <SENSOR><ERROR> 7675: module_sensor_init_eeprom: Exit subdev_id[SUB_MODULE_EEPROM] == -1
+06-10 06:43:25.124  1069  1069 E Diag_Lib: qpLogDiagInit <== result : 1
+06-10 06:43:25.144   626   626 I netd    : Initializing XfrmController: 82.1ms
+06-10 06:43:25.147   626   626 I libnetd_resolv: resolv_init: Initializing resolver
+06-10 06:43:25.199  1112  1112 I MSM-irqbalance: msm-irq_balance (1.3) initialized
+06-10 06:43:25.325   618   728 D QC-time-services: Daemon:genoff_modem_qmi_service_handle_cb: Initial transaction successful
+06-10 06:43:25.370   669   669 I mm-camera: <ISP   >< INFO> 926: module_isp_init: module 0xeb914780
+06-10 06:43:25.371   675   675 I SDM     : HWCColorManager::CreateColorManager: Successfully loaded libsdm-disp-vndapis.so and libsdm-diag.so and diag_init'ed
+06-10 06:43:25.373     0     0 I MSM-CPP cpp_init_hardware: 1135 CPP HW Version: 0x60010002
+06-10 06:43:25.373     0     0 E MSM-CPP cpp_init_hardware: 1153 stream_cnt:0
+06-10 06:43:25.376   714   714 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-10 06:43:25.492   669   669 I mm-camera: <CPP   >< INFO> 191: cpp_module_init: info: CPP module_init successful
+06-10 06:43:25.594   669   669 E mm-camera: <IMGLIB><ERROR> 3592: module_imgbase_init: ppeiscore] Error rc -7
+06-10 06:43:25.606   669   669 E mm-camera: <IMGLIB><ERROR> 3592: module_imgbase_init: llvd] Error rc -7
+06-10 06:43:25.612   669   669 E mm-camera: <IMGLIB><ERROR> 4510: module_qdc_common_init:  Algo Capabilities Crop caps 1,core type 2, access mode 1, exec mode 1
+06-10 06:43:25.622   669   669 E mm-camera: <IMGLIB><ERROR> 3592: module_imgbase_init: mfproc_precpp] Error rc -7
+06-10 06:43:25.644   669   669 E mm-camera: <IMGLIB><ERROR> 3592: module_imgbase_init: imglib_chroma_flash] Error rc -7
+06-10 06:43:25.644   669   669 W mm-camera: <IMGLIB>< WARN> 748: module_imglib_create_topology: Can not init the module imglib_chroma_flash
+06-10 06:43:25.646   669   669 E mm-camera: <IMGLIB><ERROR> 3592: module_imgbase_init: imglib_optizoom] Error rc -7
+06-10 06:43:25.646   669   669 W mm-camera: <IMGLIB>< WARN> 748: module_imglib_create_topology: Can not init the module imglib_optizoom
+06-10 06:43:25.647   669   669 E mm-camera: <IMGLIB><ERROR> 3592: module_imgbase_init: imglib_ubifocus] Error rc -7
+06-10 06:43:25.647   669   669 W mm-camera: <IMGLIB>< WARN> 748: module_imglib_create_topology: Can not init the module imglib_ubifocus
+06-10 06:43:25.647   669   669 E mm-camera: <IMGLIB><ERROR> 3592: module_imgbase_init: imglib_refocus] Error rc -7
+06-10 06:43:25.648   669   669 W mm-camera: <IMGLIB>< WARN> 748: module_imglib_create_topology: Can not init the module imglib_refocus
+06-10 06:43:25.648   669   669 E mm-camera: <IMGLIB><ERROR> 3592: module_imgbase_init: imglib_trueportrait] Error rc -7
+06-10 06:43:25.648   669   669 W mm-camera: <IMGLIB>< WARN> 748: module_imglib_create_topology: Can not init the module imglib_trueportrait
+06-10 06:43:25.681   669   669 E mm-camera: <IMGLIB><ERROR> 111: module_mfproc_postcpp_init:  module_mfproc_postcpp_init(),  E 
+06-10 06:43:25.682   669   669 E mm-camera: <IMGLIB><ERROR> 3592: module_imgbase_init: imglib_mfproc_postcpp] Error rc -7
+06-10 06:43:25.682   669   669 W mm-camera: <IMGLIB>< WARN> 748: module_imglib_create_topology: Can not init the module imglib_mfproc_postcpp
+06-10 06:43:25.682   669   669 W mm-camera: <IMGLIB>< WARN> 748: module_imglib_create_topology: Can not init the module imglib_oem1
+06-10 06:43:25.683   669   669 I CamPrvdr@2.4-legacy: initialize, cts mode off, mNumberOfLegacyCameras = 2
+06-10 06:43:25.708     0     0 I msm_csid_init: CSID_VERSION = 0x30050000
+06-10 06:43:25.714     0     0 I MSM-CPP cpp_init_hardware: 1135 CPP HW Version: 0x60010002
+06-10 06:43:25.714     0     0 E MSM-CPP cpp_init_hardware: 1153 stream_cnt:0
+06-10 06:43:25.730   669  1220 E Diag_Lib:  Diag_LSM_Init: Failed to open handle to diag driver, error = 13
+06-10 06:43:25.745     0     0 I msm_cci_init: 1440: hw_version = 0x10060000
+06-10 06:43:25.779   627   627 E ActivityRecognitionHardware: activity_recognition HAL is deprecated. class_init is effectively a no-op
+06-10 06:43:25.835   669   669 I mm-camera: <MCT   >< INFO> 310: mct_controller_destroy: Initiating destroy sequence for session = 3
+06-10 06:43:25.836   669   669 I mm-camera: <MCT   >< INFO> 5404: mct_pipeline_stop_session: Initiating stop_session on session 3
+06-10 06:43:25.845   669   669 E mm-camera: <MCT   ><ERROR> 179: stop_sof_check_thread: Returning as SOF timer thread not yet initialized
+06-10 06:43:25.862     0     0 I MSM-CPP cpp_init_hardware: 1135 CPP HW Version: 0x60010002
+06-10 06:43:25.862     0     0 E MSM-CPP cpp_init_hardware: 1153 stream_cnt:0
+06-10 06:43:25.924     0     0 I msm_csid_init: CSID_VERSION = 0x30050000
+06-10 06:43:25.953   669   669 I mm-camera: <MCT   >< INFO> 310: mct_controller_destroy: Initiating destroy sequence for session = 3
+06-10 06:43:25.953   669   669 I mm-camera: <MCT   >< INFO> 5404: mct_pipeline_stop_session: Initiating stop_session on session 3
+06-10 06:43:25.964     0     0 I msm_cci_init: 1440: hw_version = 0x10060000
+06-10 06:43:26.059   669   669 E mm-camera: <MCT   ><ERROR> 179: stop_sof_check_thread: Returning as SOF timer thread not yet initialized
+06-10 06:43:26.063     0     0 I msm_csid_init: CSID_VERSION = 0x30050000
+06-10 06:43:26.067     0     0 I MSM-CPP cpp_init_hardware: 1135 CPP HW Version: 0x60010002
+06-10 06:43:26.067     0     0 E MSM-CPP cpp_init_hardware: 1153 stream_cnt:0
+06-10 06:43:26.150   669  1277 E mm-camera: <SENSOR><ERROR> 247: module_sensor_offload_init_config: func_tbl for submodule 4 is NULL
+06-10 06:43:26.150   669  1277 E mm-camera: <SENSOR><ERROR> 249: module_sensor_offload_init_config: failed to get led off frame skip time
+06-10 06:43:26.151   669   669 I mm-camera: <MCT   >< INFO> 310: mct_controller_destroy: Initiating destroy sequence for session = 4
+06-10 06:43:26.151   669   669 I mm-camera: <MCT   >< INFO> 5404: mct_pipeline_stop_session: Initiating stop_session on session 4
+06-10 06:43:26.163   669   669 E mm-camera: <MCT   ><ERROR> 179: stop_sof_check_thread: Returning as SOF timer thread not yet initialized
+06-10 06:43:26.175     0     0 I MSM-CPP cpp_init_hardware: 1135 CPP HW Version: 0x60010002
+06-10 06:43:26.175     0     0 E MSM-CPP cpp_init_hardware: 1153 stream_cnt:0
+06-10 06:43:26.225     0     0 I msm_csid_init: CSID_VERSION = 0x30050000
+06-10 06:43:26.245   665   797 D msm8974_platform: platform_init: Opened sound card:0
+06-10 06:43:26.252   665   797 D platform_info: platform_info_init: platform info file name is /vendor/etc/audio_platform_info_nonpay.xml
+06-10 06:43:26.258   669  1310 E QCamera : <HAL><ERROR> initDefaultParameters: 5895: se475x initDefaultParameters() ======start==== CameraId=1
+06-10 06:43:26.259   669  1310 E QCamera : <HAL><ERROR> initDefaultParameters: 6692: se475x barcode_CameraId=1, config m_bRdiMode to true
+06-10 06:43:26.261   669  1310 E QCamera : <HAL><ERROR> initDefaultParameters: 6841: se475x store m_bNoDisplayModeAux=0 to tmp_bNoDisplayMode
+06-10 06:43:26.263   669   669 E QCamera : <HAL><ERROR> deinit: 7099: se475x deinit 
+06-10 06:43:26.268   669   669 I mm-camera: <MCT   >< INFO> 310: mct_controller_destroy: Initiating destroy sequence for session = 4
+06-10 06:43:26.269   669   669 I mm-camera: <MCT   >< INFO> 5404: mct_pipeline_stop_session: Initiating stop_session on session 4
+06-10 06:43:26.278   665   797 D msm8974_platform: platform_init: Loading mixer file: /vendor/etc/mixer_paths_nonpay.xml
+06-10 06:43:26.320   669  1315 E mm-camera: <SENSOR><ERROR> 247: module_sensor_offload_init_config: func_tbl for submodule 4 is NULL
+06-10 06:43:26.320   669  1315 E mm-camera: <SENSOR><ERROR> 249: module_sensor_offload_init_config: failed to get led off frame skip time
+06-10 06:43:26.355   669   669 E mm-camera: <MCT   ><ERROR> 179: stop_sof_check_thread: Returning as SOF timer thread not yet initialized
+06-10 06:43:26.368     0     0 I msm_csid_init: CSID_VERSION = 0x30050000
+06-10 06:43:26.372     0     0 I MSM-CPP cpp_init_hardware: 1135 CPP HW Version: 0x60010002
+06-10 06:43:26.372     0     0 E MSM-CPP cpp_init_hardware: 1153 stream_cnt:0
+06-10 06:43:26.395   669  1237 I mm-camera: <MCT   >< INFO> 310: mct_controller_destroy: Initiating destroy sequence for session = 3
+06-10 06:43:26.395   669  1237 I mm-camera: <MCT   >< INFO> 5404: mct_pipeline_stop_session: Initiating stop_session on session 3
+06-10 06:43:26.407     0     0 I msm_cci_init: 1440: hw_version = 0x10060000
+06-10 06:43:26.500   669  1237 E mm-camera: <MCT   ><ERROR> 179: stop_sof_check_thread: Returning as SOF timer thread not yet initialized
+06-10 06:43:26.510     0     0 I msm_csid_init: CSID_VERSION = 0x30050000
+06-10 06:43:26.515     0     0 I MSM-CPP cpp_init_hardware: 1135 CPP HW Version: 0x60010002
+06-10 06:43:26.515     0     0 E MSM-CPP cpp_init_hardware: 1153 stream_cnt:0
+06-10 06:43:26.530   669  1389 E QCamera : <HAL><ERROR> initDefaultParameters: 5895: se475x initDefaultParameters() ======start==== CameraId=1
+06-10 06:43:26.531   669  1389 E QCamera : <HAL><ERROR> initDefaultParameters: 6692: se475x barcode_CameraId=1, config m_bRdiMode to true
+06-10 06:43:26.533   669  1389 E QCamera : <HAL><ERROR> initDefaultParameters: 6841: se475x store m_bNoDisplayModeAux=0 to tmp_bNoDisplayMode
+06-10 06:43:26.541   669   669 E QCamera : <HAL><ERROR> deinit: 7099: se475x deinit 
+06-10 06:43:26.542   669   669 I mm-camera: <MCT   >< INFO> 310: mct_controller_destroy: Initiating destroy sequence for session = 4
+06-10 06:43:26.543   669   669 I mm-camera: <MCT   >< INFO> 5404: mct_pipeline_stop_session: Initiating stop_session on session 4
+06-10 06:43:26.548   890   890 I Dpps    : InitPrimaryContextFeatures():324 Dpps feature enable properties are false, skipping primary feature context init
+06-10 06:43:26.550   665   665 D platform_info: platform_info_init: platform info file name is audio_platform_info.xml
+06-10 06:43:26.550   665   665 D platform_info: platform_info_init: Failed to open audio_platform_info.xml, using defaults.
+06-10 06:43:26.550   665   665 E audio_hw_acdb: acdb_init_v2: dlsym error undefined symbol: acdb_loader_init_v4 for acdb_loader_init_v4
+06-10 06:43:26.570   665   665 D         : [ACPH]->ACPH init success
+06-10 06:43:26.594   627   627 D Zygote64Timing: PostZygoteInitGC took to complete: 42ms
+06-10 06:43:26.594   627   627 D Zygote64Timing: ZygoteInit took to complete: 1673ms
+06-10 06:43:26.600   669  1394 E mm-camera: <SENSOR><ERROR> 247: module_sensor_offload_init_config: func_tbl for submodule 4 is NULL
+06-10 06:43:26.600   669  1394 E mm-camera: <SENSOR><ERROR> 249: module_sensor_offload_init_config: failed to get led off frame skip time
+06-10 06:43:26.611   669   669 E mm-camera: <MCT   ><ERROR> 179: stop_sof_check_thread: Returning as SOF timer thread not yet initialized
+06-10 06:43:26.612   665   665 D ACDB-LOADER: ACDB -> init done!
+06-10 06:43:26.612   665   665 D audio_hw_acdb: acdb_init_v2: ACDB Instance ID support after ACDB init:0
+06-10 06:43:26.613   665   665 D sound_trigger_platform: platform_stdev_init Opening device /dev/snd/hwC0D1002 for vad hwdep config
+06-10 06:43:26.613   665   665 D sound_trigger_platform: platform_stdev_init: cannot open device '/dev/snd/hwC0D1002', error:No such file or directory
+06-10 06:43:26.798  1429  1429 I SystemServer: InitBeforeStartServices
+06-10 06:43:26.803  1429  1429 I sysui_multi_action: [757,804,799,boot_system_server_init,801,9127,802,1]
+06-10 06:43:26.865   665   797 E msm8974_platform: platform_init: soundcard: sdm660-snd-card-nonpay supports only default sample rate
+06-10 06:43:26.865   665   797 E msm8974_platform: platform_init: Could not find the symbol acdb_send_audio_cal_v4 from libacdbloader.so
+06-10 06:43:26.865   665   797 E msm8974_platform: platform_init: dlsym error undefined symbol: acdb_loader_init_v4 for acdb_loader_init_v4
+06-10 06:43:26.866   665   797 D platform_info: platform_info_init: platform info file name is audio_platform_info.xml
+06-10 06:43:26.866   665   797 D platform_info: platform_info_init: Failed to open audio_platform_info.xml, using defaults.
+06-10 06:43:26.866   665   797 E audio_hw_acdb: acdb_init_v2: dlsym error undefined symbol: acdb_loader_init_v4 for acdb_loader_init_v4
+06-10 06:43:26.866   665   797 D ACDB-LOADER: ACDB -> already initialized, exit
+06-10 06:43:26.866   665   797 D audio_hw_acdb: acdb_init_v2: ACDB Instance ID support after ACDB init:0
+06-10 06:43:26.866   665   797 D msm8974_platform: ACDB initialized
+06-10 06:43:26.868   665   797 W msm8974_platform: init_be_dai_name_table: sound device  has no hw interface set
+06-10 06:43:26.868   665   797 W msm8974_platform: init_be_dai_name_table: sound device headphones-hifi-filter has no hw interface set
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-and-headphones does not have a valid hw interface set (disregard for combo devices) INT0_MI2S_RX-and-INT0_MI2S_RX
+06-10 06:43:26.868   665   797 W msm8974_platform: init_be_dai_name_table: sound device speaker-and-headphones-hifi-filter has no hw interface set
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-safe-and-headphones does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-SLIMBUS_6_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-and-line does not have a valid hw interface set (disregard for combo devices) INT0_MI2S_RX-and-INT0_MI2S_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-safe-and-line does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-SLIMBUS_6_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-and-headphones-ext-1 does not have a valid hw interface set (disregard for combo devices) INT0_MI2S_RX-and-INT0_MI2S_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-and-headphones-ext-2 does not have a valid hw interface set (disregard for combo devices) INT0_MI2S_RX-and-INT0_MI2S_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-and-hdmi does not have a valid hw interface set (disregard for combo devices) INT0_MI2S_RX-and-HDMI
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-and-display-port does not have a valid hw interface set (disregard for combo devices) INT0_MI2S_RX-and-DISPLAY_PORT
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-and-bt-a2dp does not have a valid hw interface set (disregard for combo devices) INT0_MI2S_RX-and-SLIMBUS_7_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-safe-and-bt-a2dp does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-SLIMBUS_7_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-and-bt-sco does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-SLIMBUS_7_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-safe-and-bt-sco does not have a valid hw interface set (disregard for combo devices) QUAT_TDM_RX_0-and-SLIMBUS_7_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-and-bt-sco-wb does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-SLIMBUS_7_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-safe-and-bt-sco-wb does not have a valid hw interface set (disregard for combo devices) QUAT_TDM_RX_0-and-SLIMBUS_7_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-and-bt-sco-swb does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-SEC_AUX_PCM_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-safe-and-bt-sco-swb does not have a valid hw interface set (disregard for combo devices) QUAT_TDM_RX_0-and-SLIMBUS_7_RX
+06-10 06:43:26.868   665   797 W msm8974_platform: init_be_dai_name_table: sound device wsa-speaker-and-bt-sco has no hw interface set
+06-10 06:43:26.868   665   797 W msm8974_platform: init_be_dai_name_table: sound device wsa-speaker-and-bt-sco-wb has no hw interface set
+06-10 06:43:26.868   665   797 W msm8974_platform: init_be_dai_name_table: sound device wsa-speaker-and-bt-sco-wb has no hw interface set
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-and-usb-headphones does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-USB_AUDIO_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-safe-and-usb-headphones does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-USB_AUDIO_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-and-anc-headphones does not have a valid hw interface set (disregard for combo devices) INT0_MI2S_RX-and-INT0_MI2S_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device speaker-and-anc-fb-headphones does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-SLIMBUS_6_RX
+06-10 06:43:26.868   665   797 W msm8974_platform: init_be_dai_name_table: sound device speaker-protected has no hw interface set
+06-10 06:43:26.868   665   797 W msm8974_platform: init_be_dai_name_table: sound device speaker-protected-vbat has no hw interface set
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device voice-speaker-and-voice-headphones does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-SLIMBUS_6_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device voice-speaker-and-voice-anc-headphones does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-SLIMBUS_6_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device voice-speaker-and-voice-anc-fb-headphones does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-SLIMBUS_6_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device voice-speaker-stereo-and-voice-headphones does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-SLIMBUS_6_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device voice-speaker-stereo-and-voice-anc-headphones does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-SLIMBUS_6_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device voice-speaker-stereo-and-voice-anc-fb-headphones does not have a valid hw interface set (disregard for combo devices) SLIMBUS_0_RX-and-SLIMBUS_6_RX
+06-10 06:43:26.868   665   797 D msm8974_platform: init_be_dai_name_table: sound device hearing-aid does not have a valid hw interface set (disregard for combo devices) BT_RX
+06-10 06:43:26.869   665   797 W msm8974_platform: init_be_dai_name_table: sound device usb-headset-mic has no hw interface set
+06-10 06:43:26.869   665   797 W msm8974_platform: init_be_dai_name_table: sound device usb-headset-mic has no hw interface set
+06-10 06:43:26.869   665   797 W msm8974_platform: init_be_dai_name_table: sound device handset-6mic has no hw interface set
+06-10 06:43:26.869   665   797 W msm8974_platform: init_be_dai_name_table: sound device handset-8mic has no hw interface set
+06-10 06:43:26.869   665   797 W msm8974_platform: init_be_dai_name_table: sound device (null) has no hw interface set
+06-10 06:43:26.869   665   797 W msm8974_platform: init_be_dai_name_table: sound device (null) has no hw interface set
+06-10 06:43:26.869   665   797 W msm8974_platform: init_be_dai_name_table: sound device incall-rec-rx-tx has no hw interface set
+06-10 06:43:26.869   665   797 W msm8974_platform: init_be_dai_name_table: sound device ec-ref-loopback has no hw interface set
+06-10 06:43:26.869   665   797 W msm8974_platform: init_be_dai_name_table: sound device handset-dmic-and-ec-ref-loopback has no hw interface set
+06-10 06:43:26.869   665   797 W msm8974_platform: init_be_dai_name_table: sound device handset-qmic-and-ec-ref-loopback has no hw interface set
+06-10 06:43:26.869   665   797 W msm8974_platform: init_be_dai_name_table: sound device handset-6mic-and-ec-ref-loopback has no hw interface set
+06-10 06:43:26.869   665   797 W msm8974_platform: init_be_dai_name_table: sound device handset-8mic-and-ec-ref-loopback has no hw interface set
+06-10 06:43:26.869   665   797 D msm8974_platform: platform_init: Fluence_Type(0) max_mic_count(1) mic_type(0x1) fluence_in_voice_call(0) fluence_in_voice_rec(0) fluence_in_spkr_mode(0) fluence_in_hfp_call(0)fluence_sb_enabled(0)
+06-10 06:43:26.869   665   797 D a2dp_offload: a2dp_source_init START
+06-10 06:43:26.875   665   797 D a2dp_offload: calling BT module preinit
+06-10 06:43:26.880   665   797 I btaudio_offload_qti: bt_audio_pre_init_qti: IBluetoothAudioProvidersFactory registration succeded
+06-10 06:43:26.883   665   797 D audio_hw_spkr_prot: spkr_prot_init: Initialize speaker protection module
+06-10 06:43:26.883   665   797 D audio_hw_spkr_prot: spkr_prot_init: Speaker protection disabled
+06-10 06:43:26.905   665   797 I soundtrigger: audio_extn_sound_trigger_init: Enter
+06-10 06:43:26.906   665   797 I soundtrigger: audio_extn_sound_trigger_init: DLOPEN successful for /vendor/lib/hw/sound_trigger.primary.sdm660.so
+06-10 06:43:26.906   665   797 D soundtrigger: audio_extn_sound_trigger_init: sthal is using proprietary API version 0x0101
+06-10 06:43:26.926   665   665 D volume_listener: init_once Called 
+06-10 06:43:26.927   665   665 D volume_listener: init_once: using default volume table
+
+
+
+
+
+
+
+06-10 06:43:27.028   710   710 E APM_AudioPolicyManager: initialize: Input device list is empty!
+06-10 06:43:27.028   710   710 E APM_AudioPolicyManager: initialize: Input device list is empty!
+06-10 06:43:27.035   710   710 E APM_AudioPolicyManager: initialize: Input device list is empty!
+06-10 06:43:27.042  1429  1429 D SystemServerTiming: InitBeforeStartServices took to complete: 244ms
+06-10 06:43:27.042   665   797 I r_submix: adev_init_check()
+06-10 06:43:27.061  1429  1472 D SystemServerInitThreadPool: Started executing ReadingSystemConfig
+06-10 06:43:27.167  1429  1472 D SystemServerInitThreadPool: Finished executing ReadingSystemConfig
+06-10 06:43:27.259  1429  1429 I SystemServer: InitPowerManagement
+06-10 06:43:27.260  1429  1429 D SystemServerTiming: InitPowerManagement took to complete: 0ms
+06-10 06:43:27.284  1429  1429 I sysui_multi_action: [757,804,799,boot_package_manager_init_start,801,9609,802,1]
+06-10 06:43:27.704  1429  1520 D SystemServerInitThreadPool: Started executing prepareAppData
+06-10 06:43:27.831  1429  1429 I sysui_multi_action: [757,804,799,boot_package_manager_init_ready,801,10156,802,1]
+06-10 06:43:27.832  1429  1429 I SystemServer: InitAttributerCache
+06-10 06:43:27.832  1429  1429 D SystemServerTiming: InitAttributerCache took to complete: 0ms
+06-10 06:43:27.837  1429  1429 I SystemServer: InitWatchdog
+06-10 06:43:27.838  1429  1429 D SystemServerTiming: InitWatchdog took to complete: 1ms
+06-10 06:43:27.989  1429  1528 D SystemServerInitThreadPool: Started executing StartSensorService
+06-10 06:43:28.006  1429  1528 D SystemServerInitThreadPool: Finished executing StartSensorService
+06-10 06:43:28.036  1429  1536 D SystemServerInitThreadPool: Started executing SecondaryZygotePreload
+06-10 06:43:28.036  1429  1537 D SystemServerInitThreadPool: Started executing SchedulingPolicyService.<init>
+06-10 06:43:28.040  1429  1429 W EntropyMixer: 	at java.io.FileInputStream.<init>(FileInputStream.java:159)
+06-10 06:43:28.040  1429  1429 W EntropyMixer: 	at java.io.FileInputStream.<init>(FileInputStream.java:115)
+06-10 06:43:28.040  1429  1429 W EntropyMixer: 	at com.android.server.EntropyMixer.<init>(EntropyMixer.java:115)
+06-10 06:43:28.040  1429  1429 W EntropyMixer: 	at com.android.server.EntropyMixer.<init>(EntropyMixer.java:97)
+06-10 06:43:28.040  1429  1429 W EntropyMixer: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+06-10 06:43:28.040  1429  1429 W EntropyMixer: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:913)
+06-10 06:43:28.050  1429  1537 D SystemServerInitThreadPool: Finished executing SchedulingPolicyService.<init>
+06-10 06:43:28.095  1429  1429 I SettingsState: 	at com.android.providers.settings.SettingsState.<init>(SettingsState.java:277)
+06-10 06:43:28.095  1429  1429 I SettingsState: 	at com.android.providers.settings.SettingsProvider$SettingsRegistry.<init>(SettingsProvider.java:2412)
+06-10 06:43:28.095  1429  1429 I SettingsState: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+06-10 06:43:28.095  1429  1429 I SettingsState: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:913)
+06-10 06:43:28.100   628   628 D ZygoteInitTiming_lazy: BeginPreload took to complete: 12ms
+06-10 06:43:28.103  1429  1429 I SettingsState: 	at com.android.providers.settings.SettingsState.<init>(SettingsState.java:277)
+06-10 06:43:28.103  1429  1429 I SettingsState: 	at com.android.providers.settings.SettingsProvider$SettingsRegistry.<init>(SettingsProvider.java:2412)
+06-10 06:43:28.103  1429  1429 I SettingsState: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+06-10 06:43:28.103  1429  1429 I SettingsState: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:913)
+06-10 06:43:28.138  1429  1429 D UsbMiscManager: initOnBoot
+06-10 06:43:28.140  1429  1429 D UsbPortHandler-main: initOnBoot
+06-10 06:43:28.140  1429  1429 D UsbPortHandler-main: initOnBoot,roleFlag:3
+06-10 06:43:28.140  1429  1429 D UsbPortHandler-PosHub: initOnBoot, mHubAttached:false
+06-10 06:43:28.183  1429  1429 I InputManager: Initializing input manager, mUseDevInputEventForAudioJack=true
+06-10 06:43:28.228  1429  1429 I SystemServer: WindowManagerServiceOnInitReady
+06-10 06:43:28.238  1429  1429 D SystemServerTiming: WindowManagerServiceOnInitReady took to complete: 10ms
+06-10 06:43:28.239  1429  1561 D SystemServerInitThreadPool: Started executing StartHidlServices
+06-10 06:43:28.243  1429  1561 D SystemServerInitThreadPool: Finished executing StartHidlServices
+06-10 06:43:28.267   628   628 E ActivityRecognitionHardware: activity_recognition HAL is deprecated. class_init is effectively a no-op
+06-10 06:43:28.313  1429  1568 D StorageManagerService: Thinking about init, mBootCompleted=false, mDaemonConnected=true
+06-10 06:43:28.322  1429  1569 D SystemServerInitThreadPool: Started executing UiModeManager.onStart
+06-10 06:43:28.337  1429  1570 D SystemServerInitThreadPool: Started executing PersistentDataBlockService.onStart
+06-10 06:43:28.338  1429  1570 E PersistentDataBlockService: 	at com.android.server.SystemServerInitThreadPool.lambda$submit$0$SystemServerInitThreadPool(SystemServerInitThreadPool.java:72)
+06-10 06:43:28.338  1429  1570 E PersistentDataBlockService: 	at com.android.server.-$$Lambda$SystemServerInitThreadPool$jLyL3DFmbjsFesU5SGktD3NoWSc.run(Unknown Source:6)
+06-10 06:43:28.346  1429  1429 I SystemServer: InitNetworkStackClient
+06-10 06:43:28.347  1429  1569 D SystemServerInitThreadPool: Finished executing UiModeManager.onStart
+06-10 06:43:28.349  1429  1429 D SystemServerTiming: InitNetworkStackClient took to complete: 3ms
+06-10 06:43:28.356  1429  1570 D SystemServerInitThreadPool: Finished executing PersistentDataBlockService.onStart
+06-10 06:43:28.381  1429  1520 D SystemServerInitThreadPool: Finished executing prepareAppData
+06-10 06:43:28.484   628   628 D ZygoteInitTiming_lazy: PreloadClasses took to complete: 384ms
+06-10 06:43:28.486  1429  1429 I ELOPeripheralManager: Init ELOPeripheralManager, service: com.android.server.ELOPeripheralService@d182a3a, SDK API CORE layer version: 1.3.15
+06-10 06:43:28.494   628   628 D ZygoteInitTiming_lazy: CacheNonBootClasspathClassLoaders took to complete: 10ms
+06-10 06:43:28.598   628   628 D ZygoteInitTiming_lazy: PreloadResources took to complete: 104ms
+06-10 06:43:28.621  1429  1429 I UsbDeviceManager: 	at com.android.server.usb.UsbDeviceManager.<init>(UsbDeviceManager.java:265)
+06-10 06:43:28.621  1429  1429 I UsbDeviceManager: 	at com.android.server.usb.UsbService.<init>(UsbService.java:150)
+06-10 06:43:28.621  1429  1429 I UsbDeviceManager: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+06-10 06:43:28.621  1429  1429 I UsbDeviceManager: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:913)
+06-10 06:43:28.656  1429  1472 D SystemServerInitThreadPool: Started executing Init ContextHubSystemService
+06-10 06:43:28.659  1429  1472 D SystemServerInitThreadPool: Finished executing Init ContextHubSystemService
+06-10 06:43:28.725  1429  1528 D SystemServerInitThreadPool: Started executing DevicePolicyManager
+06-10 06:43:28.725  1429  1528 D SystemServerInitThreadPool: Finished executing DevicePolicyManager
+06-10 06:43:28.747  1429  1536 D SystemServerInitThreadPool: Finished executing SecondaryZygotePreload
+06-10 06:43:28.764  1429  1429 E SystemServiceRegistry: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+06-10 06:43:28.764  1429  1429 E SystemServiceRegistry: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:913)
+06-10 06:43:28.837   681   681 E ThermalHAL-TARGET: thermal sensor initialization is failed
+06-10 06:43:28.850   681   681 E ThermalHAL-TARGET: thermal sensor initialization is failed
+06-10 06:43:28.857  1429  1429 I SyncManager: No initial accounts
+06-10 06:43:28.979  1429  1537 D SystemServerInitThreadPool: Started executing WebViewFactoryPreparation
+06-10 06:43:28.982  1429  1537 D SystemServerInitThreadPool: Finished executing WebViewFactoryPreparation
+06-10 06:43:29.072  1429  1429 D VoiceInteractionManagerService: initForUser(0) took to complete: 1ms
+06-10 06:43:29.288  1429  1429 D SystemServerInitThreadPool: Shutdown successful
+06-10 06:43:29.292  1610  1610 I BluetoothBATServiceJni: classInitNative: Enter 
+06-10 06:43:29.292  1610  1610 I BluetoothBATServiceJni: classInitNative: succeeds
+06-10 06:43:29.302   978  1732 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.avc : fd=7
+06-10 06:43:29.321   978  1732 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.325   978  1067 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.366   978  1067 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.avc : fd=7
+06-10 06:43:29.377   978  1067 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.385   978  1067 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.438   978  1067 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.divx : fd=7
+06-10 06:43:29.444   978  1067 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.448   978  1067 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.456  1610  1610 I BluetoothVendorJni: classInitNative: succeeds
+06-10 06:43:29.463  1610  1610 I BluetoothVendorSocketJni: classInitNative: succeeds
+06-10 06:43:29.463  1610  1610 I bt_btif : QTI OMR1 stack: init: start restricted = 0 : niap = 0
+06-10 06:43:29.464  1610  1610 D bt_osi_allocation_tracker: canary initialized
+06-10 06:43:29.464  1610  1846 I bt_stack_manager: event_init_stack is initializing the stack
+06-10 06:43:29.475   978  1067 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.divx311 : fd=7
+06-10 06:43:29.476  1610  1846 I bt_btif_core: btif_init_bluetooth entered
+06-10 06:43:29.478   978  1067 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.482   978  1732 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.501   978  1732 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.divx4 : fd=7
+06-10 06:43:29.514  1786  1786 E ContextImpl: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+06-10 06:43:29.514  1786  1786 E ContextImpl: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:935)
+06-10 06:43:29.514   978  1732 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.516   978  1067 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.520  1610  1846 W bt_device_profile: profile_config_init load config file succesful : /data/misc/bluedroid/bt_profile.conf
+06-10 06:43:29.521  1610  1846 I bt_stack_config: init attempt to load stack conf from /etc/bluetooth/bt_stack.conf
+06-10 06:43:29.525  1610  1846 I bt_btif_core: btif_init_bluetooth finished
+06-10 06:43:29.525  1610  1846 I bt_stack_manager: event_init_stack finished
+06-10 06:43:29.535   978  1732 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.h263 : fd=7
+06-10 06:43:29.539   978  1732 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.546   978  1732 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.555  1880  1880 I WebViewZygoteInit: Starting WebViewZygoteInit
+06-10 06:43:29.581   978  1732 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.hevc : fd=7
+06-10 06:43:29.587   978  1732 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.589   978  1067 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.594  1429  1429 I Telecom : SystemStateHelper: Registering car mode receiver: android.content.IntentFilter@a3c949a: TS.init@AAA
+06-10 06:43:29.605  1610  1610 I BluetoothVendorJni: initNative:: soc_name = cherokee
+06-10 06:43:29.605  1610  1610 I BluetoothVendorJni: initNative:: a2dp_offload_Cap = sbc-aac
+06-10 06:43:29.605  1610  1610 I bt_btif_vendor: init
+06-10 06:43:29.605  1610  1610 I bt_btif_vendor: init done
+06-10 06:43:29.612  1610  1610 I AdapterProperties: init(), maxConnectedAudioDevices, default=5, propertyOverlayed=5, finalValue=5
+06-10 06:43:29.618   978  1067 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.hevc : fd=7
+06-10 06:43:29.624   978  1067 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.626  1880  1880 I WebViewZygoteInit: Beginning application preload for com.android.webview
+06-10 06:43:29.627   978  1067 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.645  1429  1948 I Telecom : CallAudioModeStateMachine: Message received: null.: TS.init->CAMSM.pM_1@AAA
+06-10 06:43:29.647  1429  1429 I Telecom : MissedCallNotifierImpl: reloadFromDatabase: Boot not yet complete -- call log db may not be available. Deferring loading until boot complete for user 0: TS.init@AAA
+06-10 06:43:29.653  1429  1429 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1570 android.content.ContextWrapper.startService:669 com.android.server.telecom.components.TelecomService.initializeTelecomSystem:196 com.android.server.telecom.components.TelecomService.onBind:71 android.app.ActivityThread.handleBindService:3981 
+06-10 06:43:29.676   978  1067 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.mpeg2 : fd=7
+06-10 06:43:29.680   978  1067 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.682   978  1732 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.697  1880  1880 I WebViewZygoteInit: Application preload done
+06-10 06:43:29.699   978  1067 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.mpeg4 : fd=7
+06-10 06:43:29.702   978  1067 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.705  1429  1429 V WiredAccessoryManager: init()
+06-10 06:43:29.705   978  1067 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.725   978  1732 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.vc1 : fd=7
+06-10 06:43:29.733  1804  1804 I TelephonyComponentFactory: initSubscriptionController
+06-10 06:43:29.733   978  1732 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.737   978  1732 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.740  1804  1804 D SubscriptionController: [SubscriptionController] init by Context
+06-10 06:43:29.744  1804  1804 I TelephonyComponentFactory:  initMultiSimSettingController 
+06-10 06:43:29.759   978  1067 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.vc1 : fd=7
+06-10 06:43:29.762   978  1067 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.765   978  1067 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.788   978  1067 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.vp8 : fd=7
+06-10 06:43:29.791   978  1067 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.794   978  1067 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.840  1429  1429 I ExplicitHealthCheckController: Service initialized, syncing requests
+06-10 06:43:29.849   978  1067 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.vp9 : fd=7
+06-10 06:43:29.852  1610  1610 D BtGatt.GattService: classInitNative called
+06-10 06:43:29.852   978  1067 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.852  1610  1610 I BtGatt.JNI: classInitNative(L1024): classInitNative: Success!
+06-10 06:43:29.857   978  1732 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.869  1610  1846 E bt_vnd_log: init_vnd_Logger, Logger Not enabled from config file
+06-10 06:43:29.877  1610  1846 D bt_osi_wakelock: wakelock_initialize_native opening wake locks
+06-10 06:43:29.879  1610  2060 I bt_hci  : hci_initialize
+06-10 06:43:29.882  1610  2060 I bt_hci  : hci_initialize: IBluetoothHci::getService() returned 0x7d620c5f40 (remote)
+06-10 06:43:29.882   668   668 W vendor.qti.bluetooth@1.0-bluetooth_hci: BluetoothHci::initialize()
+06-10 06:43:29.883   668   668 W vendor.qti.bluetooth@1.0-data_handler: DataHandler:: Init()
+06-10 06:43:29.883   668   668 I vendor.qti.bluetooth@1.0-data_handler: Open init_status 0 
+06-10 06:43:29.883   668   668 D vendor.qti.bluetooth@1.0-wake_lock: Init wakelock is initiated 
+06-10 06:43:29.883   668   668 I vendor.qti.bluetooth@1.0-bluetooth_hci: initialize: linking to deathRecipient
+06-10 06:43:29.885   978  1732 I OMX-VDEC-1080P: component_init: OMX.qcom.video.decoder.vp9 : fd=7
+06-10 06:43:29.888   978  1732 I OMX-VDEC-1080P: omx_vdec::component_init() success : fd=7
+06-10 06:43:29.889   668  2065 D vendor.qti.bluetooth@1.0-uart_transport: Init:> soc_type: 3, need_reload: 1
+06-10 06:43:29.890   978  1067 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-10 06:43:29.899   668  2065 I vendor.qti.bluetooth@1.0-uart_transport: InitTransport: opening /dev/ttyHS0
+06-10 06:43:29.902   668  2065 I vendor.qti.bluetooth@1.0-uart_transport: InitTransport: device fd = 8 open @2400 bps
+06-10 06:43:29.916   978  1732 I OMX-VENC: Component_init : OMX.qcom.video.encoder.avc : return = 0x0
+06-10 06:43:29.919   978  1067 I OMX-VENC: Component Deinit
+06-10 06:43:29.938  1632  1632 I ELOPeripheralManager: Init ELOPeripheralManager, service: android.elo.peripheral.IELOPeripheralService$Stub$Proxy@c21059d, SDK API CORE layer version: 1.3.15
+06-10 06:43:29.941   978  1732 I OMX-VENC: Component_init : OMX.qcom.video.encoder.h263 : return = 0x0
+06-10 06:43:29.943   978  1067 I OMX-VENC: Component Deinit
+06-10 06:43:29.946   668  2065 I vendor.qti.bluetooth@1.0-uart_transport: DeInitTransport: Transport is being closed!
+06-10 06:43:29.964   978  1734 I OMX-VENC: Component_init : OMX.qcom.video.encoder.hevc : return = 0x0
+06-10 06:43:29.967   978  1067 I OMX-VENC: Component Deinit
+06-10 06:43:29.983   978  1734 I OMX-VENC: Component_init : OMX.qcom.video.encoder.mpeg4 : return = 0x0
+06-10 06:43:29.986   978  1067 I OMX-VENC: Component Deinit
+06-10 06:43:30.016   978  1734 I OMX-VENC: Component_init : OMX.qcom.video.encoder.vp8 : return = 0x0
+06-10 06:43:30.019   978  1067 I OMX-VENC: Component Deinit
+06-10 06:43:30.034   995  1551 V C2Store : in init
+06-10 06:43:30.046   668  2065 I vendor.qti.bluetooth@1.0-uart_transport: InitTransport: opening /dev/ttyHS0
+06-10 06:43:30.047   668  2065 I vendor.qti.bluetooth@1.0-uart_transport: InitTransport: device fd = 8 open @115200 bps
+06-10 06:43:30.050   995  1551 V C2Store : in init
+06-10 06:43:30.057   995  1551 V C2Store : in init
+06-10 06:43:30.064   995  1551 V C2Store : in init
+06-10 06:43:30.069   995  1551 V C2Store : in init
+06-10 06:43:30.074   995  1551 V C2Store : in init
+06-10 06:43:30.075   668  2065 I vendor.qti.bluetooth@1.0-uart_transport: Init:send out poweron signal
+06-10 06:43:30.075   668  2065 I vendor.qti.bluetooth@1.0-uart_transport: DeInitTransport: Transport is being closed!
+06-10 06:43:30.075   668  2065 I vendor.qti.bluetooth@1.0-uart_transport: InitTransport: opening /dev/ttyHS0
+06-10 06:43:30.076   668  2065 I vendor.qti.bluetooth@1.0-uart_transport: InitTransport: HW flow control enabled
+06-10 06:43:30.076   668  2065 I vendor.qti.bluetooth@1.0-uart_transport: InitTransport: device fd = 8 open @115200 bps
+06-10 06:43:30.081   995  1551 V C2Store : in init
+06-10 06:43:30.090   995  1551 V C2Store : in init
+06-10 06:43:30.098   995  1551 V C2Store : in init
+06-10 06:43:30.103   995  1551 V C2Store : in init
+06-10 06:43:30.109   995  1551 V C2Store : in init
+06-10 06:43:30.113   995  1551 V C2Store : in init
+06-10 06:43:30.118   995  1551 V C2Store : in init
+06-10 06:43:30.122   995  1551 V C2Store : in init
+06-10 06:43:30.126   995  1551 V C2Store : in init
+06-10 06:43:30.131   995  1551 V C2Store : in init
+06-10 06:43:30.136   995  1551 V C2Store : in init
+06-10 06:43:30.142  1429  1543 D UsbPortHandler-main: doHubInit
+06-10 06:43:30.143   995  1551 V C2Store : in init
+06-10 06:43:30.168   995  1551 V C2Store : in init
+06-10 06:43:30.173   995  1551 V C2Store : in init
+06-10 06:43:30.177   668  2065 D vendor.qti.bluetooth@1.0-ibs_handler: InitInt: tty_fd = 8
+06-10 06:43:30.179     0     0 E init    : Unable to set property 'wc_transport.stack_bdaddr' to '1C:EE:C9:1A:51:8A' from uid:1002 gid:1002 pid:668: SELinux permission check failed
+06-10 06:43:30.180   668  2065 I vendor.qti.bluetooth@1.0-patch_dl_manager:  SocInit 
+06-10 06:43:30.182   995  1551 V C2Store : in init
+06-10 06:43:30.188   668  2065 I vendor.qti.bluetooth@1.0-patch_dl_manager: SocInit: Chipset Version (0x40010214000a0201)
+06-10 06:43:30.188   995  1551 V C2Store : in init
+06-10 06:43:30.194   995  1551 V C2Store : in init
+06-10 06:43:30.203   995  1551 V C2Store : in init
+06-10 06:43:30.207   995  1551 V C2Store : in init
+06-10 06:43:30.210   668  2065 I vendor.qti.bluetooth@1.0-patch_dl_manager: SocInit: Baud rate changed successfully 
+06-10 06:43:30.210   995  1551 V C2Store : in init
+06-10 06:43:30.218   995  1551 V C2Store : in init
+06-10 06:43:30.225   995  1551 V C2Store : in init
+06-10 06:43:30.229   995  1551 V C2Store : in init
+06-10 06:43:30.233   995  1551 V C2Store : in init
+06-10 06:43:30.254   995  1551 V C2Store : in init
+06-10 06:43:30.259   995   995 V C2Store : in init
+06-10 06:43:30.263   995  1551 V C2Store : in init
+06-10 06:43:30.266   995  2115 V C2Store : in init
+06-10 06:43:30.268   995  1104 V C2Store : in init
+06-10 06:43:30.270   995  1104 V C2Store : in init
+06-10 06:43:30.273   995   995 V C2Store : in init
+06-10 06:43:30.276   995  1104 V C2Store : in init
+06-10 06:43:30.280   995  2116 V C2Store : in init
+06-10 06:43:30.284   995   995 V C2Store : in init
+06-10 06:43:30.286   995  2115 V C2Store : in init
+06-10 06:43:30.289   995  1104 V C2Store : in init
+06-10 06:43:30.292   995  1104 V C2Store : in init
+06-10 06:43:30.295   995  2114 V C2Store : in init
+06-10 06:43:30.297   995  2115 V C2Store : in init
+06-10 06:43:30.300   995  2117 V C2Store : in init
+06-10 06:43:30.304   995  1551 V C2Store : in init
+06-10 06:43:30.310   995  2116 V C2Store : in init
+06-10 06:43:30.313   995  2115 V C2Store : in init
+06-10 06:43:30.316   995  1104 V C2Store : in init
+06-10 06:43:30.319   995  2116 V C2Store : in init
+06-10 06:43:30.321   995  2117 V C2Store : in init
+06-10 06:43:30.324   995  2115 V C2Store : in init
+06-10 06:43:30.326   995  1104 V C2Store : in init
+06-10 06:43:30.329   995  2117 V C2Store : in init
+06-10 06:43:30.332   995  2115 V C2Store : in init
+06-10 06:43:30.335   995  1104 V C2Store : in init
+06-10 06:43:30.338   995  2117 V C2Store : in init
+06-10 06:43:30.341   995  2117 V C2Store : in init
+06-10 06:43:30.345   995  2114 V C2Store : in init
+06-10 06:43:30.773     0     0 I init    : Service 'bootanim' (pid 1298) exited with status 0
+06-10 06:43:30.926  1429  1568 D StorageManagerService: Thinking about init, mBootCompleted=true, mDaemonConnected=true
+06-10 06:43:30.953     0     0 I init    : processing action (sys.boot_completed=1) from (/init.rc:819)
+06-10 06:43:30.954     0     0 I init    : starting service 'exec 17 (/bin/rm -rf /data/per_boot)'...
+06-10 06:43:30.958     0     0 I init    : SVC_EXEC service 'exec 17 (/bin/rm -rf /data/per_boot)' pid 2160 (uid 1000 gid 1000+0 context default) started; waiting...
+06-10 06:43:30.978     0     0 I init    : Service 'exec 17 (/bin/rm -rf /data/per_boot)' (pid 2160) exited with status 0 waiting took 0.020000 seconds
+06-10 06:43:30.979     0     0 I init    : Setting per_boot key on /data/per_boot
+06-10 06:43:30.979     0     0 I init    : Setting policy on /data/per_boot
+06-10 06:43:30.979     0     0 I init    : Policy for /data/per_boot set to d321120e0139f743 modes 127/4
+06-10 06:43:30.980     0     0 W         : Boot completed
+06-10 06:43:31.041  1429  1476 I am_proc_start: [0,2168,10114,com.android.deskclock,broadcast,{com.android.deskclock/com.android.deskclock.AlarmInitReceiver}]
+06-10 06:43:31.041  1429  1476 I ActivityManager: Start proc 2168:com.android.deskclock/u0a114 for broadcast {com.android.deskclock/com.android.deskclock.AlarmInitReceiver}
+06-10 06:43:31.053  2161  2161 I auditd  : type=1400 audit(0.0:5): avc: denied { dac_override } for comm="init.qcom.post_" capability=1 scontext=u:r:qti_init_shell:s0 tcontext=u:r:qti_init_shell:s0 tclass=capability permissive=0
+06-10 06:43:31.053  2161  2161 W init.qcom.post_: type=1400 audit(0.0:5): avc: denied { dac_override } for capability=1 scontext=u:r:qti_init_shell:s0 tcontext=u:r:qti_init_shell:s0 tclass=capability permissive=0
+06-10 06:43:31.087  2163  2163 I sysui_multi_action: [757,804,799,ro.boottime.init.cold_boot_wait,801,1462,802,1]
+06-10 06:43:31.087  2163  2163 I sysui_multi_action: [757,804,799,ro.boottime.init,801,1287,802,1]
+06-10 06:43:31.087  2163  2163 I sysui_multi_action: [757,804,799,ro.boottime.init.selinux,801,118,802,1]
+06-10 06:43:31.159   668  2065 I vendor.qti.bluetooth@1.0-patch_dl_manager: SocInit: Download TLV file successfully 
+06-10 06:43:31.297  2168  2168 I AlarmClock: AlarmInitReceiver android.intent.action.LOCKED_BOOT_COMPLETED
+06-10 06:43:31.329  2168  2210 V AlarmClock: AlarmInitReceiver finished
+06-10 06:43:31.360  1804  1804 D ONSNetworkScanCtlr: init called
+06-10 06:43:31.363  1804  1804 D ONSProfileSelector: ONSProfileSelector init complete
+06-10 06:43:31.488   668  2065 I vendor.qti.bluetooth@1.0-diag_interface: Init: Init diag completed
+06-10 06:43:31.489   668  2065 D vendor.qti.bluetooth@1.0-logger: Init: Registered Diag callbacks
+06-10 06:43:31.489   668  2065 D vendor.qti.bluetooth@1.0-uart_controller: Init succeded
+06-10 06:43:31.534   668   668 D vendor.qti.bluetooth@1.0-data_handler: isProtocolInitialized:
+06-10 06:43:31.535   668   668 I vendor.qti.bluetooth@1.0-data_handler: isProtocolInitialized: status:1
+06-10 06:43:31.544  1610  2256 V bt_stack: [VERBOSE1:ble_advertiser_hci_interface.cc(770)] Initialize
+06-10 06:43:31.557  1610  2256 I bt_stack: [INFO:btm_ble_bgconn.cc(420)] Already connection initiated (or) No Pending connections(or) Resources of lcb are exhausted
+06-10 06:43:31.563  2161  2161 I auditd  : type=1400 audit(0.0:6): avc: denied { kill } for comm="init.qcom.post_" capability=5 scontext=u:r:qti_init_shell:s0 tcontext=u:r:qti_init_shell:s0 tclass=capability permissive=0
+06-10 06:43:31.563  2161  2161 W init.qcom.post_: type=1400 audit(0.0:6): avc: denied { kill } for capability=5 scontext=u:r:qti_init_shell:s0 tcontext=u:r:qti_init_shell:s0 tclass=capability permissive=0
+06-10 06:43:31.564  1429  1475 D VoiceInteractionManagerService: initForUser(0) took to complete: 0ms
+06-10 06:43:31.618  1610  1610 D BluetoothOppFileProvider: Initialized
+06-10 06:43:31.781  1610  1610 I BluetoothA2dpServiceJni: classInitNative: succeeds
+06-10 06:43:31.783  1610  1610 I BluetoothAvrcpServiceJni: classInitNative: succeeds
+06-10 06:43:31.817  1610  1610 V Avrcp_ext: initMediaPlayerInfoList: 0 controllers
+06-10 06:43:31.822  2334  2334 E /vendor/bin/cdsprpcd: vendor/qcom/proprietary/commonsys-intf/adsprpc/src/adspmsgd.c:93:adspmsgd_init failed with error -1
+06-10 06:43:31.823  1610  1610 D Avrcp_ext: User already unlocked, initializing player lists
+06-10 06:43:31.823  2334  2334 V /vendor/bin/cdsprpcd: vendor/qcom/proprietary/commonsys-intf/adsprpc/src/fastrpc_perf.c:213: fastrpc_perf_init: enabled RPC traces (kernel 0, dsp 0) with frequency 1000
+06-10 06:43:31.842  1925  1925 V Launcher: LauncherAppState initiated
+06-10 06:43:31.848  1610  1610 D a2dp_codec: init
+06-10 06:43:31.848  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.848  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.848  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.848  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.848  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.848  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.848  1610  1610 D a2dp_codec: init
+06-10 06:43:31.848  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.848  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.848  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.848  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.848  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.848  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.848  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.848  1610  1610 D a2dp_codec: init
+06-10 06:43:31.849  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.849  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.849  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.849  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.849  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.849  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.849  1610  1610 D a2dp_codec: init
+06-10 06:43:31.849  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.849  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.849  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.849  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.849  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.849  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.849  1610  1610 D a2dp_codec: init
+06-10 06:43:31.849  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.849  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.849  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.849  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.849  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.849  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.849  1610  1610 D a2dp_codec: init
+06-10 06:43:31.849  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.849  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.849  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.849  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.850  1610  1610 D a2dp_codec: init
+06-10 06:43:31.850  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.850  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.850  1610  1610 D a2dp_codec: init
+06-10 06:43:31.850  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.850  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.850  1610  1610 D a2dp_codec: init
+06-10 06:43:31.850  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.850  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.850  1610  1610 D a2dp_codec: init
+06-10 06:43:31.850  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.850  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.850  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.850  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.851  1610  1610 D a2dp_codec: init
+06-10 06:43:31.851  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.851  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.851  1610  1610 D a2dp_codec: init
+06-10 06:43:31.851  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.851  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.851  1610  1610 D a2dp_codec: init
+06-10 06:43:31.851  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.851  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.851  1610  1610 D a2dp_codec: init
+06-10 06:43:31.851  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.851  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.851  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.851  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.852  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.852  1610  1610 D a2dp_codec: init
+06-10 06:43:31.852  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.852  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.852  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.852  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.852  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.852  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.852  1610  1610 D a2dp_codec: init
+06-10 06:43:31.852  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.852  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.852  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.852  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.852  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.852  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.853  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.853  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.853  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.853  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.853  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.853  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.853  1610  1610 D a2dp_codec: init
+06-10 06:43:31.853  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.853  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.853  1610  1610 D a2dp_codec: init
+06-10 06:43:31.853  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.855  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.855  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.855  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.855  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.855  1610  1610 D a2dp_codec: init
+06-10 06:43:31.855  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.855  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.855  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.855  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.855  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.855  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: updated aptX-TWS codec priority to -1
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: initialized Source codec AAC
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: initialized Source codec SBC
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: initialized Sink codec SBC(Sink)
+06-10 06:43:31.855  1610  1610 D a2dp_codec: init
+06-10 06:43:31.855  1610  1610 D a2dp_sbc: init: SBC enabled in HW mode
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: updated SBC codec priority to 1001
+06-10 06:43:31.855  1610  1610 D a2dp_aac: init: AAC enabled in HW mode
+06-10 06:43:31.855  1610  1610 I a2dp_codec: init: updated AAC codec priority to 2001
+06-10 06:43:31.856  1610  1610 D a2dp_vendor_aptx: init: APTX enabled in HW mode
+06-10 06:43:31.856  1610  1610 I a2dp_codec: init: updated aptX codec priority to -1
+06-10 06:43:31.856  1610  1610 D a2dp_vendor_aptx_hd: init: APTX-HD enabled in HW mode
+06-10 06:43:31.856  1610  1610 I a2dp_codec: init: updated aptX-HD codec priority to -1
+06-10 06:43:31.856  1610  1610 D a2dp_vendor_aptx_adaptive: init: APTX-Adaptive enabled in HW mode
+06-10 06:43:31.856  1610  1610 I a2dp_codec: init: updated aptX-adaptive codec priority to -1
+06-10 06:43:31.856  1610  1610 D a2dp_vendor_ldac: init: LDAC enabled in HW mode
+06-10 06:43:31.856  1610  1610 I a2dp_codec: init: updated LDAC codec priority to -1
+06-10 06:43:31.867  1610  1610 I BluetoothHidHostServiceJni: classInitNative: succeeds
+06-10 06:43:31.890  1610  1610 V BluetoothHidDeviceServiceJni: classInitNative: done
+06-10 06:43:31.890  1610  1610 V BluetoothHidDeviceServiceJni: initNative enter
+06-10 06:43:31.891  1610  1610 V BluetoothHidDeviceServiceJni: initNative done
+06-10 06:43:31.971  2337  2337 D NativeNfcManager: INqNfc 1.1 interface not initialized yet. Getting INqNfcV1_1 Service
+06-10 06:43:32.074  2337  2337 I         : [0610/064332.074528:INFO:NfcAdaptation.cc(712)] NfcAdaptation::InitializeHalDeviceContext: Try INfcV1_1::getService()
+06-10 06:43:32.076  2337  2337 I         : [0610/064332.076421:INFO:NfcAdaptation.cc(725)] NfcAdaptation::InitializeHalDeviceContext: INfc::getService() returned 0x7d620c3fc0 (remote)
+06-10 06:43:32.076  2337  2337 I         : [0610/064332.076673:INFO:NfcAdaptation.cc(729)] NfcAdaptation::InitializeHalDeviceContext: Try INqNfcV1_1::getService()
+06-10 06:43:32.084  2337  2337 I         : [0610/064332.084718:INFO:NfcAdaptation.cc(738)] NfcAdaptation::InitializeHalDeviceContext: INqNfc::getService() returned 0x7d620c4420 (remote)
+06-10 06:43:32.087   891   891 D         : phNxpLog_InitializeLogLevel: global =1, Fwdnld =3, extns =3,                 hal =3, tml =3, ncir =3,                 ncix =3
+06-10 06:43:32.087   891   891 D NxpHal  : Entering phNxpNciHal_init_monitor
+06-10 06:43:32.096   693   773 W libc    : Unable to set property "vendor.target.init.complete" to "1": connection failed; errno=13 (Permission denied)
+06-10 06:43:32.166  2337  2337 I         : [0610/064332.166564:INFO:NativeNfcManager.cpp(580)] initializeGlobalDebugEnabledFlag: level=1
+06-10 06:43:32.166  2337  2337 I         : [0610/064332.166681:INFO:NativeNfcManager.cpp(588)] initializeMfcReaderOption: mifare reader option=1
+06-10 06:43:32.166  2337  2337 I         : [0610/064332.166741:INFO:NativeNfcManager.cpp(1495)] nfcManager_initNativeStruc: enter
+06-10 06:43:32.167  2337  2337 I         : [0610/064332.167010:INFO:NativeNfcManager.cpp(1571)] nfcManager_initNativeStruc: exit
+06-10 06:43:32.169  2337  2337 W System.err: 	at com.android.nfc.NfcService.<init>(NfcService.java:644)
+06-10 06:43:32.169  2337  2337 W System.err: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+06-10 06:43:32.169  2337  2337 W System.err: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:935)
+06-10 06:43:32.324  2337  2630 I         : [0610/064332.324236:INFO:NativeNfcManager.cpp(580)] initializeGlobalDebugEnabledFlag: level=1
+06-10 06:43:32.324  2337  2630 I         : [0610/064332.324393:INFO:NativeNfcManager.cpp(2225)] nfcManager_doInitialize:  MW Version: NFC_AR_00_18c0_10.03.00
+06-10 06:43:32.324  2337  2630 I libnfc_nci: [INFO:NfcAdaptation.cc(129)] initializeGlobalDebugEnabledFlag: level=1
+06-10 06:43:32.324  2337  2630 I libnfc_nci: [INFO:NfcAdaptation.cc(451)] NfcAdaptation::Initialize: enter
+06-10 06:43:32.324  2337  2630 I libnfc_nci: [INFO:NfcAdaptation.cc(477)] NfcAdaptation::Initialize: Overriding NFA_POLL_BAIL_OUT_MODE to use 1
+06-10 06:43:32.334  2337  2630 I libnfc_nci: [INFO:NfcAdaptation.cc(514)] Initialize: preserve stack NV store
+06-10 06:43:32.340  2337  2630 I libnfc_nci: [INFO:NfcAdaptation.cc(532)] NfcAdaptation::Initialize: exit
+06-10 06:43:32.340  2337  2630 I libnfc_nci: [INFO:nfa_dm_api.cc(84)] NFA_Init
+06-10 06:43:32.342  2337  2630 I libnfc_nci: [INFO:nfa_dm_main.cc(132)] nfa_dm_init ()
+06-10 06:43:32.342  2337  2630 I libnfc_nci: [INFO:nfa_p2p_main.cc(493)] nfa_p2p_init ()
+06-10 06:43:32.342  2337  2630 I libnfc_nci: [INFO:nfa_rw_main.cc(70)] nfa_rw_init ()
+06-10 06:43:32.342  2337  2630 I libnfc_nci: [INFO:nfa_ce_main.cc(76)] nfa_ce_init ()
+06-10 06:43:32.344  2337  2630 I libnfc_nci: [INFO:nfa_ee_main.cc(130)] nfa_ee_init ()
+06-10 06:43:32.344  2337  2630 I libnfc_nci: [INFO:nfa_scr_main.cc(101)] nfa_scr_init: enter
+06-10 06:43:32.344  2337  2630 I libnfc_nci: [INFO:nfa_scr_main.cc(124)] nfa_scr_init: exit
+06-10 06:43:32.344  2337  2630 I libnfc_nci: [INFO:nfa_hci_main.cc(275)] nfa_hci_init ()
+06-10 06:43:32.344  2337  2630 I libnfc_nci: [INFO:nfa_hci_main.cc(1695)] nfa_hci_init() 20
+06-10 06:43:32.344  2337  2630 I libnfc_nci: [INFO:nfa_hci_main.cc(1701)] nfa_hci_init() 20000
+06-10 06:43:32.346  2337  2630 I libnfc_nci: [INFO:llcp_main.cc(57)] LLCP - llcp_init ()
+06-10 06:43:32.359  2337  2641 I libnfc_nci: [INFO:NfcAdaptation.cc(974)] NfcAdaptation::HalCoreInitialized
+06-10 06:43:32.359   891   891 D NxpHal  : phNxpNciHal_core_initialized::p_core_init_rsp_params : 64
+06-10 06:43:32.460  1834  1834 I ELOPeripheralManager: Init ELOPeripheralManager, service: android.elo.peripheral.IELOPeripheralService$Stub$Proxy@85ecdd, SDK API CORE layer version: 1.3.15
+06-10 06:43:32.474  1610  1610 I BluetoothPhonePolicy: autoConnect: Initiate auto connection on BT on...
+06-10 06:43:32.474  1610  1610 I BluetoothA2dpSinkServiceJni: classInitNative: succeeds
+06-10 06:43:32.505  2337  2641 I libnfc_nci: [INFO:nfa_dm_main.cc(519)] nfa_dm_init_cfgs Enter
+06-10 06:43:32.578  2337  2630 I libnfc_nci: [INFO:phNxpLog.cpp(271)] phNxpLog_InitializeLogLevel: global =1, Fwdnld =3, extns =3,                 hal =3, tml =3, ncir =3,                 ncix =3
+06-10 06:43:32.579  2337  2630 I libnfc_nci: [INFO:SecureElement.cpp(275)] SecureElement::initialize: enter
+06-10 06:43:32.579  2337  2630 I libnfc_nci: [INFO:SecureElement.cpp(280)] SecureElement::initialize: Default destination gate: 0xF0
+06-10 06:43:32.579  2337  2630 I libnfc_nci: [INFO:SecureElement.cpp(405)] SecureElement::initialize: try hci register
+06-10 06:43:32.579  2337  2630 I libnfc_nci: [INFO:SecureElement.cpp(429)] SecureElement::initialize: exit
+06-10 06:43:32.579  2337  2630 I libnfc_nci: [INFO:RoutingManager.cpp(198)] RoutingManager::initialize(): enter
+06-10 06:43:32.579  2337  2630 E libnfc_nci: [ERROR:RoutingManager.cpp(242)] RoutingManager::initialize(): mFwdFuntnEnable=0x1
+06-10 06:43:32.579  2337  2630 E libnfc_nci: [ERROR:RoutingManager.cpp(263)] RoutingManager::initialize(): >>>> mDefaultIso7816SeID=0x0
+06-10 06:43:32.579  2337  2630 E libnfc_nci: [ERROR:RoutingManager.cpp(265)] RoutingManager::initialize(): >>>> mDefaultIso7816Powerstate=0x19
+06-10 06:43:32.579  2337  2630 I libnfc_nci: [INFO:RoutingManager.cpp(358)] RoutingManager::initialize(): try ee register
+06-10 06:43:32.580  2337  2630 I libnfc_nci: [INFO:RoutingManager.cpp(394)] initialize:gSeDiscoverycount=0x3;
+06-10 06:43:32.580  2337  2630 I libnfc_nci: [INFO:RoutingManager.cpp(409)] initialize:seTechMask=0x0;
+06-10 06:43:32.581  2337  2630 I libnfc_nci: [INFO:RoutingManager.cpp(427)] RoutingManager::initialize(): exit
+06-10 06:43:32.581  2337  2630 I libnfc_nci: [INFO:HciRFParams.cpp(100)] HciRFParams::initialize: enter
+06-10 06:43:32.587  2337  2630 I libnfc_nci: [INFO:HciRFParams.cpp(113)] initialize: status 0
+06-10 06:43:32.587  2337  2630 I libnfc_nci: [INFO:HciRFParams.cpp(115)] initialize: tlv_size 74
+06-10 06:43:32.587  2337  2630 I libnfc_nci: [INFO:HciRFParams.cpp(117)] initialize: param_tlvs 1
+06-10 06:43:32.587  2337  2630 I libnfc_nci: [INFO:HciRFParams.cpp(185)] HciRFParams::initialize: exit
+06-10 06:43:32.587  2337  2630 I libnfc_nci: [INFO:MposManager.cpp(112)] initialize:enter, isMposEnabled 0
+06-10 06:43:32.588  2337  2630 I libnfc_nci: [INFO:PeerToPeer.cpp(116)] PeerToPeer::initialize: enter
+06-10 06:43:32.588  2337  2630 I libnfc_nci: [INFO:PeerToPeer.cpp(119)] PeerToPeer::initialize: exit
+06-10 06:43:32.588  2337  2630 I libnfc_nci: [INFO:HciEventManager.cpp(90)] initialize: sEsePipe : 0x0   sSim1Pipe : 0x0  sSim2Pipe : 0x0
+06-10 06:43:32.590  1750  1750 D DpmServiceApp: slm: Initialize SlmService
+06-10 06:43:32.600  2337  2630 I libnfc_nci: [INFO:NativeNfcManager.cpp(2397)] nfcManager_doInitialize: No need to update VEN_CONFIG. Already set to 0x03
+06-10 06:43:32.603  1786  1786 I ELOPeripheralManager: Init ELOPeripheralManager, service: android.elo.peripheral.IELOPeripheralService$Stub$Proxy@eaf0af9, SDK API CORE layer version: 1.3.15
+06-10 06:43:32.612  2337  2630 I libnfc_nci: [INFO:NativeNfcManager.cpp(2430)] nfcManager_doInitialize: tag polling tech mask=0xEF
+06-10 06:43:32.617  2337  2630 I libnfc_nci: [INFO:NativeNfcManager.cpp(2451)] nfcManager_doInitialize: lfT3tMax=4
+06-10 06:43:32.624  2337  2630 I libnfc_nci: [INFO:NativeNfcManager.cpp(2498)] nfcManager_doInitialize: exit
+06-10 06:43:32.635  1786  1786 D SDL     : [f9a84ed0] IAL_Initialize() ...
+06-10 06:43:32.635  1786  1786 D SDL     : [f9a84ed0] SE4500:init_CAM() - SAL_GetSysProperty(ThdPriority) FAILED, using 0
+06-10 06:43:32.635  1786  1786 D SDL     : [f9a84ed0] SE4500:init_CAM() Dev=/dev/video4 Pri=0
+06-10 06:43:32.693  2337  2630 D NfcService: Init wired Se
+06-10 06:43:32.718  1786  1786 D ZebraBCRService: initScanProfiles()
+06-10 06:43:32.722  2337  2337 E NfcService: Error in invoking wiredSeInitialize invocation
+06-10 06:43:32.727  1786  1786 D ScanProfile -sevice: initAllCodeTypeInfo()
+06-10 06:43:32.731  1786  1786 W ScanProfile -sevice: 	at android.elo.zbcr.ScanProfile.<init>(ScanProfile.java:169)
+06-10 06:43:32.731  1786  1786 W ScanProfile -sevice: 	at com.elo.EloCoreApp.ZebraBCRService.initScanProfiles(ZebraBCRService.java:165)
+06-10 06:43:32.731  1786  1786 W ScanProfile -sevice: 	at com.elo.EloCoreApp.ZebraBCRService.<init>(ZebraBCRService.java:143)
+06-10 06:43:32.731  1786  1786 W ScanProfile -sevice: 	at com.elo.EloCoreApp.ZebraBCRService.init(ZebraBCRService.java:115)
+06-10 06:43:32.731  1786  1786 W ScanProfile -sevice: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+06-10 06:43:32.731  1786  1786 W ScanProfile -sevice: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:935)
+06-10 06:43:32.924  2681  2681 I Diag_Lib: Diag_LSM_Init call succeeded
+06-10 06:43:32.929     0     0 I [kworke][363767281][06:43:32.929579] wlan: [719:I:HDD] hdd_soc_probe: 393: probing driver
+06-10 06:43:32.990     0     0 I [kworke][364940290][06:43:32.990673] wlan: [719:W:HIF] hif_snoc_enable_bus: device_init_wakeup already done
+06-10 06:43:33.143   668  2064 E vendor.qti.bluetooth@1.0-wake_lock: Release wake lock not initialized/acquired
+06-10 06:43:33.334  2168  2168 I AlarmClock: AlarmInitReceiver android.intent.action.BOOT_COMPLETED
+06-10 06:43:33.349  2168  2210 V AlarmClock: AlarmInitReceiver finished
+06-10 06:43:33.477  1429  2783 I ELOPartitionManager: Init ELOPartitionManager, service: com.android.server.ELOPartitionService@98ebf08, Version: ELO_FW_Ver: 0.01.001.20140704 aplha
+06-10 06:43:34.012  2831  2831 E ActivityThread: 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1805)
+06-10 06:43:34.014  2831  2831 E ActivityThread: 	at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1805)
+06-10 06:43:34.106     0     0 I [kworke][386367126][06:43:34.106654] wlan: [226:E:QDF] ready_extract_init_status_tlv:0
+06-10 06:43:34.107     0     0 I [kworke][386378226][06:43:34.107232] wlan: [226:E:dfs] WLAN_DEBUG_DFS_ALWAYS : dfs_init_radar_filters: 249: Unknown dfs domain 0
+06-10 06:43:34.107     0     0 W target_if_pdev_spectral_init: 1992: HAL_CAP_PHYDIAG : Capable
+06-10 06:43:34.107     0     0 W target_if_pdev_spectral_init: 1996: HAL_CAP_RADAR   : Capable
+06-10 06:43:34.107     0     0 W target_if_pdev_spectral_init: 2001: HAL_CAP_SPECTRAL_SCAN : Capable
+06-10 06:43:34.157  1429  1476 I am_proc_start: [0,2896,10103,com.android.onetimeinitializer,broadcast,{com.android.onetimeinitializer/com.android.onetimeinitializer.OneTimeInitializerReceiver}]
+06-10 06:43:34.157  1429  1476 I ActivityManager: Start proc 2896:com.android.onetimeinitializer/u0a103 for broadcast {com.android.onetimeinitializer/com.android.onetimeinitializer.OneTimeInitializerReceiver}
+06-10 06:43:34.187  1429  1447 I am_proc_bound: [0,2896,com.android.onetimeinitializer]
+06-10 06:43:34.205     0     0 I [kworke][388271731][06:43:34.205852] wlan: [719:I:HDD] hdd_initialize_mac_address: 11697: using MAC address from platform driver
+06-10 06:43:34.225  2896  2896 I timeinitialize: The ClassLoaderContext is a special shared library.
+06-10 06:43:34.253  2896  2896 V OneTimeInitializerReceiver: OneTimeInitializerReceiver.onReceive
+06-10 06:43:36.112  2397  2397 I tflite  : Initialized TensorFlow Lite runtime.
+06-10 06:43:37.990     0     0 I init    : Received control message 'stop' for 'idmap2d' from pid: 1429 (system_server)
+06-10 06:43:37.990     0     0 I init    : Sending signal 9 to service 'idmap2d' (pid 914) process group...
+06-10 06:43:37.999     0     0 I init    : Service 'idmap2d' (pid 914) received signal 9
+06-10 06:43:38.152  1429  1542 D UsbMiscManager: handleInitUsbpdUsbMode do nothing, settings empty or same as driver 
+06-10 06:43:39.242  2896  2916 I timeinitialize: Waiting for a blocking GC ProfileSaver
+06-10 06:43:39.252  2896  2916 I timeinitialize: WaitForGcToComplete blocked ProfileSaver on ClassLinker for 9.912ms
+06-10 06:43:58.486  1429  1474 I am_pss  : [2896,10103,com.android.onetimeinitializer,4935680,3051520,0,87420928,0,20,8]

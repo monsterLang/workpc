@@ -1,0 +1,219 @@
+01-07 22:16:56.351  1739  1739 D CAT     : com.android.stk.StkAppService: onDestroy()
+01-08 01:20:27.914  5480  5480 I main:M2CALL: CallScreen:onDestroy called
+01-08 01:20:27.914  5480  5480 I main:M2CALL: CallFragment:onDestroyView called, callState: CALL_ENDED
+01-08 01:20:27.915  5480  5480 I main:M2CALL: CallView:onDestroy called
+01-08 01:20:27.915  5480  5480 I main:M2CALL: CallMemberLocal:onDestroy
+01-08 01:20:27.916  5480  5480 I main:M2CALL: CallVideoLocal:onDestroyView of CallVideoLocal called
+01-08 01:28:16.544   644  6522 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 01:28:16.544   644  6522 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 154
+01-08 01:28:16.546   644  6522 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 01:28:16.546   644  6522 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 01:28:16.603   644  7480 D audio_hw_primary: adev_open_output_stream: enter: format(0x1) sample_rate(48000) channel_mask(0x1) devices(0x2) flags(0x8001)        stream_handle(0xee2de000) address()
+01-08 01:28:16.603   644  7480 D audio_hw_primary: adev_open_output_stream: Stream (0xee2de000) picks up usecase (audio-playback-voip)
+01-08 01:28:16.757  5480  5480 I main:M2CALL: CallScreen:onDestroy called
+01-08 01:28:16.758  5480  5480 I main:M2CALL: CallFragment:onDestroyView called, callState: CALL_ENDED
+01-08 01:28:16.758  5480  5480 I main:M2CALL: CallView:onDestroy called
+01-08 01:28:16.758  5480  5480 I main:M2CALL: CallMemberRemote:onDestroy
+01-08 01:28:16.759  5480  5480 I main:M2CALL: CallMemberLocal:onDestroy
+01-08 01:28:16.760  5480  5480 I main:M2CALL: CallVideoLocal:onDestroyView of CallVideoLocal called
+01-08 01:28:39.764   644  2684 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 01:28:39.783   644  2684 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 01:28:39.783   644  2684 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 01:28:39.784   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 01:28:39.784   644  2684 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 01:28:39.808   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 01:28:39.808   644  2684 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 154
+01-08 01:28:39.810   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 01:28:39.810   644  2684 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 01:29:55.311   644  2684 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 01:29:55.330   644  2684 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 01:29:55.331   644  2684 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 01:29:55.331   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 01:29:55.331   644  2684 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 01:29:55.355   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 01:29:55.355   644  2684 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 154
+01-08 01:29:55.357   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 01:29:55.357   644  2684 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 01:29:56.730   644   730 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xef7b7180) io_handle(150) source(7) format 1
+01-08 01:29:56.751   644  7394 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xef7b7180) io_handle(158) source(7) format 1
+01-08 01:29:56.776   644  7394 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 01:29:56.777   644  7394 D audio_hw_primary: select_devices: changing use case low-latency-playback output device from(2: speaker, acdb 124) to (22: voice-speaker-stereo, acdb 124)
+01-08 01:29:56.976   644  7394 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 01:29:56.977   644  7394 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 01:29:56.977   644  7394 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 01:29:56.977   644  7394 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 01:29:57.002   644  7394 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 01:29:57.003   644  7394 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 2
+01-08 01:29:57.007   644  7394 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 01:29:57.007   644  7394 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 01:29:57.040   644  8033 D audio_hw_primary: select_devices for use case (audio-record-voip)
+01-08 01:29:57.040   644  8033 D audio_hw_primary: select_devices: changing use case audio-record-voip input device from(0: , acdb -1) to (131: speaker-dmic-endfire, acdb 43)
+01-08 01:29:57.040   644  8033 D audio_hw_primary: enable_snd_device: snd_device(131: speaker-dmic-endfire)
+01-08 01:29:57.053   644  8033 I audio_hw_utils: send_app_type_cfg_for_device CAPTURE app_type 69946, acdb_dev_id 43, sample_rate 48000, snd_device_be_idx 153
+01-08 01:29:57.055   644  8033 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 43 path = 1
+01-08 01:29:57.055   644  8033 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-record-voip
+01-08 01:29:58.291   644  7394 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 01:29:58.291   644  7394 D audio_hw_primary: select_devices: changing use case low-latency-playback output device from(22: voice-speaker-stereo, acdb 124) to (2: speaker, acdb 124)
+01-08 01:29:58.468   644  7394 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 01:29:58.469   644  7394 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 01:29:58.469   644  7394 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 01:29:58.469   644  7394 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 01:29:58.495   644  7394 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 01:29:58.496   644  7394 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 154
+01-08 01:29:58.499   644  7394 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 01:29:58.499   644  7394 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 01:29:58.775   644   728 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 01:30:03.260   644  2684 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 01:30:03.277   644  2684 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 01:30:03.278   644  2684 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 01:30:03.278   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 01:30:03.278   644  2684 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 01:30:03.305   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 01:30:03.307   644  2684 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 154
+01-08 01:30:03.310   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 01:30:03.310   644  2684 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 01:30:03.405   644  7394 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xf0e7da00) io_handle(166) source(7) format 1
+01-08 01:30:03.439   644  7394 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xf0e7dc80) io_handle(174) source(7) format 1
+01-08 01:30:03.458   644  7394 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 01:30:03.458   644  7394 D audio_hw_primary: select_devices: changing use case low-latency-playback output device from(2: speaker, acdb 124) to (22: voice-speaker-stereo, acdb 124)
+01-08 01:30:03.650   644  7394 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 01:30:03.651   644  7394 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 01:30:03.651   644  7394 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 01:30:03.651   644  7394 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 01:30:03.674   644  7394 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 01:30:03.675   644  7394 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 2
+01-08 01:30:03.678   644  7394 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 01:30:03.678   644  7394 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 01:30:03.713   644  8189 D audio_hw_primary: select_devices for use case (audio-record-voip)
+01-08 01:30:03.713   644  8189 D audio_hw_primary: enable_snd_device: snd_device(131: speaker-dmic-endfire)
+01-08 01:30:03.724   644  8189 I audio_hw_utils: send_app_type_cfg_for_device CAPTURE app_type 69946, acdb_dev_id 43, sample_rate 48000, snd_device_be_idx 153
+01-08 01:30:03.726   644  8189 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 43 path = 1
+01-08 01:30:03.726   644  8189 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-record-voip
+01-08 01:30:03.810   644  6522 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 01:30:03.810   644  6522 D audio_hw_primary: select_devices for use case (audio-record-voip)
+01-08 01:30:03.815   644  7968 D audio_hw_primary: select_devices for use case (audio-record-voip)
+01-08 01:36:40.675   644  6522 D audio_hw_primary: adev_open_output_stream: enter: format(0x1) sample_rate(48000) channel_mask(0x1) devices(0x2) flags(0x8001)        stream_handle(0xee2bb000) address()
+01-08 01:36:40.675   644  6522 D audio_hw_primary: adev_open_output_stream: Stream (0xee2bb000) picks up usecase (audio-playback-voip)
+01-08 01:36:44.718   644  6522 D audio_hw_primary: adev_open_output_stream: enter: format(0x1) sample_rate(48000) channel_mask(0x1) devices(0x2) flags(0x8001)        stream_handle(0xee2bb000) address()
+01-08 01:36:44.718   644  6522 D audio_hw_primary: adev_open_output_stream: Stream (0xee2bb000) picks up usecase (audio-playback-voip)
+01-08 01:37:56.449   644  6522 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 01:37:56.449   644  6522 D audio_hw_primary: select_devices: changing use case low-latency-playback output device from(22: voice-speaker-stereo, acdb 124) to (2: speaker, acdb 124)
+01-08 01:37:56.631   644  6522 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 01:37:56.632   644  6522 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 01:37:56.633   644  6522 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 01:37:56.633   644  6522 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 01:37:56.649   644  6522 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 01:37:56.650   644  6522 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 154
+01-08 01:37:56.652   644  6522 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 01:37:56.652   644  6522 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 01:37:56.731   644  7968 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 02:09:15.320   644  7394 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(8000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xf0e7df00) io_handle(182) source(1) format 1
+01-08 02:09:15.358   644  9287 D audio_hw_primary: select_devices for use case (audio-record)
+01-08 02:09:15.363   644  9287 D audio_hw_primary: enable_snd_device: snd_device(111: dmic-endfire)
+01-08 02:09:15.370   644  9287 I audio_hw_utils: send_app_type_cfg_for_device CAPTURE app_type 69938, acdb_dev_id 43, sample_rate 48000, snd_device_be_idx 153
+01-08 02:09:15.372   644  9287 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 43 path = 1
+01-08 02:09:15.372   644  9287 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-record
+01-08 02:10:16.452   644  2684 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 02:10:16.480   644  2684 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 02:10:16.481   644  2684 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 02:10:16.481   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 02:10:16.481   644  2684 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 02:10:16.511   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 02:10:16.512   644  2684 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 154
+01-08 02:10:16.513   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 02:10:16.513   644  2684 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 02:14:54.923   644  6522 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(8000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xf0e7df00) io_handle(190) source(1) format 1
+01-08 02:14:54.964   644  9391 D audio_hw_primary: select_devices for use case (audio-record)
+01-08 02:14:54.970   644  9391 D audio_hw_primary: enable_snd_device: snd_device(111: dmic-endfire)
+01-08 02:14:54.976   644  9391 I audio_hw_utils: send_app_type_cfg_for_device CAPTURE app_type 69938, acdb_dev_id 43, sample_rate 48000, snd_device_be_idx 153
+01-08 02:14:54.978   644  9391 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 43 path = 1
+01-08 02:14:54.978   644  9391 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-record
+01-08 03:03:07.533   644  2684 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 03:03:07.562   644  2684 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 03:03:07.563   644  2684 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 03:03:07.564   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 03:03:07.564   644  2684 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 03:03:07.588   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 03:03:07.589   644  2684 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 154
+01-08 03:03:07.592   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 03:03:07.592   644  2684 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 03:03:16.789   644  2684 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 03:03:16.810   644  2684 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 03:03:16.810   644  2684 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 03:03:16.811   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 03:03:16.811   644  2684 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 03:03:16.836   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 03:03:16.838   644  2684 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 154
+01-08 03:03:16.840   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 03:03:16.840   644  2684 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 03:03:21.512   644  6522 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xf0e7df00) io_handle(198) source(7) format 1
+01-08 03:03:21.532   644   644 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xf0e7df00) io_handle(206) source(7) format 1
+01-08 03:03:21.552   644  6522 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 03:03:21.552   644  6522 D audio_hw_primary: select_devices: changing use case low-latency-playback output device from(2: speaker, acdb 124) to (22: voice-speaker-stereo, acdb 124)
+01-08 03:03:21.753   644  6522 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 03:03:21.754   644  6522 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 03:03:21.755   644  6522 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 03:03:21.755   644  6522 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 03:03:21.784   644  6522 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 03:03:21.786   644  6522 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 2
+01-08 03:03:21.790   644  6522 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 03:03:21.790   644  6522 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 03:03:21.830   644 10600 D audio_hw_primary: select_devices for use case (audio-record-voip)
+01-08 03:03:21.831   644 10600 D audio_hw_primary: enable_snd_device: snd_device(131: speaker-dmic-endfire)
+01-08 03:03:21.840   644 10600 I audio_hw_utils: send_app_type_cfg_for_device CAPTURE app_type 69946, acdb_dev_id 43, sample_rate 48000, snd_device_be_idx 153
+01-08 03:03:21.843   644 10600 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 43 path = 1
+01-08 03:03:21.843   644 10600 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-record-voip
+01-08 03:03:22.554   644  6522 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 03:03:22.554   644  6522 D audio_hw_primary: select_devices: changing use case low-latency-playback output device from(22: voice-speaker-stereo, acdb 124) to (2: speaker, acdb 124)
+01-08 03:03:22.731   644  6522 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 03:03:22.733   644  6522 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 03:03:22.733   644  6522 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 03:03:22.733   644  6522 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 03:03:22.749   644  6522 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 03:03:22.750   644  6522 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 154
+01-08 03:03:22.753   644  6522 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 03:03:22.753   644  6522 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 03:03:22.836   644   644 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 03:03:27.360   644  2684 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 03:03:27.376   644  2684 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 03:03:27.377   644  2684 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 03:03:27.377   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 03:03:27.377   644  2684 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 03:03:27.402   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 03:03:27.403   644  2684 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 154
+01-08 03:03:27.406   644  2684 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 03:03:27.406   644  2684 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 03:03:27.495   644   644 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xef7b6000) io_handle(214) source(7) format 1
+01-08 03:03:27.517   644   644 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xf0e7d280) io_handle(222) source(7) format 1
+01-08 03:03:27.537   644   644 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 03:03:27.537   644   644 D audio_hw_primary: select_devices: changing use case low-latency-playback output device from(2: speaker, acdb 124) to (22: voice-speaker-stereo, acdb 124)
+01-08 03:03:27.732   644   644 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 03:03:27.734   644   644 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 03:03:27.734   644   644 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 03:03:27.734   644   644 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 03:03:27.760   644   644 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 03:03:27.761   644   644 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 2
+01-08 03:03:27.762   644   644 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 03:03:27.762   644   644 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 03:03:27.795   644 10685 D audio_hw_primary: select_devices for use case (audio-record-voip)
+01-08 03:03:27.795   644 10685 D audio_hw_primary: enable_snd_device: snd_device(131: speaker-dmic-endfire)
+01-08 03:03:27.812   644 10685 I audio_hw_utils: send_app_type_cfg_for_device CAPTURE app_type 69946, acdb_dev_id 43, sample_rate 48000, snd_device_be_idx 153
+01-08 03:03:27.814   644 10685 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 43 path = 1
+01-08 03:03:27.814   644 10685 D audio_hw_primary: enable_audio_route: apply mixer and update path: audio-record-voip
+01-08 03:03:27.920   644   728 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 03:03:27.920   644   728 D audio_hw_primary: select_devices for use case (audio-record-voip)
+01-08 03:03:27.941   644   644 D audio_hw_primary: select_devices for use case (audio-record-voip)
+01-08 03:04:28.604   644   728 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 03:04:28.604   644   728 D audio_hw_primary: select_devices for use case (audio-record-voip)
+01-08 03:04:28.621   644   644 D audio_hw_primary: select_devices for use case (audio-record-voip)
+01-08 03:04:29.474   644  6522 D audio_hw_primary: select_devices for use case (low-latency-playback)
+01-08 03:04:29.474   644  6522 D audio_hw_primary: select_devices: changing use case low-latency-playback output device from(22: voice-speaker-stereo, acdb 124) to (2: speaker, acdb 124)
+01-08 03:04:29.655   644  6522 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+01-08 03:04:29.656   644  6522 E audio_hw_utils: send_app_type_cfg_for_device: Could not get ctl for mixer cmd - Audio Stream Capture 40 App Type Cfg
+01-08 03:04:29.657   644  6522 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 102 path = 1
+01-08 03:04:29.657   644  6522 D audio_hw_primary: enable_audio_route: apply mixer and update path: spkr-vi-record
+01-08 03:04:29.684   644  6522 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 4 path = 1
+01-08 03:04:29.686   644  6522 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69937, acdb_dev_id 124, sample_rate 48000, snd_device_be_idx 154
+01-08 03:04:29.689   644  6522 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 124 path = 0
+01-08 03:04:29.689   644  6522 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+01-08 03:04:29.848   644   730 D audio_hw_primary: select_devices for use case (low-latency-playback)

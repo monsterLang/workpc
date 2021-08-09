@@ -1,0 +1,5 @@
+adev_open_output_stream
+adev_open_input_stream
+start_input_stream
+start_output_stream
+audio_route: Apply path:

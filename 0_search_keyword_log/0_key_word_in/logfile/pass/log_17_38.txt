@@ -1,0 +1,4 @@
+03-18 17:20:54.914   661  3593 D audio_hw_primary: select_devices for use case (low-latency-playback)
+03-18 17:20:54.914   661  3593 D audio_hw_primary: select_devices: changing use case low-latency-playback output device from(0: , acdb -1) to (2: speaker, acdb 124)
+03-18 17:20:54.935   661  3593 D audio_hw_primary: enable_snd_device: snd_device(185: vi-feedback)
+03-18 17:20:54.935   661  3593 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 102, path = 1, app id = 0x11132, sample rate = 48000

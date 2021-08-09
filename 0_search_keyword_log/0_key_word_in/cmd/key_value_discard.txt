@@ -1,0 +1,7 @@
+mm-camera
+msm8974_platform
+audio_hw_primary
+soundtrigger
+ACDB-LOADER
+audio_hw_
+audio_route

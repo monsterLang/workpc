@@ -1,0 +1,8 @@
+file_name,p_usecase,p_flag,p_audio_device,p_acdb_id,c_usecase,c_source,c_audio_device,c_acdb_id,snd_device_id_2,acdb_id,set_p_snddev_parameters,app_id
+keyword,start_output_stream: enter: stream,adev_open_output_stream: enter:,adev_open_output_stream: enter:,send_app_type_cfg_for_device PLAYBACK,start_input_stream: enter: stream,adev_open_input_stream: enter: ,adev_open_input_stream: enter: ,send_app_type_cfg_for_device CAPTURE,platform_split_snd_device: snd_device,"send_audio_cal, acdb_id",kvpairs: routing=,ACDB-LOADER: ACDB -> send_audio_cal
+usecase_result\log_nonpayment_record.txt,1: low-latency-playback,"0x6
+0x4
+0x8",0x2,15,20: audio-record,1  AUDIO_SOURCE_MIC,0x80000004  AUDIO_DEVICE_IN_BUILTIN_MIC,4,"2  SND_DEVICE_OUT_SPEAKER  speaker
+102  SND_DEVICE_IN_HANDSET_MIC  handset-mic","15  SPKR_PHONE_SPKR_STEREO
+4  HANDSET_MIC",2  AUDIO_DEVICE_OUT_SPEAKER,"0x11131  ACDB_APPTYPE_SYSTEM_SOUNDS
+0x11132  ACDB_APPTYPE_GENERAL_RECORDING"

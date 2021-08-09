@@ -1,0 +1,16 @@
+06-17 22:07:52.682 12102 12102 D AudioRecord: set(): inputSource 1, sampleRate 16000, format 0x1, channelMask 0x10, frameCount 1280, notificationFrames 0, sessionId 0, transferType 0, flags 0, opPackageName com.record.talent uid -1, pid -1
+06-17 22:07:52.685   722  3764 D APM_AudioPolicyManager: getInputForAttr() source 1, sampling rate 16000, format 0x1, channel mask 0x10, session 201, flags 0 attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_UNKNOWN Source: AUDIO_SOURCE_MIC Flags: 0x800 Tags:  }
+06-17 22:07:52.685   722  3764 V APM::AudioInputDescriptor: opening input for device type:0x80000004,@:bottom profile 0x798b80a500 name primary input
+
+06-17 22:07:52.685   676   790 D audio_hw_primary: adev_open_input_stream: enter: flags 0, is_usb_dev 0, may_use_hifi_record 0, sample_rate 16000, channel_mask 0x10, format 0x1
+
+06-17 22:07:52.685   676   790 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(16000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xeed9a400) io_handle(174) source(1) format 1
+06-17 22:07:52.686   722  3764 D AudioFlinger: openInput_l() openInputStream returned input 0x798b7e6a20, devices 0x80000004, SamplingRate 16000, Format 0x1, Channels 0x10, flags 0, status 0 addr bottom
+06-17 22:08:02.810 12102 12102 D AudioRecord: set(): inputSource 1, sampleRate 16000, format 0x1, channelMask 0x10, frameCount 1280, notificationFrames 0, sessionId 0, transferType 0, flags 0, opPackageName com.record.talent uid -1, pid -1
+06-17 22:08:02.813   722  3764 D APM_AudioPolicyManager: getInputForAttr() source 1, sampling rate 16000, format 0x1, channel mask 0x10, session 209, flags 0 attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_UNKNOWN Source: AUDIO_SOURCE_MIC Flags: 0x800 Tags:  }
+06-17 22:08:02.814   722  3764 V APM::AudioInputDescriptor: opening input for device type:0x80000004,@:bottom profile 0x798b80a500 name primary input
+
+06-17 22:08:02.814   676  2951 D audio_hw_primary: adev_open_input_stream: enter: flags 0, is_usb_dev 0, may_use_hifi_record 0, sample_rate 16000, channel_mask 0x10, format 0x1
+
+06-17 22:08:02.814   676  2951 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(16000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xeed9a680) io_handle(182) source(1) format 1
+06-17 22:08:02.815   722  3764 D AudioFlinger: openInput_l() openInputStream returned input 0x7904c3f7c0, devices 0x80000004, SamplingRate 16000, Format 0x1, Channels 0x10, flags 0, status 0 addr bottom

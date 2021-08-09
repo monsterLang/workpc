@@ -1,0 +1,4 @@
+usecase,usecase_path,p_flag,p_audio_device,p_acdb_id,c_source,c_audio_device,c_acdb_id,snd_device_id,snd_device_id_2,acdb_id
+select_devices for use case,enable_audio_route,adev_open_output_stream: enter:,adev_open_output_stream: enter:,send_app_type_cfg_for_device PLAYBACK,adev_open_input_stream: enter: ,adev_open_input_stream: enter: ,send_app_type_cfg_for_device CAPTURE,enable_snd_device: snd_device,platform_split_snd_device: snd_device,"send_audio_cal, acdb_id"
+case (,path: ,flags(,devices(,acdb_dev_id ,source(,devices(,acdb_dev_id ,snd_device(,snd_device(,acdb_id = 
+),\n',),),",",),),",",),),","

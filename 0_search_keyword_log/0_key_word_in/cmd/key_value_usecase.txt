@@ -1,0 +1,23 @@
+START Rec
+setRecorderPara_
+onDestroy
+setHeadsetDialog
+setSpeakerDialog
+enable_snd_device: snd_device
+fluence=
+hasDualMic =
+select_devices: changing use case 
+audio_hw_primary: adev_open_input_stream: enter:
+adev_open_output_stream
+adev_open_input_stream
+start_input_stream
+Setting audio calibration for snd_device
+send_hw_delay : acdb_id 
+send_app_type_cfg_for_device
+enable_audio_route:
+select_devices for use case
+MediaCodecSource (audio) starting
+usecase->in_snd_device
+Audio Stream Capture
+audio_extn_utils_update_stream_input_app_type_cfg
+app id

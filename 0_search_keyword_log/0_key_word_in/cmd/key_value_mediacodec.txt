@@ -1,0 +1,17 @@
+MediaCodec
+MediaCodecsXmlParser
+OMX-VDEC-1080P
+media
+Codec
+MediaResource
+MediaRouter
+MediaCodecInfo
+OMXNodeInstance
+msm_vidc
+NuPlayer
+OMX
+ExtendedNuUtils
+GenericSource
+MMParserExtractor
+MediaBufferGroup
+Graphic

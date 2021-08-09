@@ -1,0 +1,9 @@
+AudioRecord: set(): inputSource
+APM_AudioPolicyManager: getInputForAttr
+APM::AudioInputDescriptor: opening input
+audio_hw_primary: adev_open_input_stream: enter
+OMXMaster: makeComponentInstance
+int_mi2s_be_hw_params_fixup: format
+msm_pcm_routing_hw_params: BE Sample Rate
+ASoC: hw_params FE
+AudioFlinger: openInput_l() openInputStream

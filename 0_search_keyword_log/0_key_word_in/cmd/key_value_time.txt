@@ -1,0 +1,13 @@
+rtc
+RTC
+QC-time-services
+SetTimeService
+secs =
+read date/time raw!
+Unable to set rtc to
+Current time only
+Youkai: enter AlarmImpl::setTime
+Current Time
+generic offset
+advancing to build time
+TimeService

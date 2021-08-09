@@ -1,0 +1,4 @@
+video_encoder,audio_encoder,video_source,output_format,set_p_snddev_parameters,c_usecase,c_source,c_audio_device,c_acdb_id,snd_device_id_2,acdb_id,app_id
+MediaRecorder: setVideoEncoder,MediaRecorder: setAudioEncoder,MediaRecorder: setVideoSource,MediaRecorder: setOutputFormat,kvpairs: routing=,start_input_stream: enter: stream,adev_open_input_stream: enter: sample_rate,adev_open_input_stream: enter: sample_rate,send_app_type_cfg_for_device CAPTURE,platform_split_snd_device: snd_device,"send_audio_cal, acdb_id",ACDB-LOADER: ACDB -> send_audio_cal
+(,(,(,(,routing=,usecase(,source(,devices(,acdb_dev_id ,snd_device(,acdb_id = ,", app id = "
+),),),),\n',),),),",",),",",","
