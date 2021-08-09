@@ -1,0 +1,17 @@
+file_name,usecase,c_source,audio_dev,acdb_id,snd_dev,snd_dev,app_id_c,app_id_p
+key_word1,select_devices for use case,adev_open_input_stream: enter: sample_rate,adev_open_input_stream: enter: sample_rate,send_app_type_cfg_for_device CAPTURE,enable_snd_device: snd_device,platform_split_snd_device: snd_device,ACDB-LOADER: ACDB -> send_audio_cal,ACDB-LOADER: ACDB -> send_audio_cal
+key_word2,,,,,mic,,path = 1,path = 0
+usecase_result\log_voip_skype_camera_20-35.txt,"30 USECASE_AUDIO_PLAYBACK_VOIP audio-playback-voip
+1 USECASE_AUDIO_PLAYBACK_LOW_LATENCY low-latency-playback
+27 USECASE_AUDIO_RECORD_LOW_LATENCY low-latency-record",7 AUDIO_SOURCE_VOICE_COMMUNICATION,0x80000080 AUDIO_DEVICE_IN_BACK_MIC,43 SPKR_PHONE_MIC_ENDFIRE_FLUENCEV5,131 SND_DEVICE_IN_SPEAKER_DMIC_AEC_NS speaker-dmic-endfire,"2 SND_DEVICE_OUT_SPEAKER speaker
+185 SND_DEVICE_IN_CAPTURE_VI_FEEDBACK vi-feedback
+102 SND_DEVICE_IN_HANDSET_MIC handset-mic
+22 SND_DEVICE_OUT_VOICE_SPEAKER_STEREO voice-speaker-stereo
+131 SND_DEVICE_IN_SPEAKER_DMIC_AEC_NS speaker-dmic-endfire",0x11132 DEFAULT_APP_TYPE_TX_PATH 0x11132 ACDB_APPTYPE_GENERAL_RECORDING,"0x1113a APP_TYPE_VOIP_AUDIO
+0x11131 ACDB_APPTYPE_SYSTEM_SOUNDS"
+usecase_result\log_voip_skype_voice_20-30.txt,"1 USECASE_AUDIO_PLAYBACK_LOW_LATENCY low-latency-playback
+27 USECASE_AUDIO_RECORD_LOW_LATENCY low-latency-record",7 AUDIO_SOURCE_VOICE_COMMUNICATION,0x80000004 AUDIO_DEVICE_IN_BUILTIN_MIC,43 SPKR_PHONE_MIC_ENDFIRE_FLUENCEV5,131 SND_DEVICE_IN_SPEAKER_DMIC_AEC_NS speaker-dmic-endfire,"2 SND_DEVICE_OUT_SPEAKER speaker
+185 SND_DEVICE_IN_CAPTURE_VI_FEEDBACK vi-feedback
+102 SND_DEVICE_IN_HANDSET_MIC handset-mic
+22 SND_DEVICE_OUT_VOICE_SPEAKER_STEREO voice-speaker-stereo
+131 SND_DEVICE_IN_SPEAKER_DMIC_AEC_NS speaker-dmic-endfire",0x11132 DEFAULT_APP_TYPE_TX_PATH 0x11132 ACDB_APPTYPE_GENERAL_RECORDING,0x11131 ACDB_APPTYPE_SYSTEM_SOUNDS

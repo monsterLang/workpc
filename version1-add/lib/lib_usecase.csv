@@ -1,0 +1,81 @@
+,usecase_code,usecase
+,/* Playback usecases */,
+0,USECASE_AUDIO_PLAYBACK_DEEP_BUFFER,deep-buffer-playback
+1,USECASE_AUDIO_PLAYBACK_LOW_LATENCY,low-latency-playback
+2,USECASE_AUDIO_PLAYBACK_MULTI_CH,multi-channel-playback
+3,USECASE_AUDIO_PLAYBACK_OFFLOAD,compress-offload-playback
+4,USECASE_AUDIO_PLAYBACK_OFFLOAD2,compress-offload-playback2
+5,USECASE_AUDIO_PLAYBACK_OFFLOAD3,compress-offload-playback3
+6,USECASE_AUDIO_PLAYBACK_OFFLOAD4,compress-offload-playback4
+7,USECASE_AUDIO_PLAYBACK_OFFLOAD5,compress-offload-playback5
+8,USECASE_AUDIO_PLAYBACK_OFFLOAD6,compress-offload-playback6
+9,USECASE_AUDIO_PLAYBACK_OFFLOAD7,compress-offload-playback7
+10,USECASE_AUDIO_PLAYBACK_OFFLOAD8,compress-offload-playback8
+11,USECASE_AUDIO_PLAYBACK_OFFLOAD9,compress-offload-playback9
+12,USECASE_AUDIO_PLAYBACK_ULL,audio-ull-playback
+13,USECASE_AUDIO_PLAYBACK_MMAP,mmap-playback
+14,USECASE_AUDIO_PLAYBACK_WITH_HAPTICS,audio-with-haptics-playback
+15,USECASE_AUDIO_PLAYBACK_HIFI,hifi-playback
+16,USECASE_AUDIO_PLAYBACK_TTS,audio-tts-playback
+,/* FM usecase */,
+17,USECASE_AUDIO_PLAYBACK_FM,play-fm
+,/* HFP Use case*/,
+18,USECASE_AUDIO_HFP_SCO,hfp-sco
+19,USECASE_AUDIO_HFP_SCO_WB,hfp-sco-wb
+,/* Capture usecases */,
+20,USECASE_AUDIO_RECORD,audio-record
+21,USECASE_AUDIO_RECORD_COMPRESS,audio-record-compress
+22,USECASE_AUDIO_RECORD_COMPRESS2,audio-record-compress2
+23,USECASE_AUDIO_RECORD_COMPRESS3,audio-record-compress3
+24,USECASE_AUDIO_RECORD_COMPRESS4,audio-record-compress4
+25,USECASE_AUDIO_RECORD_COMPRESS5,audio-record-compress5
+26,USECASE_AUDIO_RECORD_COMPRESS6,audio-record-compress6
+27,USECASE_AUDIO_RECORD_LOW_LATENCY,low-latency-record
+28,USECASE_AUDIO_RECORD_FM_VIRTUAL,fm-virtual-record
+29,USECASE_AUDIO_RECORD_HIFI,hifi-record
+30,USECASE_AUDIO_PLAYBACK_VOIP,audio-playback-voip
+31,USECASE_AUDIO_RECORD_VOIP,audio-record-voip
+,/* Voice usecase */,
+32,USECASE_VOICE_CALL,voice-call
+33,USECASE_AUDIO_RECORD_MMAP,mmap-record
+,/* Voice extension usecases */,
+34,USECASE_VOICE2_CALL,voice2-call
+35,USECASE_VOLTE_CALL,volte-call
+36,USECASE_QCHAT_CALL,qchat-call
+37,USECASE_VOWLAN_CALL,vowlan-call
+38,USECASE_VOICEMMODE1_CALL,voicemmode1-call
+39,USECASE_VOICEMMODE2_CALL,voicemmode2-call
+40,USECASE_COMPRESS_VOIP_CALL,compress-voip-call
+41,USECASE_INCALL_REC_UPLINK,incall-rec-uplink
+42,USECASE_INCALL_REC_DOWNLINK,incall-rec-downlink
+43,USECASE_INCALL_REC_UPLINK_AND_DOWNLINK,incall-rec-uplink-and-downlink
+44,USECASE_INCALL_REC_UPLINK_COMPRESS,incall-rec-uplink-compress
+45,USECASE_INCALL_REC_DOWNLINK_COMPRESS,incall-rec-downlink-compress
+46,USECASE_INCALL_REC_UPLINK_AND_DOWNLINK_COMPRESS,incall-rec-uplink-and-downlink-compress
+47,USECASE_INCALL_MUSIC_UPLINK,incall_music_uplink
+48,USECASE_INCALL_MUSIC_UPLINK2,incall_music_uplink2
+49,USECASE_AUDIO_SPKR_CALIB_RX,spkr-rx-calib
+50,USECASE_AUDIO_SPKR_CALIB_TX,spkr-vi-record
+51,USECASE_AUDIO_PLAYBACK_AFE_PROXY,afe-proxy-playback
+52,USECASE_AUDIO_RECORD_AFE_PROXY,afe-proxy-record
+53,USECASE_AUDIO_DSM_FEEDBACK,
+54,USECASE_AUDIO_PLAYBACK_SILENCE,silence-playback
+55,USECASE_AUDIO_TRANSCODE_LOOPBACK_RX,audio-transcode-loopback-rx
+56,USECASE_AUDIO_TRANSCODE_LOOPBACK_TX,audio-transcode-loopback-tx
+57,USECASE_AUDIO_PLAYBACK_INTERACTIVE_STREAM1,audio-interactive-stream1
+58,USECASE_AUDIO_PLAYBACK_INTERACTIVE_STREAM2,audio-interactive-stream2
+59,USECASE_AUDIO_PLAYBACK_INTERACTIVE_STREAM3,audio-interactive-stream3
+60,USECASE_AUDIO_PLAYBACK_INTERACTIVE_STREAM4,audio-interactive-stream4
+61,USECASE_AUDIO_PLAYBACK_INTERACTIVE_STREAM5,audio-interactive-stream5
+62,USECASE_AUDIO_PLAYBACK_INTERACTIVE_STREAM6,audio-interactive-stream6
+63,USECASE_AUDIO_PLAYBACK_INTERACTIVE_STREAM7,audio-interactive-stream7
+64,USECASE_AUDIO_PLAYBACK_INTERACTIVE_STREAM8,audio-interactive-stream8
+65,USECASE_AUDIO_EC_REF_LOOPBACK,ec-ref-audio-capture
+66,USECASE_AUDIO_A2DP_ABR_FEEDBACK,a2dp-abr-feedback
+,/* car streams usecases */,
+67,USECASE_AUDIO_PLAYBACK_MEDIA,media-playback
+68,USECASE_AUDIO_PLAYBACK_SYS_NOTIFICATION,sys-notification-playback
+69,USECASE_AUDIO_PLAYBACK_NAV_GUIDANCE,nav-guidance-playback
+70,USECASE_AUDIO_PLAYBACK_PHONE,phone-playback
+,/*Audio FM Tuner usecase*/,
+71,USECASE_AUDIO_FM_TUNER_EXT,fm-tuner-ext

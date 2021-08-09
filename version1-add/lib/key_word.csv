@@ -1,0 +1,6 @@
+value_name,usecase,c_source,audio_dev,acdb_id,snd_dev,snd_dev,app_id_c,app_id_p
+key_word1,select_devices for use case,adev_open_input_stream: enter: sample_rate,adev_open_input_stream: enter: sample_rate,send_app_type_cfg_for_device CAPTURE,enable_snd_device: snd_device,platform_split_snd_device: snd_device,ACDB-LOADER: ACDB -> send_audio_cal,ACDB-LOADER: ACDB -> send_audio_cal
+key_word2,,,,,mic,,path = 1,path = 0
+value_first,case (,source(,devices(,acdb_dev_id ,snd_device(,snd_device(,", app id = ",", app id = "
+value_end,),),),",",:,),",",","
+list_num,3,,,,3,3,2,2

@@ -1,0 +1,2 @@
+healthd : battery none chg=a
+vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
