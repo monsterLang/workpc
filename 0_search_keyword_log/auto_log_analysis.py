@@ -82,6 +82,6 @@ def get_file_path(path, file_type, func, log_key):
 dir_path="logfile"
 file_type_a=".txt"
 function_a="apply_file"
-log_key="cmd/key_value_format.txt"
+log_key="key_word.txt"
 
 get_file_path(dir_path, file_type_a, function_a,log_key)

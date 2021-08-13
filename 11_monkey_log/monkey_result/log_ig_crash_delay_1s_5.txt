@@ -1,0 +1,4 @@
+args: [--pkg-blacklist-file, /data/blacklist.txt, --throttle, 1000, --ignore-crashes, --ignore-timeouts, --ignore-security-exceptions, --ignore-native-crashes, -v, -v, -v, 100000]
+// NOT RESPONDING: com.google.android.documentsui (pid 14847)
+ANR in com.google.android.documentsui (com.google.android.documentsui/com.android.documentsui.files.FilesActivity)
+Reason: Input dispatching timed out (Waiting to send key event because the focused window has not finished processing all of the input events that were previously delivered to it.  Outbound queue length: 0.  Wait queue length: 1.)

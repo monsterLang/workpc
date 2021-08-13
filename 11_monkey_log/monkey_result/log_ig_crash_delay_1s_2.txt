@@ -1,0 +1,6 @@
+args: [--pkg-blacklist-file, /data/blacklist.txt, --throttle, 1000, --ignore-crashes, --ignore-timeouts, --ignore-security-exceptions, --ignore-native-crashes, -v, -v, -v, 100000]
+// CRASH: com.android.chrome (pid 7839)
+// Short Msg: Native crash
+// Long Msg: Native crash: Trap
+// Build Label: Elo/15in-I-Series-4-USB-C/15in-I-Series-4-USB-C:10/QKQ1.201112.002/5.5.01+p:userdebug/debug,release-keys
+// Monkey finished

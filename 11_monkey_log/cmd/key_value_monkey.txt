@@ -1,0 +1,10 @@
+Monkey aborted due to error
+Monkey finished
+// CRASH: 
+NOT RESPONDING:
+args:
+// Short Msg:
+// Long Msg:
+// Build Label:
+ANR in 
+Reason:

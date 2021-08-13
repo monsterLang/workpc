@@ -1,0 +1,10 @@
+path_file,monkey_status,crash_app,crash_mes,not_respond_app,anr_mes,tombstone,monkey_cmd
+monkey_result/log_ig_crash_delay_1s_03.txt,monkey finish,,,,,,"--pkg-blacklist-file, /data/blacklist.txt, --throttle, 1000, --ignore-crashes, --ignore-timeouts, --ignore-security-exceptions, --ignore-native-crashes, -v, -v, -v, 100000"
+monkey_result/log_ig_crash_delay_1s_02.txt,monkey finish,com.android.chrome,"// CRASH: com.android.chrome (pid 7839)
+// Short Msg: Native crash
+// Long Msg: Native crash: Trap",,,,"--pkg-blacklist-file, /data/blacklist.txt, --throttle, 1000, --ignore-crashes, --ignore-timeouts, --ignore-security-exceptions, --ignore-native-crashes, -v, -v, -v, 100000"
+monkey_result/log_ig_crash_delay_1s_04.txt,monkey finish,,,,,,"--pkg-blacklist-file, /data/blacklist.txt, --throttle, 1000, --ignore-crashes, --ignore-timeouts, --ignore-security-exceptions, --ignore-native-crashes, -v, -v, -v, 100000"
+monkey_result/log_ig_crash_delay_1s_01.txt,monkey finish,,,,,,"--pkg-blacklist-file, /data/blacklist.txt, --throttle, 1000, --ignore-crashes, --ignore-timeouts, --ignore-security-exceptions, --ignore-native-crashes, -v, -v, -v, 100000"
+monkey_result/log_ig_crash_delay_1s_05.txt,monkey not get event,,,com.google.android.documentsui,"// NOT RESPONDING: com.google.android.documentsui (pid 14847)
+ANR in com.google.android.documentsui (com.google.android.documentsui/com.android.documentsui.files.FilesActivity)
+Reason: Input dispatching timed out (Waiting to send key event because the focused window has not finished processing all of the input events that were previously delivered to it.  Outbound queue length: 0.  Wait queue length: 1.)",,"--pkg-blacklist-file, /data/blacklist.txt, --throttle, 1000, --ignore-crashes, --ignore-timeouts, --ignore-security-exceptions, --ignore-native-crashes, -v, -v, -v, 100000"

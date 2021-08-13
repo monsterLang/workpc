@@ -1,0 +1,2 @@
+args: [--pkg-blacklist-file, /data/blacklist.txt, --throttle, 1000, --ignore-crashes, --ignore-timeouts, --ignore-security-exceptions, --ignore-native-crashes, -v, -v, -v, 100000]
+// Monkey finished
