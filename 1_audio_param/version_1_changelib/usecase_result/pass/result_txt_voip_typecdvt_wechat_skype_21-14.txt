@@ -1,0 +1,13 @@
+08-12 21:14:19.039   664 13565 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xf5797400) io_handle(70) source(7) format 1
+08-12 21:14:19.039   664 13565 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xf5797400) io_handle(70) source(7) format 1
+08-12 21:14:19.074   664 13564 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 4, path = 1, app id = 0x11132, sample rate = 48000
+08-12 21:14:19.076   664 13564 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 124, path = 0, app id = 0x11131, sample rate = 48000
+08-12 21:14:19.119   664 13564 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 124, path = 0, app id = 0x1113a, sample rate = 16000
+08-12 21:14:19.151   664 14079 D audio_hw_primary: select_devices for use case (low-latency-record)
+08-12 21:14:19.151   664 14079 D audio_hw_primary: enable_snd_device: snd_device(131: speaker-dmic-endfire)
+08-12 21:14:19.165   664 14079 I audio_hw_utils: send_app_type_cfg_for_device CAPTURE app_type 69938, acdb_dev_id 43, sample_rate 48000, snd_device_be_idx 153
+08-12 21:14:19.166   664 14079 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 43, path = 1, app id = 0x11132, sample rate = 48000
+08-12 21:14:19.572   664 13565 D audio_hw_primary: select_devices for use case (low-latency-record)
+08-12 21:14:57.882   664 13564 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 102, path = 1, app id = 0x11132, sample rate = 48000
+08-12 21:14:57.913   664 13564 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 4, path = 1, app id = 0x11132, sample rate = 48000
+08-12 21:14:57.916   664 13564 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 124, path = 0, app id = 0x11131, sample rate = 48000

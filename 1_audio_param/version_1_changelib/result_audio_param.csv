@@ -1,0 +1,7 @@
+file_name,c_usecase,c_source,c_audio_dev,c_acdb_id,c_snd_dev,c_app_id,c_acdb_id
+key_word1,select_devices for use case,adev_open_input_stream: enter: sample_rate,adev_open_input_stream: enter: sample_rate,send_app_type_cfg_for_device CAPTURE,enable_snd_device: snd_device,ACDB-LOADER: ACDB -> send_audio_cal,ACDB-LOADER: ACDB -> send_audio_cal
+key_word2,record,,,,mic,path = 1,path = 1
+usecase_result\log_wechat_newacdb0813_01-20.txt,audio-record-voip USECASE_AUDIO_RECORD_VOIP,7 AUDIO_SOURCE_VOICE_COMMUNICATION,0x80000004 AUDIO_DEVICE_IN_BUILTIN_MIC,43 SPKR_PHONE_MIC_ENDFIRE_FLUENCEV5,131 SND_DEVICE_IN_SPEAKER_DMIC_AEC_NS speaker-dmic-endfire,"0x11132 DEFAULT_APP_TYPE_TX_PATH 0x11132 ACDB_APPTYPE_GENERAL_RECORDING
+0x1113a APP_TYPE_VOIP_AUDIO","4 HANDSET_MIC
+43 SPKR_PHONE_MIC_ENDFIRE_FLUENCEV5
+102 SPKR_PHONE_SPKR_TX_FB_PROT"

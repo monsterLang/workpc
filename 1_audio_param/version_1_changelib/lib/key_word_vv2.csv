@@ -1,0 +1,13 @@
+value_name,c_usecase,c_source,c_audio_dev,c_acdb_id,c_snd_dev,c_app_id
+key_word1,select_devices for use case,adev_open_input_stream: enter: sample_rate,adev_open_input_stream: enter: sample_rate,send_app_type_cfg_for_device CAPTURE,enable_snd_device: snd_device,ACDB-LOADER: ACDB -> send_audio_cal
+key_word2,record,,,,mic,path = 1
+value_first,case (,source(,devices(,acdb_dev_id ,snd_device(,", app id = "
+value_end,),),),",",:,","
+list_num,2,,,,3,2
+,,,,,,
+,p_usecase,,p_audio_dev,p_acdb_id,p_snd_dev,p_app_id
+,select_devices for use case,,adev_open_output_stream: enter: format,send_app_type_cfg_for_device PLAYBACK,enable_snd_device: snd_device,ACDB-LOADER: ACDB -> send_audio_cal
+,playback,,,,mic,path = 1
+,case (,,devices(,acdb_dev_id ,snd_device(,", app id = "
+,),,),",",:,","
+,2,,,,3,2

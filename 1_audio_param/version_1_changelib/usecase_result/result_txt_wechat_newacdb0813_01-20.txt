@@ -1,0 +1,19 @@
+08-13 01:20:06.186   645   763 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(16000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xf1a86280) io_handle(54) source(7) format 1
+08-13 01:20:06.186   645   763 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(16000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xf1a86280) io_handle(54) source(7) format 1
+08-13 01:20:06.241   645   763 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 4, path = 1, app id = 0x11132, sample rate = 48000
+08-13 01:20:06.241   645   763 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 4, path = 1, app id = 0x11132, sample rate = 48000
+08-13 01:20:06.306   645  8717 D audio_hw_primary: select_devices for use case (audio-record-voip)
+08-13 01:20:06.306   645  8717 D audio_hw_primary: enable_snd_device: snd_device(131: speaker-dmic-endfire)
+08-13 01:20:06.313   645  8717 I audio_hw_utils: send_app_type_cfg_for_device CAPTURE app_type 69946, acdb_dev_id 43, sample_rate 16000, snd_device_be_idx 153
+08-13 01:20:06.314   645  8717 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 43, path = 1, app id = 0x1113a, sample rate = 16000
+08-13 01:20:06.314   645  8717 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 43, path = 1, app id = 0x1113a, sample rate = 16000
+08-13 01:20:08.145   645   763 D audio_hw_primary: select_devices for use case (audio-record-voip)
+08-13 01:20:08.145   645   763 D audio_hw_primary: select_devices for use case (audio-record-voip)
+08-13 01:20:43.561   645   763 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 102, path = 1, app id = 0x11132, sample rate = 48000
+08-13 01:20:43.561   645   763 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 102, path = 1, app id = 0x11132, sample rate = 48000
+08-13 01:20:43.599   645   763 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 4, path = 1, app id = 0x11132, sample rate = 48000
+08-13 01:20:43.599   645   763 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 4, path = 1, app id = 0x11132, sample rate = 48000
+08-13 01:30:10.548   645  2795 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 102, path = 1, app id = 0x11132, sample rate = 48000
+08-13 01:30:10.548   645  2795 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 102, path = 1, app id = 0x11132, sample rate = 48000
+08-13 01:30:10.576   645  2795 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 4, path = 1, app id = 0x11132, sample rate = 48000
+08-13 01:30:10.576   645  2795 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 4, path = 1, app id = 0x11132, sample rate = 48000
