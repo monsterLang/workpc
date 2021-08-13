@@ -7,3 +7,6 @@ git commit -m "[function]describe message."
 
 # 上传
 git push origin master
+
+# 强制拉取远端仓库代码
+git reset --hard origin/master
