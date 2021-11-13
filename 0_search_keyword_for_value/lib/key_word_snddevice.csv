@@ -1,0 +1,4 @@
+usecase,usecase_path,p_audio_device,p_acdb_id,snd_device_id
+select_devices for use case,audio_route: Apply path: ,adev_open_output_stream: enter:,"send_audio_cal, acdb_id = ",enable_snd_device: snd_device
+case (,Apply path: ,devices(,acdb_id = ,snd_device(
+),\n',),",",)

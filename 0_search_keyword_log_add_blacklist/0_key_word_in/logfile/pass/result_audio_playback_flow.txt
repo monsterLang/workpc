@@ -1,0 +1,295 @@
+08-24 21:16:02.705   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 5
+08-24 21:16:02.706   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 6
+08-24 21:16:02.706   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 7
+08-24 21:16:02.706   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 8
+08-24 21:16:02.707   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ codec specific data
+08-24 21:16:02.707   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 0 us
+08-24 21:16:02.708   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 64000 us
+08-24 21:16:02.708   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 128000 us
+08-24 21:16:02.710   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:02.711   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:02.712   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ time 192000 us
+08-24 21:16:02.712   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 5 time 0 us, flags = 0x00000000
+08-24 21:16:02.712   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 6 time 0 us, flags = 0x00000000
+08-24 21:16:02.712   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 7 time 0 us, flags = 0x00000000
+08-24 21:16:02.712   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 8 time 0 us, flags = 0x00000000
+08-24 21:16:02.713   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 256000 us
+08-24 21:16:02.719   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 9
+08-24 21:16:02.719   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 10
+08-24 21:16:02.719   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 11
+08-24 21:16:02.720   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 12
+08-24 21:16:02.722   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:02.722   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4
+08-24 21:16:02.722   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 9 time 0 us, flags = 0x00000000
+08-24 21:16:02.722   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:02.722   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 10 time 64000 us, flags = 0x00000000
+08-24 21:16:02.722   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:02.722   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 11 time 128000 us, flags = 0x00000000
+08-24 21:16:02.723   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 320000 us
+08-24 21:16:02.723   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 384000 us
+08-24 21:16:02.724   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:02.724   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 12 time 192000 us, flags = 0x00000000
+08-24 21:16:02.727   932 10189 V NuPlayerDecoder:   int64_t timeUs = 0
+08-24 21:16:02.727   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ time 448000 us
+08-24 21:16:02.729   932 10189 V NuPlayerDecoder:   int64_t timeUs = 64000
+08-24 21:16:02.730   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 512000 us
+08-24 21:16:02.730   932 10189 V NuPlayerDecoder:   int64_t timeUs = 128000
+08-24 21:16:02.730   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 576000 us
+08-24 21:16:02.730   932 10189 V NuPlayerDecoder:   int64_t timeUs = 192000
+08-24 21:16:02.776   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 9
+08-24 21:16:02.777   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 10
+08-24 21:16:02.778   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 11
+08-24 21:16:02.778   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4
+08-24 21:16:02.778   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 9 time 256000 us, flags = 0x00000000
+08-24 21:16:02.779   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 12
+08-24 21:16:02.779   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:02.779   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 10 time 320000 us, flags = 0x00000000
+08-24 21:16:02.779   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:02.779   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 11 time 384000 us, flags = 0x00000000
+08-24 21:16:02.779   932 10189 V NuPlayerDecoder:   int64_t timeUs = 256000
+08-24 21:16:02.779   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 640000 us
+08-24 21:16:02.779   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:02.780   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ time 704000 us
+08-24 21:16:02.780   932 10189 V NuPlayerDecoder:   int64_t timeUs = 320000
+08-24 21:16:02.780   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 12 time 448000 us, flags = 0x00000000
+08-24 21:16:02.780   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 768000 us
+08-24 21:16:02.780   932 10189 V NuPlayerDecoder:   int64_t timeUs = 384000
+08-24 21:16:02.780   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 9
+08-24 21:16:02.780   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 832000 us
+08-24 21:16:02.780   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 10
+08-24 21:16:02.781   932 10189 V NuPlayerDecoder:   int64_t timeUs = 448000
+08-24 21:16:02.781   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 11
+08-24 21:16:02.781   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4
+08-24 21:16:02.781   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 9 time 512000 us, flags = 0x00000000
+08-24 21:16:02.782   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:02.782   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 896000 us
+08-24 21:16:02.782   932 10189 V NuPlayerDecoder:   int64_t timeUs = 512000
+08-24 21:16:02.782   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 10 time 576000 us, flags = 0x00000000
+08-24 21:16:02.782   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:02.782   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 11 time 640000 us, flags = 0x00000000
+08-24 21:16:02.782   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ time 960000 us
+08-24 21:16:02.782   932 10189 V NuPlayerDecoder:   int64_t timeUs = 576000
+08-24 21:16:02.783   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 1024000 us
+08-24 21:16:02.783   932 10189 V NuPlayerDecoder:   int64_t timeUs = 640000
+08-24 21:16:03.032   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 12
+08-24 21:16:03.033   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 9
+08-24 21:16:03.034   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:03.034   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 12 time 704000 us, flags = 0x00000000
+08-24 21:16:03.034   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 10
+08-24 21:16:03.034   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 11
+08-24 21:16:03.035   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 1088000 us
+08-24 21:16:03.035   932 10189 V NuPlayerDecoder:   int64_t timeUs = 704000
+08-24 21:16:03.036   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4
+08-24 21:16:03.036   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 9 time 768000 us, flags = 0x00000000
+08-24 21:16:03.036   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:03.036   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 10 time 832000 us, flags = 0x00000000
+08-24 21:16:03.036   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:03.036   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 11 time 896000 us, flags = 0x00000000
+08-24 21:16:03.036   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 1152000 us
+08-24 21:16:03.036   932 10189 V NuPlayerDecoder:   int64_t timeUs = 768000
+08-24 21:16:03.037   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ time 1216000 us
+08-24 21:16:03.037   932 10189 V NuPlayerDecoder:   int64_t timeUs = 832000
+08-24 21:16:03.037   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 1280000 us
+08-24 21:16:03.037   932 10189 V NuPlayerDecoder:   int64_t timeUs = 896000
+08-24 21:16:03.286   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 12
+08-24 21:16:03.287   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 9
+08-24 21:16:03.288   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:03.288   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 12 time 960000 us, flags = 0x00000000
+08-24 21:16:03.288   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 10
+08-24 21:16:03.288   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4
+08-24 21:16:03.288   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 9 time 1024000 us, flags = 0x00000000
+08-24 21:16:03.288   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 11
+08-24 21:16:03.289   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 1344000 us
+08-24 21:16:03.289   932 10189 V NuPlayerDecoder:   int64_t timeUs = 960000
+08-24 21:16:03.289   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 1408000 us
+08-24 21:16:03.289   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1024000
+08-24 21:16:03.289   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:03.289   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 10 time 1088000 us, flags = 0x00000000
+08-24 21:16:03.290   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:03.290   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 11 time 1152000 us, flags = 0x00000000
+08-24 21:16:03.290   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ time 1472000 us
+08-24 21:16:03.290   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1088000
+08-24 21:16:03.290   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 1536000 us
+08-24 21:16:03.290   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1152000
+08-24 21:16:03.540   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 12
+08-24 21:16:03.540   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 9
+08-24 21:16:03.541   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 10
+08-24 21:16:03.541   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 11
+08-24 21:16:03.541   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:03.541   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 12 time 1216000 us, flags = 0x00000000
+08-24 21:16:03.541   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4
+08-24 21:16:03.541   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 9 time 1280000 us, flags = 0x00000000
+08-24 21:16:03.541   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 1600000 us
+08-24 21:16:03.541   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1216000
+08-24 21:16:03.542   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:03.542   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 1664000 us
+08-24 21:16:03.542   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1280000
+08-24 21:16:03.542   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 10 time 1344000 us, flags = 0x00000000
+08-24 21:16:03.542   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:03.542   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ time 1728000 us
+08-24 21:16:03.543   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 11 time 1408000 us, flags = 0x00000000
+08-24 21:16:03.543   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1344000
+08-24 21:16:03.544   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 1792000 us
+08-24 21:16:03.544   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1408000
+08-24 21:16:03.792   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 12
+08-24 21:16:03.793   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 9
+08-24 21:16:03.794   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 10
+08-24 21:16:03.794   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:03.794   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 12 time 1472000 us, flags = 0x00000000
+08-24 21:16:03.794   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 11
+08-24 21:16:03.795   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4
+08-24 21:16:03.795   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 9 time 1536000 us, flags = 0x00000000
+08-24 21:16:03.795   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 1856000 us
+08-24 21:16:03.795   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1472000
+08-24 21:16:03.795   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:03.795   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 10 time 1600000 us, flags = 0x00000000
+08-24 21:16:03.795   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:03.795   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 11 time 1664000 us, flags = 0x00000000
+08-24 21:16:03.795   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1536000
+08-24 21:16:03.795   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 1920000 us
+08-24 21:16:03.796   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ time 1984000 us
+08-24 21:16:03.796   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1600000
+08-24 21:16:03.796   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 2048000 us
+08-24 21:16:03.796   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1664000
+08-24 21:16:04.046   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 12
+08-24 21:16:04.047   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 9
+08-24 21:16:04.047   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 10
+08-24 21:16:04.048   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:04.048   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 12 time 1728000 us, flags = 0x00000000
+08-24 21:16:04.048   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4
+08-24 21:16:04.048   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 9 time 1792000 us, flags = 0x00000000
+08-24 21:16:04.048   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 11
+08-24 21:16:04.048   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:04.048   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 10 time 1856000 us, flags = 0x00000000
+08-24 21:16:04.048   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 2112000 us
+08-24 21:16:04.048   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1728000
+08-24 21:16:04.049   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 2176000 us
+08-24 21:16:04.049   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1792000
+08-24 21:16:04.049   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:04.049   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 11 time 1920000 us, flags = 0x00000000
+08-24 21:16:04.049   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ time 2240000 us
+08-24 21:16:04.049   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1856000
+08-24 21:16:04.049   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 2304000 us
+08-24 21:16:04.049   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1920000
+08-24 21:16:04.299   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 12
+08-24 21:16:04.300   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 9
+08-24 21:16:04.300   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 10
+08-24 21:16:04.301   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 11
+08-24 21:16:04.301   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:04.301   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 12 time 1984000 us, flags = 0x00000000
+08-24 21:16:04.301   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4
+08-24 21:16:04.301   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 9 time 2048000 us, flags = 0x00000000
+08-24 21:16:04.302   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:04.302   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 10 time 2112000 us, flags = 0x00000000
+08-24 21:16:04.302   932 10189 V NuPlayerDecoder:   int64_t timeUs = 1984000
+08-24 21:16:04.302   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:04.302   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 11 time 2176000 us, flags = 0x00000000
+08-24 21:16:04.302   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 2368000 us
+08-24 21:16:04.303   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 2432000 us
+08-24 21:16:04.303   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2048000
+08-24 21:16:04.303   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ time 2496000 us
+08-24 21:16:04.304   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2112000
+08-24 21:16:04.304   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 2560000 us
+08-24 21:16:04.305   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2176000
+08-24 21:16:04.553   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 12
+08-24 21:16:04.554   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 9
+08-24 21:16:04.555   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 10
+08-24 21:16:04.555   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 11
+08-24 21:16:04.557   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:04.557   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 12 time 2240000 us, flags = 0x00000000
+08-24 21:16:04.557   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4
+08-24 21:16:04.557   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 9 time 2304000 us, flags = 0x00000000
+08-24 21:16:04.557   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:04.557   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 10 time 2368000 us, flags = 0x00000000
+08-24 21:16:04.557   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 2624000 us
+08-24 21:16:04.558   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2240000
+08-24 21:16:04.559   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:04.559   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2304000
+08-24 21:16:04.559   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 11 time 2432000 us, flags = 0x00000000
+08-24 21:16:04.559   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 2688000 us
+08-24 21:16:04.559   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ time 2752000 us
+08-24 21:16:04.559   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2368000
+08-24 21:16:04.559   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 2816000 us
+08-24 21:16:04.559   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2432000
+08-24 21:16:04.809   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 12
+08-24 21:16:04.809   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 9
+08-24 21:16:04.809   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 10
+08-24 21:16:04.810   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:04.810   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 11
+08-24 21:16:04.810   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 12 time 2496000 us, flags = 0x00000000
+08-24 21:16:04.810   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 2880000 us
+08-24 21:16:04.810   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2496000
+08-24 21:16:04.810   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4
+08-24 21:16:04.810   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 9 time 2560000 us, flags = 0x00000000
+08-24 21:16:04.810   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:04.810   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 10 time 2624000 us, flags = 0x00000000
+08-24 21:16:04.811   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:04.811   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 11 time 2688000 us, flags = 0x00000000
+08-24 21:16:04.811   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 2944000 us
+08-24 21:16:04.811   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2560000
+08-24 21:16:04.811   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ time 3008000 us
+08-24 21:16:04.811   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2624000
+08-24 21:16:04.812   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 3072000 us
+08-24 21:16:04.812   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2688000
+08-24 21:16:05.061   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 12
+08-24 21:16:05.062   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 9
+08-24 21:16:05.063   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 10
+08-24 21:16:05.063   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 11
+08-24 21:16:05.064   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:05.064   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 12 time 2752000 us, flags = 0x00000000
+08-24 21:16:05.065   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4
+08-24 21:16:05.065   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 9 time 2816000 us, flags = 0x00000000
+08-24 21:16:05.065   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:05.065   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 10 time 2880000 us, flags = 0x00000000
+08-24 21:16:05.065   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:05.065   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 11 time 2944000 us, flags = 0x00000000
+08-24 21:16:05.065   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 3136000 us
+08-24 21:16:05.065   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2752000
+08-24 21:16:05.066   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 3200000 us
+08-24 21:16:05.066   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2816000
+08-24 21:16:05.066   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ time 3264000 us
+08-24 21:16:05.067   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2880000
+08-24 21:16:05.067   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 3328000 us
+08-24 21:16:05.067   932 10189 V NuPlayerDecoder:   int64_t timeUs = 2944000
+08-24 21:16:05.317   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 12
+08-24 21:16:05.318   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 9
+08-24 21:16:05.318   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 10
+08-24 21:16:05.319   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 11
+08-24 21:16:05.319   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:05.319   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 12 time 3008000 us, flags = 0x00000000
+08-24 21:16:05.319   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4
+08-24 21:16:05.319   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 9 time 3072000 us, flags = 0x00000000
+08-24 21:16:05.319   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 3392000 us
+08-24 21:16:05.319   932 10189 V NuPlayerDecoder:   int64_t timeUs = 3008000
+08-24 21:16:05.320   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:05.320   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 10 time 3136000 us, flags = 0x00000000
+08-24 21:16:05.320   932 10189 V NuPlayerDecoder:   int64_t timeUs = 3072000
+08-24 21:16:05.320   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 3456000 us
+08-24 21:16:05.321   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ time 3520000 us
+08-24 21:16:05.321   932 10189 V NuPlayerDecoder:   int64_t timeUs = 3136000
+08-24 21:16:05.321   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:05.321   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 11 time 3200000 us, flags = 0x00000000
+08-24 21:16:05.321   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 2 w/ time 3584000 us
+08-24 21:16:05.321   932 10189 V NuPlayerDecoder:   int64_t timeUs = 3200000
+
+
+
+08-24 21:16:05.571   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 12
+08-24 21:16:05.572   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 9
+08-24 21:16:05.572   932 10190 V ACodec  : [OMX.google.aac.decoder] calling fillBuffer 10
+08-24 21:16:05.573   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:05.573   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 3 w/ time 3648000 us
+08-24 21:16:05.573   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 12 time 3264000 us, flags = 0x00000000
+08-24 21:16:05.574   932 10189 V NuPlayerDecoder:   int64_t timeUs = 3264000
+08-24 21:16:05.574   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4
+08-24 21:16:05.574   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 9 time 3328000 us, flags = 0x00000000
+08-24 21:16:05.575   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:05.575   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXFillBufferDone 10 time 3392000 us, flags = 0x00000000
+08-24 21:16:05.575   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 4 w/ time 3712000 us
+08-24 21:16:05.575   932 10189 V NuPlayerDecoder:   int64_t timeUs = 3328000
+08-24 21:16:05.576   932 10190 V ACodec  : [OMX.google.aac.decoder] calling emptyBuffer 1 w/ EOS
+08-24 21:16:05.576   932 10189 V NuPlayerDecoder:   int64_t timeUs = 3392000
+08-24 21:16:05.601   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 1
+08-24 21:16:05.601   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 2
+08-24 21:16:05.601   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 3
+08-24 21:16:05.601   932 10190 V ACodec  : [OMX.google.aac.decoder] onOMXEmptyBufferDone 4

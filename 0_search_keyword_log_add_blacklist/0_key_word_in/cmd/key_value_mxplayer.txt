@@ -1,0 +1,35 @@
+MX.Player.FF: PrepareAsync()
+MX.Player.Builtin: PrepareAsync()
+*MX.FFReader: start-time:
+ExtendedNuUtils: printFileName fd
+MediaPlayerNative: prepareAsync
+MediaPlayer-JNI: getDuration
+MediaPlayerNative: start
+GenericSource: start
+AudioSink: open
+AudioTrack: set()
+OMXMaster: makeComponentInstance
+DisplayPowerController: Blocking screen off
+EMVCB_SRVC: Screen ON -->
+EMVCB_SRVC: Screen OFF -->
+SCREEN_OFF
+SCREEN_ON
+MediaPlayer-JNI: seekTo
+MediaPlayer-JNI: start
+MX.Player.Joint: Pause
+MoviePlayer: mVideoPosition
+MoviePlayer: doOnPause() mVideoPosition
+Blocking screen off
+Blocking screen on
+android.intent.action.SCREEN_ON
+CodeauroraVideoView: doPrepared
+NuPlayer: kWhatSeek seekTimeUs
+NuPlayerDriver: start
+MediaPlayerNative: destructor
+MX.Database: State saved for
+CodeauroraVideoView: surfaceDestroyed
+surfaceCreated
+MovieActivity: onReceive
+DisplayPowerController
+KeyguardViewMediator
+PowerManagerService

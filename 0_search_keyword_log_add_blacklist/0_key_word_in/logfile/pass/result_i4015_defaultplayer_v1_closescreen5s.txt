@@ -1,0 +1,222 @@
+09-05 21:09:23.327  1302  1356 I PowerManagerService-JNI: Loaded power HAL 1.0 service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+09-05 21:09:23.404  1302  1302 I SystemServiceManager: Starting com.android.server.power.PowerManagerService
+09-05 21:09:26.864  1302  1302 I SystemServer: MakePowerManagerServiceReady
+09-05 21:09:26.867  1302  1302 E DisplayPowerController: failed to set up display white-balance: java.lang.IllegalStateException: cannot find light sensor
+09-05 21:09:26.871  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:09:26.871  1302  1302 D SystemServerTiming: MakePowerManagerServiceReady took to complete: 8ms
+09-05 21:09:26.876  1302  1370 V DisplayPowerController: Brightness [102] reason changing to: 'override', previous reason: '0'.
+09-05 21:09:26.876  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:09:26.876  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:09:26.876  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:09:27.150   947   947 I OMXMaster: makeComponentInstance(OMX.google.aac.decoder) in android.hardwar process
+09-05 21:09:27.162   947   947 I OMXMaster: makeComponentInstance(OMX.google.amrnb.decoder) in android.hardwar process
+09-05 21:09:27.172   947   947 I OMXMaster: makeComponentInstance(OMX.google.amrwb.decoder) in android.hardwar process
+09-05 21:09:27.180   947   947 I OMXMaster: makeComponentInstance(OMX.google.flac.decoder) in android.hardwar process
+09-05 21:09:27.200   947  1074 I OMXMaster: makeComponentInstance(OMX.qti.audio.decoder.flac) in android.hardwar process
+09-05 21:09:27.213   947  1074 I OMXMaster: makeComponentInstance(OMX.google.g711.alaw.decoder) in android.hardwar process
+09-05 21:09:27.225  1302  1302 D SystemServiceManager: onStartUser-0 com.android.server.power.PowerManagerService took to complete: 0ms
+09-05 21:09:27.230   947   947 I OMXMaster: makeComponentInstance(OMX.google.g711.mlaw.decoder) in android.hardwar process
+09-05 21:09:27.234   947   947 I OMXMaster: makeComponentInstance(OMX.google.gsm.decoder) in android.hardwar process
+09-05 21:09:27.251   947  1074 I OMXMaster: makeComponentInstance(OMX.google.mp3.decoder) in android.hardwar process
+09-05 21:09:27.267   947  1074 I OMXMaster: makeComponentInstance(OMX.google.opus.decoder) in android.hardwar process
+09-05 21:09:27.295   947  1074 I OMXMaster: makeComponentInstance(OMX.google.raw.decoder) in android.hardwar process
+09-05 21:09:27.301   947   947 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+09-05 21:09:27.314   947  1074 I OMXMaster: makeComponentInstance(OMX.google.aac.encoder) in android.hardwar process
+09-05 21:09:27.336   947   947 I OMXMaster: makeComponentInstance(OMX.google.amrnb.encoder) in android.hardwar process
+09-05 21:09:27.358   947  1074 I OMXMaster: makeComponentInstance(OMX.google.amrwb.encoder) in android.hardwar process
+09-05 21:09:27.379   947   947 I OMXMaster: makeComponentInstance(OMX.google.flac.encoder) in android.hardwar process
+09-05 21:09:27.390   947   947 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.avc) in android.hardwar process
+09-05 21:09:27.573  1548  1548 D SystemUIBootTiming: StartServicescom.android.systemui.keyguard.KeyguardViewMediator took to complete: 96ms
+09-05 21:09:27.590   947  1074 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.avc.secure) in android.hardwar process
+09-05 21:09:27.624   947  1074 I OMXMaster: makeComponentInstance(OMX.google.h264.decoder) in android.hardwar process
+09-05 21:09:27.641   947   947 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.divx) in android.hardwar process
+09-05 21:09:27.671   947  1074 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.divx311) in android.hardwar process
+09-05 21:09:27.703   947  1074 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.divx4) in android.hardwar process
+09-05 21:09:27.734   947   947 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.h263) in android.hardwar process
+09-05 21:09:27.760   947  1066 I OMXMaster: makeComponentInstance(OMX.google.h263.decoder) in android.hardwar process
+09-05 21:09:27.771   947   947 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.hevc) in android.hardwar process
+09-05 21:09:27.798  1548  1796 D KeyguardViewMediator: updateActivityLockScreenState(false, false)
+09-05 21:09:27.809   947  1903 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.hevc.secure) in android.hardwar process
+09-05 21:09:27.871   947  1903 I OMXMaster: makeComponentInstance(OMX.google.hevc.decoder) in android.hardwar process
+09-05 21:09:27.888   947  1903 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.mpeg2) in android.hardwar process
+09-05 21:09:27.907   947   947 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.mpeg4) in android.hardwar process
+09-05 21:09:27.926   947   947 I OMXMaster: makeComponentInstance(OMX.google.mpeg4.decoder) in android.hardwar process
+09-05 21:09:27.930   947  1903 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.vc1) in android.hardwar process
+09-05 21:09:27.950   947  1903 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.vc1.secure) in android.hardwar process
+09-05 21:09:27.968   947  1903 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.vp8) in android.hardwar process
+09-05 21:09:27.985   947   947 I OMXMaster: makeComponentInstance(OMX.google.vp8.decoder) in android.hardwar process
+09-05 21:09:28.001   947  1903 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.vp9) in android.hardwar process
+09-05 21:09:28.020   947  1066 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.vp9.secure) in android.hardwar process
+09-05 21:09:28.040   947   947 I OMXMaster: makeComponentInstance(OMX.google.vp9.decoder) in android.hardwar process
+09-05 21:09:28.045   947  1066 I OMXMaster: makeComponentInstance(OMX.qcom.video.encoder.avc) in android.hardwar process
+09-05 21:09:28.069   947   947 I OMXMaster: makeComponentInstance(OMX.google.h264.encoder) in android.hardwar process
+09-05 21:09:28.075  1548  1909 D KeyguardViewMediator: onStartedWakingUp, seq = 1
+09-05 21:09:28.075  1548  1909 D KeyguardViewMediator: notifyStartedWakingUp
+09-05 21:09:28.076  1548  1909 D KeyguardViewMediator: notifyScreenOn
+09-05 21:09:28.076  1548  1909 D KeyguardViewMediator: notifyScreenTurnedOn
+09-05 21:09:28.077   947   947 I OMXMaster: makeComponentInstance(OMX.qcom.video.encoder.h263) in android.hardwar process
+09-05 21:09:28.094   947   947 I OMXMaster: makeComponentInstance(OMX.google.h263.encoder) in android.hardwar process
+09-05 21:09:28.104   947  1066 I OMXMaster: makeComponentInstance(OMX.qcom.video.encoder.hevc) in android.hardwar process
+09-05 21:09:28.122   947   947 I OMXMaster: makeComponentInstance(OMX.qcom.video.encoder.mpeg4) in android.hardwar process
+09-05 21:09:28.146   947  1066 I OMXMaster: makeComponentInstance(OMX.google.mpeg4.encoder) in android.hardwar process
+09-05 21:09:28.151   947   947 I OMXMaster: makeComponentInstance(OMX.qcom.video.encoder.vp8) in android.hardwar process
+09-05 21:09:28.166   947  1903 I OMXMaster: makeComponentInstance(OMX.google.vp8.encoder) in android.hardwar process
+09-05 21:09:28.172   947  2026 I OMXMaster: makeComponentInstance(OMX.google.vp9.encoder) in android.hardwar process
+09-05 21:09:28.499   947  2026 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+09-05 21:09:28.502   947  2026 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+09-05 21:09:28.522  1548  1548 D KeyguardViewMediator: onSystemReady
+09-05 21:09:28.523  1548  1548 D KeyguardViewMediator: doKeyguard: not showing because lockscreen is off
+09-05 21:09:28.523  1548  1548 V KeyguardUpdateMonitor: *** register callback for com.android.systemui.keyguard.KeyguardViewMediator$1@ab9f59b
+09-05 21:09:28.523  1548  1548 D KeyguardViewMediator: adjustStatusBarLocked: mShowing=false mOccluded=false isSecure=false force=false --> flags=0x0
+09-05 21:09:28.524  1548  1548 D KeyguardViewMediator: handleNotifyWakingUp
+09-05 21:09:28.526  1548  1548 D KeyguardViewMediator: handleNotifyScreenTurningOn
+09-05 21:09:28.528  1548  1548 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+09-05 21:09:28.580   947  2034 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+09-05 21:09:28.581   947  2034 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+09-05 21:09:28.630   947  2040 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+09-05 21:09:28.667   947  2039 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+09-05 21:09:28.677   947  2039 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+09-05 21:09:28.731   947  1074 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+09-05 21:09:28.772   947  1074 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+09-05 21:09:28.889  1302  1341 D PowerManagerService: Light white led
+09-05 21:09:28.889  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:09:28.889  1302  1370 D DisplayPowerController: Adjust auto-brightness: -1
+09-05 21:09:28.889  1302  1370 V DisplayPowerController: Brightness [206] reason changing to: 'manual', previous reason: 'override'.
+09-05 21:09:29.385  1302  1352 D SystemServiceManager: onUnlockUser-0 com.android.server.power.PowerManagerService took to complete: 0ms
+09-05 21:09:29.479  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:09:29.479  1302  1370 D DisplayPowerController: Adjust auto-brightness: -1
+09-05 21:09:30.018   938  1470 I ExtendedNuUtils: printFileName fd(11) -> /product/media/audio/ui/Effect_Tick.ogg
+09-05 21:09:30.053  1302  1431 V MediaPlayer-JNI: start
+09-05 21:09:30.053  1302  1431 V MediaPlayerNative: start
+09-05 21:09:30.054   938   938 V NuPlayerDriver: start(0xf285c640), state is 4, eos is 0
+09-05 21:09:30.054   938  2446 I GenericSource: start
+09-05 21:09:30.085   947  1074 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+09-05 21:09:30.158   938  2467 V NuPlayerRenderer: openAudioSink: open AudioSink in NON-offload mode
+09-05 21:09:30.158   938  2467 V AudioSink: open(48000, 2, 0x3, 0x1, 0, 25 0x2)
+09-05 21:09:30.159   938  2467 V AudioTrack: set(): streamType 3, sampleRate 48000, format 0x1, channelMask 0x3, frameCount 24960, flags #2, notificationFrames 0, sessionId 25, transferType 0, uid 1000, pid 1302
+09-05 21:09:30.159   938  2467 V AudioTrack: set(): streamType 3 frameCount 24960 flags 0002
+09-05 21:09:30.391  1302  1302 V MediaPlayerNative: destructor
+09-05 21:12:12.540  3232  3232 V MediaPlayerNative: destructor
+09-05 21:12:12.663  3232  3232 V CodeauroraVideoView: surfaceCreated(android.view.SurfaceView$2@f39be98)
+09-05 21:12:12.680   938  1067 I ExtendedNuUtils: printFileName fd(11) -> /storage/emulated/0/DCIM/Camera/VID_20210902_035616.mp4
+09-05 21:12:12.685  3232  3232 V MediaPlayerNative: prepareAsync
+09-05 21:12:12.765  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=true, mCurrentState=1
+09-05 21:12:12.775  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=false, mCurrentState=1
+09-05 21:12:12.775  3232  3232 V CodeauroraVideoView: doPrepared(android.media.MediaPlayer@b62b2d6) start
+09-05 21:12:12.776  3232  3232 V MediaPlayer-JNI: getDuration: 319384 (msec)
+09-05 21:12:12.791  3232  3232 V MediaPlayer-JNI: start
+09-05 21:12:12.791  3232  3232 V MediaPlayerNative: start
+09-05 21:12:12.791   938  1067 V NuPlayerDriver: start(0xee140140), state is 4, eos is 0
+09-05 21:12:12.792   938  3262 I GenericSource: start
+09-05 21:12:12.792  3232  3232 V CodeauroraVideoView: doPrepared() end video size: 1920,1080, mTargetState=3, mCurrentState=3
+09-05 21:12:12.792  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=false, mCurrentState=3
+09-05 21:12:12.792  3232  3232 V CodeauroraVideoView: doPrepared(android.media.MediaPlayer@b62b2d6) start
+09-05 21:12:12.797  3232  3232 V MediaPlayer-JNI: start
+09-05 21:12:12.797  3232  3232 V MediaPlayerNative: start
+09-05 21:12:12.797  3232  3232 V CodeauroraVideoView: doPrepared() end video size: 1920,1080, mTargetState=3, mCurrentState=3
+09-05 21:12:12.799   938  3268 V AudioSink: open(48000, 2, 0x0, 0x4000002, 0, 33 0x10)
+09-05 21:12:12.799   938  3268 V AudioTrack: set(): streamType 3, sampleRate 48000, format 0x4000002, channelMask 0x3, frameCount 0, flags #10, notificationFrames 0, sessionId 33, transferType 1, uid 10049, pid 3232
+09-05 21:12:12.799   938  3268 V AudioTrack: set(): streamType 3 frameCount 0 flags 0010
+09-05 21:12:12.799   938  3268 V AudioTrack: set(): Offload request, forcing to Direct Output
+09-05 21:12:12.802   947  2026 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.avc) in android.hardwar process
+09-05 21:12:19.429  1302  1478 I PowerManagerService: Going to sleep due to power_button (uid 1000)...
+09-05 21:12:19.434  1302  1370 I PowerManagerService: Dozing...
+09-05 21:12:19.436  1548  1888 D KeyguardViewMediator: onStartedGoingToSleep(2)
+09-05 21:12:19.444  1548  1888 D KeyguardViewMediator: notifyStartedGoingToSleep
+09-05 21:12:19.455  1548  1548 D KeyguardViewMediator: handleNotifyStartedGoingToSleep
+09-05 21:12:19.547  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:12:19.547  1302  1370 D DisplayPowerController: Adjust auto-brightness: -1
+09-05 21:12:19.547  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:12:19.547  1302  1370 V DisplayPowerController: Brightness [17] reason changing to: 'doze', previous reason: 'manual'.
+09-05 21:12:19.959  1302  1370 I DisplayPowerController: Blocking screen off
+09-05 21:12:19.960  1302  1370 I DisplayPowerController: Unblocked screen off after 0 ms
+09-05 21:12:19.984  1548  3170 D KeyguardViewMediator: notifyScreenTurnedOff
+09-05 21:12:19.985  1548  1548 D KeyguardViewMediator: handleNotifyScreenTurnedOff
+09-05 21:12:19.995  3232  3232 V MoviePlayer: mVideoPosition is 6794
+09-05 21:12:19.996  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:12:19.997  1302  1370 V DisplayPowerController: Brightness [0] reason changing to: 'screen_off', previous reason: 'doze'.
+09-05 21:12:20.005  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:12:20.015  1548  1796 D KeyguardViewMediator: updateActivityLockScreenState(false, true)
+09-05 21:12:20.120  3232  3232 V MediaPlayerNative: destructor
+09-05 21:12:20.125  3232  3232 V MoviePlayer: doOnPause() mVideoPosition=6794, mResumeableTime=1630890920121, mVideoLastDuration=319384, mIsShowResumingDialog=false
+09-05 21:12:20.164  3232  3232 V CodeauroraVideoView: surfaceDestroyed(android.view.SurfaceView$2@f39be98)
+09-05 21:12:21.605  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:12:21.606  1302  1370 D PowerManagerService: flash white led
+09-05 21:12:21.612  1548  3170 D KeyguardViewMediator: onFinishedGoingToSleep(2)
+09-05 21:12:21.612  1548  3170 D KeyguardViewMediator: notifyFinishedGoingToSleep
+09-05 21:12:21.613  1548  1548 D KeyguardViewMediator: handleNotifyFinishedGoingToSleep
+09-05 21:12:21.616  1302  1302 D BatteryService: onReceive: action = android.intent.action.SCREEN_ON
+09-05 21:12:21.630  2184  2184 D KMS_JavaServer_callback: action: android.intent.action.SCREEN_ON
+09-05 21:12:21.633  1638  1638 D QSLMJ   : SLM received action android.intent.action.SCREEN_ON
+09-05 21:12:21.639  2154  2154 D EMVCB_SRVC: Screen ON -->
+09-05 21:12:21.677  1302  1302 D BatteryService: onReceive: action = android.intent.action.SCREEN_OFF
+09-05 21:12:21.715  2184  2184 D KMS_JavaServer_callback: action: android.intent.action.SCREEN_OFF
+09-05 21:12:21.719  1638  1638 D QSLMJ   : SLM received action android.intent.action.SCREEN_OFF
+09-05 21:12:21.722  2154  2154 D EMVCB_SRVC: Screen OFF -->
+09-05 21:12:21.727  3232  3232 V MovieActivity: onReceive(android.intent.action.SCREEN_OFF) mControlResumed=false
+09-05 21:12:24.518  1302  1478 I PowerManagerService: Waking up from Dozing (uid=1000, reason=WAKE_REASON_POWER_BUTTON, details=android.policy:POWER)...
+09-05 21:12:24.522  1302  1478 D PowerManagerService: Light white led
+09-05 21:12:24.523  1302  1370 I DisplayPowerController: Blocking screen on until initial contents have been drawn.
+09-05 21:12:24.524  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:12:24.524  1302  1370 D DisplayPowerController: Adjust auto-brightness: -1
+09-05 21:12:24.524  1302  1370 V DisplayPowerController: Brightness [206] reason changing to: 'manual', previous reason: 'screen_off'.
+09-05 21:12:24.525  1548  1888 D KeyguardViewMediator: notifyScreenOn
+09-05 21:12:24.526  1548  1548 D KeyguardViewMediator: handleNotifyScreenTurningOn
+09-05 21:12:24.527  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:12:24.527  1302  1370 D DisplayPowerController: Adjust auto-brightness: -1
+09-05 21:12:24.541  1548  3170 D KeyguardViewMediator: onStartedWakingUp, seq = 2
+09-05 21:12:24.541  1548  3170 D KeyguardViewMediator: notifyStartedWakingUp
+09-05 21:12:24.541  1548  1548 D KeyguardViewMediator: handleNotifyWakingUp
+09-05 21:12:24.548  1302  1302 D BatteryService: onReceive: action = android.intent.action.SCREEN_ON
+09-05 21:12:24.574  1548  1796 D KeyguardViewMediator: updateActivityLockScreenState(false, false)
+09-05 21:12:24.633  1302  1370 I DisplayPowerController: Unblocked screen on after 109 ms
+09-05 21:12:24.633  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:12:24.633  1302  1370 D DisplayPowerController: Adjust auto-brightness: -1
+09-05 21:12:24.663  2184  2184 D KMS_JavaServer_callback: action: android.intent.action.SCREEN_ON
+09-05 21:12:24.666  1638  1638 D QSLMJ   : SLM received action android.intent.action.SCREEN_ON
+09-05 21:12:24.671  2154  2154 D EMVCB_SRVC: Screen ON -->
+09-05 21:12:25.671  1302  1370 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-05 21:12:25.671  1302  1370 D DisplayPowerController: Adjust auto-brightness: -1
+09-05 21:12:25.672  1302  1370 W PowerManagerService: Screen on took 1164 ms
+09-05 21:12:25.674  1548  1566 D KeyguardViewMediator: notifyScreenTurnedOn
+09-05 21:12:25.675  3232  3232 V CodeauroraVideoView: surfaceCreated(android.view.SurfaceView$2@f39be98)
+09-05 21:12:25.695   938  3013 I ExtendedNuUtils: printFileName fd(11) -> /storage/emulated/0/DCIM/Camera/VID_20210902_035616.mp4
+09-05 21:12:25.699  3232  3232 V MediaPlayerNative: prepareAsync
+09-05 21:12:25.751  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=true, mCurrentState=1
+09-05 21:12:25.752  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=true, mCurrentState=1
+09-05 21:12:25.752  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=true, mCurrentState=1
+09-05 21:12:25.757  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=false, mCurrentState=1
+09-05 21:12:25.758  3232  3232 V CodeauroraVideoView: doPrepared(android.media.MediaPlayer@a097dc2) start
+09-05 21:12:25.768  1548  1548 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+09-05 21:12:25.784  3232  3232 V MediaPlayer-JNI: seekTo: 6794(msec), mode=0
+09-05 21:12:25.785   938  3310 V NuPlayer: kWhatSeek seekTimeUs=6794000 us, mode=0, needNotify=1
+09-05 21:12:25.785  3232  3232 V MediaPlayer-JNI: start
+09-05 21:12:25.785  3232  3232 V MediaPlayerNative: start
+09-05 21:12:25.785   938  3310 I GenericSource: start
+09-05 21:12:25.786   938  1470 V NuPlayerDriver: start(0xee140780), state is 4, eos is 0
+09-05 21:12:25.786  3232  3232 V CodeauroraVideoView: doPrepared() end video size: 1920,1080, mTargetState=3, mCurrentState=3
+09-05 21:12:25.786  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=false, mCurrentState=3
+09-05 21:12:25.786  3232  3232 V CodeauroraVideoView: doPrepared(android.media.MediaPlayer@a097dc2) start
+09-05 21:12:25.792  3232  3232 V MediaPlayer-JNI: start
+09-05 21:12:25.792  3232  3232 V MediaPlayerNative: start
+09-05 21:12:25.792  3232  3232 V CodeauroraVideoView: doPrepared() end video size: 1920,1080, mTargetState=3, mCurrentState=3
+09-05 21:12:25.816   938  3314 V AudioSink: open(48000, 2, 0x0, 0x4000002, 0, 33 0x10)
+09-05 21:12:25.816   938  3314 V AudioTrack: set(): streamType 3, sampleRate 48000, format 0x4000002, channelMask 0x3, frameCount 0, flags #10, notificationFrames 0, sessionId 33, transferType 1, uid 10049, pid 3232
+09-05 21:12:25.816   938  3314 V AudioTrack: set(): streamType 3 frameCount 0 flags 0010
+09-05 21:12:25.816   938  3314 V AudioTrack: set(): Offload request, forcing to Direct Output
+09-05 21:12:25.852   947   947 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.avc) in android.hardwar process

@@ -1,0 +1,8 @@
+file_name,usecase,usecase_path,p_audio_device,p_acdb_id,snd_device_id
+keyword,select_devices for use case,audio_route: Apply path: ,adev_open_output_stream: enter:,"send_audio_cal, acdb_id = ",enable_snd_device: snd_device
+usecase_result\log_all.txt,"deep-buffer-playback
+low-latency-playback","deep-buffer-playback
+low-latency-playback
+speaker",,14,2: speaker
+usecase_result\log_xxx.txt,"deep-buffer-playback
+low-latency-playback",deep-buffer-playback speaker,,14,

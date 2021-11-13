@@ -1,0 +1,1114 @@
+01-01 08:00:09.089022   150   150 I ServiceManagement: Removing namespace from process name android.hardware.usb@1.1-service-mediatek to usb@1.1-service-mediatek.
+01-01 08:00:09.112324   150   150 I android.hardware.usb@1.1-service-mediatek: USB HAL Ready.
+01-01 08:00:09.136917   137   137 I ServiceManagement: Removing namespace from process name android.hardware.bluetooth@1.0-service-mediatek to bluetooth@1.0-service-mediatek.
+01-01 08:00:09.138278   137   137 I android.hardware.bluetooth@1.0-service-mediatek: Registration complete for android.hardware.bluetooth@1.0::IBluetoothHci/default.
+01-01 08:00:09.203072   135   135 D mtkaudiohalservice: Start audiohalservice
+01-01 08:00:09.205785   135   135 D mtkaudiohalservice: registering IDevicesFactory
+01-01 08:00:09.232575   135   135 I ServiceManagement: Removing namespace from process name android.hardware.audio@4.0-service-mediatek to audio@4.0-service-mediatek.
+01-01 08:00:09.233799   135   135 I mtkaudiohalservice: Registration complete for android.hardware.audio@4.0::IDevicesFactory/default.
+01-01 08:00:09.233860   135   135 D mtkaudiohalservice: registered IDevicesFactory
+01-01 08:00:09.233879   135   135 D mtkaudiohalservice: registering IEffectsFactory
+01-01 08:00:09.249853   157   191 I vendor.mediatek.hardware.power@2.0-service: mtkPowerService - data:0x0
+01-01 08:00:09.255138   147   147 I VpuStream: VpuStream(147)[createInstance] version(71), Data:0x0,0x0, 1
+01-01 08:00:09.255138   147   147 I VpuStream: 
+01-01 08:00:09.257779   136   136 D AudCntrlDrv: parseConfig load /vendor/etc/audioctl_def_config.xml ok !
+01-01 08:00:09.259886   136   136 D AudCntrlDrv: setDefalutConfig AudioProvider = 0 
+01-01 08:00:09.260924   136   136 I ServiceManagement: Removing namespace from process name android.hardware.automotive.audiocontrol@1.1-service to audiocontrol@1.1-service.
+01-01 08:00:09.268769   147   147 I VpuStream: VpuStream(147)[VpuStreamImp]  user_defaultcaller open mFd (8)
+01-01 08:00:09.268769   147   147 I VpuStream: 
+01-01 08:00:09.268927   147   147 I VpuStream: VpuStream(147)[getAlgo] getAlgo(apu_lib_custom) in
+01-01 08:00:09.278604   147   147 E VpuStream: VpuStream(147)[getAlgo] fail to get algo, Illegal seek, errno = 29
+01-01 08:00:09.278691   147   147 I VpuStream: VpuStream(147)[~VpuStreamImp] close mFd (8)
+01-01 08:00:09.278691   147   147 I VpuStream: 
+01-01 08:00:09.278809   147   147 I VpuStream: VpuStream(147)[createInstance] version(71), Data:0x0,0x0, 1
+01-01 08:00:09.278809   147   147 I VpuStream: 
+01-01 08:00:09.278849   147   147 I VpuStream: VpuStream(147)[VpuStreamImp]  user_defaultcaller open mFd (8)
+01-01 08:00:09.278849   147   147 I VpuStream: 
+01-01 08:00:09.278866   147   147 I VpuStream: VpuStream(147)[getAlgo] getAlgo(apu_lib_apunn) in
+01-01 08:00:09.279277   147   147 I VpuStream: VpuStream(147)[addBuffer] buffer count 0x75ab843408, (1/1)
+01-01 08:00:09.279290   147   147 D VpuStream: VpuStream(147)[addBuffer] mmapMVA+ (1/1)
+01-01 08:00:09.279320   147   147 I VpuStream: VpuStream(147)[addBuffer] mmapMVA- (0)
+01-01 08:00:09.279331   147   147 I VpuStream: VpuStream(147)[addBuffer] buffer count 0x75ab843408, (2/2)
+01-01 08:00:09.279340   147   147 D VpuStream: VpuStream(147)[addBuffer] mmapMVA+ (1/1)
+01-01 08:00:09.279363   147   147 I VpuStream: VpuStream(147)[addBuffer] mmapMVA- (0)
+01-01 08:00:09.279374   147   147 I VpuStream: VpuStream(147)[addBuffer] buffer count 0x75ab843408, (3/3)
+01-01 08:00:09.279394   147   147 D VpuStream: VpuStream(147)[addBuffer] mmapMVA+ (1/1)
+01-01 08:00:09.279424   147   147 I VpuStream: VpuStream(147)[addBuffer] mmapMVA- (0)
+01-01 08:00:09.279441   147   147 I VpuStream: VpuStream(147)[addBuffer] buffer count 0x75ab843408, (4/4)
+01-01 08:00:09.279453   147   147 D VpuStream: VpuStream(147)[addBuffer] mmapMVA+ (1/1)
+01-01 08:00:09.279481   147   147 I VpuStream: VpuStream(147)[addBuffer] mmapMVA- (0)
+01-01 08:00:09.279498   147   147 I VpuStream: VpuStream(147)[addBuffer] buffer count 0x75ab843408, (5/5)
+01-01 08:00:09.279508   147   147 D VpuStream: VpuStream(147)[addBuffer] mmapMVA+ (1/1)
+01-01 08:00:09.279536   147   147 I VpuStream: VpuStream(147)[addBuffer] mmapMVA- (0)
+01-01 08:00:09.303418   135   135 I mtkaudiohalservice: Registration complete for android.hardware.audio.effect@4.0::IEffectsFactory/default.
+01-01 08:00:09.303614   135   135 D mtkaudiohalservice: registered IEffectsFactory
+01-01 08:00:09.303647   135   135 D mtkaudiohalservice: registering ISoundTriggerHw sound_trigger.primary
+01-01 08:00:09.310559   147   196 I VpuStream: VpuStream(196)[setExtraParam] + 0x0/0x0/0x2000
+01-01 08:00:09.310616   147   196 I VpuStream: VpuStream(196)[enque] [vpu] enque algo:ref_15/0x75ab843408/1, expected core:0xffff
+01-01 08:00:09.310616   147   196 I VpuStream: 
+01-01 08:00:09.310630   147   196 I VpuStream: VpuStream(196)[enque] [vpu] corrrrrrre index(0xffff/0xffff/0xffff)
+01-01 08:00:09.310630   147   196 I VpuStream: 
+01-01 08:00:09.310630   147   196 I VpuStream: 
+01-01 08:00:09.310630   147   196 I VpuStream: 
+01-01 08:00:09.318467   135   135 I mtkaudiohalservice: Registration complete for android.hardware.soundtrigger@2.1::ISoundTriggerHw/default.
+01-01 08:00:09.318521   135   135 D mtkaudiohalservice: registered ISoundTriggerHwsound_trigger.primary
+01-01 08:00:09.318549   135   135 D mtkaudiohalservice: registering IBluetoothAudioOffload
+01-01 08:00:09.318861    16    16 W hwservicemanager: getTransport: Cannot find entry android.hardware.bluetooth.a2dp@1.0::IBluetoothAudioOffload/default in either framework or device manifest.
+01-01 08:00:09.321739   135   135 E mtkaudiohalservice: Could not get passthrough implementation for android.hardware.bluetooth.a2dp@1.0::IBluetoothAudioOffload/default.
+01-01 08:00:09.321780   135   135 D mtkaudiohalservice: registered IBluetoothAudioOffload
+01-01 08:00:09.321797   135   135 W mtkaudiohalservice: Could not register Bluetooth audio offload 1.0
+01-01 08:00:09.324725   147   196 I VpuStream: VpuStream(196)[deque] [vpu] algo_ref_15/0x75ab843408/1, occupied core_index 0xffff/0x2, sts(0)
+01-01 08:00:09.325106   147   196 I VpuStream: VpuStream(196)[setExtraParam] + 0x0/0x0/0x2000
+01-01 08:00:09.325306   147   196 I VpuStream: VpuStream(196)[enque] [vpu] enque algo:ref_15/0x75ab843408/2, expected core:0xffff
+01-01 08:00:09.325306   147   196 I VpuStream: 
+01-01 08:00:09.325321   147   196 I VpuStream: VpuStream(196)[enque] [vpu] corrrrrrre index(0xffff/0xffff/0x2)
+01-01 08:00:09.325321   147   196 I VpuStream: 
+01-01 08:00:09.325321   147   196 I VpuStream: 
+01-01 08:00:09.325321   147   196 I VpuStream: 
+01-01 08:00:09.327828   147   196 I VpuStream: VpuStream(196)[deque] [vpu] algo_ref_15/0x75ab843408/2, occupied core_index 0xffff/0x2, sts(0)
+01-01 08:00:09.332642   151   151 I ServiceManagement: Removing namespace from process name android.hardware.wifi@1.0-service-mediatek to wifi@1.0-service-mediatek.
+01-01 08:00:09.355838   145   145 I ServiceManagement: Removing namespace from process name android.hardware.light@2.1-service-mediatek to light@2.1-service-mediatek.
+01-01 08:00:09.356908   145   145 I android.hardware.light@2.1-service-mediatek: Registration complete for android.hardware.light@2.1::ILight/default.
+01-01 08:00:09.371270   153   153 I ServiceManagement: Removing namespace from process name vendor.mediatek.hardware.gnss@1.1-service to gnss@1.1-service.
+01-01 08:00:09.372814   153   153 I vendor.mediatek.hardware.gnss@1.1-service: Registration complete for vendor.mediatek.hardware.gnss@1.1::IMtkGnss/default.
+01-01 08:00:09.391842   154   154 I ServiceManagement: Removing namespace from process name vendor.mediatek.hardware.nvram@1.1-service to nvram@1.1-service.
+01-01 08:00:09.392777   154   154 I NVRAM   : Registration complete for vendor.mediatek.hardware.nvram@1.1::INvram/default.
+01-01 08:00:09.761466   195   246 I ServiceManagement: getService: Trying again for vendor.mediatek.hardware.tbox@1.0::ITeleService/default...
+01-01 08:00:09.769178   157   190 I vendor.mediatek.hardware.power@2.0-impl: mtkPowerManager - data:0x0
+01-01 08:00:09.877805   159   159 I audioserver: ServiceManager: 0xe9d1c100
+01-01 08:00:09.881084    16    16 W hwservicemanager: getTransport: Cannot find entry android.hardware.audio@4.0::IDevicesFactory/msd in either framework or device manifest.
+01-01 08:00:09.882601   159   159 I AudioFlinger: Using default 3000 mSec as standby time.
+01-01 08:00:09.884704   159   159 I APM_AudioPolicyManager_CarRadio: Loaded AudioControl HAL service
+01-01 08:00:09.885184   159   159 I APM_AudioPolicyManager_CarAudioInfo: +ECARX registerVehicleCallback
+01-01 08:00:09.886309   159   159 I APM_AudioPolicyManager_CarAudioInfo: Get HAL Gear 8
+01-01 08:00:09.886370   159   159 I APM_AudioPolicyManager: onCarReverStateUpdate 0
+01-01 08:00:09.886507   159   159 I APM_AudioPolicyManager_CarAudioInfo: Get Speed 0.000000
+01-01 08:00:09.886952   159   159 I APM_AudioPolicyManager_CarAudioInfo: -ECARX  registerVehicleCallback ok...
+01-01 08:00:09.887406   159   159 E APM::Serializer: deserialize: Could not parse /odm/etc/audio_policy_configuration.xml document.
+01-01 08:00:09.900226   143   143 E MDP     : DpAsyncBlitStream: unrecognizable user 0
+01-01 08:00:09.956839   275   275 I mediaserver: ServiceManager: 0xec39c120
+01-01 08:00:10.018890   277   277 I mediametrics: ServiceManager: 0x7dccc31740
+01-01 08:00:10.019103   277   277 D MediaAnalyticsService: MediaAnalyticsService created
+01-01 08:00:10.114043   283   283 I mediaserver: ServiceManager: 0xe9f9c1c0
+01-01 08:00:10.176501   308   308 I media.codec: mediacodecservice starting
+01-01 08:00:10.214112   308   308 E MediaCodecsXmlParser: addMediaCodecFromAttributes: updating non-existing codec
+01-01 08:00:10.230343   157   191 I ServiceManagement: Removing namespace from process name vendor.mediatek.hardware.power@2.0-service to power@2.0-service.
+01-01 08:00:10.214216   308   308 W MediaCodecsXmlParser: parseTopLevelXMLFile(/vendor/etc/media_codecs_performance.xml) failed
+01-01 08:00:10.239645   157   191 I vendor.mediatek.hardware.power@2.0-service: Registration complete for vendor.mediatek.hardware.power@2.0::IPower/default.
+01-01 08:00:10.214268   308   308 W MediaCodecsXmlParser: unable to open media codecs configuration xml file: /data/misc/media/media_codecs_profiling_results.xml
+01-01 08:00:10.214284   308   308 W MediaCodecsXmlParser: parseTopLevelXMLFile(/data/misc/media/media_codecs_profiling_results.xml) failed
+01-01 08:00:10.195447   309   309 E android.hardware.sensors@1.0-service-mediatek: sensor hidl defaultPassthroughServiceImplementation start.
+01-01 08:00:10.215358   308   308 I ServiceManagement: Removing namespace from process name android.hardware.media.omx@1.0-service to omx@1.0-service.
+01-01 08:00:10.354767   135   294 D AudioALSAHardware: +mAudioALSAHardware
+01-01 08:00:10.349803   308   308 E MediaCodecsXmlParser: addMediaCodecFromAttributes: updating non-existing codec
+01-01 08:00:10.354883   135   294 D AudioSpeechEnhanceInfo: getInstance()
+01-01 08:00:10.349907   308   308 W MediaCodecsXmlParser: parseTopLevelXMLFile(/vendor/etc/media_codecs_performance.xml) failed
+01-01 08:00:10.354910   135   294 D AudioSpeechEnhanceInfo: AudioSpeechEnhanceInfo()
+01-01 08:00:10.349957   308   308 W MediaCodecsXmlParser: unable to open media codecs configuration xml file: /data/misc/media/media_codecs_profiling_results.xml
+01-01 08:00:10.355045   135   294 D AudioCustParamClient: AudioCustParamClient()
+01-01 08:00:10.349975   308   308 W MediaCodecsXmlParser: parseTopLevelXMLFile(/data/misc/media/media_codecs_profiling_results.xml) failed
+01-01 08:00:10.355063   135   294 D AudioCustParamClient: init(), acpOpsInited(0)
+01-01 08:00:10.350096   308   308 I ServiceManagement: Removing namespace from process name android.hardware.media.omx@1.0-service to omx@1.0-service.
+01-01 08:00:10.355084   135   294 D AudioCustParamClient: init(), init AcpOps struct
+01-01 08:00:10.355008   308   308 I media.codec: IOmx HAL service created.
+01-01 08:00:10.355278   135   294 D AudioCustParam: appOpsGetInstance(), init AppOps struct, lib is libaudio_param_parser-vnd.so
+01-01 08:00:10.264401   320   368 D agps    : [agps][n][Default] cdma_profile  name=[CDMA1] mcp_enable=[1] mcp_addr=[10.199.22.165] mcp_port=[6066] pde_addr_valid=[0] pde_ip_type=[0] pde_addr=[11.11.11.11] pde_port=[1111] pde_url_valid=[0] pde_url_addr=[www.mediatek.com]
+01-01 08:00:10.384363   135   294 D AudioParamParser-vnd: getDebugLevel(), debug level = -1
+01-01 08:00:10.386428   135   294 D AudioParamParser-vnd: appHandleLoadDirAudioTypeInfo(), Don't load audio param xml = VoIPv2UI_AudioParam.xml
+01-01 08:00:10.386561   135   294 D AudioParamParser-vnd: appHandleLoadDirAudioTypeInfo(), Don't load audio param xml = VoIPVolUI_AudioParam.xml
+01-01 08:00:10.386576   135   294 D AudioParamParser-vnd: appHandleLoadDirAudioTypeInfo(), Don't load audio param xml = VoIPUI_AudioParam.xml
+01-01 08:00:10.386732   135   294 D AudioParamParser-vnd: appHandleLoadDirAudioTypeInfo(), Don't load audio param xml = SpeechVolUI_AudioParam.xml
+01-01 08:00:10.386748   135   294 D AudioParamParser-vnd: appHandleLoadDirAudioTypeInfo(), Don't load audio param xml = SpeechUI_AudioParam.xml
+01-01 08:00:10.386898   135   294 D AudioParamParser-vnd: appHandleLoadDirAudioTypeInfo(), Don't load audio param xml = RingbackVolUI_AudioParam.xml
+01-01 08:00:10.386949   135   294 D AudioParamParser-vnd: appHandleLoadDirAudioTypeInfo(), Don't load audio param xml = RecordVolUI_AudioParam.xml
+01-01 08:00:10.386963   135   294 D AudioParamParser-vnd: appHandleLoadDirAudioTypeInfo(), Don't load audio param xml = RecordUI_AudioParam.xml
+01-01 08:00:10.387042   135   294 D AudioParamParser-vnd: appHandleLoadDirAudioTypeInfo(), Don't load audio param xml = PlaybackVolUI_AudioParam.xml
+01-01 08:00:10.413887   309   309 E android.hardware.sensors@1.0-service-mediatek: HAL specifies version 1.4, but does not implement set_operation_mode()
+01-01 08:00:10.413903   309   309 I android.hardware.sensors@1.0-service-mediatek: sensor hidl load sensor module success.
+01-01 08:00:10.421357   309   309 I ServiceManagement: Removing namespace from process name android.hardware.sensors@1.0-service-mediatek to sensors@1.0-service-mediatek.
+01-01 08:00:10.427156   309   309 I android.hardware.sensors@1.0-service-mediatek: Registration complete for android.hardware.sensors@1.0::ISensors/default.
+01-01 08:00:10.499044    71   155 I zygote64: Thread[7,tid=155,Native,Thread*=0x74f7c90800,peer=0x12f40000,"Thread-1"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+01-01 08:00:10.535784   135   294 D AudioSpeechEnhanceInfo: AudioSpeechEnhanceInfo(), mAudioCustParamClient(0xe98f1000)
+01-01 08:00:10.535839   135   294 D AudioSpeechEnhanceInfo: PreLoadBesRecordParams+
+01-01 08:00:10.499438    71   155 I zygote64: Thread[7,tid=155,Native,Thread*=0x74f7c90800,peer=0x12f40000,"Thread-1"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+01-01 08:00:10.535859   135   294 D AudioCustParam: GetHdRecordSceneTableFromNV()
+01-01 08:00:10.499586    71   155 I zygote64: Thread[7,tid=155,Native,Thread*=0x74f7c90800,peer=0x12f40000,"Thread-1"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+01-01 08:00:10.535876   135   294 D AudioCustParam: sizeof AUDIO_HD_RECORD_SCENE_TABLE_STRUCT = 135
+01-01 08:00:10.535902   135   294 D AudioCustParam: GetHdRecordParamFromNV()
+01-01 08:00:10.535915   135   294 D AudioCustParam: sizeof AUDIO_HD_RECORD_PARAM_STRUCT = 4054
+01-01 08:00:10.535931   135   294 D AudioCustParam: sizeof AUDIO_VOIP_PARAM_STRUCT = 1592
+01-01 08:00:10.535948   135   294 D AudioCustParam: sizeof AUDIO_CUSTOM_PARAM_STRUCT = 936
+01-01 08:00:10.535961   135   294 D AudioSpeechEnhanceInfo: PreLoadBesRecordParams-
+01-01 08:00:10.536063   135   294 D AudioMTKGainController: AudioMTKGainController contructor
+01-01 08:00:10.536119   135   294 D AudioALSADriverUtility: AudioALSADriverUtility()
+01-01 08:00:10.536162   135   294 D AudioALSADeviceParser: getCardName(), card name mtsndcard
+01-01 08:00:10.536507   135   294 D AudioALSADeviceParser: card open success
+01-01 08:00:10.536549   135   294 D AudioALSADeviceParser: 	current CardIndex = 0, Rch =  0 
+01-01 08:00:10.536561   135   294 D AudioALSADeviceParser: 	current sound card name = mtsndcard
+01-01 08:00:10.536573   135   294 D AudioALSADeviceParser: 	mCardIndex found = 0
+01-01 08:00:10.536626   135   294 D AudioALSADeviceParser: GetAllPcmAttribute(), Pcm open success
+01-01 08:00:10.548924   135   294 D AudioALSADeviceParser: Device 5 does not exist playback
+01-01 08:00:10.549926   135   294 D AudioALSADeviceParser: Device 7 does not exist playback
+01-01 08:00:10.555599   135   294 D AudioALSADeviceParser: Device 20 does not exist playback
+01-01 08:00:10.555771   135   294 D AudioALSADeviceParser: Device 20 does not exist capture
+01-01 08:00:10.558738   135   294 D AudioALSADeviceParser: name = MultiMedia1_PLayback, card index = 0, pcm index = 0, playback  = 1, capture = 0
+01-01 08:00:10.558780   135   294 D AudioALSADeviceParser: name = MultiMedia1_Capture, card index = 0, pcm index = 1, playback  = 0, capture = 1
+01-01 08:00:10.558794   135   294 D AudioALSADeviceParser: name = Voice_MD1_PLayback, card index = 0, pcm index = 2, playback  = 1, capture = 1
+01-01 08:00:10.558806   135   294 D AudioALSADeviceParser: name = TDM_PLayback, card index = 0, pcm index = 3, playback  = 1, capture = 1
+01-01 08:00:10.558818   135   294 D AudioALSADeviceParser: name = ULDL_Loopback, card index = 0, pcm index = 4, playback  = 1, capture = 1
+01-01 08:00:10.558829   135   294 D AudioALSADeviceParser: name = I2S0_PLayback, card index = 0, pcm index = 5, playback  = 1, capture = 0
+01-01 08:00:10.558840   135   294 D AudioALSADeviceParser: name = MRGRX_PLayback, card index = 0, pcm index = 6, playback  = 1, capture = 1
+01-01 08:00:10.558852   135   294 D AudioALSADeviceParser: name = MRGRX_CAPTURE, card index = 0, pcm index = 7, playback  = 1, capture = 1
+01-01 08:00:10.558863   135   294 D AudioALSADeviceParser: name = I2S0DL1_PLayback, card index = 0, pcm index = 8, playback  = 1, capture = 0
+01-01 08:00:10.558874   135   294 D AudioALSADeviceParser: name = Deep_Buffer_PLayback, card index = 0, pcm index = 9, playback  = 1, capture = 0
+01-01 08:00:10.558887   135   294 D AudioALSADeviceParser: name = DL1_AWB_Record, card index = 0, pcm index = 10, playback  = 0, capture = 1
+01-01 08:00:10.558900   135   294 D AudioALSADeviceParser: name = Voice_MD1_BT_Playback, card index = 0, pcm index = 11, playback  = 1, capture = 0
+01-01 08:00:10.558912   135   294 D AudioALSADeviceParser: name = VOIP_Call_BT_Playback, card index = 0, pcm index = 12, playback  = 1, capture = 0
+01-01 08:00:10.558923   135   294 D AudioALSADeviceParser: name = VOIP_Call_BT_Capture, card index = 0, pcm index = 13, playback  = 0, capture = 1
+01-01 08:00:10.558934   135   294 D AudioALSADeviceParser: name = TDM_Debug_Record, card index = 0, pcm index = 14, playback  = 0, capture = 1
+01-01 08:00:10.558946   135   294 D AudioALSADeviceParser: name = FM_MRGTX_Playback, card index = 0, pcm index = 15, playback  = 1, capture = 0
+01-01 08:00:10.558958   135   294 D AudioALSADeviceParser: name = MultiMediaData2_Capture, card index = 0, pcm index = 16, playback  = 0, capture = 1
+01-01 08:00:10.558969   135   294 D AudioALSADeviceParser: name = MultiMediaData3_Capture, card index = 0, pcm index = 17, playback  = 0, capture = 1
+01-01 08:00:10.558981   135   294 D AudioALSADeviceParser: name = I2S0AWB_Capture, card index = 0, pcm index = 18, playback  = 0, capture = 1
+01-01 08:00:10.558992   135   294 D AudioALSADeviceParser: name = Voice_MD2_PLayback, card index = 0, pcm index = 19, playback  = 1, capture = 1
+01-01 08:00:10.559004   135   294 D AudioALSADeviceParser: name = MultiMedia_Routing, card index = 0, pcm index = 20, playback  = 1, capture = 1
+01-01 08:00:10.559015   135   294 D AudioALSADeviceParser: name = Voice_MD2_BT_Playback, card index = 0, pcm index = 21, playback  = 1, capture = 0
+01-01 08:00:10.559027   135   294 D AudioALSADeviceParser: name = HP_IMPEDANCE_Playback, card index = 0, pcm index = 22, playback  = 1, capture = 0
+01-01 08:00:10.559038   135   294 D AudioALSADeviceParser: name = FM_I2S_Playback, card index = 0, pcm index = 23, playback  = 1, capture = 1
+01-01 08:00:10.559050   135   294 D AudioALSADeviceParser: name = FM_I2S_Capture, card index = 0, pcm index = 24, playback  = 0, capture = 1
+01-01 08:00:10.559061   135   294 D AudioALSADeviceParser: name = MultiMedia2_PLayback, card index = 0, pcm index = 25, playback  = 1, capture = 0
+01-01 08:00:10.559073   135   294 D AudioALSADeviceParser: name = MultiMedia3_PLayback, card index = 0, pcm index = 26, playback  = 1, capture = 0
+01-01 08:00:10.559084   135   294 D AudioALSADeviceParser: name = BTCVSD_Capture, card index = 0, pcm index = 27, playback  = 1, capture = 1
+01-01 08:00:10.559096   135   294 D AudioALSADeviceParser: name = BTCVSD_Playback, card index = 0, pcm index = 28, playback  = 1, capture = 1
+01-01 08:00:10.559107   135   294 D AudioALSADeviceParser: name = ANC_Record, card index = 0, pcm index = 29, playback  = 0, capture = 1
+01-01 08:00:10.559119   135   294 D AudioALSADeviceParser: name = Voice_USB_PLayback, card index = 0, pcm index = 30, playback  = 1, capture = 1
+01-01 08:00:10.559130   135   294 D AudioALSADeviceParser: name = Voice_USB_EchoRef, card index = 0, pcm index = 31, playback  = 1, capture = 0
+01-01 08:00:10.559142   135   294 D AudioALSADeviceParser: name = I2S5DL1_PLayback, card index = 0, pcm index = 32, playback  = 1, capture = 0
+01-01 08:00:10.559153   135   294 D AudioALSADeviceParser: name = Headphone_PLayback, card index = 0, pcm index = 33, playback  = 1, capture = 1
+01-01 08:00:10.559165   135   294 D AudioALSADeviceParser: name = Speaker_PLayback, card index = 0, pcm index = 34, playback  = 1, capture = 1
+01-01 08:00:10.559176   135   294 D AudioALSADeviceParser: name = I2S2ADC2_Capture, card index = 0, pcm index = 35, playback  = 0, capture = 1
+01-01 08:00:10.559443   135   294 D AudioALSADriverUtility: mMixer = 0xe851c1c0
+01-01 08:00:10.570277   135   294 D AudioALSADeviceConfigManager: TiXmlDeclaration version = 1.0, Encoding = UTF-8, Standalone = 
+01-01 08:00:10.570332   135   294 D AudioALSADeviceConfigManager: GetVersion = 1.01
+01-01 08:00:10.570345   135   294 D AudioALSADeviceConfigManager: +ParseInitSequence()
+01-01 08:00:10.570358   135   294 D AudioALSADeviceConfigManager: valname = Audio_Speaker_class_Switch  valvalue = CLASSAB  
+01-01 08:00:10.570382   135   294 D AudioALSADeviceConfigManager: -ParseInitSequence()
+01-01 08:00:10.570396   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = headphone_output action = turnon
+01-01 08:00:10.570415   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = headphone_output action = turnoff
+01-01 08:00:10.570430   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = receiver_output action = turnon
+01-01 08:00:10.570447   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = receiver_output action = turnoff
+01-01 08:00:10.570460   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = two_in_one_speaker_output action = turnon
+01-01 08:00:10.570474   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = two_in_one_speaker_output action = turnoff
+01-01 08:00:10.570488   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = speaker_output action = turnon
+01-01 08:00:10.570502   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = speaker_output action = turnoff
+01-01 08:00:10.570515   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = headphoneSpeaker_output action = turnon
+01-01 08:00:10.570532   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = headphoneSpeaker_output action = turnoff
+01-01 08:00:10.570545   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = maxim_speaker_output action = turnon
+01-01 08:00:10.570559   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = maxim_speaker_output action = turnoff
+01-01 08:00:10.570573   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = maxim_headphoneSpeaker_output action = turnon
+01-01 08:00:10.570591   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = maxim_headphoneSpeaker_output action = turnoff
+01-01 08:00:10.570608   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = ext_speaker_output action = turnon
+01-01 08:00:10.570622   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = ext_speaker_output action = turnoff
+01-01 08:00:10.570635   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_Mic1 action = turnon
+01-01 08:00:10.570654   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_Mic1 action = turnoff
+01-01 08:00:10.570671   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_Mic1_Inverse action = turnon
+01-01 08:00:10.570690   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_Mic1_Inverse action = turnoff
+01-01 08:00:10.570705   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_Mic2 action = turnon
+01-01 08:00:10.570721   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_Mic2 action = turnoff
+01-01 08:00:10.570736   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_Mic2_Inverse action = turnon
+01-01 08:00:10.570752   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_Mic2_Inverse action = turnoff
+01-01 08:00:10.570767   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_SingleMic action = turnon
+01-01 08:00:10.570783   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_SingleMic action = turnoff
+01-01 08:00:10.570798   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_DualMic action = turnon
+01-01 08:00:10.570815   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_DualMic action = turnoff
+01-01 08:00:10.570829   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_BackMic action = turnon
+01-01 08:00:10.570848   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_BackMic action = turnoff
+01-01 08:00:10.570863   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_BackMic_Inverse action = turnon
+01-01 08:00:10.570881   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = builtin_Mic_BackMic_Inverse action = turnoff
+01-01 08:00:10.570895   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = headset_mic_input action = turnon
+01-01 08:00:10.570912   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = headset_mic_input action = turnoff
+01-01 08:00:10.570927   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = sidetone_switch action = turnon
+01-01 08:00:10.570941   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = sidetone_switch action = turnoff
+01-01 08:00:10.570954   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic1TypeACCMode action = setting
+01-01 08:00:10.570968   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic1TypeDCCMode action = setting
+01-01 08:00:10.624250   159   159 I AudioFlinger: loadHwModule() Loaded primary audio interface, handle 10
+01-01 08:00:10.570981   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic1TypeDMICMode action = setting
+01-01 08:00:10.624469   159   159 I AudioFlinger: openOutput() this 0xe9d6a000, module 10 Device 0x2, SamplingRate 48000, Format 0x000003, Channels 0x3, flags 0x2
+01-01 08:00:10.570994   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic1TypeDCCECMDIFFMode action = setting
+01-01 08:00:10.626474   159   159 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+01-01 08:00:10.571009   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic1TypeDCCECMSINGLEMode action = setting
+01-01 08:00:10.571022   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic2TypeACCMode action = setting
+01-01 08:00:10.571039   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic2TypeDCCMode action = setting
+01-01 08:00:10.571053   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic2TypeDMICMode action = setting
+01-01 08:00:10.571067   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic2TypeDCCECMDIFFMode action = setting
+01-01 08:00:10.571081   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic2TypeDCCECMSINGLEMode action = setting
+01-01 08:00:10.571093   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic3TypeACCMode action = setting
+01-01 08:00:10.571107   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic3TypeDCCMode action = setting
+01-01 08:00:10.571119   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic3TypeDMICMode action = setting
+01-01 08:00:10.571132   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic3TypeDCCECMDIFFMode action = setting
+01-01 08:00:10.571145   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic3TypeDCCECMSINGLEMode action = setting
+01-01 08:00:10.571159   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic4TypeACCMode action = setting
+01-01 08:00:10.571173   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic4TypeDCCMode action = setting
+01-01 08:00:10.571187   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic4TypeDMICMode action = setting
+01-01 08:00:10.571201   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic4TypeDCCECMDIFFMode action = setting
+01-01 08:00:10.571214   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic4TypeDCCECMSINGLEMode action = setting
+01-01 08:00:10.571235   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic_Setting_Inverse action = setting
+01-01 08:00:10.571250   135   294 D AudioALSADeviceConfigManager: ParseDeviceSequence() devicename = Mic_Setting_NoInverse action = setting
+01-01 08:00:10.571559   135   294 D         : appOpsGetInstance(), init AppOps struct, lib is libaudio_param_parser-vnd.so
+01-01 08:00:10.571873   135   294 D AudioSmartPaController: initSmartPaAttribute(), spkType: int_lo_buf, isSmartPAUsed: 0, SmartPA dynamic detect: 0
+01-01 08:00:10.571906   135   294 D AudioALSAHardwareResourceManager: AudioALSAHardwareResourceManager()
+01-01 08:00:10.573024   135   294 D AudioALSACodecDeviceBase: AudioALSACodecDeviceBase()
+01-01 08:00:10.573062   135   294 D AudioALSACodecDeviceOutEarphonePMIC: AudioALSACodecDeviceOutEarphonePMIC()
+01-01 08:00:10.573117   135   294 D AudioALSACodecDeviceOutEarphonePMIC: DeviceDoDcCalibrate(), ctl Dctrim_Control_Switch = 2
+01-01 08:00:10.573135   135   294 D AudioALSACodecDeviceOutEarphonePMIC: DeviceDoDcCalibrate(), dc trimmed
+01-01 08:00:10.573158   135   294 D AudioALSACodecDeviceBase: AudioALSACodecDeviceBase()
+01-01 08:00:10.573172   135   294 D AudioALSACodecDeviceOutSpeakerEarphonePMIC: AudioALSACodecDeviceOutSpeakerEarphonePMIC()
+01-01 08:00:10.573191   135   294 D AudioALSACodecDeviceOutSpeakerEarphonePMIC: DeviceDoDcCalibrate()
+01-01 08:00:10.573225   135   294 D AudioALSACodecDeviceOutSpeakerEarphonePMIC: DeviceDoDcCalibrate(), can't get mixer control(Audio HPL_SPK Offset)
+01-01 08:00:10.573269   135   294 D AudioALSACodecDeviceOutSpeakerEarphonePMIC: DeviceDoDcCalibrate(), can't get mixer control(Audio HPR_SPK Offset)
+01-01 08:00:10.573286   135   294 D AudioUtility: PHONE_MIC_MODE defined!, mPhoneMicMode = 1
+01-01 08:00:10.573312   135   294 D AudioUtility: HEADSET_MIC_MODE defined!, mHeadsetMicMode = 1
+01-01 08:00:10.573326   135   294 D AudioALSAHardwareResourceManager: updatePhoneMicMode()
+01-01 08:00:10.574062   135   294 D AudioALSAHardwareResourceManager: updatePhoneMicMode(), new mic mode = 2,  old mic_mode = 1
+01-01 08:00:10.582575   135   294 D         : appOpsGetInstance(), init AppOps struct, lib is libaudio_param_parser-vnd.so
+01-01 08:00:10.582960   135   294 D GainTableParamParser: mSpec.audioBufferGainPreferMaxIdx = 18
+01-01 08:00:10.582977   135   294 D GainTableParamParser: mSpec.audioBufLMixerName = Headset_PGAL_GAIN
+01-01 08:00:10.582991   135   294 D GainTableParamParser: mSpec.audioBufRMixerName = Headset_PGAR_GAIN
+01-01 08:00:10.583283   135   294 D GainTableParamParser: mSpec.ulPgaLMixerName = Audio_PGA1_Setting
+01-01 08:00:10.583295   135   294 D GainTableParamParser: mSpec.ulPgaRMixerName = Audio_PGA2_Setting
+01-01 08:00:10.583665   135   294 D AudioMTKGainController: allocateGainTable()
+01-01 08:00:10.588872   135   294 D AudioMTKGainController: mMixer = 0xe851c1c0
+01-01 08:00:10.588896   135   294 D         : appOpsGetInstance(), init AppOps struct, lib is libaudio_param_parser-vnd.so
+01-01 08:00:10.589202   135   294 D AudioALSAHardware: AudioALSAHardware()
+01-01 08:00:10.598390   135   294 D SpeechParamParser: appOpsGetInstance(), init AppOps struct, lib is libaudio_param_parser-vnd.so
+01-01 08:00:10.598961   135   294 D         : appOpsGetInstance(), init AppOps struct, lib is libaudio_param_parser-vnd.so
+01-01 08:00:10.599725   135   294 D AudioALSAFMController: AudioALSAFMController()
+01-01 08:00:10.599759   135   294 D         : appOpsGetInstance(), init AppOps struct, lib is libaudio_param_parser-vnd.so
+01-01 08:00:10.600030   135   294 D AudioALSAStreamManager: AudioALSAStreamManager()
+01-01 08:00:10.600053   135   294 D AudioALSAStreamManager: AudioALSAStreamManager(), mBesLoudnessStatus [0] (Always) 
+01-01 08:00:10.600077   135   294 D AudioEventThreadManager: registerCallback(), audioEventType=0, callbackFunc = 0xe936ae9c
+01-01 08:00:10.600093   135   294 D AudioEventThreadManager: AudioEventThread(), audioEventType = 0
+01-01 08:00:10.600146   135   294 D AudioEventThreadManager: registerCallback(), add new audioEventType=0, callbackFunc = 0xe936ae9c
+01-01 08:00:10.600165   135   294 D AudioUtility: getPowerHal(), get PowerHal Service
+01-01 08:00:10.600383   135   463 E AudioALSASpeechPhoneCallController: nativeCallThread(), TestThread!!
+01-01 08:00:10.600458   135   463 E AudioALSASpeechPhoneCallController: listen ret (0)
+01-01 08:00:10.602653   135   294 D AudioUtility: getPowerHal(), Link to death notification successfully
+01-01 08:00:10.602724   135   294 D AudioALSAParamTuner: getInstance(), create AudioALSAParamTuner instance --
+01-01 08:00:10.602743   135   294 D AudioALSAParamTuner: +AudioALSAParamTuner()
+01-01 08:00:10.602771   135   294 D AudioCustParam: GetVolumeVer1ParamFromNV 
+01-01 08:00:10.602787   135   294 D AudioCustParam: getDefaultVer1VolumeParam
+01-01 08:00:10.602807   135   294 D AudioMTKGainController: getMicGainDecimal(), micMode 1, gainDevice 0, micGainDecimal 164
+01-01 08:00:10.602823   135   294 D AudioMTKGainController: getMicGainDecimal(), micMode 1, gainDevice 2, micGainDecimal 180
+01-01 08:00:10.602845   135   294 D AudioALSAParamTuner: AudioALSAParamTuner(), AudioALSAParamTuner: default mic gain-mormal:164;handsfree:180, receiver gain:112, headset Gain:76
+01-01 08:00:10.602861   135   294 D AudioALSAParamTuner: getInstance(), create AudioALSAParamTuner instance ++
+01-01 08:00:10.603871   135   294 D         : appOpsGetInstance(), init AppOps struct, lib is libaudio_param_parser-vnd.so
+01-01 08:00:10.604405   135   294 D AudioALSAHardware: AudioALSAHardware(), mAudioHalBtscoWB = 0
+01-01 08:00:10.604493   135   294 D AudioBTCVSDControl: +AudioBTCVSDControl
+01-01 08:00:10.604510   135   294 D AudioBTCVSDControl: AudioBTCVSDControl constructor
+01-01 08:00:10.618877   135   294 D AudioBTCVSDControl: BT_SCO_SET_TXState state=0x0
+01-01 08:00:10.618922   135   294 D AudioBTCVSDControl: BT_SCO_SET_RXState state=0x10
+01-01 08:00:10.618935   135   294 D AudioBTCVSDControl: BT_SCO_CVSD_Init() allocate mBTSCOCVSDContext
+01-01 08:00:10.618950   135   294 D AudioBTCVSDControl: -AudioBTCVSDControl
+01-01 08:00:10.618961   135   294 D AudioBTCVSDControl: AudioBTCVSDControl getInstance()
+01-01 08:00:10.618975   135   294 D AudioBTCVSDControl: BT_SCO_SetMode, mode=0, BTmode=0
+01-01 08:00:10.618990   135   294 D AudioALSASpeechPhoneCallController: setBTMode(), mBTMode: 0 => 0
+01-01 08:00:10.619025   135   294 D AudioALSAHardware: -mAudioALSAHardware
+01-01 08:00:10.619041   135   294 D mtk_audio_hw_hal: gAudioHALRefCountByClient + 1
+01-01 08:00:10.622321   135   294 D AudioALSAHardware: initCheck()
+01-01 08:00:10.622369   135   294 D AudioALSAHardware: AudioALSAHardware, v01_dsp_connect()
+01-01 08:00:10.622403   135   294 D AudioALSAHardware: v01_dsp_connect(), xz_get_version is v1.0.1.0330
+01-01 08:00:10.622964   135   294 D AudioALSAHardware: v01_dsp_connect(), V01 engine connect start = 
+01-01 08:00:10.623316   135   294 D AudioALSAStreamManager: setMasterVolume(), volume = 1.000000
+01-01 08:00:10.623369   135   294 D AudioHfpController: +UniqueHfpControllerInstance
+01-01 08:00:10.623412   135   294 D AudioHfpController: AudioHfpController
+01-01 08:00:10.623433   135   294 D AudioCustParam: sizeof AUDIO_HFP_PARAM_STRUCT = 1592
+01-01 08:00:10.623455   135   294 D AudioHfpController: setBgsSoundAttribute sampleRate = 44100 chNum = 2 format = 1
+01-01 08:00:10.623479   135   294 D AudioHfpController: -UniqueHfpControllerInstance
+01-01 08:00:10.623497   135   294 D AudioMTKGainController: setNormalVolume(), mSceneIndex = 0, stream -1, devices 0x0, index -1, mode 0x0
+01-01 08:00:10.623521   135   294 E AudioMTKGainController: getGainDevice(), error, devices (0) not support, return GAIN_DEVICE_SPEAKER
+01-01 08:00:10.623533   135   294 W AudioMTKGainController: error, stream -1 is invalid, use 3 instead
+01-01 08:00:10.623546   135   294 W AudioMTKGainController: error, index -1 is invalid, use max 15 instead
+01-01 08:00:10.623562   135   294 D AudioMTKGainController: setSpeakerGain(), gain = 10, spkAnaType = 3, spkLMixerName = Lineout_PGAL_GAIN, spkRMixerName = Lineout_PGAR_GAIN
+01-01 08:00:10.624632   135   294 D AudioALSAStreamManager: +openOutputStream()
+01-01 08:00:10.624670   135   294 D AudioALSAStreamManager: openOutputStream(), devices = 0x2, format = 0x3, channels = 0x3, sampleRate = 48000, status = 0xd
+01-01 08:00:10.624716   135   294 D AudioALSAStreamOut: AudioALSAStreamOut()
+01-01 08:00:10.624734   135   294 D AudioALSAStreamOut: set(), devices = 0x2, format = 0x3, channels = 0x3, sampleRate = 48000, flags = 0x2
+01-01 08:00:10.624781   135   294 D AudioALSASampleRateController: AudioALSASampleRateController()
+01-01 08:00:10.624800   135   294 D AudioALSASampleRateController: +setPrimaryStreamOutSampleRate(), mPrimaryStreamOutSampleRate: 44100 => 48000
+01-01 08:00:10.624813   135   294 D AudioALSASampleRateController: -setPrimaryStreamOutSampleRate(), mPrimaryStreamOutSampleRate: 48000
+01-01 08:00:10.624837   135   294 D AudioALSAStreamOut: set(), mStreamAttributeSource.latency 42, mStreamAttributeSource.buffer_size =8192, channels 2.
+01-01 08:00:10.625196   135   294 D AudioCompFltCustParam: getPlaybackPostProcessParameterFromXML Type/Name [0]/[PlaybackACF]
+01-01 08:00:10.625221   135   294 D AudioCompFltCustParam: appOpsGetInstance(), init AppOps struct, lib is libaudio_param_parser-vnd.so
+01-01 08:00:10.625494   135   294 D AudioCompFltCustParam: L/R_hpf_fc = 300/0, L/R_hpf_order = 2/0, L/R_lpf_fc = 0/0, L/R_lpf_order = 0/0
+01-01 08:00:10.625513   135   294 D AudioCompFltCustParam: Sep_LR_Filter = 0, WS_Gain_Max = 0, WS_Gain_Min = 0, Filter_First = 0, Num_Bands = 0, Flt_Bank_Order = 0
+01-01 08:00:10.625533   135   294 D AudioCompFltCustParam: DRC_Delay = 0, Lim_Th = 0, Lim_Gn = 0, Lim_Const = 0, Lim_Delay = 0, SWIPRev = 0x520
+01-01 08:00:10.625547   135   294 D MtkAudioLoud: loadParameter Update Cache Type [0], Scene []
+01-01 08:00:10.625571   135   294 D MtkAudioLoud: mIsZeroCoeff 0 mFilterType 0
+01-01 08:00:10.625589   135   294 D AudioMTKFilterManager: mFixedParam 0
+01-01 08:00:10.625607   135   294 D AudioALSAStreamManager: -openOutputStream(), out = 0xe86e7600, status = 0x0, mStreamOutVector.size() = 1
+01-01 08:00:10.701824   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+01-01 08:00:10.702073   159   159 D StreamHalHidl: processReturn with getLatency, status = 0
+01-01 08:00:10.701923   135   294 D MTKStreamOutHAL: StreamOut::getLatency = 42
+01-01 08:00:10.701942   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+01-01 08:00:10.706316   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+01-01 08:00:10.706509   159   159 D StreamHalHidl: processReturn with getLatency, status = 0
+01-01 08:00:10.706348   135   294 D MTKStreamOutHAL: StreamOut::getLatency = 42
+01-01 08:00:10.706565   159   159 I AudioFlinger: Using module 10 as the primary audio interface
+01-01 08:00:10.706371   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+01-01 08:00:10.706653   159   476 I AudioFlinger: AudioFlinger's thread 0xe92837c0 tid=476 ready to run
+01-01 08:00:10.706670   135   294 W AudioALSAStreamManager: setMode(), mAudioMode: 0 == 0, return
+01-01 08:00:10.706788   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 0  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -78.000000
+01-01 08:00:10.707274   135   294 D AudioALSAHardware: setVoiceVolume(), volume = 0.000000, mUseTuningVolume = 0
+01-01 08:00:10.706816   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 0  index 0  volumeDb -758.000000
+01-01 08:00:10.707301   135   294 D AudioALSAStreamManager: setVoiceVolume(), volume = 0.000000
+01-01 08:00:10.706918   159   476 W AudioFlinger: no wake lock to update, system not ready yet
+01-01 08:00:10.707323   135   294 D AudioMTKGainController: setVoiceVolume(), index = -1, devices = 0x2, mode = 0, mBand = 0, mNetwork = 0, mVoiceVolume = 0.000000
+01-01 08:00:10.707851   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 1  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:10.707338   135   294 W AudioMTKGainController: error, index -1 is invalid, use max 7 instead
+01-01 08:00:10.707881   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 1  index 0  volumeDb -758.000000
+01-01 08:00:10.707362   135   294 D AudioMTKGainController: setSpeakerGain(), gain = 9, spkAnaType = 3, spkLMixerName = Lineout_PGAL_GAIN, spkRMixerName = Lineout_PGAR_GAIN
+01-01 08:00:10.707991   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 2  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:10.707375   135   135 D AudioALSAStreamOut: standby(), flag 2
+01-01 08:00:10.708012   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 2  index 0  volumeDb -758.000000
+01-01 08:00:10.707403   135   135 D AudioALSAStreamOut: standbyStreamOut(), flag 2
+01-01 08:00:10.708090   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 3  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:10.708109   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 3  index 0  volumeDb -758.000000
+01-01 08:00:10.708153   159   476 W AudioFlinger: no wake lock to update, system not ready yet
+01-01 08:00:10.708424   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 4  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:10.707574   135   294 D AudioMTKGainController: ApplyMicGain(), mSceneIndex = 0, _mic_mode = 0, _gain_device = 2, mode = 0, micgain = 34, mULTotalGain = 208, mBand 0, mNetwork 0
+01-01 08:00:10.708450   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 4  index 0  volumeDb -758.000000
+01-01 08:00:10.707589   135   294 D AudioMTKGainController: ApplyMicGain(), SetAdcPga1 = 4, SetAdcPga2 = 4
+01-01 08:00:10.708615   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 5  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:10.707717   135   294 D AudioMTKGainController: ApplySideTone gainDevice 2, sidetone 0, updated_sidetone 0
+01-01 08:00:10.708634   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 5  index 0  volumeDb -758.000000
+01-01 08:00:10.707734   135   294 W AudioALSASpeechPhoneCallController: muteDlUlForRouting(), speech off!! do nothing!!
+01-01 08:00:10.708797   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 7  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:10.708817   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 7  index 0  volumeDb -758.000000
+01-01 08:00:10.708991   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 8  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:10.709011   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 8  index 0  volumeDb -758.000000
+01-01 08:00:10.709184   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 9  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:10.709205   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 9  index 0  volumeDb -758.000000
+01-01 08:00:10.709477   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 10  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:10.709500   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 10  index 0  volumeDb -758.000000
+01-01 08:00:10.709585   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 11  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:10.709604   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 11  index 0  volumeDb -758.000000
+01-01 08:00:10.709818   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 12  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:10.709837   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 12  index 0  volumeDb -758.000000
+01-01 08:00:10.709935   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 13  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:10.709953   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 13  index 0  volumeDb -758.000000
+01-01 08:00:10.709974   159   159 I APM_AudioPolicyManager_CarRadio: setVolume -144.000000 Call Hal setRadioVolume
+01-01 08:00:10.710342   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 14  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:10.710389   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 14  index 0  volumeDb -758.000000
+01-01 08:00:10.710507   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 15  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:10.710527   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 15  index 0  volumeDb -758.000000
+01-01 08:00:10.710691   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 16  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -35.000000
+01-01 08:00:10.710711   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 16  index 0  volumeDb -758.000000
+01-01 08:00:10.712049   159   159 I APM_AudioPolicyManager_CarRadar: Loaded chime HAL 1.0 service
+01-01 08:00:10.712131   159   159 I APM_AudioPolicyManager_CarRadar: setChimeWarnVolume -758.000000
+01-01 08:00:10.761793   195   246 W ServiceManagement: Waited one second for vendor.mediatek.hardware.tbox@1.0::ITeleService/default
+01-01 08:00:10.762517   195   246 I ServiceManagement: getService: Trying again for vendor.mediatek.hardware.tbox@1.0::ITeleService/default...
+01-01 08:00:10.860270   495   495 E goc     : playRingAudioStreamType item is null
+01-01 08:00:11.078706   311   311 I mtkcam-module: [dump_module] [registered] module_id:0x0x40001 module_factory:0x76eefcc298 register_name:vendor/mediatek/proprietary/hardware/mtkcam/main/core/module/utils/register_utils.cpp
+01-01 08:00:11.079798   311   311 I mtkcam-module: [dump_module] [registered] module_id:0x0x1 module_factory:0x76e4836420 register_name:vendor/mediatek/proprietary/hardware/mtkcam/main/core/module/drv/register_HalSensor.cpp
+01-01 08:00:11.079810   311   311 I mtkcam-module: [dump_module] [registered] module_id:0x0x2 module_factory:0x76e483b928 register_name:vendor/mediatek/proprietary/hardware/mtkcam/main/core/module/drv/register_HwSyncDrv.cpp
+01-01 08:00:11.079821   311   311 I mtkcam-module: [dump_module] [registered] module_id:0x0x3 module_factory:0x76ed99cb80 register_name:vendor/mediatek/proprietary/hardware/mtkcam/main/core/module/drv/register_iopipe_CamIO_NormalPipe.cpp
+01-01 08:00:11.086528   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 17  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -78.000000
+01-01 08:00:11.086589   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 17  index 0  volumeDb -758.000000
+01-01 08:00:11.086860   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 18  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.086887   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 18  index 0  volumeDb -758.000000
+01-01 08:00:11.087105   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 19  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.087132   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 19  index 0  volumeDb -758.000000
+01-01 08:00:11.087331   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 20  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -78.000000
+01-01 08:00:11.087357   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 20  index 0  volumeDb -758.000000
+01-01 08:00:11.087445   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 21  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.087463   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 21  index 0  volumeDb -758.000000
+01-01 08:00:11.087536   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 22  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table 0.000000
+01-01 08:00:11.087554   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 22  index 0  volumeDb -758.000000
+01-01 08:00:11.087811   159   159 W AudioFlinger: moveEffects() bad srcOutput 0
+01-01 08:00:11.088555   135   294 W AudioALSAStreamManager: routingOutputDevice(), flag: 2, mPhoneCallSpeechOpen = 0, output_devices == current_output_devices(0x2), return
+01-01 08:00:11.089069   135   478 D AudioALSAStreamOut: latency(), flags 2, return 42
+01-01 08:00:11.089108   135   478 D MTKStreamOutHAL: StreamOut::getLatency = 42
+01-01 08:00:11.089200   159   476 D StreamHalHidl: processReturn with getLatency, status = 0
+01-01 08:00:11.089132   135   478 D AudioALSAStreamOut: latency(), flags 2, return 42
+01-01 08:00:11.089618   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 0  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -78.000000
+01-01 08:00:11.089739   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 0  index 0  volumeDb -758.000000
+01-01 08:00:11.089767   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 1  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.089792   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 1  index 0  volumeDb -758.000000
+01-01 08:00:11.089818   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 2  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.089843   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 2  index 0  volumeDb -758.000000
+01-01 08:00:11.089869   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 3  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.089888   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 3  index 0  volumeDb -758.000000
+01-01 08:00:11.089932   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 4  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.089950   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 4  index 0  volumeDb -758.000000
+01-01 08:00:11.089973   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 5  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.090008   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 5  index 0  volumeDb -758.000000
+01-01 08:00:11.090035   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 7  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.090070   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 7  index 0  volumeDb -758.000000
+01-01 08:00:11.090098   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 8  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.090123   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 8  index 0  volumeDb -758.000000
+01-01 08:00:11.090146   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 9  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.090163   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 9  index 0  volumeDb -758.000000
+01-01 08:00:11.090198   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 10  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.090215   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 10  index 0  volumeDb -758.000000
+01-01 08:00:11.090238   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 11  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.090265   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 11  index 0  volumeDb -758.000000
+01-01 08:00:11.090290   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 12  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.090315   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 12  index 0  volumeDb -758.000000
+01-01 08:00:11.090339   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 13  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.090356   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 13  index 0  volumeDb -758.000000
+01-01 08:00:11.090391   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 14  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.090409   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 14  index 0  volumeDb -758.000000
+01-01 08:00:11.090432   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 15  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.090460   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 15  index 0  volumeDb -758.000000
+01-01 08:00:11.090483   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 16  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -35.000000
+01-01 08:00:11.090508   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 16  index 0  volumeDb -758.000000
+01-01 08:00:11.090527   159   159 I APM_AudioPolicyManager_CarRadar: setChimeWarnVolume -758.000000
+01-01 08:00:11.098090   330   330 I ServiceManagement: getService: Trying again for vendor.mediatek.hardware.tbox@1.0::ITeleData/default...
+01-01 08:00:11.110705   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 17  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -78.000000
+01-01 08:00:11.110755   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 17  index 0  volumeDb -758.000000
+01-01 08:00:11.110783   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 18  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.110801   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 18  index 0  volumeDb -758.000000
+01-01 08:00:11.110825   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 19  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.110843   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 19  index 0  volumeDb -758.000000
+01-01 08:00:11.111624   135   477 D AudioALSAStreamManager: openInputStream(), devices = 0x80000004, format = 0x1, channels = 0xc, sampleRate = 16000, status = 14, acoustics = 0x0
+01-01 08:00:11.110867   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 20  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -78.000000
+01-01 08:00:11.111676   135   477 D AudioALSAStreamIn: AudioALSAStreamIn()
+01-01 08:00:11.110885   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 20  index 0  volumeDb -758.000000
+01-01 08:00:11.111702   135   477 D AudioALSAStreamIn: set(), devices = 0x80000004, format = 0x1, channels = 0xc, sampleRate = 16000, acoustics = 0x0, flags = 0
+01-01 08:00:11.110909   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 21  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -80.000000
+01-01 08:00:11.111721   135   477 D AudioALSAStreamIn: CheckBesRecordInfo()
+01-01 08:00:11.110926   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 21  index 0  volumeDb -758.000000
+01-01 08:00:11.111738   135   477 D AudioSpeechEnhanceInfo: GetBesRecScene() -1
+01-01 08:00:11.111381   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 22  index 0  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table 0.000000
+01-01 08:00:11.111791   135   477 D AudioSpeechEnhanceInfo: IsBesRecTuningEnable()- 0
+01-01 08:00:11.111415   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 22  index 0  volumeDb -758.000000
+01-01 08:00:11.111825   135   477 D AudioSpeechEnhanceInfo: IsAPDMNRTuningEnable(), 0
+01-01 08:00:11.111847   135   477 D AudioSpeechEnhanceInfo: GetForceMagiASRState(), feature_support=1e091757, 400, mForceMagiASR=0
+01-01 08:00:11.111864   135   477 D AudioSpeechEnhanceInfo: GetForceAECRecState(), mForceAECRec=0
+01-01 08:00:11.111885   135   477 D AudioALSAStreamIn: checkOpenStreamSampleRate(), origin sampleRate 16000, kDefaultInputSourceSampleRate 48000.
+01-01 08:00:11.111907   135   477 D AudioALSAStreamIn: set() done, sampleRate = 16000, num_channels = 2, buffer_size=1280, tempDebugflag = 0
+01-01 08:00:11.111925   135   477 D AudioALSAStreamManager: -openInputStream(), in = 0xe9de4000, status = 0x0, mStreamInVector.size() = 1
+01-01 08:00:11.114069   159   552 I AudioFlinger: AudioFlinger's thread 0xe9103340 tid=552 ready to run
+01-01 08:00:11.114321   135   477 D AudioALSAStreamManager: +closeInputStream(), in = 0xe9de4000, size() = 1
+01-01 08:00:11.114359   135   477 D AudioALSAStreamIn: ~AudioALSAStreamIn()
+01-01 08:00:11.114415   135   477 D AudioALSAStreamManager: -closeInputStream(), mStreamInVector.size() = 0
+01-01 08:00:11.122457   159   159 I AudioFlinger: loadHwModule() Loaded a2dp audio interface, handle 18
+01-01 08:00:11.124742   135   294 D modules.usbaudio.audio_hal: [USB_AUD] adev_open
+01-01 08:00:11.125316   159   159 I AudioFlinger: loadHwModule() Loaded usb audio interface, handle 26
+01-01 08:00:11.128179   135   294 I r_submix: adev_open(name=audio_hw_if)
+01-01 08:00:11.129066   159   159 I AudioFlinger: loadHwModule() Loaded r_submix audio interface, handle 34
+01-01 08:00:11.129320   135   294 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+01-01 08:00:11.131889   159   556 I AudioFlinger: AudioFlinger's thread 0xe9103040 tid=556 ready to run
+01-01 08:00:11.132572   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_Para,3
+01-01 08:00:11.132595   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_3A,4
+01-01 08:00:11.132609   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_SHADING,5
+01-01 08:00:11.132624   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_DEFECT,6
+01-01 08:00:11.132638   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_SENSOR,7
+01-01 08:00:11.132652   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_LENS,8
+01-01 08:00:11.132755   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/Voice_Recognize_Param,15
+01-01 08:00:11.132770   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/Audio_AudEnh_Control_Opt,16
+01-01 08:00:11.132784   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/Audio_VOIP_Param,17
+01-01 08:00:11.132856   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_VERSION,22
+01-01 08:00:11.132870   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_FEATURE,23
+01-01 08:00:11.134411   135   294 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+01-01 08:00:11.132884   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_GEOMETRY,24
+01-01 08:00:11.134436   135   294 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+01-01 08:00:11.134601   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 15  index 16  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -20.000000
+01-01 08:00:11.132913   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_SHADING2,26
+01-01 08:00:11.134646   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 15  index 16  volumeDb -20.000000
+01-01 08:00:11.132930   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_SHADING3,27
+01-01 08:00:11.134875   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 16  index 16  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -22.826088
+01-01 08:00:11.132946   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_SHADING4,28
+01-01 08:00:11.134904   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 16  index 16  volumeDb -22.826088
+01-01 08:00:11.132960   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_SHADING5,29
+01-01 08:00:11.134923   159   159 I APM_AudioPolicyManager_CarRadar: setChimeWarnVolume -22.826088
+01-01 08:00:11.132974   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_SHADING6,30
+01-01 08:00:11.132993   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_SHADING7,31
+01-01 08:00:11.133012   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_SHADING8,32
+01-01 08:00:11.133027   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_SHADING9,33
+01-01 08:00:11.133041   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_SHADING10,34
+01-01 08:00:11.133056   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_SHADING11,35
+01-01 08:00:11.133070   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_SHADING12,36
+01-01 08:00:11.133084   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_PLINE,37
+01-01 08:00:11.133099   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_PLINE2,38
+01-01 08:00:11.133113   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_PLINE3,39
+01-01 08:00:11.133127   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_PLINE4,40
+01-01 08:00:11.133142   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_PLINE5,41
+01-01 08:00:11.133156   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_PLINE6,42
+01-01 08:00:11.133172   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_PLINE7,43
+01-01 08:00:11.133186   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_PLINE8,44
+01-01 08:00:11.133200   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_PLINE9,45
+01-01 08:00:11.133215   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_PLINE10,46
+01-01 08:00:11.133229   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_PLINE11,47
+01-01 08:00:11.133243   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_PLINE12,48
+01-01 08:00:11.133257   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_AF,49
+01-01 08:00:11.133272   183   183 D NVRAM   : deal with cfgfile =/mnt/vendor/nvdata/media/CAMERA_FLASH_CALIBRATION,50
+01-01 08:00:11.133286   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_Sph,51
+01-01 08:00:11.133315   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_CompFlt,53
+01-01 08:00:11.133329   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_Effect,54
+01-01 08:00:11.133371   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_Sph_Med,57
+01-01 08:00:11.133386   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_Vol_custom,58
+01-01 08:00:11.133402   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Sph_Dual_Mic,59
+01-01 08:00:11.133416   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_Wb_Sph,60
+01-01 08:00:11.133449   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Headphone_CompFlt,62
+01-01 08:00:11.133463   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_gain_table,63
+01-01 08:00:11.133477   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_ver1_Vol_custom,64
+01-01 08:00:11.133491   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_Hd_Record_Param,65
+01-01 08:00:11.133505   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_Hd_Record_Scene_Table,66
+01-01 08:00:11.133519   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_Buffer_DC_Calibration_Param,67
+01-01 08:00:11.133533   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/VibSpk_CompFlt,68
+01-01 08:00:11.133548   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/MusicDRC_CompFlt,69
+01-01 08:00:11.133562   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/RingToneDRC_CompFlt,70
+01-01 08:00:11.133577   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_MAGI_CONFERENCE,71
+01-01 08:00:11.133590   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_HAC_Param,72
+01-01 08:00:11.133604   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_Sph_Lpbk,73
+01-01 08:00:11.133618   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/Audio_BT_Gain,74
+01-01 08:00:11.133634   183   183 D NVRAM   : deal with cfgcustfile =/mnt/vendor/nvdata/media/AUDIO_FUNC_SWITCH_Param,75
+01-01 08:00:11.133691   183   183 D NVRAM   : deal with cfgcustfile =/vendor/nvdata/APCFG/APRDCL/Audio_HFP_Param,77
+01-01 08:00:11.147431   311   311 I mtkcam-module: [dump_module] [registered] module_id:0x0x10001 module_factory:0x76e4b98268 register_name:vendor/mediatek/proprietary/hardware/mtkcam/main/core/module/aaa/register_Hal3A.cpp
+01-01 08:00:11.147444   311   311 I mtkcam-module: [dump_module] [registered] module_id:0x0x1000b module_factory:0x76e4b7d400 register_name:vendor/mediatek/proprietary/hardware/mtkcam/main/core/module/aaa/register_Hal3ASimulator.cpp
+01-01 08:00:11.147456   311   311 I mtkcam-module: [dump_module] [registered] module_id:0x0x10002 module_factory:0x76e20607f8 register_name:vendor/mediatek/proprietary/hardware/mtkcam/main/core/module/aaa/register_HalISP.cpp
+01-01 08:00:11.147467   311   311 I mtkcam-module: [dump_module] [registered] module_id:0x0x10003 module_factory:0x76e4b71e38 register_name:vendor/mediatek/proprietary/hardware/mtkcam/main/core/module/aaa/register_HalFlash.cpp
+01-01 08:00:11.147477   311   311 I mtkcam-module: [dump_module] [registered] module_id:0x0x10004 module_factory:0x76e4a57910 register_name:vendor/mediatek/proprietary/hardware/mtkcam/main/core/module/aaa/register_IspMgrIf.cpp
+01-01 08:00:11.147488   311   311 I mtkcam-module: [dump_module] [registered] module_id:0x0x10006 module_factory:0x76e4b2ada8 register_name:vendor/mediatek/proprietary/hardware/mtkcam/main/core/module/aaa/register_SwNR.cpp
+01-01 08:00:11.147499   311   311 I mtkcam-module: [dump_module] [registered] module_id:0x0x10007 module_factory:0x76e2092c68 register_name:vendor/mediatek/proprietary/hardware/mtkcam/main/core/module/aaa/register_DngInfo.cpp
+01-01 08:00:11.147510   311   311 I mtkcam-module: [dump_module] [registered] module_id:0x0x10008 module_factory:0x76e2243b88 register_name:vendor/mediatek/proprietary/hardware/mtkcam/main/core/module/aaa/register_NvBufUtil.cpp
+01-01 08:00:11.147520   311   311 I mtkcam-module: [dump_module] [registered] module_id:0x0x10009 module_factory:0x76e5bd7b88 register_name:vendor/mediatek/proprietary/hardware/mtkcam/main/core/module/aaa/register_LscTable.cpp
+01-01 08:00:11.147529   311   311 I mtkcam-module: [dump_module] [registered] module_id:0x0x1000a module_factory:0x76e1fcee80 register_name:vendor/mediatek/proprietary/hardware/mtkcam/main/core/module/aaa/register_lcs_hal.cpp
+01-01 08:00:11.225493   311   311 E mtkcam-dngInfo: CCM1 row sum check fail, it will lead to dng validate fail! RowSum1(0, 0, 0), CCM1: [0, 0, 0][0, 0, 0][0, 0, 0] (convertColorTransform){#378:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_50/dngInfo/dngInfoImp.cpp}
+01-01 08:00:11.225521   311   311 E mtkcam-dngInfo: Fail to inverse the matrix (gen_CM_FM){#542:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_50/dngInfo/dngInfoImp.cpp}
+01-01 08:00:11.225540   311   311 E mtkcam-dngInfo: Fail to generate CM1 & FM1 due to invertible in_CCM1!, use identity matrix. (convertColorTransform){#415:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_50/dngInfo/dngInfoImp.cpp}
+01-01 08:00:11.283840   311   311 E mtkcam-dngInfo: CCM1 row sum check fail, it will lead to dng validate fail! RowSum1(0, 0, 0), CCM1: [0, 0, 0][0, 0, 0][0, 0, 0] (convertColorTransform){#378:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_50/dngInfo/dngInfoImp.cpp}
+01-01 08:00:11.283861   311   311 E mtkcam-dngInfo: Fail to inverse the matrix (gen_CM_FM){#542:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_50/dngInfo/dngInfoImp.cpp}
+01-01 08:00:11.283873   311   311 E mtkcam-dngInfo: Fail to generate CM1 & FM1 due to invertible in_CCM1!, use identity matrix. (convertColorTransform){#415:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_50/dngInfo/dngInfoImp.cpp}
+01-01 08:00:11.371361   311   311 E mtkcam-dngInfo: CCM1 row sum check fail, it will lead to dng validate fail! RowSum1(0, 0, 0), CCM1: [0, 0, 0][0, 0, 0][0, 0, 0] (convertColorTransform){#378:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_50/dngInfo/dngInfoImp.cpp}
+01-01 08:00:11.371381   311   311 E mtkcam-dngInfo: Fail to inverse the matrix (gen_CM_FM){#542:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_50/dngInfo/dngInfoImp.cpp}
+01-01 08:00:11.371392   311   311 E mtkcam-dngInfo: Fail to generate CM1 & FM1 due to invertible in_CCM1!, use identity matrix. (convertColorTransform){#415:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_50/dngInfo/dngInfoImp.cpp}
+01-01 08:00:11.452675   311   311 E mtkcam-dngInfo: CCM1 row sum check fail, it will lead to dng validate fail! RowSum1(0, 0, 0), CCM1: [0, 0, 0][0, 0, 0][0, 0, 0] (convertColorTransform){#378:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_50/dngInfo/dngInfoImp.cpp}
+01-01 08:00:11.452697   311   311 E mtkcam-dngInfo: Fail to inverse the matrix (gen_CM_FM){#542:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_50/dngInfo/dngInfoImp.cpp}
+01-01 08:00:11.452708   311   311 E mtkcam-dngInfo: Fail to generate CM1 & FM1 due to invertible in_CCM1!, use identity matrix. (convertColorTransform){#415:vendor/mediatek/proprietary/hardware/mtkcam/aaa/source/isp_50/dngInfo/dngInfoImp.cpp}
+01-01 08:00:11.487617   311   311 I camerahalserver: Registration complete for vendor.mediatek.hardware.camera.lomoeffect@1.0::ILomoEffect/internal/0.
+01-01 08:00:11.491522   311   311 I camerahalserver: Registration complete for vendor.mediatek.hardware.camera.ccap@1.0::ICCAPControl/internal/0.
+01-01 08:00:11.500870   157   191 I vendor.mediatek.hardware.power@2.0-impl: setInteractive Restore All
+01-01 08:00:11.500860   311   311 I camerahalserver: Registration complete for vendor.mediatek.hardware.camera.security@1.0::ISecureCamera/internal/0.
+01-01 08:00:11.506984   311   311 I camerahalserver: Registration complete for vendor.mediatek.hardware.camera.frhandler@1.0::IFRHandler/internal/0.
+01-01 08:00:11.513077   311   311 I camerahalserver: Registration complete for vendor.mediatek.hardware.camera.bgservice@1.0::IBGService/internal/0.
+01-01 08:00:11.658738    16    16 E SELinux : avc:  denied  { find } for interface=vendor.mediatek.hardware.tbox::ITeleService sid=u:r:tbox_ipo_mode_d:s0 pid=167 scontext=u:r:tbox_ipo_mode_d:s0 tcontext=u:object_r:mtk_hal_telephonyservice_hwservice:s0 tclass=hwservice_manager permissive=1
+01-01 08:00:11.661447   167   167 I ServiceManagement: getService: Trying again for vendor.mediatek.hardware.tbox@1.0::ITeleService/default...
+01-01 08:00:11.762679   195   246 W ServiceManagement: Waited one second for vendor.mediatek.hardware.tbox@1.0::ITeleService/default
+01-01 08:00:11.763418   195   246 I ServiceManagement: getService: Trying again for vendor.mediatek.hardware.tbox@1.0::ITeleService/default...
+01-01 08:00:11.909457   295   295 I ServiceManager: Waiting for service media.camera...
+01-01 08:00:12.098265   330   330 W ServiceManagement: Waited one second for vendor.mediatek.hardware.tbox@1.0::ITeleData/default
+01-01 08:00:12.098945   330   330 I ServiceManagement: getService: Trying again for vendor.mediatek.hardware.tbox@1.0::ITeleData/default...
+01-01 08:00:12.633374   608   608 I EMDLOGGER1: Auto Run com.mediatek.log.modem.enabled = false.
+01-01 08:00:12.661732   167   167 W ServiceManagement: Waited one second for vendor.mediatek.hardware.tbox@1.0::ITeleService/default
+01-01 08:00:12.662401   167   167 I ServiceManagement: getService: Trying again for vendor.mediatek.hardware.tbox@1.0::ITeleService/default...
+01-01 08:00:12.712325   135   463 E AudioALSASpeechPhoneCallController: req_opt[1] speech_on[0] inputDevice[0] outputDevice[0]
+01-01 08:00:12.713220   135   463 E AudioALSASpeechPhoneCallController: req_opt[1] speech_on[0] inputDevice[0] outputDevice[0]
+01-01 08:00:12.712233   659   665 D SPEECHDRV: setSpeechOn: audio size[32] int[4]
+01-01 08:00:12.713199   659   665 D SPEECHDRV: setSpeechOn: audio size[32] int[4]
+01-01 08:00:12.785552   267   522 E         : curl_easy_download_epo_MD5: epo MD5 file download failed res:26. curl_easy_download url: https://ogepodownload.mediatek.com/EPO_GR_3_1.MD5?retryCount=0 to /data/vendor/gps/EPO_GR_3_1.MD5
+01-01 08:00:12.890894   267   522 E         : curl_easy_download_epo_MD5: epo MD5 file download failed res:26. curl_easy_download url: https://oepodownload.mediatek.com/EPO_GR_3_1.MD5?retryCount=1 to /data/vendor/gps/EPO_GR_3_1.MD5
+01-01 08:00:12.911464   295   295 I ServiceManager: Waiting for service media.camera...
+01-01 08:00:12.996048   267   522 E         : curl_easy_download_epo_MD5: epo MD5 file download failed res:26. curl_easy_download url: https://oepodownload.mediatek.com/EPO_GR_3_1.MD5?retryCount=2 to /data/vendor/gps/EPO_GR_3_1.MD5
+01-01 08:00:13.101478   267   522 E         : curl_easy_download_epo_MD5: epo MD5 file download failed res:26. curl_easy_download url: https://oepodownload.mediatek.com/EPO_GR_3_1.MD5?retryCount=3 to /data/vendor/gps/EPO_GR_3_1.MD5
+01-01 08:00:13.902285   273   754 W installd: Ignoring /data/data/com.tencent.qqlive.audiobox/lib with unexpected GID 0 instead of 10054
+01-01 08:00:13.913692   295   295 I ServiceManager: Waiting for service media.camera...
+10-20 10:52:29.087384   309   762 D android.hardware.sensors@1.0-service-mediatek: batch pid: 507, handle: 23,sampling_period_ns:1000000
+10-20 10:52:29.362294    72   772 I zygote  : Thread[6,tid=772,Native,Thread*=0xf2dc8000,peer=0x12f40000,"Thread-1"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+10-20 10:52:29.362952    72   772 I zygote  : Thread[6,tid=772,Native,Thread*=0xf2dc8000,peer=0x12f40000,"Thread-1"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+10-20 10:52:29.363170    72   772 I zygote  : Thread[6,tid=772,Native,Thread*=0xf2dc8000,peer=0x12f40000,"Thread-1"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+10-20 10:52:29.503036   159   476 W AudioFlinger: no wake lock to update, system not ready yet
+10-20 10:52:29.503327   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+10-20 10:52:29.503390   135   294 D MTKStreamOutHAL: StreamOut::getLatency = 42
+10-20 10:52:29.503413   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+10-20 10:52:29.503514   159   476 D StreamHalHidl: processReturn with getLatency, status = 0
+10-20 10:52:29.503940   159   346 I APM_AudioPolicyManager_CarRadio: setMasterMute 0
+10-20 10:52:29.504521   135   294 D AudioALSAStreamManager: setMicMute(), mMicMute: 0 => 0
+10-20 10:52:29.505166   135   294 D AudioALSAStreamManager: +SetInputMute(), 0
+10-20 10:52:29.505191   135   294 D AudioHfpController: setHfpMicMute state = 0
+10-20 10:52:29.517336   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 13  index 37  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -3.500000
+10-20 10:52:29.517418   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 13  index 37  volumeDb -3.500000
+10-20 10:52:29.517441   159   159 I APM_AudioPolicyManager_CarRadio: setVolume -3.500000 Call Hal setRadioVolume
+10-20 10:52:29.517513   159   159 I APM_AudioPolicyManager_CarRadio: setMute 0
+10-20 10:52:29.528288   159   346 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 13  index 37  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -3.500000
+10-20 10:52:29.528360   159   346 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 13  index 37  volumeDb -3.500000
+10-20 10:52:29.529433   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 15  index 16  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -20.000000
+10-20 10:52:29.529479   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 15  index 16  volumeDb -20.000000
+10-20 10:52:29.529651   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 16  index 18  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -22.391304
+10-20 10:52:29.529671   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 16  index 18  volumeDb -22.391304
+10-20 10:52:29.529692   159   159 I APM_AudioPolicyManager_CarRadar: setChimeWarnVolume -22.391304
+10-20 10:52:29.538039   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 3  index 19  device = 0x4000000,revser 0  duck 0  speedCompEnable 0 volume table -11.000000
+10-20 10:52:29.538099   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 3  index 19  volumeDb -11.000000
+10-20 10:52:29.538228   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 3  index 9  device = 0x4000000,revser 0  duck 0  speedCompEnable 0 volume table -23.000000
+10-20 10:52:29.538250   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 3  index 9  volumeDb -23.000000
+10-20 10:52:29.538479   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 3  index 4  device = 0x4000000,revser 0  duck 0  speedCompEnable 0 volume table -36.000000
+10-20 10:52:29.538498   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 3  index 4  volumeDb -36.000000
+10-20 10:52:29.538643   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 3  index 2  device = 0x4000000,revser 0  duck 0  speedCompEnable 0 volume table -47.000000
+10-20 10:52:29.538663   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 3  index 2  volumeDb -47.000000
+10-20 10:52:29.538787   159   346 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 3  index 3  device = 0x4000000,revser 0  duck 0  speedCompEnable 0 volume table -41.000000
+10-20 10:52:29.538806   159   346 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 3  index 3  volumeDb -41.000000
+10-20 10:52:29.540221   159   346 I APM_AudioPolicyManager: isGearReverse 0
+10-20 10:52:29.540726   507   516 W System  : 	at java.io.FileInputStream.<init>(FileInputStream.java:168)
+10-20 10:52:29.541293   159   346 D AudioFlinger: isLowRamDevice:false totalMemory:6120206336 mClientSharedHeapSize:33554432
+10-20 10:52:29.566718   150   150 I android.hardware.usb@1.1-service-mediatek: registering callback
+10-20 10:52:29.567316   150   811 E android.hardware.usb@1.1-service-mediatek: creating thread
+10-20 10:52:29.567653   150   150 I android.hardware.usb@1.1-service-mediatek: dual-role-usb20
+10-20 10:52:29.567830   150   150 E android.hardware.usb@1.1-service-mediatek: fopen failed
+10-20 10:52:29.567889   150   150 E android.hardware.usb@1.1-service-mediatek: fopen failed
+10-20 10:52:29.567900   150   150 I android.hardware.usb@1.1-service-mediatek: connected:1 canChangeMode:0 canChagedata:0 canChangePower:0
+10-20 10:52:29.797097   507   596 W AlarmManager: Unrecognized alarm listener com.mediatek.server.display.MtkWifiDisplayController$1@dfea14f
+10-20 10:52:29.865634   150   150 I android.hardware.usb@1.1-service-mediatek: dual-role-usb20
+10-20 10:52:29.864818   135   294 D AudioALSAHardware: +setParameters(): A2dpSuspended=false
+10-20 10:52:29.865869   150   150 E android.hardware.usb@1.1-service-mediatek: fopen failed
+10-20 10:52:29.864983   135   294 W AudioALSAHardware: setParameters(), still have param.size() = 1, remain param = "A2dpSuspended=false"
+10-20 10:52:29.865893   150   150 E android.hardware.usb@1.1-service-mediatek: fopen failed
+10-20 10:52:29.865002   135   294 D AudioALSAHardware: -setParameters(): A2dpSuspended=false 
+10-20 10:52:29.866182   150   150 E android.hardware.usb@1.1-service-mediatek: fopen failed
+10-20 10:52:29.866200   150   150 I android.hardware.usb@1.1-service-mediatek: connected:1 canChangeMode:0 canChagedata:0 canChangePower:0
+10-20 10:52:29.867133   507   806 I AudioService: setBluetoothScoOnInt: false resetBluetoothSco
+10-20 10:52:29.870408   135   294 D AudioALSAHardware: +setParameters(): BT_SCO=off
+10-20 10:52:29.870504   135   294 W AudioALSAHardware: setParameters(), still have param.size() = 1, remain param = "BT_SCO=off"
+10-20 10:52:29.870518   135   294 D AudioALSAHardware: -setParameters(): BT_SCO=off 
+10-20 10:52:29.876748   159   346 I AudioFlinger: systemReady
+10-20 10:52:29.927109   276   365 W MediaExtractorFactory: couldn't dlopen(/system/lib64/extractors/.) Is a directory
+10-20 10:52:29.983280   276   365 W MediaExtractorFactory: couldn't dlopen(/system/lib64/extractors/..) Is a directory
+10-20 10:52:29.987306   276   365 E MediaExtractorFactory: couldn't opendir(/vendor/lib64/extractors)
+10-20 10:52:30.045430   157   191 I vendor.mediatek.hardware.power@2.0-impl: powerHintAsync hint:8, data:1
+10-20 10:52:30.199246   855  1034 D BluetoothActiveDeviceManager: onAudioDevicesAdded
+10-20 10:52:30.199402   855  1034 D BluetoothActiveDeviceManager: Audio device added: E02-EVB type: 2
+10-20 10:52:30.199430   855  1034 D BluetoothActiveDeviceManager: Audio device added: E02-EVB type: 15
+10-20 10:52:30.199448   855  1034 D BluetoothActiveDeviceManager: Audio device added: E02-EVB type: 15
+10-20 10:52:30.199466   855  1034 D BluetoothActiveDeviceManager: Audio device added: E02-EVB type: 16
+10-20 10:52:30.199482   855  1034 D BluetoothActiveDeviceManager: Audio device added: E02-EVB type: 18
+10-20 10:52:30.348337   157   191 I vendor.mediatek.hardware.power@2.0-impl: powerHintAsync hint:8, data:0
+10-20 10:52:30.367002   308  1016 E OMXNodeInstance: getParameter(0xf1c03004:MTK.DECODER.AVC, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.367515   308  1016 E OMXNodeInstance: getParameter(0xf1c03004:MTK.DECODER.AVC, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.368195   308  1016 E OMXNodeInstance: getExtensionIndex(0xf1c03004:MTK.DECODER.AVC, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.368348   308  1016 E OMXNodeInstance: setParameter(0xf1c03004:MTK.DECODER.AVC, OMX.google.android.index.allocateNativeHandle(0x7f20040e): Output:1 en=0) ERROR: BadParameter(0x80001005)
+10-20 10:52:30.400780   308  1016 E OMXNodeInstance: getExtensionIndex(0xf31961e0:google.h264.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.401195   308  1016 E OMXNodeInstance: getExtensionIndex(0xf31961e0:google.h264.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.403549   273   754 D installd: Found storage mount /data/media at /mnt/runtime/default/emulated
+10-20 10:52:30.425380   308   370 E OMXNodeInstance: getParameter(0xf1c46004:MTK.DECODER.DIVX, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.425743   308   370 E OMXNodeInstance: getParameter(0xf1c46004:MTK.DECODER.DIVX, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.425950   308  1016 E OMXNodeInstance: getExtensionIndex(0xf1c46004:MTK.DECODER.DIVX, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.426069   308  1016 E OMXNodeInstance: setParameter(0xf1c46004:MTK.DECODER.DIVX, OMX.google.android.index.allocateNativeHandle(0x7f20040e): Output:1 en=0) ERROR: BadParameter(0x80001005)
+10-20 10:52:30.453867   308   370 E OMXNodeInstance: getParameter(0xf1c46004:MTK.DECODER.DIVX3, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.454546   308   370 E OMXNodeInstance: getParameter(0xf1c46004:MTK.DECODER.DIVX3, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.454757   308   370 E OMXNodeInstance: getExtensionIndex(0xf1c46004:MTK.DECODER.DIVX3, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.454860   308   370 E OMXNodeInstance: setParameter(0xf1c46004:MTK.DECODER.DIVX3, OMX.google.android.index.allocateNativeHandle(0x7f20040e): Output:1 en=0) ERROR: BadParameter(0x80001005)
+10-20 10:52:30.459594  1071  1071 D InteractiveServiceImpl: supportDoubleClickMediaNextOrPreviousKey:false
+10-20 10:52:30.481687   308  1016 E OMXNodeInstance: getParameter(0xf1c03004:MTK.DECODER.H263, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.481857   308  1016 E OMXNodeInstance: getParameter(0xf1c03004:MTK.DECODER.H263, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.481946   308  1016 E OMXNodeInstance: getExtensionIndex(0xf1c03004:MTK.DECODER.H263, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.482003   308  1016 E OMXNodeInstance: setParameter(0xf1c03004:MTK.DECODER.H263, OMX.google.android.index.allocateNativeHandle(0x7f20040e): Output:1 en=0) ERROR: BadParameter(0x80001005)
+10-20 10:52:30.492468  1086  1086 I android_os_HwBinder: HwBinder: Starting thread pool for default::vendor.mediatek.hardware.tbox@1.0::INetwork
+10-20 10:52:30.494424  1086  1086 I TboxNetwork:  get INetwork Server end,  vendor.mediatek.hardware.tbox@1.0::INetwork@Proxy
+10-20 10:52:30.500001   308   370 E OMXNodeInstance: getExtensionIndex(0xf35a7de0:google.h263.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.500217   308   370 E OMXNodeInstance: getExtensionIndex(0xf35a7de0:google.h263.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.514522   308  1016 E OMXNodeInstance: getParameter(0xf1c46004:MTK.DECODER.HEVC, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.514761   308  1016 E OMXNodeInstance: getParameter(0xf1c46004:MTK.DECODER.HEVC, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.514917   308  1016 E OMXNodeInstance: getExtensionIndex(0xf1c46004:MTK.DECODER.HEVC, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.515012   308  1016 E OMXNodeInstance: setParameter(0xf1c46004:MTK.DECODER.HEVC, OMX.google.android.index.allocateNativeHandle(0x7f20040e): Output:1 en=0) ERROR: BadParameter(0x80001005)
+10-20 10:52:30.534792   308   430 E OMXNodeInstance: getExtensionIndex(0xf3196240:google.hevc.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.534936   308   430 E OMXNodeInstance: getExtensionIndex(0xf3196240:google.hevc.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.548772   308   370 E OMXNodeInstance: getParameter(0xf305b004:MTK.DECODER.MPEG2, ParamVideoProfileLevelQuerySupported(0x600000f)) ERROR: BadParameter(0x80001005)
+10-20 10:52:30.548968   308   370 E OMXNodeInstance: getParameter(0xf305b004:MTK.DECODER.MPEG2, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.549173   308   370 E OMXNodeInstance: getParameter(0xf305b004:MTK.DECODER.MPEG2, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.549283   308   370 E OMXNodeInstance: getExtensionIndex(0xf305b004:MTK.DECODER.MPEG2, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.549348   308   370 E OMXNodeInstance: setParameter(0xf305b004:MTK.DECODER.MPEG2, OMX.google.android.index.allocateNativeHandle(0x7f20040e): Output:1 en=0) ERROR: BadParameter(0x80001005)
+10-20 10:52:30.583252   308   370 E OMXNodeInstance: getParameter(0xf305b004:MTK.DECODER.MPEG4, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.583556   308   370 E OMXNodeInstance: getParameter(0xf305b004:MTK.DECODER.MPEG4, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.583733   308   370 E OMXNodeInstance: getExtensionIndex(0xf305b004:MTK.DECODER.MPEG4, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.583837   308   370 E OMXNodeInstance: setParameter(0xf305b004:MTK.DECODER.MPEG4, OMX.google.android.index.allocateNativeHandle(0x7f20040e): Output:1 en=0) ERROR: BadParameter(0x80001005)
+10-20 10:52:30.590428   135   294 D AudioALSAStreamManager: setMicMute(), mMicMute: 0 => 0
+10-20 10:52:30.590761   135   294 D AudioALSAStreamManager: +SetInputMute(), 0
+10-20 10:52:30.590781   135   294 D AudioHfpController: setHfpMicMute state = 0
+10-20 10:52:30.594929   159   344 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 13  index 37  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -3.500000
+10-20 10:52:30.594975   159   344 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 13  index 37  volumeDb -3.500000
+10-20 10:52:30.599082   308   430 E OMXNodeInstance: getExtensionIndex(0xf35a8200:google.mpeg4.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.599261   308   430 E OMXNodeInstance: getExtensionIndex(0xf35a8200:google.mpeg4.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.601351   159   902 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 13  index 37  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -3.500000
+10-20 10:52:30.601379   159   902 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 13  index 37  volumeDb -3.500000
+10-20 10:52:30.601883   159   902 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 15  index 16  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -20.000000
+10-20 10:52:30.601919   159   902 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 15  index 16  volumeDb -20.000000
+10-20 10:52:30.602013   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 16  index 18  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -22.391304
+10-20 10:52:30.602030   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 16  index 18  volumeDb -22.391304
+10-20 10:52:30.602046   159   159 I APM_AudioPolicyManager_CarRadar: setChimeWarnVolume -22.391304
+10-20 10:52:30.613984   308   430 E OMXNodeInstance: getParameter(0xf305c804:MTK.DECODER.VPX, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.615188   308   430 E OMXNodeInstance: getParameter(0xf305c804:MTK.DECODER.VPX, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.615418   308   430 E OMXNodeInstance: getExtensionIndex(0xf305c804:MTK.DECODER.VPX, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.615559   308   370 E OMXNodeInstance: setParameter(0xf305c804:MTK.DECODER.VPX, OMX.google.android.index.allocateNativeHandle(0x7f20040e): Output:1 en=0) ERROR: BadParameter(0x80001005)
+10-20 10:52:30.637309   308   370 E OMXNodeInstance: getExtensionIndex(0xf35a7de0:google.vp8.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.637464   308   370 E OMXNodeInstance: getExtensionIndex(0xf35a7de0:google.vp8.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.654677   308   430 E OMXNodeInstance: getParameter(0xf305e004:MTK.DECODER.VP9, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.654860   308   430 E OMXNodeInstance: getParameter(0xf305e004:MTK.DECODER.VP9, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.654996   308   430 E OMXNodeInstance: getExtensionIndex(0xf305e004:MTK.DECODER.VP9, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.655060   308   430 E OMXNodeInstance: setParameter(0xf305e004:MTK.DECODER.VP9, OMX.google.android.index.allocateNativeHandle(0x7f20040e): Output:1 en=0) ERROR: BadParameter(0x80001005)
+10-20 10:52:30.669680   308   430 E OMXNodeInstance: getExtensionIndex(0xf35a7e40:google.vp9.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.669798   308   430 E OMXNodeInstance: getExtensionIndex(0xf35a7e40:google.vp9.decoder, OMX.google.android.index.enableAndroidNativeBuffers) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.686263   308   370 E OMXNodeInstance: getParameter(0xf305e004:MTK.DECODER.VC1, ParamVideoProfileLevelQuerySupported(0x600000f)) ERROR: BadParameter(0x80001005)
+10-20 10:52:30.686752   308   370 E OMXNodeInstance: getParameter(0xf305e004:MTK.DECODER.VC1, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.687172   308   370 E OMXNodeInstance: getParameter(0xf305e004:MTK.DECODER.VC1, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.687346   308   370 E OMXNodeInstance: getExtensionIndex(0xf305e004:MTK.DECODER.VC1, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.687447   308   370 E OMXNodeInstance: setParameter(0xf305e004:MTK.DECODER.VC1, OMX.google.android.index.allocateNativeHandle(0x7f20040e): Output:1 en=0) ERROR: BadParameter(0x80001005)
+10-20 10:52:30.700640  1071  1071 D BLAudioFucusObserver: updateDataChange mAudioFocus:
+10-20 10:52:30.715484   855  1012 I AdapterProperties: init(), maxConnectedAudioDevices, default=1, propertyOverlayed=1, finalValue=1
+10-20 10:52:30.739976  1071  1071 D NativeAudioManager: onReceive VOLUME_CHANGED_ACTION stream=13 level=37 oldLevel=10
+10-20 10:52:30.740095  1071  1071 D NativeAudioManager: onReceive VOLUME_CHANGED_ACTION stream=13 level=3 oldLevel=10
+10-20 10:52:30.740164  1071  1071 D NativeAudioManager: onReceive VOLUME_CHANGED_ACTION stream=17 level=39 oldLevel=16
+10-20 10:52:30.724046  1189  1306 D CarlifeConfUtil: line 4: # Audio Track Type 0:普通双音轨(路畅、华阳、飞哥) 1:单音轨(掌讯,仅用于测试) 2:定制双音轨-1(BYD、远峰) 3:定制双音轨-2（长安） 4：百度定制双音轨
+10-20 10:52:30.740236  1071  1071 D NativeAudioManager: onReceive VOLUME_CHANGED_ACTION stream=20 level=39 oldLevel=16
+10-20 10:52:30.724135  1189  1306 D CarlifeConfUtil: line 7: # How many audio tracks Carlife Vehicle will apply for Music and TTS playback
+10-20 10:52:30.724197  1189  1306 D CarlifeConfUtil: line 10: # Audio track stream type for TTS channel
+10-20 10:52:30.739359   507   507 D MediaSessionService: Global priority session is changed from null to com.android.server.telecom/HeadsetMediaButton (userId=0)
+10-20 10:52:30.724253  1189  1306 D CarlifeConfUtil: line 13: # Whether or not require audio focus when playing back TTS 
+10-20 10:52:30.755466   308   430 E OMXNodeInstance: getParameter(0xf305e004:MTK.DECODER.XVID, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.755777   308   430 E OMXNodeInstance: getParameter(0xf305e004:MTK.DECODER.XVID, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.755945   308   430 E OMXNodeInstance: getExtensionIndex(0xf305e004:MTK.DECODER.XVID, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.756045   308   430 E OMXNodeInstance: setParameter(0xf305e004:MTK.DECODER.XVID, OMX.google.android.index.allocateNativeHandle(0x7f20040e): Output:1 en=0) ERROR: BadParameter(0x80001005)
+10-20 10:52:30.764078  1004  1004 W SoundPool: See the documentation of SoundPool() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+10-20 10:52:30.788793  1164  1164 W HiCarCarAdapter: CarAudioRecordingStatus:2
+10-20 10:52:30.802937   308   370 I chatty  : uid=1046(mediacodec) HwBinder:308_1 identical 1 line
+10-20 10:52:30.807733   308   370 I chatty  : uid=1046(mediacodec) HwBinder:308_1 identical 7 lines
+10-20 10:52:30.808275   308   370 I chatty  : uid=1046(mediacodec) HwBinder:308_1 identical 1 line
+10-20 10:52:30.812163   308   430 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.AVC, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.812746   308   430 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.AVC, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.814951   308   430 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.AVC, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.815489   308   430 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.AVC, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.815764   308   430 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.AVC, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.816034   308   430 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.AVC, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.816281   308   430 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.AVC, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.816526   308   430 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.AVC, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.816807   308   430 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.AVC, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.826594  1105  1364 I [激活服务]: >>doDiedMonitor [KeepAliveAppObject{packageName='com.ecarx.xcttsengine', actionName='com.ecarx.xcttsengine.KeepAliveService', processName='com.ecarx.xcttsengine'}, KeepAliveAppObject{packageName='ecarx.notificationcenterui', actionName='com.ecarx.action.Awareness.KeepAliveService', processName='ecarx.notificationcenterui'}, KeepAliveAppObject{packageName='com.ecarx.deviceinfo.service', actionName='com.ecarx.deviceinfo.service.KeepAliveService', processName='com.ecarx.deviceinfo.service'}, KeepAliveAppObject{packageName='com.ecarx.multimedia', actionName='com.ecarx.multimedia.action.KeepAliveService', processName='com.ecarx.multimedia'}, KeepAliveAppObject{packageName='com.ecarx.xiaokagui', actionName='com.ecarx.xiaokagui.action.KeepAliveService', processName='com.ecarx.xiaokagui'}, KeepAliveAppObject{packageName='com.ecarx.xcttsservice', actionName='com.ecarx.xcttsservice.KeepAliveService', processName='com.ecarx.xcttsservice'}, KeepAliveAppObject{packageName='com.ecarx.smartscene', actionName='com.ecarx.action.Awareness.KeepAliveService', processName='com.ecarx.smartscene'}, KeepAli
+10-20 10:52:30.861868   308   370 E OMXNodeInstance: getParameter(0xf222f004:MTK.ENCODER.H263, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.862196   308   370 E OMXNodeInstance: getParameter(0xf222f004:MTK.ENCODER.H263, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.863038   308   370 E OMXNodeInstance: getParameter(0xf222f004:MTK.ENCODER.H263, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.863716   308   370 E OMXNodeInstance: getParameter(0xf222f004:MTK.ENCODER.H263, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.863954   308   370 E OMXNodeInstance: getParameter(0xf222f004:MTK.ENCODER.H263, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.864177   308   370 E OMXNodeInstance: getParameter(0xf222f004:MTK.ENCODER.H263, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.866428   308   370 I chatty  : uid=1046(mediacodec) HwBinder:308_1 identical 1 line
+10-20 10:52:30.867097   308   370 E OMXNodeInstance: getParameter(0xf222f004:MTK.ENCODER.H263, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.883062   308   430 E OMXNodeInstance: getConfig(0xf3196240:google.h263.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+10-20 10:52:30.901028   308   430 I chatty  : uid=1046(mediacodec) HwBinder:308_2 identical 6 lines
+10-20 10:52:30.901845   308   430 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.MPEG4, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.902180   308   430 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.MPEG4, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.906492   308   430 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.MPEG4, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.906996   308   370 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.MPEG4, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.907263   308   370 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.MPEG4, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.907539   308   370 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.MPEG4, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.907796   308   370 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.MPEG4, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.908054   308   370 E OMXNodeInstance: getParameter(0xf35ec804:MTK.ENCODER.MPEG4, ??(0x7f200405)) ERROR: UnsupportedIndex(0x8000101a)
+10-20 10:52:30.910273  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 0
+10-20 10:52:30.910431  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 1
+10-20 10:52:30.910484  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 2
+10-20 10:52:30.910525  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 3
+10-20 10:52:30.910563  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 4
+10-20 10:52:30.910598  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 5
+10-20 10:52:30.910651  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 6
+10-20 10:52:30.910689  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 7
+10-20 10:52:30.910726  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 8
+10-20 10:52:30.910764  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 9
+10-20 10:52:30.910801  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 10
+10-20 10:52:30.910844  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 11
+10-20 10:52:30.910887  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 12
+10-20 10:52:30.910942  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 13
+10-20 10:52:30.910980  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 14
+10-20 10:52:30.911018  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 16
+10-20 10:52:30.911060  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 17
+10-20 10:52:30.911098  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 18
+10-20 10:52:30.911135  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 19
+10-20 10:52:30.911173  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 20
+10-20 10:52:30.911211  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 21
+10-20 10:52:30.911247  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 22
+10-20 10:52:30.911284  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 23
+10-20 10:52:30.911324  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 24
+10-20 10:52:30.911363  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 25
+10-20 10:52:30.911400  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 26
+10-20 10:52:30.911437  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 27
+10-20 10:52:30.911473  1004  1004 I EcarxCarVolumeDialogImpl: loadAudioUsageItems():usage === 28
+10-20 10:52:30.914961   308   370 E OMXNodeInstance: getConfig(0xf35a7de0:google.mpeg4.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+10-20 10:52:30.927204   308   370 E OMXNodeInstance: getConfig(0xf35a7de0:google.vp8.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+10-20 10:52:30.928085   283   361 D MediaCodecList: ignored a null builder
+10-20 10:52:30.938087   507   949 D MtkACodec: hxl setupAudioBitWidth() in
+10-20 10:52:30.938518   308   370 E OMXNodeInstance: getConfig(0xf35a7de0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+10-20 10:52:30.938639  1004  1337 D MtkACodec: hxl setupAudioBitWidth() in
+10-20 10:52:30.939152   308  1016 E OMXNodeInstance: getConfig(0xf35a7ae0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+10-20 10:52:30.942938  1307  1307 W System.err: 	at java.io.FileOutputStream.open0(Native Method)
+10-20 10:52:30.943032  1307  1307 W System.err: 	at java.io.FileOutputStream.open(FileOutputStream.java:308)
+10-20 10:52:30.943112  1307  1307 W System.err: 	at java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+10-20 10:52:30.989441  1172  1172 D wpa_supplicant: manufacturer='MediaTek Inc.'
+10-20 10:52:31.001611   507  1419 D MtkACodec: hxl setupAudioBitWidth() in
+10-20 10:52:31.002762   308   430 E OMXNodeInstance: getConfig(0xf35a7ae0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+10-20 10:52:31.003789   308   308 E OMXNodeInstance: getConfig(0xf35a7de0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+10-20 10:52:31.003503  1004  1418 D MtkACodec: hxl setupAudioBitWidth() in
+10-20 10:52:31.052525   308   308 E OMXNodeInstance: getConfig(0xf35a7de0:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+10-20 10:52:31.052187   507  1433 D MtkACodec: hxl setupAudioBitWidth() in
+10-20 10:52:31.073139  1004  1439 D MtkACodec: hxl setupAudioBitWidth() in
+10-20 10:52:31.073447   308   430 E OMXNodeInstance: getConfig(0xf35a7c00:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+10-20 10:52:31.102499   507  1444 D MtkACodec: hxl setupAudioBitWidth() in
+10-20 10:52:31.102791   308   370 E OMXNodeInstance: getConfig(0xf35a7c00:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+10-20 10:52:31.143375   507  1449 D MtkACodec: hxl setupAudioBitWidth() in
+10-20 10:52:31.143635   308   430 E OMXNodeInstance: getConfig(0xf35a7c00:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+10-20 10:52:31.184885   507  1452 D MtkACodec: hxl setupAudioBitWidth() in
+10-20 10:52:31.185179   308   430 E OMXNodeInstance: getConfig(0xf35a7c00:google.vorbis.decoder, ConfigAndroidVendorExtension(0x6f100004)) ERROR: Undefined(0x80001001)
+10-20 10:52:31.211668   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 13  index 37  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -3.500000
+10-20 10:52:31.211763   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 13  index 37  volumeDb -3.500000
+10-20 10:52:31.276580   495  1460 D [BT]    : mtk: /media/soldier/work/LOCAL_CODE/GBTS/GBTS_Driver/jni/gsp/lowlevel/libbluetooth_mtk/mtk.c 287
+10-20 10:52:31.362538   495  1460 W [BT]    : mtk: /media/soldier/work/LOCAL_CODE/GBTS/GBTS_Driver/jni/gsp/lowlevel/libbluetooth_mtk/mtk.c 477 b_readnvrom_addr:0
+10-20 10:52:31.404790  1307  1307 D DefaultAppManager: initGson:final jsonString = { mapping:[ {scheme:ecarxmap,packagename:com.ecarx.adnavi,appname:百度地图卓越版}, {scheme:baidumap,packagename:com.baidu.naviauto,appname:百度地图}, {scheme:sosomap,packagename:com.tencent.wecarnavi,appname:腾讯地图}, {scheme:amapmini,packagename:com.autonavi.minimap,appname:高德地图}, {scheme:amap,packagename:com.autonavi.amapauto,appname:高德地图}, {scheme:phone,packagename:com.android.phone,appname:电话}, {scheme:btphone,packagename:com.ecarx.btphone,appname:蓝牙电话}, {scheme:eline,packagename:com.ecarx.eline,appname:E路通}, {scheme:skype,packagename:com.skype.rover,appname:skype}, {scheme:multimedia,packagename:com.ecarx.multimedia,appname:多媒体}, {scheme:banting,packagename:cn.com.ecarx.xiaoka.carmusic,appname:伴听} ] }
+10-20 10:52:31.411603  1307  1307 D DefaultAppManager: appmapping scheme = multimedia, packagename = com.ecarx.multimedia
+10-20 10:52:31.413803  1307  1307 D DefaultAppManager: initGson:final jsonString = { settings:[ { categoryname:map, scheme:ecarxmap, defaultscheme:ecarxmap }, { categoryname:phone, scheme:btphone, defaultscheme:btphone }, { categoryname:media, scheme:multimedia, defaultscheme:multimedia } ] }
+10-20 10:52:31.417963  1307  1307 D DefaultAppManager: initCategorySetting:settingsBean.getCategoryname() == media
+10-20 10:52:31.421186  1307  1307 D DefaultAppManager: initGson:final jsonString = { categorys:[ { categoryid:1, categoryname:map, apps:[ {scheme:baidumap}, {scheme:amap}, {scheme:sosomap}, {scheme: ecarxmap} ] }, { categoryid:2, categoryname:phone, apps:[ {scheme:btphone}, {scheme:eline}, {scheme:skype} ] }, { categoryid:3, categoryname:media, apps:[ {scheme:multimedia}, {scheme:banting} ] } ] }
+10-20 10:52:31.496075   495  1460 E goc     : Media player registered (0)!
+10-20 10:52:31.496145   495  1460 E goc     : Media player registered (1)!
+10-20 10:52:31.496188   495  1460 E goc     : Media player registered (2)!
+10-20 10:52:31.527772   855   855 I A2dpService: Max connected audio devices set to 1
+10-20 10:52:31.557425   159   301 D AudioPolicyService: threadLoop, value of keyHFPEnable is false
+10-20 10:52:31.557458   159   301 D AudioPolicyService: threadLoop, hfp is disenable, here we also need callback recordConfiguration to APs
+10-20 10:52:31.558691   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+10-20 10:52:31.558766   135   294 D MTKStreamOutHAL: StreamOut::getLatency = 42
+10-20 10:52:31.558791   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+10-20 10:52:31.558898   159   476 D StreamHalHidl: processReturn with getLatency, status = 0
+10-20 10:52:31.559068   135   477 D AudioALSAHardware: +setParameters(): hfp_enable=false
+10-20 10:52:31.559159   135   477 I AudioALSAStreamManager: +handleHfpClientState enable = 0 mode = 0
+10-20 10:52:31.559178   135   477 W AudioALSAStreamManager: handleHfpClientState state unchanged 0
+10-20 10:52:31.559192   135   477 D AudioALSAHardware: -setParameters(): hfp_enable=false 
+10-20 10:52:31.583566  1307  1482 D AppSettingDbManager: initCategory media is exist
+10-20 10:52:31.583661  1307  1482 D DefaultAppManager: scanApps:categoryname == media scheme == multimedia
+10-20 10:52:31.583735  1307  1482 D DefaultAppManager: insertOrUpdateAppDb packagename = com.ecarx.multimedia, scheme = multimedia
+10-20 10:52:31.637233  1307  1482 D DefaultAppManager: scanApps:categoryname == media scheme == banting
+10-20 10:52:31.708216  1004  1004 I SystemUIPlugin:MediaController: [JRSYS_USB][usb1IsMounted] isMounted: false
+10-20 10:52:31.708421  1004  1004 I SystemUIPlugin:MediaController: [JRSYS_USB][usb2IsMounted] isMounted: false
+10-20 10:52:31.708446  1004  1004 I SystemUIPlugin::  [JRSYS_USB][MediaController] no usb disk connected
+10-20 10:52:31.709284  1004  1004 I SystemUIPlugin:MediaController: [JRSYS_USB][usb1IsMounted] isMounted: false
+10-20 10:52:31.709548  1004  1004 I SystemUIPlugin:MediaController: [JRSYS_USB][usb2IsMounted] isMounted: false
+10-20 10:52:31.768834  1004  1004 D SystemUIPlugin:AccessibilityHelper: openAccessibility: Already open app = com.ecarx.systemui.plugin/com.ecarx.systemui.plugin.navigationbar.AppWatcherService:com.ecarx.xcmascot/com.ecarx.mascot.service.XCAppWatcherService:ecarx.xsf.mediacenter/.media.MediaWindowStateService:ecarx.naviservice/.common.AppWatcherService:com.ecarx.xiaokaguicom.ecarx.aivrservice.service.XKAppWatcherService:com.ecarx.xiaokagui/com.ecarx.xiaoka.service.XKGUIAppWatcherService:com.ecarx.systemui.plugin/.navigationbar.AppWatcherService
+10-20 10:52:31.775529  1004  1004 D KeyguardViewMediator: doKeyguard: not showing!!
+10-20 10:52:32.089468   507  1529 E NetworkMonitor: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+10-20 10:52:32.089468   507  1529 E NetworkMonitor: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+10-20 10:52:32.089468   507  1529 E NetworkMonitor: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+10-20 10:52:32.429837  1004  1004 I SystemUIPlugin:MediaController: [JRSYS_USB][onReceive]: android.intent.action.MEDIA_MOUNTED
+10-20 10:52:32.431696  1004  1004 I SystemUIPlugin:MediaController: [JRSYS_USB][usb1IsMounted] isMounted: false
+10-20 10:52:32.432924  1004  1004 I SystemUIPlugin:MediaController: [JRSYS_USB][usb2IsMounted] isMounted: false
+10-20 10:52:32.636403   917   917 I android_os_HwBinder: HwBinder: Starting thread pool for default::android.hardware.automotive.audiocontrol@1.1::IAudioControl
+10-20 10:52:32.659226   917   917 I android_os_HwBinder: HwBinder: Starting thread pool for default::android.hardware.automotive.audiocontrol@1.1::IAudioControl
+10-20 10:52:32.663014   917   917 I android_os_HwBinder: HwBinder: Starting thread pool for default::android.hardware.automotive.audiocontrol@1.1::IAudioControl
+10-20 10:52:32.667832   917   917 I android_os_HwBinder: HwBinder: Starting thread pool for default::android.hardware.automotive.audiocontrol@1.1::IAudioControl
+10-20 10:52:32.672986   917   917 I android_os_HwBinder: HwBinder: Starting thread pool for default::android.hardware.automotive.audiocontrol@1.1::IAudioControl
+10-20 10:52:32.675485   159   159 I APM_AudioPolicyManager: setSpeedCompensatedEnable() 0
+10-20 10:52:32.675614   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 13  index 37  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -3.500000
+10-20 10:52:32.675658   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 13  index 37  volumeDb -3.500000
+10-20 10:52:32.675695   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 15  index 16  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -20.000000
+10-20 10:52:32.675712   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 15  index 16  volumeDb -20.000000
+10-20 10:52:32.675736   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 16  index 18  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -22.391304
+10-20 10:52:32.675753   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 16  index 18  volumeDb -22.391304
+10-20 10:52:32.675772   159   159 I APM_AudioPolicyManager_CarRadar: setChimeWarnVolume -22.391304
+10-20 10:52:32.686825   159   159 I APM_AudioPolicyManager: setSpeedCompensationLevel() 0
+10-20 10:52:32.687052   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 13  index 37  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -3.500000
+10-20 10:52:32.687086   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 13  index 37  volumeDb -3.500000
+10-20 10:52:32.687136   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 15  index 16  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -20.000000
+10-20 10:52:32.687155   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 15  index 16  volumeDb -20.000000
+10-20 10:52:32.687186   159   159 I APM_AudioPolicyManager_CarAudioInfo: + ECARX computeVolume stream 16  index 18  device = 0x2,revser 0  duck 0  speedCompEnable 0 volume table -22.391304
+10-20 10:52:32.687215   159   159 I APM_AudioPolicyManager_CarAudioInfo: - ECARX computeVolume stream 16  index 18  volumeDb -22.391304
+10-20 10:52:32.712226   917   917 I android_os_HwBinder: HwBinder: Starting thread pool for default::android.hardware.automotive.audiocontrol@1.1::IAudioControl
+10-20 10:52:32.687248   159   159 I APM_AudioPolicyManager_CarRadar: setChimeWarnVolume -22.391304
+10-20 10:52:32.721562   159   159 I APM_AudioPolicyManager: setCarNaviMixMode() 0
+10-20 10:52:32.713977   917   917 I CAR.AUDIO.ECarXAudioSettings: ECarXAudioSettings loadSettings() : into
+10-20 10:52:32.723192   159   159 I APM_AudioPolicyManager_CarRadio: setMasterMute 1
+10-20 10:52:32.721898   917   917 I CAR.AUDIO.ECarXAudioSettings: ECarXAudioSettings loadSettings() : end
+10-20 10:52:32.737542   157   191 I vendor.mediatek.hardware.power@2.0-impl: powerHintAsync hint:8, data:1
+10-20 10:52:32.719557   507   951 I ECarxAudioFocusImpl: setCarNaviMixMode: 0
+10-20 10:52:32.876562   135   477 D AudioALSAHardware: +setParameters(): A2dpSuspended=false
+10-20 10:52:32.877604   507   806 I AudioService: setBluetoothScoOnInt: false resetBluetoothSco
+10-20 10:52:32.876875   135   477 W AudioALSAHardware: setParameters(), still have param.size() = 1, remain param = "A2dpSuspended=false"
+10-20 10:52:32.876901   135   477 D AudioALSAHardware: -setParameters(): A2dpSuspended=false 
+10-20 10:52:32.878038   135   477 D AudioALSAHardware: +setParameters(): BT_SCO=off
+10-20 10:52:32.878195   135   477 W AudioALSAHardware: setParameters(), still have param.size() = 1, remain param = "BT_SCO=off"
+10-20 10:52:32.878213   135   477 D AudioALSAHardware: -setParameters(): BT_SCO=off 
+10-20 10:52:32.922399  1114  1114 D AudioManager: package = com.ecarx.wechatservice has registerAudioRecordingCallback : com.ecarx.wechatservice.services.k@92cb036
+10-20 10:52:33.102115  1833  1833 I xsf.mediacente: The ClassLoaderContext is a special shared library.
+10-20 10:52:33.138069   507  1529 E NetworkMonitor: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:184)
+10-20 10:52:33.138069   507  1529 E NetworkMonitor: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:126)
+10-20 10:52:33.138069   507  1529 E NetworkMonitor: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:95)
+10-20 10:52:33.171143  1833  1833 W Tinker.TinkerLoader: tryLoadPatchFiles:patch dir not exist:/data/user/0/ecarx.xsf.mediacenter/tinker
+10-20 10:52:33.177330  1833  1833 I Tinker.ReflectApp: with app realApplication from manifest applicationName:ecarx.xsf.mediacenter.app.MediaCenterApp
+10-20 10:52:33.191402  1833  1833 W Tinker.Tinker: tinker patch directory: /data/user/0/ecarx.xsf.mediacenter/tinker
+10-20 10:52:33.192234  1833  1833 I Tinker.TinkerLoadResult: parseTinkerResult loadCode:-2, process name:ecarx.xsf.mediacenter, main process:true, systemOTA:false, fingerPrint:alps/full_ecarxICp1_64/ecarxICp1_64:9/PQ2A.190405.003/0.8.7-6F3-user:user/dev-keys, oatDir:null, useInterpretMode:false
+10-20 10:52:33.192419  1833  1833 I Tinker.DefaultLoadReporter: patch loadReporter onLoadResult: patch load result, path:/data/user/0/ecarx.xsf.mediacenter/tinker, code: -2, cost: 5ms
+10-20 10:52:33.343109  1810  1810 D GKAI:GUI: [PolicyHelper] vrStreamType : 9
+10-20 10:52:33.343145  1810  1810 D GKAI:GUI: [PolicyHelper] vrStreamType : 9
+10-20 10:52:33.532650  1307  1478 E OpenAPI_SSController: Intent >> SupportService{name='mediacenter', priority=1000, type=2, intent=Intent { act=ecarx.xsf.mediacenter.intent.action.EAS_SUPPORT_SERVICE pkg=ecarx.xsf.mediacenter }, apiVersion=0, appVersionCode=0, appVersionName='null', peasVersionFingerprint='null', supportInfos=null}
+10-20 10:52:33.449677  1833  1833 D MDC-[9999]-AccessibilityUtils: enableAccessibility: ecarx.xsf.mediacenter.media.MediaWindowStateService has been enabled
+10-20 10:52:33.521923  1833  2099 D MDC-[9999]-StateRecoverApiImpl: recovery data,packageName:com.ecarx.multimedia,title:,radioFrequency:87.5
+10-20 10:52:33.570667  1833  2099 D MDC-[9999]-StateRecoverUtils: state_action|com.ecarx.multimedia.action.KeepAliveService
+10-20 10:52:33.570810  1833  2099 D MDC-[9999]-StateRecoverUtils: state_package|com.ecarx.multimedia
+10-20 10:52:33.635163   157   191 I vendor.mediatek.hardware.power@2.0-impl: powerHintAsync hint:8, data:1
+10-20 10:52:33.713327   157   191 I vendor.mediatek.hardware.power@2.0-impl: powerHintAsync hint:8, data:1
+10-20 10:52:33.741332  1833  1833 D MDC-[9999]-MediaWindowStateService: onCreate
+10-20 10:52:33.849147   917   917 I CAR.AUDIO: Audio dynamic routing not configured, run in legacy mode
+10-20 10:52:33.831060  1833  1833 D MDC-[9999]-MediaWindowStateService: onServiceConnected
+10-20 10:52:33.774856  2065  2065 D GKAI:TTS-S::3.21402010.3945: <XCTtsUtils> ====== get default_tts_config json:{	"speaker":{		"name":"度小希",		"speakerId":3000	}}
+10-20 10:52:33.881536  1833  2242 D MDC-[9999]-VrArbitrateImpl: doArbitrateInner optimal changed, now:com.ecarx.multimedia, last:null
+10-20 10:52:33.881667  1833  2242 D MDC-[9999]-VrPluginChannelImpl: asyncSendOptimalMediaType VrApiNotReady!!! optimalPackage:com.ecarx.multimedia
+10-20 10:52:33.867770  2065  2065 D GKAI:TTS-S::3.21402010.3945: <XCTtsUtils> ====== loadTtsSpeakersConfigJson path=/mnt/ivres/tts/tts_speakers_config.json
+10-20 10:52:33.881717  2065  2065 D GKAI:TTS-S::3.21402010.3945: <XCTtsUtils> ====== get tts_speakers_config json:{	"baidu_speakers": [{		"name": "度小希",		"speakerId": 3000,		"sex": 0,		"age": 18	}, {		"name": "金莎",		"speakerId": 3001,		"sex": 0,		"age": 18	}, {		"name": "冯提莫",		"speakerId": 3002,		"sex": 0,		"age": 18	}, {		"name": "度小乔",		"speakerId": 3003,		"sex": 0,		"age": 18	}, {		"name": "度博文",		"speakerId": 3004,		"sex": 1,		"age": 36	}, {		"name": "度米朵",		"speakerId": 3005,		"sex": 0,		"age": 18	}],	"mobvoi_speakers": [{		"name": "潇洒诗仙",		"speakerId": 8000,		"voiceName": "libai",		"sex": 1,		"age": 36	},{		"name": "魅力御姐",		"speakerId": 8003,		"voiceName": "yujie",		"sex": 0,		"age": 36	}]}
+10-20 10:52:33.988265  2065  2065 D TtsBase : loadParam END mParamCurrentXCTtsParameter{mType=0, mSpeakerId=3000, mSpeakerName='度小希', mVolume=80, mSpeed=100, mPitch=100}
+10-20 10:52:33.978284   159   159 I APM_AudioPolicyManager_CarRadio: setMasterMute 0
+10-20 10:52:33.991058  2065  2065 D GKAI:TTS-S::3.21402010.3945: <TtsBase> ====== setSpeakers: {3000=度小希, 3001=金莎, 3002=冯提莫, 3003=度小乔, 3004=度博文, 3005=度米朵}
+10-20 10:52:33.991653  2065  2065 D GKAI:TTS-S::3.21402010.3945: <TtsBase> ====== setSpeakers: [SpeakerInfo{speakerId=3000, name='度小希', engine='BAIDU', voiceAudioPath='/storage/emulated/0/tts/voice/duxiaoxi.wav', sex=0, age=18.0, mVolume=80, mSpeed=100, mPitch=100, voiceName='null, extJson='null'}, SpeakerInfo{speakerId=3001, name='金莎', engine='BAIDU', voiceAudioPath='/storage/emulated/0/tts/voice/jinsha.wav', sex=0, age=18.0, mVolume=80, mSpeed=100, mPitch=100, voiceName='null, extJson='null'}, SpeakerInfo{speakerId=3002, name='冯提莫', engine='BAIDU', voiceAudioPath='/storage/emulated/0/tts/voice/fengtimo.wav', sex=0, age=18.0, mVolume=80, mSpeed=100, mPitch=100, voiceName='null, extJson='null'}, SpeakerInfo{speakerId=3003, name='度小乔', engine='BAIDU', voiceAudioPath='/storage/emulated/0/tts/voice/duxiaoqiao.wav', sex=0, age=18.0, mVolume=80, mSpeed=100, mPitch=100, voiceName='null, extJson='null'}, SpeakerInfo{speakerId=3004, name='度博文', engine='BAIDU', voiceAudioPath='/storage/emulated/0/tts/voice/dubowen.wav', sex=1, age=36.0, mVolume=80, mSpeed=100, mPitch=100, voiceName='null, extJson='null'}, SpeakerInfo{speakerId=3005, name='度米朵', engine='BAIDU', voiceAudioPath='/storage/emulated/0/tts/voice/dumiduo.wav', sex=0, age=18.0, mVolume=80, mSpeed=100, mPitch=100, voiceName='null, extJson='null'}]
+10-20 10:52:33.424182  1810  1810 E GKAI:GUI:2.2.21314110.79: [XKAccessibilityHelper] toAccessibilitySettings services: com.ecarx.systemui.plugin/com.ecarx.systemui.plugin.navigationbar.AppWatcherService:com.ecarx.xcmascot/com.ecarx.mascot.service.XCAppWatcherService:ecarx.xsf.mediacenter/.media.MediaWindowStateService:ecarx.naviservice/.common.AppWatcherService:com.ecarx.xiaokaguicom.ecarx.aivrservice.service.XKAppWatcherService:com.ecarx.xiaokagui/com.ecarx.xiaoka.service.XKGUIAppWatcherService:com.ecarx.systemui.plugin/.navigationbar.AppWatcherService
+10-20 10:52:33.993957  2065  2065 D GKAI:TTS-S::3.21402010.3945: <TtsBase> ====== setSpeakers: {8000=潇洒诗仙, 8003=魅力御姐}
+10-20 10:52:33.994202  2065  2065 D GKAI:TTS-S::3.21402010.3945: <TtsBase> ====== setSpeakers: [SpeakerInfo{speakerId=8000, name='潇洒诗仙', engine='MOBVOI', voiceAudioPath='/storage/emulated/0/tts/voice/libai.wav', sex=1, age=36.0, mVolume=80, mSpeed=100, mPitch=100, voiceName='libai, extJson='null'}, SpeakerInfo{speakerId=8003, name='魅力御姐', engine='MOBVOI', voiceAudioPath='/storage/emulated/0/tts/voice/yujie.wav', sex=0, age=36.0, mVolume=80, mSpeed=100, mPitch=100, voiceName='yujie, extJson='null'}]
+10-20 10:52:34.061382  2065  2288 D GKAI:TTS-S::3.21402010.3945: <XCTtsUtils> ====== get wav config json:[    {        "spakerName":"libai",        "speakerId":8000,        "wavPaths":[            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1001.wav",                "word":"此非我力所能及，还是说导航或者听音乐吧"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1002.wav",                "word":"严谨一点，说是或者不是吧"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1003.wav",                "word":"如需帮助，在下必踏剑而来"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1004.wav",                "word":"是，或者不是，我需要一个明确的答复"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1005.wav",                "word":"请吩咐"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1006.wav",                "word":"再来，再来，刚才不算"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1007.wav",                "word":"说吧"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1008.wav",                "word":"我的友人，需要我帮忙导航吗"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1009.wav",                "word":"天才也需要反复咀嚼，再说一次吧"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1010.wav",                "word":"请讲"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1011.wav",                "word":"语音助手暂时没有兴致，稍后试试吧"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1012.wav",                "word":"我的友人，说是或不是吧"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1013.wav",                "word":"不可如此，告诉我是或不是"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1014.wav",                "word":"此非我力所能及，还是说是或不是吧"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1015.wav",                "word":"走了，走了，喝酒去，有事再来找我"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1016.wav",                "word":"不可如此，告诉我想要导航或者听音乐吧"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1017.wav",                "word":"莫要缄口不言，告知在下是或不是"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1018.wav",                "word":"要听音乐吗，换个心情看看大千世界"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1019.wav",                "word":"来也"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1020.wav",                "word":"在下还是先告辞了"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1021.wav",                "word":"语音助手需要歇息，一会再试吧"            },            {                "sampleDataFormat":24000,                "wavFilePath":"libai/libai_1022.wav
+11-01 10:07:32.120807  2065  2288 D GKAI:TTS-S::3.21402010.3945: <TtsBase> ====== wavPathInfo is[WavPathBean{spakerName='libai', speakerId=8000, wavPaths=[WavInfoBean{word='此非我力所能及，还是说导航或者听音乐吧', wavFilePath='libai/libai_1001.wav'}, WavInfoBean{word='严谨一点，说是或者不是吧', wavFilePath='libai/libai_1002.wav'}, WavInfoBean{word='如需帮助，在下必踏剑而来', wavFilePath='libai/libai_1003.wav'}, WavInfoBean{word='是，或者不是，我需要一个明确的答复', wavFilePath='libai/libai_1004.wav'}, WavInfoBean{word='请吩咐', wavFilePath='libai/libai_1005.wav'}, WavInfoBean{word='再来，再来，刚才不算', wavFilePath='libai/libai_1006.wav'}, WavInfoBean{word='说吧', wavFilePath='libai/libai_1007.wav'}, WavInfoBean{word='我的友人，需要我帮忙导航吗', wavFilePath='libai/libai_1008.wav'}, WavInfoBean{word='天才也需要反复咀嚼，再说一次吧', wavFilePath='libai/libai_1009.wav'}, WavInfoBean{word='请讲', wavFilePath='libai/libai_1010.wav'}, WavInfoBean{word='语音助手暂时没有兴致，稍后试试吧', wavFilePath='libai/libai_1011.wav'}, WavInfoBean{word='我的友人，说是或不是吧', wavFilePath='libai/libai_1012.wav'}, WavInfoBean{word='不可如此，告诉我是或不是', wavFilePath='libai/libai_1013.wav'}, WavInfoBean{word='此非我力所能及，还是说是或不是吧', wavFilePath='libai/libai_1014.wav'}, WavInfoBean{word='走了，走了，喝酒去，有事再来找我', wavFilePath='libai/libai_1015.wav'}, WavInfoBean{word='不可如此，告诉我想要导航或者听音乐吧', wavFilePath='libai/libai_1016.wav'}, WavInfoBean{word='莫要缄口不言，告知在下是或不是', wavFilePath='libai/libai_1017.wav'}, WavInfoBean{word='要听音乐吗，换个心情看看大千世界', wavFilePath='libai/libai_1018.wav'}, WavInfoBean{word='来也', wavFilePath='libai/libai_1019.wav'}, WavInfoBean{word='在下还是先告辞了', wavFilePath='libai/libai_1020.wav'}, WavInfoBean{word='语音助手需要歇息，一会再试吧', wavFilePath='libai/libai_1021.wav'}, WavInfoBean{word='吾在', wavFilePath='libai/libai_1022.wav'}, WavInfoBean{word='有没有要帮忙的，和我讲讲', wavFilePath='libai/libai_1023.wav'}, WavInfoBean{word='事了拂衣去，有事再叫我', wavFilePath='libai/libai_1024.wav'}, WavInfoBean{word='有何贵干', wavFilePath='libai/libai_1025.wav'}, WavInfoBean{word='你说', wavFilePath='libai/libai_1026.wav'}, WavInfoBean{word='走了喝酒去，有事再叫我', wavFilePath='libai/libai_1027.wav'}, WavInfoBean{word='何事', wavFilePath='libai/libai_1028.wav'}, WavInfoBean{word='能人异士有我就够了，需要帮你导航吗', wavFilePath='libai/libai_1029.wav'}, WavInfoBean{word='在下先行告退', wavFilePath='libai/libai_1030.wav'}, WavInfoBean{word='语音助手不在状态，过会再来吧', wavFilePath='libai/libai_1031.wav'}, WavInfoBean{word='不好意思走神了，再来一遍吧', wavFilePath='libai/libai_1032.wav'}, WavInfoBean{word='哈喽', wavFilePath='libai/libai_2001.wav'}, WavInfoBean{word='请说', wavFilePath='libai/libai_2002.wav'}, WavInfoBean{word='我在', wavFilePath='libai/libai_2003.wav'}, WavInfoBean{word='在哦', wavFilePath='libai/libai_2004.wav'}, WavInfoBean{word='啥事', wavFilePath='libai/libai_2005.wav'}, WavInfoBean{word='你说', wavFilePath='libai/libai_2006.wav'}, WavInfoBean{word='在听', wavFilePath='libai/libai_2007.wav'}, WavInfoBean{word='干啥', wavFilePath='libai/libai_2008.wav'}, WavInfoBean{word='来了', wavFilePath='libai/libai_2009.wav'}]}, WavPathBean{spakerName='yangguang', speakerId=8001, wavPaths=[WavInfoBean{word='语音助手可能出了点问题，请稍后再试。', wavFilePath='yangguang/yangguang_1001.wav'}, WavInfoBean{word='干啥', wavFilePath='yangguang/yangguang_1002.wav'}, WavInfoBean{word='不支持此操作，请说是或不是', wavFilePath='yangguang/yangguang_1003.wav'}, WavInfoBean{word='来了', wavFilePath='yangguang/yangguang_1004.wav'}, WavInfoBean{word='在', wavFilePath='yangguang/yanggua
+11-01 10:07:32.121131  2065  2288 D GKAI:TTS-S::3.21402010.3945: <TtsBase> ====== wavPathInfo isWavPathBean{spakerName='duxiaoxi', speakerId=3000, wavPaths=[WavInfoBean{word='我们等一等再试吧', wavFilePath='duxiaoxi/duxiaoxi_1001.wav'}, WavInfoBean{word='有需要的时候我都在哦', wavFilePath='duxiaoxi/duxiaoxi_1002.wav'}, WavInfoBean{word='嗯', wavFilePath='duxiaoxi/duxiaoxi_1003.wav'}, WavInfoBean{word='来喽', wavFilePath='duxiaoxi/duxiaoxi_1004.wav'}, WavInfoBean{word='来啦', wavFilePath='duxiaoxi/duxiaoxi_1005.wav'}, WavInfoBean{word='一直都在呢，有事就喊我吧', wavFilePath='duxiaoxi/duxiaoxi_1006.wav'}, WavInfoBean{word='在呢', wavFilePath='duxiaoxi/duxiaoxi_1007.wav'}, WavInfoBean{word='在哦', wavFilePath='duxiaoxi/duxiaoxi_1008.wav'}, WavInfoBean{word='有事叫我，记得想我哦', wavFilePath='duxiaoxi/duxiaoxi_1009.wav'}, WavInfoBean{word='哈喽', wavFilePath='duxiaoxi/duxiaoxi_1010.wav'}, WavInfoBean{word='咋啦', wavFilePath='duxiaoxi/duxiaoxi_1011.wav'}, WavInfoBean{word='我随叫随到哦', wavFilePath='duxiaoxi/duxiaoxi_1012.wav'}, WavInfoBean{word='嗨', wavFilePath='duxiaoxi/duxiaoxi_1013.wav'}, WavInfoBean{word='要不我们等下再试一次吧', wavFilePath='duxiaoxi/duxiaoxi_1014.wav'}, WavInfoBean{word='有什么事再找我说吧', wavFilePath='duxiaoxi/duxiaoxi_1015.wav'}, WavInfoBean{word='嗯哼', wavFilePath='duxiaoxi/duxiaoxi_1016.wav'}, WavInfoBean{word='过会儿再试试吧', wavFilePath='duxiaoxi/duxiaoxi_1017.wav'}, WavInfoBean{word='我在', wavFilePath='duxiaoxi/duxiaoxi_1018.wav'}, WavInfoBean{word='请说', wavFilePath='duxiaoxi/duxiaoxi_2001.wav'}, WavInfoBean{word='啥事', wavFilePath='duxiaoxi/duxiaoxi_2002.wav'}, WavInfoBean{word='你说', wavFilePath='duxiaoxi/duxiaoxi_2003.wav'}, WavInfoBean{word='干啥', wavFilePath='duxiaoxi/duxiaoxi_2004.wav'}, WavInfoBean{word='在听', wavFilePath='duxiaoxi/duxiaoxi_2005.wav'}, WavInfoBean{word='来了', wavFilePath='duxiaoxi/duxiaoxi_2006.wav'}]}
+11-01 10:14:12.273439  1841  2043 E EASFramework: SERVICE_CONNECTED_SUPPORT_NOTIFITY >> mediacenter
+10-20 10:52:33.629531  1810  2045 D GKAI:EAS:1.0.0: [XKDbManager] getMKConfig : 1    [id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false]
+11-01 10:14:12.992090   157   191 I vendor.mediatek.hardware.power@2.0-impl: powerHintAsync hint:8, data:1
+11-01 10:14:13.344083   283   361 D NuPlayerDriver: NuPlayerDriver(0xe8640000) created, clientPid(855)
+10-20 10:52:33.646085  1810  2045 D GKAI:EAS:1.0.0: [XKDbManager] getMKConfig : 1    [id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false]
+10-20 10:52:33.646193  1810  2045 D GKAI:GUI: [XKConfigureManager] getMKOneshotEnable : mMKConfigEntity = id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false
+10-20 10:52:33.646270  1810  2045 D GKAI:GUI: [XKConfigureManager] getMKCustomWakeupEnable : mMKConfigEntity = id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false
+10-20 10:52:33.646336  1810  2045 D GKAI:GUI: [XKConfigureManager] getMKChangeWakeupEnable : mMKConfigEntity = id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false
+11-01 10:14:13.499595   283  2558 D NuPlayerDriver: notifyListener_l(0xe8640000), (1, 0, 0, -1), loop setting(0, 0)
+10-20 10:52:33.646493  1810  2045 D GKAI:GUI: [XKConfigureManager] getGeekModeEnable : mMkConfigEntity = id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false
+11-01 10:14:13.656312  2289  2289 D MediaScannerReceiver: action: android.intent.action.MEDIA_MOUNTED path: /storage/emulated/0
+10-20 10:52:33.646555  1810  2045 D GKAI:GUI: [XKConfigureManager] getVisionEnable : mMkConfigEntity = id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false
+11-01 10:14:13.829474   157   191 I vendor.mediatek.hardware.power@2.0-impl: powerHintAsync hint:8, data:0
+11-01 10:14:12.181577  1959  1959 I MultiMediaManager: init - multiMediaAPI: com.ecarx.sdk.multimedia.MultiMediaProxy@d6feb15
+11-01 10:14:12.437636  2251  2251 I MediaController: [JRStatus_USB][usb1IsMounted] isMounted: false
+11-01 10:14:13.507417   855  1020 I HeadsetClientStateMachine: mRingtone: android.media.Ringtone@d4fb37e
+10-20 10:52:33.663200  1810  2045 D GKAI:GUI: [XKConfigureManager] getMKPttEnable : mMKConfigEntity = id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false
+11-01 10:14:12.438045  2251  2251 I MediaController: [JRStatus_USB][usb2IsMounted] isMounted: false
+11-01 10:14:12.439167  2251  2251 I MediaController:  [JRStatus_USB][MediaController] no usb disk connected
+11-01 10:14:13.329773  2121  2121 W ws001   : p m hlc u d p o com.ecarx.multimedia.loader.p.ProviderN1
+11-01 10:14:12.702143  1825  2314 W System.err: 	at java.io.FileInputStream.open0(Native Method)
+11-01 10:14:12.445887  2251  2251 I MediaController: [JRStatus_USB][usb1IsMounted] isMounted: false
+11-01 10:14:12.702163  1825  2314 W System.err: 	at java.io.FileInputStream.open(FileInputStream.java:231)
+11-01 10:14:14.183029  1833  1833 D MDC-[9999]-MediaCenterService: onCreate
+11-01 10:14:13.395956  2121  2121 D ProcessUtil: isMainProcress:com.ecarx.multimedia
+11-01 10:14:12.702182  1825  2314 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:165)
+11-01 10:14:14.297079  1841  1841 D [XSFNotification][2.2.0 (c0d)]NotificationListenerService: [(ECarxNotificationListenerService.java:333)#IgnoreNotification ] ignoreNotification packageName = ecarx.xsf.mediacenter with flags=0x62
+11-01 10:14:13.859669  2065  2065 D GKAI:TTS-S::3.21402010.3945: <TtsBase> ====== wavPathInfo isWavPathBean{spakerName='duxiaoxi', speakerId=3000, wavPaths=[WavInfoBean{word='我们等一等再试吧', wavFilePath='duxiaoxi/duxiaoxi_1001.wav'}, WavInfoBean{word='有需要的时候我都在哦', wavFilePath='duxiaoxi/duxiaoxi_1002.wav'}, WavInfoBean{word='嗯', wavFilePath='duxiaoxi/duxiaoxi_1003.wav'}, WavInfoBean{word='来喽', wavFilePath='duxiaoxi/duxiaoxi_1004.wav'}, WavInfoBean{word='来啦', wavFilePath='duxiaoxi/duxiaoxi_1005.wav'}, WavInfoBean{word='一直都在呢，有事就喊我吧', wavFilePath='duxiaoxi/duxiaoxi_1006.wav'}, WavInfoBean{word='在呢', wavFilePath='duxiaoxi/duxiaoxi_1007.wav'}, WavInfoBean{word='在哦', wavFilePath='duxiaoxi/duxiaoxi_1008.wav'}, WavInfoBean{word='有事叫我，记得想我哦', wavFilePath='duxiaoxi/duxiaoxi_1009.wav'}, WavInfoBean{word='哈喽', wavFilePath='duxiaoxi/duxiaoxi_1010.wav'}, WavInfoBean{word='咋啦', wavFilePath='duxiaoxi/duxiaoxi_1011.wav'}, WavInfoBean{word='我随叫随到哦', wavFilePath='duxiaoxi/duxiaoxi_1012.wav'}, WavInfoBean{word='嗨', wavFilePath='duxiaoxi/duxiaoxi_1013.wav'}, WavInfoBean{word='要不我们等下再试一次吧', wavFilePath='duxiaoxi/duxiaoxi_1014.wav'}, WavInfoBean{word='有什么事再找我说吧', wavFilePath='duxiaoxi/duxiaoxi_1015.wav'}, WavInfoBean{word='嗯哼', wavFilePath='duxiaoxi/duxiaoxi_1016.wav'}, WavInfoBean{word='过会儿再试试吧', wavFilePath='duxiaoxi/duxiaoxi_1017.wav'}, WavInfoBean{word='我在', wavFilePath='duxiaoxi/duxiaoxi_1018.wav'}, WavInfoBean{word='请说', wavFilePath='duxiaoxi/duxiaoxi_2001.wav'}, WavInfoBean{word='啥事', wavFilePath='duxiaoxi/duxiaoxi_2002.wav'}, WavInfoBean{word='你说', wavFilePath='duxiaoxi/duxiaoxi_2003.wav'}, WavInfoBean{word='干啥', wavFilePath='duxiaoxi/duxiaoxi_2004.wav'}, WavInfoBean{word='在听', wavFilePath='duxiaoxi/duxiaoxi_2005.wav'}, WavInfoBean{word='来了', wavFilePath='duxiaoxi/duxiaoxi_2006.wav'}]}
+11-01 10:14:12.702200  1825  2314 W System.err: 	at java.io.FileInputStream.<init>(FileInputStream.java:112)
+11-01 10:14:14.297483  1841  1841 I [XSFNotification][2.2.0 (c0d)]NotificationListenerService: [(ECarxNotificationListenerService.java:206)#HandleNotification ] onNotificationPosted Invalid, sbn = StatusBarNotification(pkg=ecarx.xsf.mediacenter user=UserHandle{0} id=10001 tag=null key=0|ecarx.xsf.mediacenter|10001|null|10048: Notification(channel=ecarx.xsf.mediacenter pri=0 contentView=null vibrate=null sound=null tick defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE))
+11-01 10:14:13.860599  2065  2065 D GKAI:TTS-S::3.21402010.3945: <TtsBase> ====== wavPathInfo isWavPathBean{spakerName='duxiaoxi', speakerId=3000, wavPaths=[WavInfoBean{word='我们等一等再试吧', wavFilePath='duxiaoxi/duxiaoxi_1001.wav'}, WavInfoBean{word='有需要的时候我都在哦', wavFilePath='duxiaoxi/duxiaoxi_1002.wav'}, WavInfoBean{word='嗯', wavFilePath='duxiaoxi/duxiaoxi_1003.wav'}, WavInfoBean{word='来喽', wavFilePath='duxiaoxi/duxiaoxi_1004.wav'}, WavInfoBean{word='来啦', wavFilePath='duxiaoxi/duxiaoxi_1005.wav'}, WavInfoBean{word='一直都在呢，有事就喊我吧', wavFilePath='duxiaoxi/duxiaoxi_1006.wav'}, WavInfoBean{word='在呢', wavFilePath='duxiaoxi/duxiaoxi_1007.wav'}, WavInfoBean{word='在哦', wavFilePath='duxiaoxi/duxiaoxi_1008.wav'}, WavInfoBean{word='有事叫我，记得想我哦', wavFilePath='duxiaoxi/duxiaoxi_1009.wav'}, WavInfoBean{word='哈喽', wavFilePath='duxiaoxi/duxiaoxi_1010.wav'}, WavInfoBean{word='咋啦', wavFilePath='duxiaoxi/duxiaoxi_1011.wav'}, WavInfoBean{word='我随叫随到哦', wavFilePath='duxiaoxi/duxiaoxi_1012.wav'}, WavInfoBean{word='嗨', wavFilePath='duxiaoxi/duxiaoxi_1013.wav'}, WavInfoBean{word='要不我们等下再试一次吧', wavFilePath='duxiaoxi/duxiaoxi_1014.wav'}, WavInfoBean{word='有什么事再找我说吧', wavFilePath='duxiaoxi/duxiaoxi_1015.wav'}, WavInfoBean{word='嗯哼', wavFilePath='duxiaoxi/duxiaoxi_1016.wav'}, WavInfoBean{word='过会儿再试试吧', wavFilePath='duxiaoxi/duxiaoxi_1017.wav'}, WavInfoBean{word='我在', wavFilePath='duxiaoxi/duxiaoxi_1018.wav'}, WavInfoBean{word='请说', wavFilePath='duxiaoxi/duxiaoxi_2001.wav'}, WavInfoBean{word='啥事', wavFilePath='duxiaoxi/duxiaoxi_2002.wav'}, WavInfoBean{word='你说', wavFilePath='duxiaoxi/duxiaoxi_2003.wav'}, WavInfoBean{word='干啥', wavFilePath='duxiaoxi/duxiaoxi_2004.wav'}, WavInfoBean{word='在听', wavFilePath='duxiaoxi/duxiaoxi_2005.wav'}, WavInfoBean{word='来了', wavFilePath='duxiaoxi/duxiaoxi_2006.wav'}]}
+11-01 10:14:12.446354  2251  2251 I MediaController: [JRStatus_USB][usb2IsMounted] isMounted: false
+11-01 10:14:12.446409  2251  2251 I MediaController:  [JRStatus_USB][initState] no usb disk connected
+11-01 10:14:14.046786  2510  2510 W PAL_Adapter_20210816: [MyAudioAdapter](MyAudioAdapter.java:301):registerAudioDeviceListener
+11-01 10:14:16.041433   135   477 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:16.041647   159   476 D StreamHalHidl: processReturn with getLatency, status = 0
+11-01 10:14:16.041537   135   477 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:16.076822   159   902 D AudioFlinger: Client defaulted notificationFrames to 1026 for frameCount 2052
+11-01 10:14:13.857831  2121  2625 E MediaApplication: uicontrol version :low
+11-01 10:14:16.042579   135   294 D AudioALSAStreamManager: getInputBufferSize(), sampleRate = 48000, format = 0x1, channelCount = 2, bufferSize = 3840
+11-01 10:14:16.084630   159   902 D StreamHalHidl: processReturn with getLatency, status = 0
+11-01 10:14:14.096865  2510  2510 W PAL_Adapter_20210816: [MyAudioAdapter](MyAudioAdapter.java:210):registerAGCallReceiver
+11-01 10:14:16.076605   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:16.129338   159   902 D StreamHalHidl: processReturn with getLatency, status = 0
+11-01 10:14:14.098351  2510  2510 W PAL_Adapter_20210816: [MyAudioAdapter](MyAudioAdapter.java:137):registerAVNStatusReceiver
+11-01 10:14:16.076659   135   294 D MTKStreamOutHAL: StreamOut::getLatency = 42
+11-01 10:14:16.129370   159   902 D AudioFlinger: Client defaulted notificationFrames to 1026 for frameCount 2052
+11-01 10:14:12.449442  1784  2119 E EASFramework: SERVICE_CONNECTED_SUPPORT_NOTIFITY >> mediacenter
+11-01 10:14:13.862419  2121  2627 E MediaApplication: external version :low
+11-01 10:14:16.076684   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:16.129975   159   902 D StreamHalHidl: processReturn with getLatency, status = 0
+11-01 10:14:16.077036   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:16.170358   159   902 D StreamHalHidl: processReturn with getLatency, status = 0
+11-01 10:14:14.266373  1071  1104 D ECarXApiClientImpl: onRemoteConnected: mediacenter
+11-01 10:14:13.880215  2065  2100 D TtsBase : loadParam END mParamCurrentXCTtsParameter{mType=0, mSpeakerId=3000, mSpeakerName='度小希', mVolume=80, mSpeed=100, mPitch=100}
+11-01 10:14:16.077058   135   294 D MTKStreamOutHAL: StreamOut::getLatency = 42
+11-01 10:14:16.170412   159   902 D AudioFlinger: Client defaulted notificationFrames to 1026 for frameCount 2052
+11-01 10:14:12.362666  1767  2040 E EASFramework: SERVICE_CONNECTED_SUPPORT_NOTIFITY >> mediacenter
+10-20 10:52:33.759910  1810  2037 D GKAI:GUI: [XKConfigureManager] getMKOneshotEnable : mMKConfigEntity = id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false
+11-01 10:14:13.871587  2121  2628 E MediaApplication: playercontrol version :low
+11-01 10:14:16.077083   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:16.170852   159   902 D StreamHalHidl: processReturn with getLatency, status = 0
+10-20 10:52:33.759963  1810  2037 D GKAI:GUI: [XKConfigureManager] getMKOneshotEnable : mMKConfigEntity = id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false
+11-01 10:14:14.268134  1833  1899 D ECarXApiClientImpl: onRemoteConnected: mediacenter
+11-01 10:14:15.369254  2721  2721 I MSDP_DFX: init s_ClassHieventAudioError success
+11-01 10:14:16.129134   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:16.183065   159   902 D StreamHalHidl: processReturn with getLatency, status = 0
+10-20 10:52:33.760004  1810  2037 D GKAI:GUI: [XKConfigureManager] getMKCustomWakeupEnable : mMKConfigEntity = id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false
+11-01 10:14:16.129240   135   294 D MTKStreamOutHAL: StreamOut::getLatency = 42
+11-01 10:14:16.183107   159   902 D AudioFlinger: Client defaulted notificationFrames to 1026 for frameCount 2052
+10-20 10:52:33.760048  1810  2037 D GKAI:GUI: [XKConfigureManager] getMKChangeWakeupEnable : mMKConfigEntity = id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false
+11-01 10:14:16.129267   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:16.183941   159   902 D StreamHalHidl: processReturn with getLatency, status = 0
+10-20 10:52:33.760093  1810  2037 D GKAI:GUI: [XKConfigureManager] getGeekModeEnable : mMkConfigEntity = id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false
+11-01 10:14:16.129557   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:16.208576   159   902 D StreamHalHidl: processReturn with getLatency, status = 0
+10-20 10:52:33.760166  1810  2037 D GKAI:GUI: [XKConfigureManager] getVisionEnable : mMkConfigEntity = id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false
+11-01 10:14:16.129595   135   294 D MTKStreamOutHAL: StreamOut::getLatency = 42
+11-01 10:14:16.208621   159   902 D AudioFlinger: Client defaulted notificationFrames to 1026 for frameCount 2052
+11-01 10:14:16.129622   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:16.209294   159   902 D StreamHalHidl: processReturn with getLatency, status = 0
+11-01 10:14:16.170109   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+10-20 10:52:33.760403  1810  2037 D GKAI:GUI: [XKConfigureManager] getMKPttEnable : mMKConfigEntity = id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false
+11-01 10:14:13.915464  2121  2625 E ws001   : pmb.lp: f to l. lt=3; i=PInfo { <uicontrol:42005(5)> [P-N] [DEX_EXTRACTED] processes=[] js={ver=42005, verv=2077176283200005141, type=1, path=/data/user/0/com.ecarx.multimedia/app_plugins_v3/uicontrol-41000147-41000147-42005.jar, high=41000147, frm_ver=5, low=41000147, pkgname=com.ecarx.multimedia.plugin.uicontrol, name=uicontrol, ali=uicontrol} dex=/data/user/0/com.ecarx.multimedia/app_plugins_v3/oat/arm64/uicontrol-41000147-41000147-42005.odex nlib=/data/user/0/com.ecarx.multimedia/app_plugins_v3_libs/uicontrol-41000147-41000147-42005 }
+11-01 10:14:12.842385  2340  2340 D ServerProvider: [onCreate] App = com.ecarx.multimedia.SplitWindowApplication@924933f
+11-01 10:14:16.170200   135   294 D MTKStreamOutHAL: StreamOut::getLatency = 42
+11-01 10:14:16.170234   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:16.170705   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:18.375524  1841  1841 D [XSFNotification][2.2.0 (c0d)]NotificationListenerService: [(ECarxNotificationListenerService.java:333)#IgnoreNotification ] ignoreNotification packageName = com.ecarx.multimedia with flags=0x62
+11-01 10:14:16.725363  2756  2922 E EASFramework: SERVICE_CONNECTED_SUPPORT_NOTIFITY >> mediacenter
+11-01 10:14:16.170731   135   294 D MTKStreamOutHAL: StreamOut::getLatency = 42
+11-01 10:14:18.375907  1841  1841 I [XSFNotification][2.2.0 (c0d)]NotificationListenerService: [(ECarxNotificationListenerService.java:206)#HandleNotification ] onNotificationPosted Invalid, sbn = StatusBarNotification(pkg=com.ecarx.multimedia user=UserHandle{0} id=412 tag=null key=0|com.ecarx.multimedia|412|null|10049: Notification(channel=Media2_notification_channel1635732858220 pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0xff607d8b vis=PRIVATE))
+11-01 10:14:13.915706  2121  2625 W [XCMedia2Log][4.2.0 (2719CD3)]PluginStateChecker: setPluginPreloadCompleted, com.ecarx.multimedia.plugin.uicontrol
+11-01 10:14:16.170758   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:13.243258  2137  2356 E EASFramework: SERVICE_CONNECTED_SUPPORT_NOTIFITY >> mediacenter
+11-01 10:14:16.182828   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:12.774469  1307  1478 I OpenAPI : ServiceInfoParser_name -> multimedia
+11-01 10:14:18.455866  1841  1841 D [XSFNotification][2.2.0 (c0d)]NotificationListenerService: [(ECarxNotificationListenerService.java:333)#IgnoreNotification ] ignoreNotification packageName = com.ecarx.multimedia with flags=0x62
+11-01 10:14:16.546200  2094  2094 D TtsStatusListenerClient: on SpaekerChanged: 度小希 speakerId: 3000
+11-01 10:14:16.182869   135   294 D MTKStreamOutHAL: StreamOut::getLatency = 42
+11-01 10:14:18.456215  1841  1841 I [XSFNotification][2.2.0 (c0d)]NotificationListenerService: [(ECarxNotificationListenerService.java:206)#HandleNotification ] onNotificationPosted Invalid, sbn = StatusBarNotification(pkg=com.ecarx.multimedia user=UserHandle{0} id=412 tag=null key=0|com.ecarx.multimedia|412|null|10049: Notification(channel=Media2_notification_channel1635732858308 pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0xff607d8b vis=PRIVATE))
+11-01 10:14:16.546388  2094  2094 D AiAndroidEngine: set speakerInfo {"speaker":"度小希","speakerId":3000}
+11-01 10:14:14.019500  2121  2121 W [XCMedia2Log][4.2.0 (2719CD3)]PluginStateChecker: delayCheck, hasChecked:false
+11-01 10:14:16.182900   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:17.991587  2094  2130 D TtsStatusListenerClient: on SpaekerChanged: 度小希 speakerId: 3000
+11-01 10:14:16.183342   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:17.991720  2094  2130 D AiAndroidEngine: set speakerInfo {"speaker":"度小希","speakerId":3000}
+11-01 10:14:13.003092  2340  2340 D ProcessUtil: isMainProcress:com.ecarx.multimedia:GuardService
+11-01 10:14:16.183365   135   294 D MTKStreamOutHAL: StreamOut::getLatency = 42
+11-01 10:14:13.035691  2340  2340 D ProcessUtil: isMainProcress:com.ecarx.multimedia:GuardService
+11-01 10:14:16.183390   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:16.208067   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:16.208117   135   294 D MTKStreamOutHAL: StreamOut::getLatency = 42
+11-01 10:14:16.208154   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:15.729134  2721  2721 W wei.dmsdpdevic: Verification of int com.huawei.dmsdpdevice.audio.manage.VirtualAudioProxy.writeData(com.huawei.dmsdpdevice.audio.dao.VirtualStreamData, android.media.AudioTrack, int) took 112.840ms
+11-01 10:14:16.208878   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:12.873156  1307  1478 I ServiceInfoParser: secret -> {"n":"com.ecarx.multimedia","k":"42e32cdb86378f1550e93864862699f2","s":"12345678901234567890123456789012","v":1}
+11-01 10:14:15.732174  2721  2721 I DMSDP   : VirtualAudioProxy:load audiodevsdk
+11-01 10:14:16.208907   135   294 D MTKStreamOutHAL: StreamOut::getLatency = 42
+11-01 10:14:16.208939   135   294 D AudioALSAStreamOut: latency(), flags 2, return 42
+11-01 10:14:14.279304  1825  1855 D ECarXApiClientImpl: onRemoteConnected: mediacenter
+11-01 10:14:17.660728  1833  2052 D VrLogger3.4.6: VrPluginImpl#_attachPluginObserverWrapper request: ecarx.xsf.mediacenter.vr.channel.d$1@55bb3c9
+11-01 10:14:16.004806  2721  2721 I MSDP_DFX: init s_ClassHieventAudioError success
+11-01 10:14:17.660986  1833  2052 W VrLogger3.4.6: VrPluginImpl#_attachPluginObserverWrapper callbackMap.put : ecarx.xsf.mediacenter.vr.channel.d$1@55bb3c9
+11-01 10:14:13.902755  2251  2251 I MediaController: [JRStatus_USB][usb1IsMounted] isMounted: false
+11-01 10:14:13.180327  1959  2308 E EASFramework: ServiceName=multimedia
+11-01 10:14:16.004846  2721  2721 I VirtualAudioJni: Init:start intialize JNI
+11-01 10:14:17.889808  1833  2052 D UserAPI : userapi init sm:com.ecarx.sdk.ServiceManagerImpl@f48face,mCtx:ecarx.xsf.mediacenter.app.MediaCenterApp@c59245b
+11-01 10:14:16.004887  2721  2721 E VirtualAudioJni: Init:GetJavaVM result is 0
+11-01 10:14:17.475508  2984  3110 E EASFramework: SERVICE_CONNECTED_SUPPORT_NOTIFITY >> mediacenter
+11-01 10:14:13.911476  2251  2251 I MediaController: [JRStatus_USB][usb2IsMounted] isMounted: false
+11-01 10:14:16.005055  2721  2721 I VirtualAudioJni: Init:initialize end
+11-01 10:14:13.911503  2251  2251 I MediaController:  [JRStatus_USB][initState] no usb disk connected
+11-01 10:14:16.005194  2721  2721 I DMSDP   : VirtualAudioProxy:createDefaultTracks start
+11-01 10:14:12.734891  1810  1810 D GKAI:EAS:1.0.0: [XKDbManager] getMKConfig : 1    [id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false]
+11-01 10:14:16.128248  2721  2721 W AudioTrack: Use of stream types is deprecated for operations other than volume control
+11-01 10:14:16.128391  2721  2721 W AudioTrack: See the documentation of AudioTrack() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+11-01 10:14:12.887184  1810  1810 D GKAI:EAS:1.0.0: [XKDbManager] getMKConfig : 1    [id = 1	dateSource = magicbook	oneshotEnable = true	customWakeupEnable = false	changeWakeupEnable = true 	acmuteEnable = false	pttEnable = false	baiduEnable = false	vrAudiologEnable = false	partitionInhibition = high_inhibition	mkWakeupName = 你好，吉利	isBaiduVersion = false	geekModeEnable = false	visionEnable = true	geekModeCanOpen = false]
+11-01 10:14:15.779359  1866  2473 I synthesizer_jni: Java_com_tencent_btts_jni_SynthesizerNative_appendSpeakers, version is 
+11-01 10:14:14.124595  2121  2121 D [XCMedia2Log][4.2.0 (2719CD3)]MediaCoreService: start MediaCoreService
+11-01 10:14:16.169032  2721  2721 W AudioTrack: Use of stream types is deprecated for operations other than volume control
+11-01 10:14:13.072820  1307  2486 I EASFrameworkImpl: initPermission(1959, 10057, [multimedia, daemon])
+11-01 10:14:13.927692  2065  2100 I GKAI:TTS-S::3.21402010.3945: <PlayerTtsAgent> ====== startAudioPlayWorking
+11-01 10:14:16.179277  2721  2721 W AudioTrack: Use of stream types is deprecated for operations other than volume control
+11-01 10:14:13.946465  2065  2100 I GKAI:TTS-S::3.21402010.3945: <PlayerTtsAgent> ====== startAudioPlayWorking END
+11-01 10:14:16.179332  2721  2721 W AudioTrack: See the documentation of AudioTrack() for what to use instead with android.media.AudioAttributes to qualify your playback use case
+11-01 10:14:18.352011  3135  3239 E EASFramework: SERVICE_CONNECTED_SUPPORT_NOTIFITY >> mediacenter

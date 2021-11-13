@@ -1,0 +1,68 @@
+
+09-05 21:12:51.282  3232  3232 V MoviePlayer: mVideoPosition is 31223
+09-05 21:12:51.414  3232  3301 V MediaPlayerNative: destructor
+09-05 21:12:51.419  3232  3232 V MoviePlayer: doOnPause() mVideoPosition=31223, mResumeableTime=1630890951414, mVideoLastDuration=319384, mIsShowResumingDialog=false
+09-05 21:13:40.201   938  3313 I ExtendedNuUtils: printFileName fd(11) -> /storage/emulated/0/DCIM/Camera/VID_20210902_035616.mp4
+09-05 21:13:40.203  3232  3232 V MediaPlayerNative: prepareAsync
+09-05 21:13:40.244  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=true, mCurrentState=1
+09-05 21:13:40.244  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=true, mCurrentState=1
+09-05 21:13:40.244  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=true, mCurrentState=1
+09-05 21:13:40.248  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=false, mCurrentState=1
+09-05 21:13:40.249  3232  3232 V CodeauroraVideoView: doPrepared(android.media.MediaPlayer@fbc0753) start
+09-05 21:13:40.251  3232  3232 V MediaPlayer-JNI: getDuration: 319384 (msec)
+09-05 21:13:40.254  3232  3232 V MediaPlayer-JNI: start
+09-05 21:13:40.254  3232  3232 V MediaPlayerNative: start
+09-05 21:13:40.254   938  3313 V NuPlayerDriver: start(0xee140780), state is 4, eos is 0
+09-05 21:13:40.254   938  3417 I GenericSource: start
+09-05 21:13:40.254  3232  3232 V CodeauroraVideoView: doPrepared() end video size: 1920,1080, mTargetState=3, mCurrentState=3
+09-05 21:13:40.254  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=false, mCurrentState=3
+09-05 21:13:40.255  3232  3232 V CodeauroraVideoView: doPrepared(android.media.MediaPlayer@fbc0753) start
+09-05 21:13:40.259  3232  3232 V MediaPlayer-JNI: start
+09-05 21:13:40.259  3232  3232 V MediaPlayerNative: start
+09-05 21:13:40.259  3232  3232 V CodeauroraVideoView: doPrepared() end video size: 1920,1080, mTargetState=3, mCurrentState=3
+09-05 21:13:40.262   938  3420 V AudioSink: open(48000, 2, 0x0, 0x4000002, 0, 57 0x10)
+09-05 21:13:40.262   938  3420 V AudioTrack: set(): streamType 3, sampleRate 48000, format 0x4000002, channelMask 0x3, frameCount 0, flags #10, notificationFrames 0, sessionId 57, transferType 1, uid 10049, pid 3232
+09-05 21:13:40.262   938  3420 V AudioTrack: set(): streamType 3 frameCount 0 flags 0010
+09-05 21:13:40.262   938  3420 V AudioTrack: set(): Offload request, forcing to Direct Output
+09-05 21:13:40.267   947  2034 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.avc) in android.hardwar process
+09-05 21:13:48.190  1302  1370 I DisplayPowerController: Blocking screen off
+09-05 21:13:48.220  3232  3232 V MoviePlayer: mVideoPosition is 7585
+09-05 21:13:48.336  3232  3250 V MediaPlayerNative: destructor
+09-05 21:13:48.338  3232  3232 V MoviePlayer: doOnPause() mVideoPosition=7585, mResumeableTime=1630891008336, mVideoLastDuration=319384, mIsShowResumingDialog=false
+09-05 21:13:49.360  1302  1370 I DisplayPowerController: Blocking screen on until initial contents have been drawn.
+09-05 21:13:49.893  1302  1302 D BatteryService: onReceive: action = android.intent.action.SCREEN_OFF
+09-05 21:13:49.905   938  3313 I ExtendedNuUtils: printFileName fd(11) -> /storage/emulated/0/DCIM/Camera/VID_20210902_035616.mp4
+09-05 21:13:49.911  3232  3232 V MediaPlayerNative: prepareAsync
+09-05 21:13:49.932  3232  3232 V MediaPlayerNative: destructor
+09-05 21:13:49.941   938  3012 I ExtendedNuUtils: printFileName fd(11) -> /storage/emulated/0/DCIM/Camera/VID_20210902_035616.mp4
+09-05 21:13:49.946  3232  3232 V MediaPlayerNative: prepareAsync
+09-05 21:13:49.969  2184  2184 D KMS_JavaServer_callback: action: android.intent.action.SCREEN_OFF
+09-05 21:13:49.974  1638  1638 D QSLMJ   : SLM received action android.intent.action.SCREEN_OFF
+09-05 21:13:49.977  2154  2154 D EMVCB_SRVC: Screen OFF -->
+09-05 21:13:49.981  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=true, mCurrentState=1
+09-05 21:13:49.998  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=false, mCurrentState=1
+09-05 21:13:49.998  3232  3232 V CodeauroraVideoView: doPrepared(android.media.MediaPlayer@6034b16) start
+09-05 21:13:50.014  3232  3232 V MediaPlayer-JNI: seekTo: 7585(msec), mode=0
+09-05 21:13:50.014   938  3443 V NuPlayer: kWhatSeek seekTimeUs=7585000 us, mode=0, needNotify=1
+09-05 21:13:50.014   938  3443 I GenericSource: start
+09-05 21:13:50.015  3232  3232 V MediaPlayer-JNI: start
+09-05 21:13:50.015  3232  3232 V MediaPlayerNative: start
+09-05 21:13:50.015   938  3012 V NuPlayerDriver: start(0xee140780), state is 4, eos is 0
+09-05 21:13:50.015  3232  3232 V CodeauroraVideoView: doPrepared() end video size: 1920,1080, mTargetState=3, mCurrentState=3
+09-05 21:13:50.015  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=false, mCurrentState=3
+09-05 21:13:50.015  3232  3232 V CodeauroraVideoView: doPrepared(android.media.MediaPlayer@6034b16) start
+09-05 21:13:50.017  3232  3232 V MediaPlayer-JNI: start
+09-05 21:13:50.018  3232  3232 V MediaPlayerNative: start
+09-05 21:13:50.018  3232  3232 V CodeauroraVideoView: doPrepared() end video size: 1920,1080, mTargetState=3, mCurrentState=3
+09-05 21:13:50.018  3232  3232 V MovieActivity: onReceive(android.intent.action.SCREEN_OFF) mControlResumed=true
+09-05 21:13:50.018  3232  3232 V MoviePlayer: mVideoPosition is 7585
+09-05 21:13:50.033   938  3446 V AudioSink: open(48000, 2, 0x0, 0x4000002, 0, 57 0x10)
+09-05 21:13:50.033   938  3446 V AudioTrack: set(): streamType 3, sampleRate 48000, format 0x4000002, channelMask 0x3, frameCount 0, flags #10, notificationFrames 0, sessionId 57, transferType 1, uid 10049, pid 3232
+09-05 21:13:50.033   938  3446 V AudioTrack: set(): streamType 3 frameCount 0 flags 0010
+09-05 21:13:50.033   938  3446 V AudioTrack: set(): Offload request, forcing to Direct Output
+09-05 21:13:50.123  3232  3232 V MediaPlayerNative: destructor
+09-05 21:13:50.126  3232  3232 V MoviePlayer: doOnPause() mVideoPosition=7585, mResumeableTime=1630891010123, mVideoLastDuration=319384, mIsShowResumingDialog=false
+09-05 21:13:50.139  1302  1302 D BatteryService: onReceive: action = android.intent.action.SCREEN_ON
+09-05 21:13:50.173  2184  2184 D KMS_JavaServer_callback: action: android.intent.action.SCREEN_ON
+09-05 21:13:50.175  1638  1638 D QSLMJ   : SLM received action android.intent.action.SCREEN_ON
+09-05 21:13:50.178  2154  2154 D EMVCB_SRVC: Screen ON -->

@@ -1,0 +1,52 @@
+
+09-05 22:32:39.481  3191  3191 D MX.Player.FF: PrepareAsync()
+09-05 22:32:39.712  3191  3276 I *MX.FFReader: start-time: 0ms, duration: 319384ms
+09-05 22:32:39.805  3191  3191 D MX.Player.Builtin: PrepareAsync()
+09-05 22:32:39.815   926  2017 I ExtendedNuUtils: printFileName fd(11) -> /storage/emulated/0/DCIM/Camera/VID_20210902_035616.mp4
+09-05 22:32:39.816  3191  3191 V MediaPlayerNative: prepareAsync
+09-05 22:32:39.839  3191  3191 V MediaPlayer-JNI: getDuration: 319384 (msec)
+09-05 22:32:39.841  3191  3191 V MediaPlayer-JNI: getDuration: 319384 (msec)
+09-05 22:32:39.853  3191  3191 V MediaPlayer-JNI: start
+09-05 22:32:39.853  3191  3191 V MediaPlayerNative: start
+09-05 22:32:39.853   926  2017 V NuPlayerDriver: start(0xeab5c640), state is 4, eos is 0
+09-05 22:32:39.854   926  3344 I GenericSource: start
+09-05 22:32:39.863   926  3348 V AudioSink: open(48000, 2, 0x0, 0x4000002, 0, 33 0x10)
+09-05 22:32:39.864   926  3348 V AudioTrack: set(): streamType 3, sampleRate 48000, format 0x4000002, channelMask 0x3, frameCount 0, flags #10, notificationFrames 0, sessionId 33, transferType 1, uid 10115, pid 3191
+09-05 22:32:39.864   926  3348 V AudioTrack: set(): streamType 3 frameCount 0 flags 0010
+09-05 22:32:39.864   926  3348 V AudioTrack: set(): Offload request, forcing to Direct Output
+09-05 22:32:39.866   953  2042 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.avc) in android.hardwar process
+09-05 22:32:52.196  1299  1365 I DisplayPowerController: Blocking screen off
+09-05 22:32:52.231  3191  3191 V MX.Player.Joint: Pause
+09-05 22:32:52.231  3191  3191 V MX.Player.Joint: Pause [1]. 1=11943 2=0 ex=null
+09-05 22:32:52.368  3191  3191 V MediaPlayerNative: destructor
+09-05 22:32:53.255  1299  1365 I DisplayPowerController: Blocking screen on until initial contents have been drawn.
+09-05 22:32:53.904  1299  1299 D BatteryService: onReceive: action = android.intent.action.SCREEN_ON
+09-05 22:32:54.026  2184  2184 D KMS_JavaServer_callback: action: android.intent.action.SCREEN_ON
+09-05 22:32:54.042  1634  1634 D QSLMJ   : SLM received action android.intent.action.SCREEN_ON
+09-05 22:32:54.048  2156  2156 D EMVCB_SRVC: Screen ON -->
+09-05 22:32:54.051  3191  3191 D MX.Player.FF: PrepareAsync()
+09-05 22:32:54.098  1299  1299 D BatteryService: onReceive: action = android.intent.action.SCREEN_OFF
+09-05 22:32:54.250  3191  3440 I *MX.FFReader: start-time: 0ms, duration: 319384ms
+09-05 22:32:55.142  3191  3191 D MX.Player.Builtin: PrepareAsync()
+09-05 22:32:55.153   926  2017 I ExtendedNuUtils: printFileName fd(11) -> /storage/emulated/0/DCIM/Camera/VID_20210902_035616.mp4
+09-05 22:32:55.157  3191  3191 V MediaPlayerNative: prepareAsync
+09-05 22:32:55.216  2184  2184 D KMS_JavaServer_callback: action: android.intent.action.SCREEN_OFF
+09-05 22:32:55.218  3191  3191 V MediaPlayer-JNI: getDuration: 319384 (msec)
+09-05 22:32:55.220  3191  3191 V MediaPlayer-JNI: getDuration: 319384 (msec)
+09-05 22:32:55.223  1634  1634 D QSLMJ   : SLM received action android.intent.action.SCREEN_OFF
+09-05 22:32:55.225  2156  2156 D EMVCB_SRVC: Screen OFF -->
+09-05 22:32:55.229  3191  3191 V MediaPlayer-JNI: seekTo: 11943(msec), mode=0
+09-05 22:32:55.229   926  3457 V NuPlayer: kWhatSeek seekTimeUs=11943000 us, mode=0, needNotify=1
+09-05 22:32:55.229   926  3457 I GenericSource: start
+09-05 22:32:55.230  3191  3191 V MediaPlayer-JNI: start
+09-05 22:32:55.230  3191  3191 V MediaPlayerNative: start
+09-05 22:32:55.230   926  2539 V NuPlayerDriver: start(0xeab5c640), state is 4, eos is 0
+09-05 22:32:55.245   926  3463 V AudioSink: open(48000, 2, 0x0, 0x4000002, 0, 41 0x10)
+09-05 22:32:55.245   926  3463 V AudioTrack: set(): streamType 3, sampleRate 48000, format 0x4000002, channelMask 0x3, frameCount 0, flags #10, notificationFrames 0, sessionId 41, transferType 1, uid 10115, pid 3191
+09-05 22:32:55.245   926  3463 V AudioTrack: set(): streamType 3 frameCount 0 flags 0010
+09-05 22:32:55.245   926  3463 V AudioTrack: set(): Offload request, forcing to Direct Output
+09-05 22:32:55.286   953  3370 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.avc) in android.hardwar process
+09-05 22:32:55.302  1299  1299 D BatteryService: onReceive: action = android.intent.action.SCREEN_ON
+09-05 22:32:55.344  2184  2184 D KMS_JavaServer_callback: action: android.intent.action.SCREEN_ON
+09-05 22:32:55.354  1634  1634 D QSLMJ   : SLM received action android.intent.action.SCREEN_ON
+09-05 22:32:55.359  2156  2156 D EMVCB_SRVC: Screen ON -->

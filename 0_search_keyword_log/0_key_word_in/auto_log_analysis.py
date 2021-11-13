@@ -11,7 +11,7 @@ def get_front_2_last (line, front, last):
 
 
 def apply_file (log_name, log_key):
-        file_log=open(log_name)
+        file_log=open(log_name, encoding='UTF-8')
         # file_key_value=open("log1.txt",errors='ignore',encoding='utf-8')
 
         file_key_value=open(log_key)
@@ -28,6 +28,7 @@ def apply_file (log_name, log_key):
 
         while line_log:
                 #func2{
+                #print(line_log)
                 file_key_value.seek(0, 0)
                 key_value=file_key_value.readline()
                 while key_value:
@@ -82,6 +83,6 @@ def get_file_path(path, file_type, func, log_key):
 dir_path="logfile"
 file_type_a=".txt"
 function_a="apply_file"
-log_key="cmd/key_value_mediacodec_GraphicBufferSource.txt"
+log_key="cmd/key_value_625.txt"
 
 get_file_path(dir_path, file_type_a, function_a,log_key)

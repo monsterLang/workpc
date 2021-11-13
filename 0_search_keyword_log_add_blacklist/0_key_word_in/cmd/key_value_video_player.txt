@@ -1,0 +1,21 @@
+MoviePlayer
+CodeauroraVideoView
+SurfaceFlinger
+SurfaceControl
+Gallery3D
+DisplayPowerController
+DisplayManagerService
+MX.Player
+
+
+MediaPlayerNative: seekTo
+MediaPlayer-JNI: start
+
+EMVCB_SRVC: Screen OFF -->
+EMVCB_SRVC: Screen ON -->
+NuPlayerDriver: NuPlayerDriver
+ExtendedNuUtils: printFileName fd
+MX.Player.Joint: Start [
+NuPlayer: onSetVideoSurface
+audio_hw_primary: adev_open_output_stream: enter:
+MoviePlayer: doOnPause() mVideoPosition

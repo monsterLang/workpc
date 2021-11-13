@@ -1,0 +1,64 @@
+
+09-05 21:12:12.680   938  1067 I ExtendedNuUtils: printFileName fd(11) -> /storage/emulated/0/DCIM/Camera/VID_20210902_035616.mp4
+09-05 21:12:12.685  3232  3232 V MediaPlayerNative: prepareAsync
+09-05 21:12:12.765  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=true, mCurrentState=1
+09-05 21:12:12.775  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=false, mCurrentState=1
+09-05 21:12:12.775  3232  3232 V CodeauroraVideoView: doPrepared(android.media.MediaPlayer@b62b2d6) start
+09-05 21:12:12.776  3232  3232 V MediaPlayer-JNI: getDuration: 319384 (msec)
+09-05 21:12:12.791  3232  3232 V MediaPlayer-JNI: start
+09-05 21:12:12.791  3232  3232 V MediaPlayerNative: start
+09-05 21:12:12.791   938  1067 V NuPlayerDriver: start(0xee140140), state is 4, eos is 0
+09-05 21:12:12.792   938  3262 I GenericSource: start
+09-05 21:12:12.792  3232  3232 V CodeauroraVideoView: doPrepared() end video size: 1920,1080, mTargetState=3, mCurrentState=3
+09-05 21:12:12.792  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=false, mCurrentState=3
+09-05 21:12:12.792  3232  3232 V CodeauroraVideoView: doPrepared(android.media.MediaPlayer@b62b2d6) start
+09-05 21:12:12.797  3232  3232 V MediaPlayer-JNI: start
+09-05 21:12:12.797  3232  3232 V MediaPlayerNative: start
+09-05 21:12:12.797  3232  3232 V CodeauroraVideoView: doPrepared() end video size: 1920,1080, mTargetState=3, mCurrentState=3
+09-05 21:12:12.799   938  3268 V AudioSink: open(48000, 2, 0x0, 0x4000002, 0, 33 0x10)
+09-05 21:12:12.799   938  3268 V AudioTrack: set(): streamType 3, sampleRate 48000, format 0x4000002, channelMask 0x3, frameCount 0, flags #10, notificationFrames 0, sessionId 33, transferType 1, uid 10049, pid 3232
+09-05 21:12:12.799   938  3268 V AudioTrack: set(): streamType 3 frameCount 0 flags 0010
+09-05 21:12:12.799   938  3268 V AudioTrack: set(): Offload request, forcing to Direct Output
+09-05 21:12:12.802   947  2026 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.avc) in android.hardwar process
+09-05 21:12:19.959  1302  1370 I DisplayPowerController: Blocking screen off
+09-05 21:12:19.995  3232  3232 V MoviePlayer: mVideoPosition is 6794
+09-05 21:12:20.120  3232  3232 V MediaPlayerNative: destructor
+09-05 21:12:20.125  3232  3232 V MoviePlayer: doOnPause() mVideoPosition=6794, mResumeableTime=1630890920121, mVideoLastDuration=319384, mIsShowResumingDialog=false
+09-05 21:12:21.616  1302  1302 D BatteryService: onReceive: action = android.intent.action.SCREEN_ON
+09-05 21:12:21.630  2184  2184 D KMS_JavaServer_callback: action: android.intent.action.SCREEN_ON
+09-05 21:12:21.633  1638  1638 D QSLMJ   : SLM received action android.intent.action.SCREEN_ON
+09-05 21:12:21.639  2154  2154 D EMVCB_SRVC: Screen ON -->
+09-05 21:12:21.677  1302  1302 D BatteryService: onReceive: action = android.intent.action.SCREEN_OFF
+09-05 21:12:21.715  2184  2184 D KMS_JavaServer_callback: action: android.intent.action.SCREEN_OFF
+09-05 21:12:21.719  1638  1638 D QSLMJ   : SLM received action android.intent.action.SCREEN_OFF
+09-05 21:12:21.722  2154  2154 D EMVCB_SRVC: Screen OFF -->
+09-05 21:12:21.727  3232  3232 V MovieActivity: onReceive(android.intent.action.SCREEN_OFF) mControlResumed=false
+09-05 21:12:24.523  1302  1370 I DisplayPowerController: Blocking screen on until initial contents have been drawn.
+09-05 21:12:24.548  1302  1302 D BatteryService: onReceive: action = android.intent.action.SCREEN_ON
+09-05 21:12:24.663  2184  2184 D KMS_JavaServer_callback: action: android.intent.action.SCREEN_ON
+09-05 21:12:24.666  1638  1638 D QSLMJ   : SLM received action android.intent.action.SCREEN_ON
+09-05 21:12:24.671  2154  2154 D EMVCB_SRVC: Screen ON -->
+09-05 21:12:25.695   938  3013 I ExtendedNuUtils: printFileName fd(11) -> /storage/emulated/0/DCIM/Camera/VID_20210902_035616.mp4
+09-05 21:12:25.699  3232  3232 V MediaPlayerNative: prepareAsync
+09-05 21:12:25.751  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=true, mCurrentState=1
+09-05 21:12:25.752  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=true, mCurrentState=1
+09-05 21:12:25.752  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=true, mCurrentState=1
+09-05 21:12:25.757  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=false, mCurrentState=1
+09-05 21:12:25.758  3232  3232 V CodeauroraVideoView: doPrepared(android.media.MediaPlayer@a097dc2) start
+09-05 21:12:25.784  3232  3232 V MediaPlayer-JNI: seekTo: 6794(msec), mode=0
+09-05 21:12:25.785   938  3310 V NuPlayer: kWhatSeek seekTimeUs=6794000 us, mode=0, needNotify=1
+09-05 21:12:25.785  3232  3232 V MediaPlayer-JNI: start
+09-05 21:12:25.785  3232  3232 V MediaPlayerNative: start
+09-05 21:12:25.785   938  3310 I GenericSource: start
+09-05 21:12:25.786   938  1470 V NuPlayerDriver: start(0xee140780), state is 4, eos is 0
+09-05 21:12:25.786  3232  3232 V CodeauroraVideoView: doPrepared() end video size: 1920,1080, mTargetState=3, mCurrentState=3
+09-05 21:12:25.786  3232  3232 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=false, mCurrentState=3
+09-05 21:12:25.786  3232  3232 V CodeauroraVideoView: doPrepared(android.media.MediaPlayer@a097dc2) start
+09-05 21:12:25.792  3232  3232 V MediaPlayer-JNI: start
+09-05 21:12:25.792  3232  3232 V MediaPlayerNative: start
+09-05 21:12:25.792  3232  3232 V CodeauroraVideoView: doPrepared() end video size: 1920,1080, mTargetState=3, mCurrentState=3
+09-05 21:12:25.816   938  3314 V AudioSink: open(48000, 2, 0x0, 0x4000002, 0, 33 0x10)
+09-05 21:12:25.816   938  3314 V AudioTrack: set(): streamType 3, sampleRate 48000, format 0x4000002, channelMask 0x3, frameCount 0, flags #10, notificationFrames 0, sessionId 33, transferType 1, uid 10049, pid 3232
+09-05 21:12:25.816   938  3314 V AudioTrack: set(): streamType 3 frameCount 0 flags 0010
+09-05 21:12:25.816   938  3314 V AudioTrack: set(): Offload request, forcing to Direct Output
+09-05 21:12:25.852   947   947 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.avc) in android.hardwar process

@@ -1,0 +1,106 @@
+06-23 20:48:14.986   733   733 D APM::AudioInputDescriptor: opening input for device type:0x80000004,@: profile 0x7fb08be500 name primary input
+
+06-23 20:48:14.987   680  1359 D audio_hw_primary: adev_open_input_stream: enter: flags 0, is_usb_dev 0, may_use_hifi_record 0, sample_rate 48000, channel_mask 0xc, format 0x1
+
+06-23 20:48:14.987   680  1359 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0xc) devices(0x80000004)        stream_handle(0xe9c4ca00) io_handle(14) source(1) format 1
+
+06-23 20:48:14.987   733   733 D AudioFlinger: openInput_l() openInputStream returned input 0x7fb08996c0, devices 0x80000004, SamplingRate 48000, Format 0x1, Channels 0xc, flags 0, status 0 addr 
+06-23 20:48:14.994   733   733 D APM::AudioInputDescriptor: opening input for device type:0x80000004,@: profile 0x7fb08be5e0 name voip_tx
+
+06-23 20:48:14.994   680   796 D audio_hw_primary: adev_open_input_stream: enter: flags 0, is_usb_dev 0, may_use_hifi_record 0, sample_rate 48000, channel_mask 0x10, format 0x1
+
+06-23 20:48:14.994   680   796 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xe8743000) io_handle(22) source(1) format 1
+
+06-23 20:48:14.995   733   733 D AudioFlinger: openInput_l() openInputStream returned input 0x7fb08980e0, devices 0x80000004, SamplingRate 48000, Format 0x1, Channels 0x10, flags 0, status 0 addr 
+06-23 20:48:14.998   733   733 D APM::AudioInputDescriptor: opening input for device type:0x80000004,@: profile 0x7fb08be6c0 name surround_sound
+
+06-23 20:48:14.998   680  1359 D audio_hw_primary: adev_open_input_stream: enter: flags 0, is_usb_dev 0, may_use_hifi_record 0, sample_rate 48000, channel_mask 0x17000c, format 0x1
+
+06-23 20:48:14.998   680  1359 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0x17000c) devices(0x80000004)        stream_handle(0xe9c4cc80) io_handle(30) source(1) format 1
+
+06-23 20:48:14.998   733   733 D AudioFlinger: openInput_l() openInputStream returned input 0x0, devices 0x80000004, SamplingRate 48000, Format 0x1, Channels 0xc, flags 0, status -22 addr 
+
+06-23 20:48:14.999   680  1359 D audio_hw_primary: adev_open_input_stream: enter: flags 0, is_usb_dev 0, may_use_hifi_record 0, sample_rate 48000, channel_mask 0xc, format 0x1
+
+06-23 20:48:14.999   680  1359 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0xc) devices(0x80000004)        stream_handle(0xe9c4cc80) io_handle(30) source(1) format 1
+
+06-23 20:48:15.003   733   733 D APM::AudioInputDescriptor: opening input for device type:0x80000004,@: profile 0x7fb08be7a0 name record_24
+
+06-23 20:48:15.003   680   680 D audio_hw_primary: adev_open_input_stream: enter: flags 0, is_usb_dev 0, may_use_hifi_record 0, sample_rate 192000, channel_mask 0x8000000f, format 0x6
+
+06-23 20:48:15.003   680   680 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(192000) channel_mask(0x8000000f) devices(0x80000004)        stream_handle(0xe9c4ca00) io_handle(38) source(1) format 6
+06-23 20:48:15.004   733   733 D AudioFlinger: openInput_l() openInputStream returned input 0x0, devices 0x80000004, SamplingRate 48000, Format 0x1, Channels 0x8000000f, flags 0, status -22 addr 
+
+06-23 20:48:15.004   680   796 D audio_hw_primary: adev_open_input_stream: enter: flags 0, is_usb_dev 0, may_use_hifi_record 0, sample_rate 48000, channel_mask 0x8000000f, format 0x1
+
+06-23 20:48:15.004   680   796 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(48000) channel_mask(0x8000000f) devices(0x80000004)        stream_handle(0xe9c4cc80) io_handle(38) source(1) format 1
+
+06-23 20:48:15.026   733   733 D APM::AudioInputDescriptor: opening input for device type:0x80000100,@:0 profile 0x7fb08bf680 name r_submix input
+06-23 20:48:15.027   733   733 D AudioFlinger: openInput_l() openInputStream returned input 0x7fb0899ee0, devices 0x80000100, SamplingRate 48000, Format 0x1, Channels 0xc, flags 0, status 0 addr 0
+06-23 20:48:26.631  1102  1102 I OMXMaster: makeComponentInstance(OMX.google.aac.decoder) in android.hardwar process
+06-23 20:48:26.642  1102  1102 I OMXMaster: makeComponentInstance(OMX.google.amrnb.decoder) in android.hardwar process
+06-23 20:48:26.652  1102  1178 I OMXMaster: makeComponentInstance(OMX.google.amrwb.decoder) in android.hardwar process
+06-23 20:48:26.657  1102  1178 I OMXMaster: makeComponentInstance(OMX.google.flac.decoder) in android.hardwar process
+06-23 20:48:26.669  1102  1102 I OMXMaster: makeComponentInstance(OMX.qti.audio.decoder.flac) in android.hardwar process
+06-23 20:48:26.679  1102  1177 I OMXMaster: makeComponentInstance(OMX.google.g711.alaw.decoder) in android.hardwar process
+06-23 20:48:26.685  1102  1672 I OMXMaster: makeComponentInstance(OMX.google.g711.mlaw.decoder) in android.hardwar process
+06-23 20:48:26.689  1102  1672 I OMXMaster: makeComponentInstance(OMX.google.gsm.decoder) in android.hardwar process
+06-23 20:48:26.695  1102  1672 I OMXMaster: makeComponentInstance(OMX.google.mp3.decoder) in android.hardwar process
+06-23 20:48:26.702  1102  1672 I OMXMaster: makeComponentInstance(OMX.google.opus.decoder) in android.hardwar process
+06-23 20:48:26.713  1102  1177 I OMXMaster: makeComponentInstance(OMX.google.raw.decoder) in android.hardwar process
+06-23 20:48:26.718  1102  1177 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+06-23 20:48:26.726  1102  1671 I OMXMaster: makeComponentInstance(OMX.google.aac.encoder) in android.hardwar process
+06-23 20:48:26.737  1102  1672 I OMXMaster: makeComponentInstance(OMX.google.amrnb.encoder) in android.hardwar process
+06-23 20:48:26.745  1102  1177 I OMXMaster: makeComponentInstance(OMX.google.amrwb.encoder) in android.hardwar process
+06-23 20:48:26.755  1102  1671 I OMXMaster: makeComponentInstance(OMX.google.flac.encoder) in android.hardwar process
+06-23 20:48:26.761  1102  1177 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.avc) in android.hardwar process
+06-23 20:48:26.883  1102  1672 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.avc.secure) in android.hardwar process
+06-23 20:48:26.918  1102  1671 I OMXMaster: makeComponentInstance(OMX.google.h264.decoder) in android.hardwar process
+06-23 20:48:26.926  1102  1671 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.divx) in android.hardwar process
+06-23 20:48:26.943  1102  1672 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.divx311) in android.hardwar process
+06-23 20:48:26.964  1102  1671 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.divx4) in android.hardwar process
+06-23 20:48:26.987  1102  1671 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.h263) in android.hardwar process
+06-23 20:48:27.004  1102  1671 I OMXMaster: makeComponentInstance(OMX.google.h263.decoder) in android.hardwar process
+06-23 20:48:27.010  1102  1671 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.hevc) in android.hardwar process
+06-23 20:48:27.043  1102  1177 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.hevc.secure) in android.hardwar process
+06-23 20:48:27.065  1102  1177 I OMXMaster: makeComponentInstance(OMX.google.hevc.decoder) in android.hardwar process
+06-23 20:48:27.082  1102  1672 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.mpeg2) in android.hardwar process
+06-23 20:48:27.104  1102  1177 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.mpeg4) in android.hardwar process
+06-23 20:48:27.139  1102  1177 I OMXMaster: makeComponentInstance(OMX.google.mpeg4.decoder) in android.hardwar process
+06-23 20:48:27.151  1102  1177 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.vc1) in android.hardwar process
+06-23 20:48:27.191  1102  1672 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.vc1.secure) in android.hardwar process
+06-23 20:48:27.212  1102  1177 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.vp8) in android.hardwar process
+06-23 20:48:27.237  1102  1177 I OMXMaster: makeComponentInstance(OMX.google.vp8.decoder) in android.hardwar process
+06-23 20:48:27.261  1102  1177 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.vp9) in android.hardwar process
+06-23 20:48:27.292  1102  1177 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.vp9.secure) in android.hardwar process
+06-23 20:48:27.322  1102  1672 I OMXMaster: makeComponentInstance(OMX.google.vp9.decoder) in android.hardwar process
+06-23 20:48:27.328  1102  1672 I OMXMaster: makeComponentInstance(OMX.qcom.video.encoder.avc) in android.hardwar process
+06-23 20:48:27.357  1102  1671 I OMXMaster: makeComponentInstance(OMX.google.h264.encoder) in android.hardwar process
+06-23 20:48:27.382  1102  1177 I OMXMaster: makeComponentInstance(OMX.qcom.video.encoder.h263) in android.hardwar process
+06-23 20:48:27.423  1102  1177 I OMXMaster: makeComponentInstance(OMX.google.h263.encoder) in android.hardwar process
+06-23 20:48:27.430  1102  1671 I OMXMaster: makeComponentInstance(OMX.qcom.video.encoder.hevc) in android.hardwar process
+06-23 20:48:27.456  1102  1672 I OMXMaster: makeComponentInstance(OMX.qcom.video.encoder.mpeg4) in android.hardwar process
+06-23 20:48:27.473  1102  1671 I OMXMaster: makeComponentInstance(OMX.google.mpeg4.encoder) in android.hardwar process
+06-23 20:48:27.477  1102  1672 I OMXMaster: makeComponentInstance(OMX.qcom.video.encoder.vp8) in android.hardwar process
+06-23 20:48:27.497  1102  1672 I OMXMaster: makeComponentInstance(OMX.google.vp8.encoder) in android.hardwar process
+06-23 20:48:27.507  1102  1671 I OMXMaster: makeComponentInstance(OMX.google.vp9.encoder) in android.hardwar process
+06-23 20:48:27.863  1102  1672 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+06-23 20:48:27.865  1102  1671 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+06-23 20:48:27.953  1102  1177 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+06-23 20:48:27.966  1102  1177 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+06-23 20:48:28.009  1102  1177 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+06-23 20:48:28.048  1102  1102 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+06-23 20:48:28.054  1102  1102 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+06-23 20:48:28.114  1102  1961 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+06-23 20:48:28.186  1102  1961 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+06-23 20:48:34.096  1102  1102 I OMXMaster: makeComponentInstance(OMX.google.vorbis.decoder) in android.hardwar process
+06-23 20:52:45.414  1089  2850 D AudioRecord: set(): inputSource 1, sampleRate 8000, format 0x1, channelMask 0x10, frameCount 2048, notificationFrames 1024, sessionId 0, transferType 0, flags 0, opPackageName com.android.soundrecorder uid 10043, pid 3432
+06-23 20:52:45.420   733  2964 D APM_AudioPolicyManager: getInputForAttr() source 1, sampling rate 8000, format 0x1, channel mask 0x10, session 41, flags 0 attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_UNKNOWN Source: AUDIO_SOURCE_MIC Flags: 0x0 Tags:  }
+06-23 20:52:45.420   733  2964 D APM::AudioInputDescriptor: opening input for device type:0x80000004,@:bottom profile 0x7fb08be500 name primary input
+
+06-23 20:52:45.421   680   796 D audio_hw_primary: adev_open_input_stream: enter: flags 0, is_usb_dev 0, may_use_hifi_record 0, sample_rate 8000, channel_mask 0x10, format 0x1
+
+06-23 20:52:45.421   680   796 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(8000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xe8743280) io_handle(54) source(1) format 1
+
+06-23 20:52:45.421   733  2964 D AudioFlinger: openInput_l() openInputStream returned input 0x7fb0899620, devices 0x80000004, SamplingRate 8000, Format 0x1, Channels 0x10, flags 0, status 0 addr bottom
+06-23 20:52:45.436  1102  1961 I OMXMaster: makeComponentInstance(OMX.google.amrnb.encoder) in android.hardwar process

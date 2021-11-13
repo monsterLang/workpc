@@ -163,7 +163,7 @@ def search_row_id (row, key_word):
 
 def apply_file (file_name,num,row_x):
 
-        f_log=open(file_name,'r')
+        f_log=open(file_name,'r', encoding='UTF-8')
         # f_log=open(file_name,'r',encoding='gbk',encoding='utf-8')
 
 
@@ -230,7 +230,7 @@ def apply_file (file_name,num,row_x):
         # zhuijia 0 weizhi zifuchuan
         result_x.insert(0,file_name)
 
-        with open("result_key_word.csv","a+", newline='\n') as csvfile: 
+        with open("result_key_word_snddevice.csv","a+", newline='\n') as csvfile: 
             writer = csv.writer(csvfile)
             writer.writerow(result_x)
             # writer.writerow(['a','b'])
@@ -241,7 +241,7 @@ def apply_file (file_name,num,row_x):
         return True
 
 # get key word
-with open('key_word.csv','r') as csvfile:
+with open('lib/key_word_snddevice.csv','r') as csvfile:
     reader = csv.reader(csvfile)
     rows = [row for row in reader]
 csvfile.close()
@@ -258,7 +258,7 @@ row_temp1=rows[1]
 row_temp1.insert(0,'keyword')
 # print(rows[1])
 
-with open("result_key_word.csv","w", newline='\n') as csvfile: 
+with open("result_key_word_snddevice.csv","w", newline='\n') as csvfile: 
     writer = csv.writer(csvfile)
     writer.writerow(row_temp)
     writer.writerow(rows[1])

@@ -1,0 +1,82 @@
+
+09-01 23:13:14.511  3479  3479 V CodeauroraVideoView: surfaceCreated(android.view.SurfaceView$2@e876c61)
+09-01 23:13:14.529   995  1486 I ExtendedNuUtils: printFileName fd(11) -> /storage/emulated/0/DCIM/Camera/VID_20210901_225435.mp4
+09-01 23:13:14.534  3479  3479 V MediaPlayerNative: prepareAsync
+09-01 23:13:14.603  3479  3479 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=true, mCurrentState=1
+09-01 23:13:14.617  3479  3479 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=false, mCurrentState=1
+09-01 23:13:14.618  3479  3479 V CodeauroraVideoView: doPrepared(android.media.MediaPlayer@7fbe447) start
+09-01 23:13:14.619  3479  3479 V MediaPlayer-JNI: getDuration: 33033 (msec)
+09-01 23:13:14.634  3479  3479 V MediaPlayer-JNI: start
+09-01 23:13:14.634  3479  3479 V MediaPlayerNative: start
+09-01 23:13:14.635   995  1486 V NuPlayerDriver: start(0xef35d400), state is 4, eos is 0
+09-01 23:13:14.635  3479  3479 V CodeauroraVideoView: doPrepared() end video size: 1920,1080, mTargetState=3, mCurrentState=3
+09-01 23:13:14.635  3479  3479 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=false, mCurrentState=3
+09-01 23:13:14.635  3479  3479 V CodeauroraVideoView: doPrepared(android.media.MediaPlayer@7fbe447) start
+09-01 23:13:14.635   995  4910 I GenericSource: start
+09-01 23:13:14.637  3479  3479 V MediaPlayer-JNI: start
+09-01 23:13:14.637  3479  3479 V MediaPlayerNative: start
+09-01 23:13:14.637  3479  3479 V CodeauroraVideoView: doPrepared() end video size: 1920,1080, mTargetState=3, mCurrentState=3
+09-01 23:13:14.642   995  4913 V AudioSink: open(48000, 2, 0x0, 0x4000002, 0, 337 0x10)
+09-01 23:13:14.643   995  4913 V AudioTrack: set(): streamType 3, sampleRate 48000, format 0x4000002, channelMask 0x3, frameCount 0, flags #10, notificationFrames 0, sessionId 337, transferType 1, uid 10051, pid 3479
+09-01 23:13:14.643   995  4913 V AudioTrack: set(): streamType 3 frameCount 0 flags 0010
+09-01 23:13:14.643   995  4913 V AudioTrack: set(): Offload request, forcing to Direct Output
+09-01 23:13:14.646  1002  4530 I OMXMaster: makeComponentInstance(OMX.qcom.video.decoder.avc) in android.hardwar process
+09-01 23:13:19.686   957  1499 I PowerManagerService: Going to sleep due to power_button (uid 1000)...
+09-01 23:13:19.691  1643  1680 D KeyguardViewMediator: onStartedGoingToSleep(2)
+09-01 23:13:19.695  1643  1680 D KeyguardViewMediator: notifyStartedGoingToSleep
+09-01 23:13:19.701  1643  1643 D KeyguardViewMediator: handleNotifyStartedGoingToSleep
+09-01 23:13:19.728   957  1356 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-01 23:13:19.728   957  1356 D DisplayPowerController: Adjust auto-brightness: -1
+09-01 23:13:20.151   957  1356 I DisplayPowerController: Blocking screen off
+09-01 23:13:20.151   957  1356 I DisplayPowerController: Unblocked screen off after 0 ms
+09-01 23:13:20.179  1643  1680 D KeyguardViewMediator: notifyScreenTurnedOff
+09-01 23:13:20.181  1643  1643 D KeyguardViewMediator: handleNotifyScreenTurnedOff
+09-01 23:13:20.194  3479  3479 V MoviePlayer: mVideoPosition is 5098
+09-01 23:13:20.195   957  1356 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-01 23:13:20.195   957  1356 V DisplayPowerController: Brightness [0] reason changing to: 'screen_off', previous reason: 'manual'.
+09-01 23:13:20.196   957  1356 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-01 23:13:20.306  3479  3479 V MediaPlayerNative: destructor
+09-01 23:13:20.310  3479  3479 V MoviePlayer: doOnPause() mVideoPosition=5098, mResumeableTime=1630552580307, mVideoLastDuration=33033, mIsShowResumingDialog=false
+09-01 23:13:21.553   957  1499 I PowerManagerService: Waking up from Dozing (uid=1000, reason=WAKE_REASON_POWER_BUTTON, details=android.policy:POWER)...
+09-01 23:13:21.555   957  1499 D PowerManagerService: Light white led
+09-01 23:13:21.555   957  1356 I DisplayPowerController: Blocking screen on until initial contents have been drawn.
+09-01 23:13:21.775   957   957 W system_server: Long monitor contention with owner PowerManagerService (1356) at void com.android.server.wm.RootActivityContainer$SleepTokenImpl.release()(RootActivityContainer.java:2462) waiters=0 in boolean com.android.server.wm.WindowProcessController.hasVisibleActivities() for 220ms
+09-01 23:13:21.776  3479  3479 V CodeauroraVideoView: surfaceDestroyed(android.view.SurfaceView$2@e876c61)
+09-01 23:13:21.776   957  1356 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-01 23:13:21.776   957  1356 D DisplayPowerController: Adjust auto-brightness: -1
+09-01 23:13:21.776  1643  1680 D KeyguardViewMediator: notifyScreenOn
+09-01 23:13:21.777   957  1356 V DisplayPowerController: Brightness [206] reason changing to: 'manual', previous reason: 'screen_off'.
+09-01 23:13:21.777  1643  1643 D KeyguardViewMediator: handleNotifyScreenTurningOn
+09-01 23:13:21.777   957  1356 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-01 23:13:21.777   957  1356 D DisplayPowerController: Adjust auto-brightness: -1
+09-01 23:13:21.786  1643  1680 D KeyguardViewMediator: onFinishedGoingToSleep(2)
+09-01 23:13:21.786  1643  1680 D KeyguardViewMediator: notifyFinishedGoingToSleep
+09-01 23:13:21.789  1643  1643 D KeyguardViewMediator: handleNotifyFinishedGoingToSleep
+09-01 23:13:21.792  1643  1878 D KeyguardViewMediator: onStartedWakingUp, seq = 17
+09-01 23:13:21.792  1643  1878 D KeyguardViewMediator: notifyStartedWakingUp
+09-01 23:13:21.810  1643  1643 D KeyguardViewMediator: handleNotifyWakingUp
+09-01 23:13:21.818   957  1356 I DisplayPowerController: Unblocked screen on after 263 ms
+09-01 23:13:21.819   957  1356 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-01 23:13:21.819   957  1356 D DisplayPowerController: Adjust auto-brightness: -1
+09-01 23:13:21.823   957   957 D BatteryService: onReceive: action = android.intent.action.SCREEN_OFF
+09-01 23:13:21.862  3479  3479 V CodeauroraVideoView: surfaceCreated(android.view.SurfaceView$2@e876c61)
+09-01 23:13:21.873   995  1130 I ExtendedNuUtils: printFileName fd(11) -> /storage/emulated/0/DCIM/Camera/VID_20210901_225435.mp4
+09-01 23:13:21.878  3479  3479 V MediaPlayerNative: prepareAsync
+09-01 23:13:21.883  2386  2386 D KMS_JavaServer_callback: action: android.intent.action.SCREEN_OFF
+09-01 23:13:21.889  2001  2001 D QSLMJ   : SLM received action android.intent.action.SCREEN_OFF
+09-01 23:13:21.894  2353  2353 D EMVCB_SRVC: Screen OFF -->
+09-01 23:13:21.895  3479  3479 V MovieActivity: onReceive(android.intent.action.USER_PRESENT) mControlResumed=true
+09-01 23:13:21.907  3479  3479 V CodeauroraVideoView: doPreparedIfReady() mHasGotPreparedCallBack=true, mHasGotMetaData=true, mNeedWaitLayout=true, mCurrentState=1
+09-01 23:13:21.927  3479  3479 V MovieActivity: onReceive(android.intent.action.SCREEN_OFF) mControlResumed=true
+09-01 23:13:21.927  3479  3479 V MoviePlayer: mVideoPosition is 5098
+09-01 23:13:21.938  3479  3479 V MediaPlayerNative: destructor
+09-01 23:13:21.940  3479  3479 V MoviePlayer: doOnPause() mVideoPosition=5098, mResumeableTime=1630552581939, mVideoLastDuration=33033, mIsShowResumingDialog=false
+09-01 23:13:21.946   957   957 D BatteryService: onReceive: action = android.intent.action.SCREEN_ON
+09-01 23:13:21.978  2386  2386 D KMS_JavaServer_callback: action: android.intent.action.SCREEN_ON
+09-01 23:13:21.982  2001  2001 D QSLMJ   : SLM received action android.intent.action.SCREEN_ON
+09-01 23:13:21.985  2353  2353 D EMVCB_SRVC: Screen ON -->
+09-01 23:13:22.917   957  1356 D DisplayPowerController: DisplayPowerController autoBrightnessEnabled: false
+09-01 23:13:22.917   957  1356 D DisplayPowerController: Adjust auto-brightness: -1
+09-01 23:13:22.918   957  1356 W PowerManagerService: Screen on took 1369 ms
+09-01 23:13:22.921  1643  1878 D KeyguardViewMediator: notifyScreenTurnedOn
+09-01 23:13:22.926  1643  1643 D KeyguardViewMediator: handleNotifyScreenTurnedOn
